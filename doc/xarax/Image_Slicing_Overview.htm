@@ -1,0 +1,110 @@
+<HTML>
+<HEAD><!-- $MVD$:fontset("Courier New","Courier New") -->
+ <link rel='stylesheet' href='../xarax_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../xarax.css'>");}
+//-->
+</script>
+ <TITLE>Image Slicing Overview</TITLE>
+ <META NAME="generator" CONTENT="RoboHelp by eHelp Corporation www.ehelp.com">
+ <meta name="copyright" value="©1995-2004 Xara Group Ltd."><SCRIPT LANGUAGE="JavaScript" TITLE="BSSC Special Effects" SRC="../ehlpdhtm.js" name="EHELP_DHTM"></SCRIPT>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="../whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js"></script>
+</HEAD>
+<BODY>
+ <script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("../xaralx.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<P class="Banner-Base" >Image Slicing Overview</P>
+ <P class="Base" >Large, complex graphics for web pages can produce large files, which take a long time to download over the Internet. You can &quot;slice&quot; the image into sections, which can download separately. </P>
+ <P class="Base" >Photoshop and Macromedia Fireworks users may prefer <A href="Image_Slicing_Overview__alternative_.htm">this alternative method</A> as it is closer to how these packages slice images.</P>
+ <P class="Base" >To show how to slice images, we'll use this graphic (in practice you would not slice a simple image like this):</P>
+ <P class="Base" ><IMG src="../image/ISBASIC.gif" border="0" height="53" width="119" alt="image\ISBASIC.gif"></P>
+ <P class="Base" >Another use of slicing is optimization. The blue and white circle contains more colors than the surrounding areas of flat red. You can optimize the graphic by exporting just the high detail area (the circle) as a JPEG or 256-color GIF and the other areas as a 2-color GIF. This minimizes the amount of data to download. A <A href="Using_slicing_to_optimize_web_graphics.htm">separate page</A> describes optimization.</P>
+ <P class="Base" ><span style="font-weight:bold; "><B>First stage: name the circle</B></span></P>
+ <P class="Base" >Named objects control slicing so give the circle a Name. Use either the <A href="IDH_Gallery_Name.htm">Name Gallery</A> or <A href="IDH_Selector_Tool_New_Name_Button.htm">New name</A> on the <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Selector_Tool_Infobar.htm');return false;">Selector Tool Infobar</A>. For this example we'll use the name <span style="font-weight:bold; "><B>Circle</B></span>. (For more complicated images you might name more objects.)</P>
+ <P class="Base" ><span style="font-weight:bold; "><B>Second stage: export the graphic in slices</B></span></P>
+ <P class="Base" >You do not need to specify how to slice the image as Xara LX does this automatically from the information in the Name Gallery.</P>
+ <P class="Simple-Bullet-List" >1.&nbsp;Select both the red rectangle and the blue circle - see <A href="IDH_How_Selecting.htm">Selecting objects</A>.</P>
+ <P class="Simple-Bullet-List" >2.&nbsp;Select <span style="font-weight:bold; "><B>Export image in slices</B></span> on the File menu.</P>
+ <P class="Simple-Bullet-List" >3.&nbsp;Select the file format (usually GIF or JPEG for Internet Graphics).</P>
+ <P class="Simple-Bullet-List" >4.&nbsp;The file name is the HTML file that contains the HTML code for the sliced image. You can change the file name if required.</P>
+ <P class="Simple-Bullet-List" >5.&nbsp;Click <span style="font-weight:bold; "><B>Save</B></span>.</P>
+ <P class="Simple-Bullet-List" >6.&nbsp;Select the required save options. (For more detail on the options in this dialog box, click the Help button.)</P>
+ <P class="Simple-Bullet-List" >7.&nbsp;Click <span style="font-weight:bold; "><B>Export</B></span> to save the sliced image.</P>
+ <P class="Simple-Bullet-List" >8.&nbsp;You can now view the exported bitmaps in your browser.</P>
+ <P class="Base" >The example is sliced like this (the slices has been separated so you can see them):</P>
+ <P class="Base" ><IMG src="../image/ISSPLIT.gif" border="0" height="59" width="124" alt="image\ISSPLIT.gif"></P>
+ <P class="How-Title" style="line-height:12.00pt;">If you don't want some named objects to slice:</P>
+ <P class="Simple-Bullet-List" >1.&nbsp;In the drop-down list in the Name Gallery select <span style="font-weight:bold; "><B>Slices</B></span>.</P>
+ <P class="Simple-Bullet-List" >2.&nbsp;Checked Names slice the graphic  - if necessary, unselect the check box. </P>
+ <P class="Simple-Bullet-List" >&nbsp;Unchecked Names have no effect on other objects. (That is, they do not affect slicing.)</P>
+ <P class="How-Title" style="line-height:12.00pt;"><A name="Using_HTML"></A>Using the graphics and HTML code on a web page</P>
+ <P class="Base" >To include the sliced image on a web page you need to copy part of the HTML test page into the web page. (Cut-and-paste is the easiest way.) This description assumes you know how to edit a web page and have a basic knowledge of HTML. You may also need to copy the bitmap files to your web server.</P>
+ <P class="How-Number-List" >1.&nbsp;In a text editor, open the .htm file created when you exported the bitmaps.</P>
+ <P class="How-Number-List" >2.&nbsp;<span style="font-weight:bold; "><B>Technical Note:</B></span> the sliced image is contained in a Table. This ensures correct formatting.</P>
+ <P class="How-Number-List" >&nbsp;Copy the entire Table into your web page where you want the image to appear. The Table starts </P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;table  name=&quot;XaraTable&quot;...</B></span> </P>
+ <P class="How-Number-List" >&nbsp;and ends</P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;/table&gt;</B></span></P>
+ <P class="How-Number-List" >3.&nbsp;We recommend copying the bitmaps to the same folder as the web page. If you use a different folder to the web page, you need to edit the SRC attributes to point to the correct folder.</P>
+ <P class="How-Number-List" >4.&nbsp;Copy the bitmaps to your web site. The bitmaps have the same name as used in the Name Gallery. (In this example <span style="font-weight:bold; "><B>circle.gif</B></span>) </P>
+ <P class="How-Number-List" >&nbsp;There may be other bitmaps with names such as <span style="font-weight:bold; "><B>r2c1.gif</B></span> plus a file called <span style="font-weight:bold; "><B>shim.gif</B></span>. Copy all these to your web site. <span style="font-weight:bold; "><B>Technical note:</B></span> Shim.gif is a dummy bitmap used for padding.</P>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</BODY>
+</HTML>

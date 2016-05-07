@@ -1,0 +1,1551 @@
+<html>
+<head>
+<title>Xara X Help Topics</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="RoboHelp by eHelp Corporation   www.ehelp.com">
+<meta name "description" content="WebHelp 5.10">
+</head>
+<body>
+<script language="JavaScript">
+<!--
+
+var gArrayCsh = new Array();
+
+var gstrWindowOption = "";
+var gstrURL = "";
+var gbWithNavPane = false;
+
+function CshEntityItem(strAliasId, nTopicNum, strUrl) 
+{
+    this.strAliasId = strAliasId;
+    this.nTopicNum = nTopicNum;
+    this.strUrl = strUrl;
+}
+
+
+//Try to get to topic number from hash string
+function GetTopicNumberAuto(strMayBeNumber)
+{
+   var nNum = -1;
+   if (strMayBeNumber.length >= 1)
+   {
+		var strTmp = strMayBeNumber;
+		var iEnd = strTmp.length;
+		for (var i=0; i<iEnd; i++)
+		{
+			  var ch = strTmp.charAt(i);
+			  if (!((ch == "0") || (ch == "1") ||
+			        (ch == "2") || (ch == "3") ||
+			        (ch == "4") || (ch == "5") ||
+			        (ch == "6") || (ch == "7") ||
+			        (ch == "8") || (ch == "9")))
+			      return GetTopicNumberById(strTmp);
+		}
+		nNum = parseInt(strTmp);
+   }
+   return nNum;
+}
+
+function GetTopicNumber(strHashString)
+{
+	var nTopicEndPos = strHashString.indexOf(',')
+	if (nTopicEndPos == -1) { // no window option.
+		return GetTopicNumberOnly(strHashString);
+	}
+	else {
+		var strWindowOption = strHashString.substring(nTopicEndPos + 1, strHashString.length);
+		var strWithNavPane = 'withnavpane=true';
+		if (strWindowOption.toLowerCase().indexOf(strWithNavPane) == 0)
+		{
+			if (strWindowOption.length > strWithNavPane.length)
+				gstrWindowOption = strWindowOption.substring(strWithNavPane.length + 1);
+			else
+				gstrWindowOption = "";
+			gbWithNavPane = true;
+		}
+		else
+			gstrWindowOption = strWindowOption;
+		return GetTopicNumberOnly(strHashString.substring(0, nTopicEndPos));		
+	}
+}
+
+function GetTopicNumberOnly(strTopicString)
+{
+	var nEqualPos = strTopicString.indexOf('=');
+	if (nEqualPos == -1) {
+		return GetTopicNumberAuto(strTopicString);
+	}
+	else {
+		var strValue=strTopicString.substring(nEqualPos + 1, strTopicString.length);
+		if (strTopicString.toLowerCase().indexOf("topicnumber") == 0) {
+			return parseInt(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("topicid") == 0) {
+			return GetTopicNumberById(strValue);
+		} else if (strTopicString.toLowerCase().indexOf("remoteurl") == 0) {
+			gstrURL = strValue;
+			return -1;
+		}
+
+	}
+}
+
+//Find HomePage of the WebHelp system
+// we try to get the topic from remote project if it exists.
+function RedirectToHomePage()
+{
+	if (parent && parent != this && parent.goNext)
+	{
+		var sHome = parent.goNext();
+		if (sHome != "")
+			RedirectTo(sHome);
+	}
+}
+
+function getHomePage()
+{
+	if (parent && parent != this && parent.getRelHomePage)
+	{
+		return parent.getRelHomePage(document.location.href);
+	}
+	return "";
+}
+
+function addRemoteProject(strPath)
+{
+	if (parent && parent != this && parent.addProject)
+	{
+		parent.addProject(strPath);
+	}
+}
+
+//Redirect page to...
+function RedirectTo(strUrl)
+{
+   if (gstrWindowOption.length != 0) {
+		var wnd = window.open(strUrl, "HelpStub", gstrWindowOption);
+		// close current window and rename the stub window to current window.
+		wnd.focus();
+		if (parent)
+			parent.close();
+   }
+   else {
+	parent.document.location.href = strUrl;
+	window.focus();
+  }
+}
+
+//Prompt the user that we can not find...
+function FailToFind(strMsg)
+{
+    RedirectToHomePage();
+}
+
+//Find topic by topic number (defined in h file)
+function FindTopicByTopicNum(nTopicNum)
+{
+	var i = 0;
+	var iEnd = gArrayCsh.length;
+	for (i=0; i<iEnd; i++)
+	{
+		if (gArrayCsh[i].nTopicNum == nTopicNum)
+		{
+			var strURL = gArrayCsh[i].strUrl;
+			if (gbWithNavPane)
+			{
+				var strHomePage = getHomePage();
+				if (strHomePage.length != 0)
+					strURL = strHomePage + strURL;
+			}	
+			RedirectTo(strURL);
+			return true;
+		}
+	}
+	FailToFind("Fail to find topic assocaite with topic number: " + nTopicNum);
+	return false;
+}
+
+//Find topic by topic id (alias id defined in ali file)
+function GetTopicNumberById(strTopicId)
+{
+   var i = 0;
+   var iEnd = gArrayCsh.length;
+   for (i=0; i<iEnd; i++)
+   {
+	if (gArrayCsh[i].strAliasId == strTopicId)
+	{
+	    return gArrayCsh[i].nTopicNum;
+	 }
+   }
+   gstrURL = "";
+   return -1;
+}
+
+//Set Context-sensitive help entity...
+function SetCsh(n, strAliasId, nTopicNum, strUrl)
+{
+   gArrayCsh[n] = new CshEntityItem(strAliasId,nTopicNum,strUrl);
+}
+
+
+function getHash()
+{
+	if (parent && parent != this)
+		return parent.location.hash;
+	else
+		return "";
+}
+//-->
+</script>
+<script language="javascript">
+<!--
+  SetCsh(0,"IDH_Dialog_Edit_Brush_Scaling",826,"xarax/IDH_Dialog_Edit_Brush_Scaling.htm");
+  SetCsh(1,"IDH_Alert_Problem_With_INI_File",454,"xarax/IDH_Alert_Problem_With_INI_File.htm");
+  SetCsh(2,"IDH_Dialog_Bitmap_Export_Dialog___Image_Map",1366,"xarax/IDH_Dialog_Bitmap_Export_Dialog___Image_Map.htm");
+  SetCsh(3,"IDH_Gallery_Frame_New",1313,"xarax/IDH_Gallery_Frame_New.htm");
+  SetCsh(4,"IDH_Command_Preview_All_Frames",1052,"xarax/IDH_Command_Preview_All_Frames.htm");
+  SetCsh(5,"IDH_Dialog_Color_Editor_3D",397,"xarax/IDH_Dialog_Color_Editor_3D.htm");
+  SetCsh(6,"IDH_Definition_O",1291,"xarax/IDH_Definitions.htm#IDH_Definition_O");
+  SetCsh(7,"IDH_How_Viewing_several_document_at_once",1258,"xarax/IDH_How_Viewing_several_document_at_once.htm");
+  SetCsh(8,"IDH_Misc_Keyboard_Use",1254,"xarax/IDH_Misc_Keyboard_Use.htm");
+  SetCsh(9,"IDH_Tool_Transparency_Fill_Type",1238,"xarax/IDH_Tool_Transparency_Fill_Type.htm");
+  SetCsh(10,"IDH_Tool_Text_Script",1230,"xarax/IDH_Tool_Text_Script.htm");
+  SetCsh(11,"IDH_Tool_Text_Aspect_Ratio",1219,"xarax/IDH_Tool_Text_Aspect_Ratio.htm");
+  SetCsh(12,"IDH_How_Stretching_Ellipses",1207,"xarax/IDH_How_Stretching_Ellipses.htm");
+  SetCsh(13,"IDH_How_Straightening_curved_line_segments",1206,"xarax/IDH_How_Straightening_curved_line_segments.htm");
+  SetCsh(14,"IDH_Tool_Selector_Fill_Handles",1174,"xarax/IDH_Tool_Selector_Fill_Handles.htm");
+  SetCsh(15,"IDH_Popup_Ruler",1147,"xarax/IDH_Popup_Ruler.htm");
+  SetCsh(16,"IDH_How_Redrawing_LineShape",1122,"xarax/IDH_How_Redrawing_LineShape.htm");
+  SetCsh(17,"IDH_Tool_QuickShape_Ellipse",1107,"xarax/IDH_Tool_QuickShape_Ellipse.htm");
+  SetCsh(18,"IDH_Tool_QuickShape_Bounds_Creation",1104,"xarax/IDH_Tool_QuickShape_Bounds_Creation.htm");
+  SetCsh(19,"IDH_How_Changing_the_ruler_zero_point",1023,"xarax/IDH_How_Changing_the_ruler_zero_point.htm");
+  SetCsh(20,"IDH_How_Moving_Bitmap_Fill_Handles",1007,"xarax/IDH_How_Moving_Bitmap_Fill_Handles.htm");
+  SetCsh(21,"IDH_How_Moving_a_Point_on_a_Line",1003,"xarax/IDH_How_Moving_a_Point_on_a_Line.htm");
+  SetCsh(22,"IDH_How_Importing_Files",951,"xarax/IDH_How_Importing_Files.htm");
+  SetCsh(23,"IDH_Tool_Ellipse_Parameters",879,"xarax/IDH_Tool_Ellipse_Parameters.htm");
+  SetCsh(24,"IDH_How_Drawing_a_Shape_with_the_Freehand_Tool",868,"xarax/IDH_How_Drawing_a_Shape_with_the_Freehand_Tool.htm");
+  SetCsh(25,"IDH_How_Drawing_a_Line",861,"xarax/IDH_How_Drawing_a_Line.htm");
+  SetCsh(26,"IDH_Definition_Text_Cursor",820,"xarax/IDH_Definition_Text_Cursor.htm");
+  SetCsh(27,"IDH_Definition_RotateSkew_Mode",793,"xarax/IDH_Definition_RotateSkew_Mode.htm");
+  SetCsh(28,"IDH_Definition_Object",769,"xarax/IDH_Definition_Object.htm");
+  SetCsh(29,"IDH_Definition_Mould",764,"xarax/IDH_Definition_Mould.htm");
+  SetCsh(30,"IDH_Definition_Keyword",753,"xarax/IDH_Definition_Keyword.htm");
+  SetCsh(31,"IDH_Definition_Interline_Spacing",747,"xarax/IDH_Definition_Interline_Spacing.htm");
+  SetCsh(32,"IDH_Definition_Guide_Objects",739,"xarax/IDH_Definition_Guide_Objects.htm");
+  SetCsh(33,"IDH_Definition_Flat_Transparency",723,"xarax/IDH_Definition_Flat_Transparency.htm");
+  SetCsh(34,"IDH_Definition_Conical_Transparency",692,"xarax/IDH_Definition_Conical_Transparency.htm");
+  SetCsh(35,"IDH_Definition_Clipboard",687,"xarax/IDH_Definition_Clipboard.htm");
+  SetCsh(36,"IDH_How_Closing_A_Gallery",582,"xarax/IDH_How_Closing_A_Gallery.htm");
+  SetCsh(37,"IDH_How_Changing_the_colour_of_guides",523,"xarax/IDH_How_Changing_the_colour_of_guides.htm");
+  SetCsh(38,"IDH_How_Rectangle_Corner_Curvature",504,"xarax/IDH_How_Rectangle_Corner_Curvature.htm");
+  SetCsh(39,"IDH_How_Polygon_Corner_Curvature",503,"xarax/IDH_How_Polygon_Corner_Curvature.htm");
+  SetCsh(40,"IDH_How_Editing_Conical_Fills",500,"xarax/IDH_How_Editing_Conical_Fills.htm");
+  SetCsh(41,"IDH_How_Blending_Bitmaps",487,"xarax/IDH_How_Blending_Bitmaps.htm");
+  SetCsh(42,"IDH_How_Applying_attributes_to_individual_text_characters",424,"xarax/IDH_How_Applying_attributes_to_individual_text_characters.htm");
+  SetCsh(43,"IDH_How_Changing_diamond_transparency",339,"xarax/IDH_How_Changing_diamond_transparency.htm");
+  SetCsh(44,"IDH_Dialog_Web_Export_Remove_Editing_Info",1267,"xarax/IDH_Dialog_Web_Export_Remove_Editing_Info.htm");
+  SetCsh(45,"IDH_How_Creating_simple_text",329,"xarax/IDH_How_Creating_simple_text.htm");
+  SetCsh(46,"IDH_Misc_Imagesetting_Control_Bar",325,"xarax/IDH_Misc_Imagesetting_Control_Bar.htm");
+  SetCsh(47,"IDH_How_Printing_Ordering_Proofs",304,"xarax/IDH_How_Printing_Ordering_Proofs.htm");
+  SetCsh(48,"IDH_How_Printing_Multiple_Copies",300,"xarax/IDH_How_Printing_Multiple_Copies.htm");
+  SetCsh(49,"IDH_Definition_Web_Address",837,"xarax/IDH_Definition_Web_Address.htm");
+  SetCsh(50,"IDH_Command_Tip_of_the_Day",291,"xarax/IDH_Command_Tip_of_the_Day.htm");
+  SetCsh(51,"IDH_How_Text_Tool_Shortcuts",277,"xarax/IDH_How_Text_Tool_Shortcuts.htm");
+  SetCsh(52,"IDH_How_Polygon_into_an_Ellipse",269,"xarax/IDH_How_Polygon_into_an_Ellipse.htm");
+  SetCsh(53,"IDH_How_Creating_Custom_Fills",634,"xarax/IDH_How_Creating_Custom_Fills.htm");
+  SetCsh(54,"IDH_Dialog_Bitmap_Effects_Insert_Button",446,"xarax/IDH_Dialog_Bitmap_Effects_Insert_Button.htm");
+  SetCsh(55,"IDH_Dialog_Unit_Properties_Unit_Definition",1248,"xarax/IDH_Dialog_Unit_Properties_Unit_Definition.htm");
+  SetCsh(56,"IDH_How_Changing_the_undo_size",571,"xarax/IDH_How_Changing_the_undo_size.htm");
+  SetCsh(57,"IDH_How_Changing_the_Bleed_Setting",522,"xarax/IDH_How_Changing_the_Bleed_Setting.htm");
+  SetCsh(58,"IDH_How_Changing_the_Shape_of_the_Grid",559,"xarax/IDH_How_Changing_the_Shape_of_the_Grid.htm");
+  SetCsh(59,"IDH_How_Displaying_the_Print_Borders",857,"xarax/IDH_How_Displaying_the_Print_Borders.htm");
+  SetCsh(60,"IDH_How_Converting_Blends_to_Shapes",606,"xarax/IDH_How_Converting_Blends_to_Shapes.htm");
+  SetCsh(61,"IDH_How_Pasting_Attributes",283,"xarax/IDH_How_Pasting_Attributes.htm");
+  SetCsh(62,"IDH_How_Pasting",252,"xarax/IDH_How_Pasting.htm");
+  SetCsh(63,"IDH_How_Tracing_a_Bitmap",1233,"xarax/IDH_How_Tracing_a_Bitmap.htm");
+  SetCsh(64,"IDH_Command_Paste_at_Same_Position",239,"xarax/IDH_Command_Paste_at_Same_Position.htm");
+  SetCsh(65,"IDH_Gallery_Font_Remove",923,"xarax/IDH_Gallery_Font_Remove.htm");
+  SetCsh(66,"IDH_Gallery_Layer_Delete",963,"xarax/IDH_Gallery_Layer_Delete.htm");
+  SetCsh(67,"IDH_Gallery_Layer_Copy",962,"xarax/IDH_Gallery_Layer_Copy.htm");
+  SetCsh(68,"IDH_Command_Snap_to_Guides",227,"xarax/IDH_Command_Snap_to_Guides.htm");
+  SetCsh(69,"IDH_Dialog_Bitmap_Export_JPEG",163,"xarax/IDH_Dialog_Bitmap_Export_JPEG.htm");
+  SetCsh(70,"IDH_Dialog_Bitmap_Export_BMP",160,"xarax/IDH_Dialog_Bitmap_Export_BMP.htm");
+  SetCsh(71,"IDH_Alert_Reinstall_the_Program",145,"xarax/IDH_Alert_Reinstall_the_Program.htm");
+  SetCsh(72,"IDH_Alert_Overrun_or_Truncated_File",141,"xarax/IDH_Alert_Overrun_or_Truncated_File.htm");
+  SetCsh(73,"IDH_Alert_Nothing_Selected",139,"xarax/IDH_Alert_Nothing_Selected.htm");
+  SetCsh(74,"IDH_Alert_Library_Check_Remove",129,"xarax/IDH_Alert_Library_Check_Remove.htm");
+  SetCsh(75,"IDH_Command_Zoom",93,"xarax/IDH_Command_Zoom.htm");
+  SetCsh(76,"IDH_Command_Undo",89,"xarax/IDH_Command_Undo.htm");
+  SetCsh(77,"IDH_Command_Status_Line",87,"xarax/IDH_Command_Status_Line.htm");
+  SetCsh(78,"IDH_Command_Snap_To_Grid",85,"xarax/IDH_Command_Snap_To_Grid.htm");
+  SetCsh(79,"IDH_Command_Previous_Zoom",69,"xarax/IDH_Command_Previous_Zoom.htm");
+  SetCsh(80,"IDH_Command_Copy",31,"xarax/IDH_Command_Copy.htm");
+  SetCsh(81,"IDH_Command_Bitmap_Tracer",15,"xarax/IDH_Command_Bitmap_Tracer.htm");
+  SetCsh(82,"IDH_Command_Galleries",200,"xarax/IDH_Command_Galleries.htm");
+  SetCsh(83,"IDH_Dialog_Edit_Brush_Rotation",895,"xarax/IDH_Dialog_Edit_Brush_Rotation.htm");
+  SetCsh(84,"IDH_Define_Buttons_dialog_box",540,"xarax/IDH_Define_Buttons_dialog_box.htm");
+  SetCsh(85,"IDH_Dialog_Web_Address_URL",1395,"xarax/IDH_Dialog_Web_Address_URL.htm");
+  SetCsh(86,"IDH_Command_Select_Start_Frame",1392,"xarax/IDH_Command_Select_Start_Frame.htm");
+  SetCsh(87,"IDH_Dialog_Bitmap_Export_Dialog___Browser_Preview",1367,"xarax/IDH_Dialog_Bitmap_Export_Dialog___Browser_Preview.htm");
+  SetCsh(88,"IDH_How_Deleting_frames",1326,"xarax/IDH_How_Deleting_frames.htm");
+  SetCsh(89,"IDH_How_Reordering_frames",1325,"xarax/IDH_How_Reordering_frames.htm");
+  SetCsh(90,"IDH_Command_Import_from_Web",1047,"xarax/IDH_Command_Import_from_Web.htm");
+  SetCsh(91,"IDH_Dialog_Color_Editor_Shades",1058,"xarax/IDH_Dialog_Color_Editor_Shades.htm");
+  SetCsh(92,"IDH_Dialog_Color_Editor_New_Named_Color",1026,"xarax/IDH_Dialog_Color_Editor_New_Named_Color.htm");
+  SetCsh(93,"IDH_Overview_Infobar",1307,"xarax/IDH_Overview_Infobar.htm");
+  SetCsh(94,"IDH_Definition_Freehand_Tool_Infobar",1304,"xarax/IDH_Definition_Freehand_Tool_Infobar.htm");
+  SetCsh(95,"IDH_Definition_Selector_Tool_Infobar",350,"xarax/IDH_Definition_Selector_Tool_Infobar.htm");
+  SetCsh(96,"IDH_Definition_P",1292,"xarax/IDH_Definitions.htm#IDH_Definition_P");
+  SetCsh(97,"IDH_How_Warping_Rectangle_Edges",1260,"xarax/IDH_How_Warping_Rectangle_Edges.htm");
+  SetCsh(98,"IDH_Tool_Text_Justification_Centre",1222,"xarax/IDH_Tool_Text_Justification_Centre.htm");
+  SetCsh(99,"IDH_How_Switching_Selection_Handle_Mode",1212,"xarax/IDH_How_Switching_Selection_Handle_Mode.htm");
+  SetCsh(100,"IDH_Tool_Selector_Scaling",1179,"xarax/IDH_Tool_Selector_Scaling.htm");
+  SetCsh(101,"IDH_How_Selecting_All_Objects",1160,"xarax/IDH_How_Selecting_All_Objects.htm");
+  SetCsh(102,"IDH_Tool_QuickShape_Curved_Corners",1105,"xarax/IDH_Tool_QuickShape_Curved_Corners.htm");
+  SetCsh(103,"IDH_Overview_Magnetic_Snapping",1060,"xarax/IDH_Overview_Magnetic_Snapping.htm");
+  SetCsh(104,"IDH_How_Moving",1013,"xarax/IDH_How_Moving.htm");
+  SetCsh(105,"IDH_How_Moving_between_documents",1006,"xarax/IDH_How_Moving_between_documents.htm");
+  SetCsh(106,"IDH_How_Importing_CDR",948,"xarax/IDH_How_Importing_CDR.htm");
+  SetCsh(107,"IDH_How_Hiding_Scrollbars",943,"xarax/IDH_How_Hiding_Scrollbars.htm");
+  SetCsh(108,"IDH_How_Grouping_Objects",936,"xarax/IDH_How_Grouping_Objects.htm");
+  SetCsh(109,"IDH_Tool_Fill_Grain",909,"xarax/IDH_Tool_Fill_Grain.htm");
+  SetCsh(110,"IDH_How_Freehand_Straight",873,"xarax/IDH_How_Freehand_Straight.htm");
+  SetCsh(111,"IDH_How_Drawing_Stellated_Shapes",872,"xarax/IDH_How_Drawing_Stellated_Shapes.htm");
+  SetCsh(112,"IDH_How_Drawing_a_Line_Pen_Tool",863,"xarax/IDH_How_Drawing_a_Line_Pen_Tool.htm");
+  SetCsh(113,"IDH_How_Concentric_Circles",860,"xarax/IDH_How_Concentric_Circles.htm");
+  SetCsh(114,"IDH_How_Displaying_and_hiding_guides",855,"xarax/IDH_How_Displaying_and_hiding_guides.htm");
+  SetCsh(115,"IDH_How_Deleting_Layers",846,"xarax/IDH_How_Deleting_Layers.htm");
+  SetCsh(116,"IDH_Definition_Transparency_Handle",831,"xarax/IDH_Definition_Transparency_Handle.htm");
+  SetCsh(117,"IDH_Definition_Radius_Creation",786,"xarax/IDH_Definition_Radius_Creation.htm");
+  SetCsh(118,"IDH_Definition_Point_Handle",780,"xarax/IDH_Definition_Point_Handle.htm");
+  SetCsh(119,"IDH_Definition_Page",774,"xarax/IDH_Definition_Page.htm");
+  SetCsh(120,"IDH_Definition_Linear_Transparency",758,"xarax/IDH_Definition_Linear_Transparency.htm");
+  SetCsh(121,"IDH_Definition_GIF",734,"xarax/IDH_Definition_GIF.htm");
+  SetCsh(122,"IDH_Definition_Fractal_Fill",730,"xarax/IDH_Definition_Fractal_Fill.htm");
+  SetCsh(123,"IDH_Definition_Diamond_Transparency",704,"xarax/IDH_Definition_Diamond_Transparency.htm");
+  SetCsh(124,"IDH_Definition_Current_Layer",697,"xarax/IDH_Definition_Current_Layer.htm");
+  SetCsh(125,"IDH_Definition_Current_Fill_Attribute",696,"xarax/IDH_Definition_Current_Fill_Attribute.htm");
+  SetCsh(126,"IDH_Definition_Bounding_Box",681,"xarax/IDH_Definition_Bounding_Box.htm");
+  SetCsh(127,"IDH_How_Deinstalling_a_Font",662,"xarax/IDH_How_Deinstalling_a_Font.htm");
+  SetCsh(128,"IDH_Overview_Colors",600,"xarax/IDH_Overview_Colors.htm");
+  SetCsh(129,"IDH_How_Changing_Fractal_Fill_Resolution",556,"xarax/IDH_How_Changing_Fractal_Fill_Resolution.htm");
+  SetCsh(130,"IDH_How_Changing_Circular_Fill_Colours",526,"xarax/IDH_How_Changing_Circular_Fill_Colours.htm");
+  SetCsh(131,"IDH_How_Changing_Bitmap_Fill_Colours",525,"xarax/IDH_How_Changing_Bitmap_Fill_Colours.htm");
+  SetCsh(132,"IDH_How_Aligning_QuickShape_centres",417,"xarax/IDH_How_Aligning_QuickShape_centres.htm");
+  SetCsh(133,"IDH_How_Moving_four_point_transparency_handles",343,"xarax/IDH_How_Moving_four_point_transparency_handles.htm");
+  SetCsh(134,"IDH_How_Changing_the_colors_of_three_color_fills",108,"xarax/IDH_How_Changing_the_colors_of_three_color_fills.htm");
+  SetCsh(135,"IDH_How_Moving_diamond_fill_handles",16,"xarax/IDH_How_Moving_diamond_fill_handles.htm");
+  SetCsh(136,"IDH_How_Removing_Web_Addresses_from_Objects",1129,"xarax/IDH_How_Removing_Web_Addresses_from_Objects.htm");
+  SetCsh(137,"IDH_Dialog_Web_Export_Remove_Invisible_Layers",1268,"xarax/IDH_Dialog_Web_Export_Remove_Invisible_Layers.htm");
+  SetCsh(138,"IDH_Alert_CD6_files_not_supported",298,"xarax/IDH_Alert_CD6_files_not_supported.htm");
+  SetCsh(139,"IDH_How_Applying_a_Mould",274,"xarax/IDH_How_Applying_a_Mould.htm");
+  SetCsh(140,"IDH_How_Moving_by_Dragging",253,"xarax/IDH_How_Moving_by_Dragging.htm");
+  SetCsh(141,"IDH_How_Applying_Line_Colour",250,"xarax/IDH_How_Applying_Line_Colour.htm");
+  SetCsh(142,"IDH_Dialog_Control_Bars_Reset_Button",605,"xarax/IDH_Dialog_Control_Bars_Reset_Button.htm");
+  SetCsh(143,"IDH_Dialog_Bitmap_Tracer_Initial_Color_Tolerance",471,"xarax/IDH_Dialog_Bitmap_Tracer_Initial_Color_Tolerance.htm");
+  SetCsh(144,"IDH_Command_Composite_Print_Preview",91,"xarax/IDH_Command_Composite_Print_Preview.htm");
+  SetCsh(145,"IDH_Dialog_Print_Print_Objects_Options",1068,"xarax/IDH_Dialog_Print_Print_Objects_Options.htm");
+  SetCsh(146,"IDH_How_Background_Redraw_Option",1241,"xarax/IDH_How_Background_Redraw_Option.htm");
+  SetCsh(147,"IDH_Dialog_Bitmap_Export_Animated_GIF",235,"xarax/IDH_Dialog_Bitmap_Export_Animated_GIF.htm");
+  SetCsh(148,"IDH_How_Creating_PICT_files",646,"xarax/IDH_How_Creating_PICT_files.htm");
+  SetCsh(149,"IDH_How_Creating_JPEG_files",640,"xarax/IDH_How_Creating_JPEG_files.htm");
+  SetCsh(150,"IDH_Gallery_Fill_Add",897,"xarax/IDH_Gallery_Fill_Add.htm");
+  SetCsh(151,"IDH_Misc_Colour_Editor_Menu",589,"xarax/IDH_Misc_Colour_Editor_Menu.htm");
+  SetCsh(152,"IDH_Gallery_Bitmap_Effects",459,"xarax/IDH_Gallery_Effects.htm");
+  SetCsh(153,"IDH_Gallery_Colour_Apply",590,"xarax/IDH_Gallery_Colour_Apply.htm");
+  SetCsh(154,"IDH_Gallery_Layer_Popup_Menu",966,"xarax/IDH_Gallery_Layer_Popup_Menu.htm");
+  SetCsh(155,"IDH_Command_Show_Guides",226,"xarax/IDH_Command_Show_Guides.htm");
+  SetCsh(156,"IDH_Tool_QuickShape",214,"xarax/IDH_Tool_QuickShape.htm");
+  SetCsh(157,"IDH_Tool_Push",213,"xarax/IDH_Tool_Push.htm");
+  SetCsh(158,"IDH_Tool_Mould",211,"xarax/IDH_Tool_Mould.htm");
+  SetCsh(159,"IDH_Misc_Colour_Editor",192,"xarax/IDH_Misc_Colour_Editor.htm");
+  SetCsh(160,"IDH_Alert_Unable_to_Create_File",154,"xarax/IDH_Alert_Unable_to_Create_File.htm");
+  SetCsh(161,"IDH_Alert_Spread_Too_Large",151,"xarax/IDH_Alert_Spread_Too_Large.htm");
+  SetCsh(162,"IDH_Alert_Library_Thumbnail_Problem",135,"xarax/IDH_Alert_Library_Thumbnail_Problem.htm");
+  SetCsh(163,"IDH_Alert_Library_Cannot_Update_Index",127,"xarax/IDH_Alert_Library_Cannot_Update_Index.htm");
+  SetCsh(164,"IDH_Command_Zoom_to_Drawing",94,"xarax/IDH_Command_Zoom_to_Drawing.htm");
+  SetCsh(165,"IDH_Command_Options_Tuneups",65,"xarax/IDH_Command_Options_Tuneups.htm");
+  SetCsh(166,"IDH_Command_Options_Mouse",60,"xarax/IDH_Command_Options_Mouse.htm");
+  SetCsh(167,"IDH_Command_Group",42,"xarax/IDH_Command_Group.htm");
+  SetCsh(168,"IDH_Command_Export",37,"xarax/IDH_Command_Export.htm");
+  SetCsh(169,"IDH_Dialog_Xar_Export",838,"xarax/IDH_Dialog_Xar_Export.htm");
+  SetCsh(170,"IDH_Dialog_Edit_Brush",1128,"xarax/IDH_Dialog_Edit_Brush.htm");
+  SetCsh(171,"IDH_Dialog_Name_Objects",1402,"xarax/IDH_Dialog_Name_Objects.htm");
+  SetCsh(172,"IDH_Dialog_Web_Address_Correct",1396,"xarax/IDH_Dialog_Web_Address_Correct.htm");
+  SetCsh(173,"IDH_Gallery_Fill_Background",1385,"xarax/IDH_Gallery_Fill_Background.htm");
+  SetCsh(174,"IDH_Gallery_Frame_All_Editable_Button",1320,"xarax/IDH_Gallery_Frame_All_Editable_Button.htm");
+  SetCsh(175,"IDH_Dialog_Animation_Properties_Animation_Colors",1231,"xarax/IDH_Dialog_Animation_Properties_Animation_Colors.htm");
+  SetCsh(176,"IDH_How_Exporting_documents",1044,"xarax/IDH_How_Exporting_documents.htm");
+  SetCsh(177,"IDH_How_Moving_handles_to_the_center_of_quickshapes",1339,"xarax/IDH_How_Moving_handles_to_the_center_of_quickshapes.htm");
+  SetCsh(178,"IDH_Overview_Blends",1340,"xarax/IDH_Overview_Blends.htm");
+  SetCsh(179,"IDH_How_Tracer_Troubleshooting_Thrashing",1038,"xarax/IDH_How_Tracer_Troubleshooting_Thrashing.htm");
+  SetCsh(180,"IDH_Overview_Customization",1341,"xarax/IDH_Overview_Customization.htm");
+  SetCsh(181,"IDH_How_Displaying_and_hiding_control_bars",1030,"xarax/IDH_How_Displaying_and_hiding_control_bars.htm");
+  SetCsh(182,"IDH_Definition_Q",1293,"xarax/IDH_Definitions.htm#IDH_Definition_Q");
+  SetCsh(183,"IDH_How_Zooming_in_and_out",1273,"xarax/IDH_How_Zooming_in_and_out.htm");
+  SetCsh(184,"IDH_How_Stretching_Rectangles",1209,"xarax/IDH_How_Stretching_Rectangles.htm");
+  SetCsh(185,"IDH_Tool_Selector_Position",1176,"xarax/IDH_Tool_Selector_Position.htm");
+  SetCsh(186,"IDH_How_Selecting_Several_Objects",1167,"xarax/IDH_How_Selecting_Several_Objects.htm");
+  SetCsh(187,"IDH_How_Selecting_Single_Object",1158,"xarax/IDH_How_Selecting_Single_Object.htm");
+  SetCsh(188,"IDH_How_Removing_a_Blend",1123,"xarax/IDH_How_Removing_a_Blend.htm");
+  SetCsh(189,"IDH_How_Moving_Accurately",1014,"xarax/IDH_How_Moving_Accurately.htm");
+  SetCsh(190,"IDH_Tool_Mould_Concave_Envelope",989,"xarax/IDH_Tool_Mould_Concave_Envelope.htm");
+  SetCsh(191,"IDH_How_Importing_animated_GIF_files",947,"xarax/IDH_How_Importing_animated_GIF_files.htm");
+  SetCsh(192,"IDH_How_Hiding_the_Status_Line",944,"xarax/IDH_How_Hiding_the_Status_Line.htm");
+  SetCsh(193,"IDH_How_Hiding_Layers",939,"xarax/IDH_How_Hiding_Layers.htm");
+  SetCsh(194,"IDH_Misc_Gallery_Control_Bar",927,"xarax/IDH_Misc_Gallery_Control_Bar.htm");
+  SetCsh(195,"IDH_How_Enabling_Edit_Handles",881,"xarax/IDH_How_Enabling_Edit_Handles.htm");
+  SetCsh(196,"IDH_How_Deselect_All_Point_Handles",851,"xarax/IDH_How_Deselect_All_Point_Handles.htm");
+  SetCsh(197,"IDH_Definition_Three_Color_Fill",822,"xarax/IDH_Definition_Three_Color_Fill.htm");
+  SetCsh(198,"IDH_Definition_Snapping",814,"xarax/IDH_Definition_Snapping.htm");
+  SetCsh(199,"IDH_Definition_Selection_Handle",806,"xarax/IDH_Definition_Selection_Handle.htm");
+  SetCsh(200,"IDH_Definition_Local_Colour",760,"xarax/IDH_Definition_Local_Colour.htm");
+  SetCsh(201,"IDH_Definition_Fullscreen_Mode",732,"xarax/IDH_Definition_Fullscreen_Mode.htm");
+  SetCsh(202,"IDH_Definition_Docked",707,"xarax/IDH_Definition_Docked.htm");
+  SetCsh(203,"IDH_Definition_Curve_Handle",698,"xarax/IDH_Definition_Curve_Handle.htm");
+  SetCsh(204,"IDH_Definition_Animated_GIF",664,"xarax/IDH_Definition_Animated_GIF.htm");
+  SetCsh(205,"IDH_How_Multistage_Blends",642,"xarax/IDH_How_Multistage_Blends.htm");
+  SetCsh(206,"IDH_How_Changing_the_Fill_Effect",535,"xarax/IDH_How_Changing_the_Fill_Effect.htm");
+  SetCsh(207,"IDH_Tool_Blend_Remove",486,"xarax/IDH_Tool_Blend_Remove.htm");
+  SetCsh(208,"IDH_Overview_Bitmaps",481,"xarax/IDH_Overview_Bitmaps.htm");
+  SetCsh(209,"IDH_Misc_Arrange_Control_Bar",443,"xarax/IDH_Misc_Arrange_Control_Bar.htm");
+  SetCsh(210,"IDH_How_Applying_Attributes_to_a_Selected_Region_Of_Text",423,"xarax/IDH_How_Applying_Attributes_to_a_Selected_Region_Of_Text.htm");
+  SetCsh(211,"IDH_How_Curved_Corners_on_a_Rectangle",409,"xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm");
+  SetCsh(212,"IDH_How_Increasing_the_available_screen_area",389,"xarax/IDH_How_Increasing_the_available_screen_area.htm");
+  SetCsh(213,"IDH_How_Moving_three_point_transparency_handles",344,"xarax/IDH_How_Moving_three_point_transparency_handles.htm");
+  SetCsh(214,"IDH_How_Applying_three_point_transparency",337,"xarax/IDH_How_Applying_three_point_transparency.htm");
+  SetCsh(215,"IDH_How_Changing_four_color_fills",324,"xarax/IDH_How_Changing_four_color_fills.htm");
+  SetCsh(216,"IDH_How_Drawing_Rectangles",285,"xarax/IDH_How_Drawing_Rectangles.htm");
+  SetCsh(217,"IDH_How_Adding_Clipart_to_the_Clipart_Gallery",257,"xarax/IDH_How_Adding_Clipart_to_the_Clipart_Gallery.htm");
+  SetCsh(218,"IDH_How_Zoom_Temporary",266,"xarax/IDH_How_Zoom_Temporary.htm");
+  SetCsh(219,"IDH_How_Getting_Help",287,"xarax/IDH_How_Getting_Help.htm");
+  SetCsh(220,"IDH_Alert_Export_Entire_Spread",237,"xarax/IDH_Alert_Export_Entire_Spread.htm");
+  SetCsh(221,"IDH_Dialog_Bitmap_Tracer_Trace_Mode",480,"xarax/IDH_Dialog_Bitmap_Tracer_Trace_Mode.htm");
+  SetCsh(222,"IDH_Dialog_Unit_Properties_Abbreviation",1246,"xarax/IDH_Dialog_Unit_Properties_Abbreviation.htm");
+  SetCsh(223,"IDH_How_Changing_the_Baseline_Shift_of_Text",520,"xarax/IDH_How_Changing_the_Baseline_Shift_of_Text.htm");
+  SetCsh(224,"IDH_How_Making_Text_Italic",982,"xarax/IDH_How_Making_Text_Italic.htm");
+  SetCsh(225,"IDH_Dialog_Print_Print_Button",1067,"xarax/IDH_Dialog_Print_Print_Button.htm");
+  SetCsh(226,"IDH_Dialog_Bitmap_Export_Bitmap_Size",448,"xarax/IDH_Dialog_Bitmap_Export_Bitmap_Size.htm");
+  SetCsh(227,"IDH_Dialog_Add_Folder_Update_Button",405,"xarax/IDH_Dialog_Add_Folder_Update_Button.htm");
+  SetCsh(228,"IDH_How_Creating_PCX_files",645,"xarax/IDH_How_Creating_PCX_files.htm");
+  SetCsh(229,"IDH_How_Converting_Moulds_to_Shapes",608,"xarax/IDH_How_Converting_Moulds_to_Shapes.htm");
+  SetCsh(230,"IDH_How_Set_Current_Attributes_with_an_Object",1185,"xarax/IDH_How_Set_Current_Attributes_with_an_Object.htm");
+  SetCsh(231,"IDH_How_Transparency_Bitmap_Change",493,"xarax/IDH_How_Transparency_Bitmap_Change.htm");
+  SetCsh(232,"IDH_Gallery_Colour_Redefine",597,"xarax/IDH_Gallery_Colour_Redefine.htm");
+  SetCsh(233,"IDH_Gallery_Colour_Options",595,"xarax/IDH_Gallery_Colour_Options.htm");
+  SetCsh(234,"IDH_Gallery_Layer_All_Visible",961,"xarax/IDH_Gallery_Layer_All_Visible.htm");
+  SetCsh(235,"IDH_Tool_Ellipse",208,"xarax/IDH_Tool_Ellipse.htm");
+  SetCsh(236,"IDH_Gallery_Bitmap",179,"xarax/IDH_Gallery_Bitmap.htm");
+  SetCsh(237,"IDH_Alert_Serious_Problem",146,"xarax/IDH_Alert_Serious_Problem.htm");
+  SetCsh(238,"IDH_Alert_Library_Cannot_Find_Index",126,"xarax/IDH_Alert_Library_Cannot_Find_Index.htm");
+  SetCsh(239,"IDH_Alert_Library_Browse_Or_Scan",125,"xarax/IDH_Alert_Library_Browse_Or_Scan.htm");
+  SetCsh(240,"IDH_Alert_Bad_Text_Search",102,"xarax/IDH_Alert_Bad_Text_Search.htm");
+  SetCsh(241,"IDH_Command_Zoom_to_Selection",95,"xarax/IDH_Command_Zoom_to_Selection.htm");
+  SetCsh(242,"IDH_Command_Ungroup",90,"xarax/IDH_Command_Ungroup.htm");
+  SetCsh(243,"IDH_Command_Options_Print_Layout",63,"xarax/IDH_Command_Options_Print_Layout.htm");
+  SetCsh(244,"IDH_Command_Options_Page",62,"xarax/IDH_Command_Options_Page.htm");
+  SetCsh(245,"IDH_Command_Convert_to_Shapes",30,"xarax/IDH_Command_Convert_to_Shapes.htm");
+  SetCsh(246,"IDH_Command_Bitmap_Effects_Brightness_and_Contrast",9,"xarax/IDH_Command_Bitmap_Effects_Brightness_and_Contrast.htm");
+  SetCsh(247,"IDH_Command_Convert_Line_to_Shape",348,"xarax/IDH_Command_Convert_Line_to_Shape.htm");
+  SetCsh(248,"IDH_Command_Feather",565,"xarax/IDH_Command_Feather.htm");
+  SetCsh(249,"IDH_Dialog_Rename_Objects",1401,"xarax/IDH_Dialog_Rename_Objects.htm");
+  SetCsh(250,"Definition_Custom_Bitmap_Effect",699,"xarax/Definition_Custom_Bitmap_Effect.htm");
+  SetCsh(251,"IDH_Alert_Bars_File_Problem",451,"xarax/IDH_Alert_Bars_File_Problem.htm");
+  SetCsh(252,"IDH_Dialog_Create_Bitmap_Copy___Palette_Options",623,"xarax/IDH_Dialog_Create_Bitmap_Copy___Palette_Options.htm");
+  SetCsh(253,"IDH_Dialog_Bitmap_Export_Dialog_Box___Export_Button",1369,"xarax/IDH_Dialog_Bitmap_Export_Dialog_Box___Export_Button.htm");
+  SetCsh(254,"IDH_Definition_Restore",1328,"xarax/IDH_Definition_Restore.htm");
+  SetCsh(255,"IDH_Command_Export_Animated_GIF",1050,"xarax/IDH_Command_Export_Animated_GIF.htm");
+  SetCsh(256,"IDH_Dialog_Color_Editor_Simple_Options",1331,"xarax/IDH_Dialog_Color_Editor_Simple_Options.htm");
+  SetCsh(257,"IDH_Definition_Blend_Tool_Infobar",122,"xarax/IDH_Definition_Blend_Tool_Infobar.htm");
+  SetCsh(258,"IDH_Definition_R",1294,"xarax/IDH_Definitions.htm#IDH_Definition_R");
+  SetCsh(259,"IDH_Definition_A",1278,"xarax/IDH_Definitions.htm#IDH_Definition_A");
+  SetCsh(260,"IDH_Tool_Text_Bold",1221,"xarax/IDH_Tool_Text_Bold.htm");
+  SetCsh(261,"IDH_How_Full_Screen",1213,"xarax/IDH_How_Full_Screen.htm");
+  SetCsh(262,"IDH_Tool_Selector_Skew",1181,"xarax/IDH_Tool_Selector_Skew.htm");
+  SetCsh(263,"IDH_Tool_Selector_Scale_Line_Widths",1178,"xarax/IDH_Tool_Selector_Scale_Line_Widths.htm");
+  SetCsh(264,"IDH_How_Rotating",1142,"xarax/IDH_How_Rotating.htm");
+  SetCsh(265,"IDH_How_Reshaping_perspective_moulds",1137,"xarax/IDH_How_Reshaping_perspective_moulds.htm");
+  SetCsh(266,"IDH_How_Moving_Text_Around_a_Curve",1021,"xarax/IDH_How_Moving_Text_Around_a_Curve.htm");
+  SetCsh(267,"IDH_How_Moving_Points_on_a_Line",1020,"xarax/IDH_How_Moving_Points_on_a_Line.htm");
+  SetCsh(268,"IDH_Tool_Mould_Elliptical_Envelope",994,"xarax/IDH_Tool_Mould_Elliptical_Envelope.htm");
+  SetCsh(269,"IDH_Tool_Mould_Ceiling_Perspective",987,"xarax/IDH_Tool_Mould_Ceiling_Perspective.htm");
+  SetCsh(270,"IDH_How_Deselecting_One_Object",853,"xarax/IDH_How_Deselecting_One_Object.htm");
+  SetCsh(271,"IDH_How_Deslecting_All_Objects",850,"xarax/IDH_How_Deslecting_All_Objects.htm");
+  SetCsh(272,"IDH_Definition_Transparency_Arrow",830,"xarax/IDH_Definition_Transparency_Arrow.htm");
+  SetCsh(273,"IDH_Definition_Tracking",827,"xarax/IDH_Definition_Tracking.htm");
+  SetCsh(274,"IDH_Definition_Trackbar",813,"xarax/IDH_Definition_Trackbar.htm");
+  SetCsh(275,"IDH_Definition_Selection_Marker",807,"xarax/IDH_Definition_Selection_Marker.htm");
+  SetCsh(276,"IDH_Definition_PostScript",781,"xarax/IDH_Definition_PostScript.htm");
+  SetCsh(277,"IDH_Definition_Alignment",663,"xarax/IDH_Definition_Alignment.htm");
+  SetCsh(278,"IDH_How_Applying_Transparency",442,"xarax/IDH_How_Applying_Transparency.htm");
+  SetCsh(279,"IDH_How_Applying_Elliptical_Transparency",435,"xarax/IDH_How_Applying_Elliptical_Transparency.htm");
+  SetCsh(280,"IDH_How_Altering_Point_Handles",418,"xarax/IDH_How_Altering_Point_Handles.htm");
+  SetCsh(281,"IDH_How_Converting_bitmaps_to_shapes",390,"xarax/IDH_How_Converting_bitmaps_to_shapes.htm");
+  SetCsh(282,"IDH_How_Rotating_column_text",362,"xarax/IDH_How_Rotating_column_text.htm");
+  SetCsh(283,"IDH_How_Customizing_the_appearance_of_CorelXARA",358,"xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm");
+  SetCsh(284,"IDH_Definition_Process_Colors",783,"xarax/IDH_Definition_Process_Colors.htm");
+  SetCsh(285,"IDH_Definition_Print_Shop",782,"xarax/IDH_Definition_Print_Shop.htm");
+  SetCsh(286,"IDH_Dialog_Web_Export_Remove_Unused_Colors",1270,"xarax/IDH_Dialog_Web_Export_Remove_Unused_Colors.htm");
+  SetCsh(287,"IDH_How_Breaking_a_LineShape",280,"xarax/IDH_How_Breaking_a_LineShape.htm");
+  SetCsh(288,"IDH_How_Applying_attributes_to_a_whole_text_object",276,"xarax/IDH_How_Applying_attributes_to_a_whole_text_object.htm");
+  SetCsh(289,"IDH_How_Select_Under",267,"xarax/IDH_How_Select_Under.htm");
+  SetCsh(290,"IDH_How_Moving_and_Copying_Buttons",259,"xarax/IDH_How_Moving_and_Copying_Buttons.htm");
+  SetCsh(291,"IDH_Dialog_Bitmap_Tracer_Trace_Button",479,"xarax/IDH_Dialog_Bitmap_Tracer_Trace_Button.htm");
+  SetCsh(292,"IDH_How_Changing_the_duplication_distance",534,"xarax/IDH_How_Changing_the_duplication_distance.htm");
+  SetCsh(293,"IDH_How_Making_Text_Bold",981,"xarax/IDH_How_Making_Text_Bold.htm");
+  SetCsh(294,"IDH_How_Changing_the_Aspect_Ratio_of_Text",519,"xarax/IDH_How_Changing_the_Aspect_Ratio_of_Text.htm");
+  SetCsh(295,"IDH_Dialog_Add_Folder_Add_Button",403,"xarax/IDH_Dialog_Add_Folder_Add_Button.htm");
+  SetCsh(296,"IDH_How_Aligning_objects",415,"xarax/IDH_How_Aligning_objects.htm");
+  SetCsh(297,"IDH_How_QuickShapes_to_Shapes",609,"xarax/IDH_How_QuickShapes_to_Shapes.htm");
+  SetCsh(298,"IDH_How_Adding_Shapes",413,"xarax/IDH_How_Adding_Shapes.htm");
+  SetCsh(299,"IDH_How_Opening_Documents",1062,"xarax/IDH_How_Opening_Documents.htm");
+  SetCsh(300,"IDH_Gallery_Fill_Fill",898,"xarax/IDH_Gallery_Fill_Fill.htm");
+  SetCsh(301,"IDH_Gallery_Line_Arrows",968,"xarax/IDH_Gallery_Line_Arrows.htm");
+  SetCsh(302,"IDH_Gallery_Colour_Popup_Menu",596,"xarax/IDH_Gallery_Colour_Popup_Menu.htm");
+  SetCsh(303,"IDH_Misc_Colour_Editor_Normal_Colours",585,"xarax/IDH_Misc_Colour_Editor_Normal_Colours.htm");
+  SetCsh(304,"IDH_Popup_View",205,"xarax/IDH_Popup_View.htm");
+  SetCsh(305,"IDH_Popup_Line",197,"xarax/IDH_Popup_Line.htm");
+  SetCsh(306,"IDH_Menu_Arrange",186,"xarax/IDH_Menu_Arrange.htm");
+  SetCsh(307,"IDH_Dialog_Gallery_Properties",175,"xarax/IDH_Dialog_Gallery_Properties.htm");
+  SetCsh(308,"IDH_Dialog_Bitmap_Export_DCX",161,"xarax/IDH_Dialog_Bitmap_Export_DCX.htm");
+  SetCsh(309,"IDH_Alert_Problem_Installing_Font",142,"xarax/IDH_Alert_Problem_Installing_Font.htm");
+  SetCsh(310,"IDH_Command_Save_As_Template",80,"xarax/IDH_Command_Save_As_Template.htm");
+  SetCsh(311,"IDH_Command_Put_to_Back",74,"xarax/IDH_Command_Put_to_Back.htm");
+  SetCsh(312,"IDH_Command_Options_Output",61,"xarax/IDH_Command_Options_Output.htm");
+  SetCsh(313,"IDH_Command_Import",45,"xarax/IDH_Command_Import.htm");
+  SetCsh(314,"IDH_Selector_Tool_New_Name_Button",400,"xarax/IDH_Selector_Tool_New_Name_Button.htm");
+  SetCsh(315,"IDH_Name_Gallery_New_Button",538,"xarax/IDH_Name_Gallery_New_Button.htm");
+  SetCsh(316,"IDH_Misc_Whats_New",1394,"xarax/IDH_Misc_Whats_Under_Development.htm");
+  SetCsh(317,"IDH_Gallery_Clipart_Empty_Cache",1391,"xarax/IDH_Gallery_Clipart_Empty_Cache.htm");
+  SetCsh(318,"IDH_Gallery_Frame_All_Visible",1319,"xarax/IDH_Gallery_Frame_All_Visible.htm");
+  SetCsh(319,"IDH_Gallery_Frame_Preview",1317,"xarax/IDH_Gallery_Frame_Preview.htm");
+  SetCsh(320,"IDH_Definition_Frame",1312,"xarax/IDH_Definition_Frame.htm");
+  SetCsh(321,"IDH_Alert_Export_to_Existing_File",1311,"xarax/IDH_Alert_Export_to_Existing_File.htm");
+  SetCsh(322,"IDH_Overview_Image_Maps",1309,"xarax/IDH_Overview_Image_Maps.htm");
+  SetCsh(323,"IDH_How_Configuring_the_program_to_ask_before_setting_the_current_attributes",1337,"xarax/IDH_How_Configuring_the_program_to_ask_before_setting_the_current_attributes.htm");
+  SetCsh(324,"IDH_Dialog_Color_Editor_Component_Values",402,"xarax/IDH_Dialog_Color_Editor_Component_Values.htm");
+  SetCsh(325,"IDH_How_Applying_special_effects_to_bitmaps",1332,"xarax/IDH_How_Applying_special_effects_to_bitmaps.htm");
+  SetCsh(326,"IDH_How_Flipping_and_rotating_bitmaps",1033,"xarax/IDH_How_Flipping_and_rotating_bitmaps.htm");
+  SetCsh(327,"IDH_Definition_S",1295,"xarax/IDH_Definitions.htm#IDH_Definition_S");
+  SetCsh(328,"IDH_Definition_B",1277,"xarax/IDH_Definitions.htm#IDH_Definition_B");
+  SetCsh(329,"IDH_Tool_Text_Tracking_and_Line_Spacing",1228,"xarax/IDH_Tool_Text_Tracking_and_Line_Spacing.htm");
+  SetCsh(330,"IDH_Tool_Text_Italic",1226,"xarax/IDH_Tool_Text_Italic.htm");
+  SetCsh(331,"IDH_Tool_Text_Justification_Full",1225,"xarax/IDH_Tool_Text_Justification_Full.htm");
+  SetCsh(332,"IDH_How_Swapping_the_Selection_of_a_Point_Hande",1211,"xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm");
+  SetCsh(333,"IDH_How_Selecting_Point_Handles",1166,"xarax/IDH_How_Selecting_Point_Handles.htm");
+  SetCsh(334,"IDH_How_Selecting_Gallery_Items",1163,"xarax/IDH_How_Selecting_Gallery_Items.htm");
+  SetCsh(335,"IDH_How_Rotating_by_Dragging",1144,"xarax/IDH_How_Rotating_by_Dragging.htm");
+  SetCsh(336,"IDH_How_Reshaping_Text_on_a_Curve",1138,"xarax/IDH_How_Reshaping_Text_on_a_Curve.htm");
+  SetCsh(337,"IDH_Tool_Rectangle_Parameters",1120,"xarax/IDH_Tool_Rectangle_Parameters.htm");
+  SetCsh(338,"IDH_Tool_Rectangle_Mode",1119,"xarax/IDH_Tool_Rectangle_Mode.htm");
+  SetCsh(339,"IDH_Tool_QuickShape_Star",1114,"xarax/IDH_Tool_QuickShape_Star.htm");
+  SetCsh(340,"IDH_Tool_Mould_Detach",993,"xarax/IDH_Tool_Mould_Detach.htm");
+  SetCsh(341,"IDH_Tool_Mould_Copy_Mould",990,"xarax/IDH_Tool_Mould_Copy_Mould.htm");
+  SetCsh(342,"IDH_How_Importing_Colours",950,"xarax/IDH_How_Importing_Colours.htm");
+  SetCsh(343,"IDH_How_Freehand_Erasing",889,"xarax/IDH_How_Freehand_Erasing.htm");
+  SetCsh(344,"IDH_How_Enabling_Grid_Snapping",883,"xarax/IDH_How_Enabling_Grid_Snapping.htm");
+  SetCsh(345,"IDH_How_Drawing_a_Shape_with_the_Pen_Tool",869,"xarax/IDH_How_Drawing_a_Shape_with_the_Pen_Tool.htm");
+  SetCsh(346,"IDH_Definition_Rendering",790,"xarax/IDH_Definition_Rendering.htm");
+  SetCsh(347,"IDH_Definition_Object_Snapping",770,"xarax/IDH_Definition_Object_Snapping.htm");
+  SetCsh(348,"IDH_Definition_Layer",754,"xarax/IDH_Definition_Layer.htm");
+  SetCsh(349,"IDH_Definition_Fill",718,"xarax/IDH_Definition_Fill.htm");
+  SetCsh(350,"IDH_Definition_Dash",700,"xarax/IDH_Definition_Dash.htm");
+  SetCsh(351,"IDH_Definition_Colour_Model",689,"xarax/IDH_Definition_Colour_Model.htm");
+  SetCsh(352,"IDH_How_Blend_Effect",572,"xarax/IDH_How_Blend_Effect.htm");
+  SetCsh(353,"IDH_How_Applying_Fractal_Transparency",439,"xarax/IDH_How_Applying_Fractal_Transparency.htm");
+  SetCsh(354,"IDH_How_Applying_Fractal_Fills",438,"xarax/IDH_How_Applying_Fractal_Fills.htm");
+  SetCsh(355,"IDH_How_Applying_Circular_Fills",430,"xarax/IDH_How_Applying_Circular_Fills.htm");
+  SetCsh(356,"IDH_How_Adding_Fills_to_the_Fill_Gallery",412,"xarax/IDH_How_Adding_Fills_to_the_Fill_Gallery.htm");
+  SetCsh(357,"IDH_How_Changing_a_Named_Colour",391,"xarax/IDH_How_Changing_a_Named_Colour.htm");
+  SetCsh(358,"IDH_How_Creating_simple_pattern_fills",356,"xarax/IDH_How_Creating_simple_pattern_fills.htm");
+  SetCsh(359,"IDH_How_Changing_the_colors_in_a_four_color_fill",529,"xarax/IDH_How_Changing_the_colors_in_a_four_color_fill.htm");
+  SetCsh(360,"IDH_How_Applying_Diamond_Fills",319,"xarax/IDH_How_Applying_Diamond_Fills.htm");
+  SetCsh(361,"IDH_How_Creating_small_XAR_and_WEB_files",652,"xarax/IDH_How_Creating_small_XAR_and_WEB_files.htm");
+  SetCsh(362,"IDH_Dialog_Web_Address_Add",1261,"xarax/IDH_Dialog_Web_Address_Add.htm");
+  SetCsh(363,"IDH_How_Selecting_Text_Regions",275,"xarax/IDH_How_Selecting_Text_Regions.htm");
+  SetCsh(364,"IDH_How_Changing_the_Quality_Setting",265,"xarax/IDH_How_Changing_the_Quality_Setting.htm");
+  SetCsh(365,"IDH_Dialog_Bitmap_Export_PNG",242,"xarax/IDH_Dialog_Bitmap_Export_PNG.htm");
+  SetCsh(366,"IDH_How_Nudging_objects_and_handles",388,"xarax/IDH_How_Nudging_objects_and_handles.htm");
+  SetCsh(367,"IDH_How_Changing_the_screen_dithering",558,"xarax/IDH_How_Changing_the_screen_dithering.htm");
+  SetCsh(368,"IDH_How_Removing_Objects_From_Groups",1126,"xarax/IDH_How_Removing_Objects_From_Groups.htm");
+  SetCsh(369,"IDH_Dialog_Control_Bars_New_Button",604,"xarax/IDH_Dialog_Control_Bars_New_Button.htm");
+  SetCsh(370,"IDH_How_Ensuring_the_current_layer_is_always_editable",888,"xarax/IDH_How_Ensuring_the_current_layer_is_always_editable.htm");
+  SetCsh(371,"IDH_How_Anti_aliasing_steps_in_blends",422,"xarax/IDH_How_Anti_aliasing_steps_in_blends.htm");
+  SetCsh(372,"IDH_Definition_Aspect_Ratio",669,"xarax/IDH_Definition_Aspect_Ratio.htm");
+  SetCsh(373,"IDH_Command_Create_Bitmap_Copy",236,"xarax/IDH_Command_Create_Bitmap_Copy.htm");
+  SetCsh(374,"IDH_How_Creating_BMP_files",633,"xarax/IDH_How_Creating_BMP_files.htm");
+  SetCsh(375,"IDH_How_Printing_Documents",1072,"xarax/IDH_How_Printing_Documents.htm");
+  SetCsh(376,"IDH_How_Adding_Arrowheads_to_Lines",408,"xarax/IDH_How_Adding_Arrowheads_to_Lines.htm");
+  SetCsh(377,"IDH_How_Changing_a_Conical_Transparency",501,"xarax/IDH_How_Changing_a_Conical_Transparency.htm");
+  SetCsh(378,"IDH_How_Finding_Clipart",913,"xarax/IDH_How_Finding_Clipart.htm");
+  SetCsh(379,"IDH_Gallery_Fill_Transparency",903,"xarax/IDH_Gallery_Fill_Transparency.htm");
+  SetCsh(380,"IDH_Misc_Colour_Editor_Shade_Colours",586,"xarax/IDH_Misc_Colour_Editor_Shade_Colours.htm");
+  SetCsh(381,"IDH_Misc_Tools",195,"xarax/IDH_Misc_Tools.htm");
+  SetCsh(382,"IDH_Menu_Edit",187,"xarax/IDH_Menu_Edit.htm");
+  SetCsh(383,"IDH_How_Editing_Colors_in_HSV",171,"xarax/IDH_How_Editing_Colors_in_HSV.htm");
+  SetCsh(384,"IDH_Alert_Bad_Pentium",101,"xarax/IDH_Alert_Bad_Pentium.htm");
+  SetCsh(385,"IDH_Command_Print_Text_as_Shapes",73,"xarax/IDH_Command_Print_Text_as_Shapes.htm");
+  SetCsh(386,"IDH_Command_Print_Setup",72,"xarax/IDH_Command_Print_Setup.htm");
+  SetCsh(387,"IDH_Command_Paste",68,"xarax/IDH_Command_Paste.htm");
+  SetCsh(388,"IDH_Command_Move_to_Layer_in_Front",54,"xarax/IDH_Command_Move_to_Layer_in_Front.htm");
+  SetCsh(389,"IDH_Command_Contents",28,"xarax/IDH_Command_Contents.htm");
+  SetCsh(390,"IDH_Command_Clipart_Gallery",22,"xarax/IDH_Command_Clipart_Gallery.htm");
+  SetCsh(391,"IDH_Command_Break_Shapes",18,"xarax/IDH_Command_Break_Shapes.htm");
+  SetCsh(392,"IDH_Command_Bitmap_Gallery",14,"xarax/IDH_Command_Bitmap_Gallery.htm");
+  SetCsh(393,"IDH_How_Lighting_Effects",406,"xarax/IDH_How_Lighting_Effects.htm");
+  SetCsh(394,"IDH_Command_Name_Gallery",575,"xarax/IDH_Command_Name_Gallery.htm");
+  SetCsh(395,"IDH_Definition_C",1279,"xarax/IDH_Definitions.htm#IDH_Definition_C");
+  SetCsh(396,"IDH_How_Adding_Custom_Brush_Strokes",1217,"xarax/IDH_How_Adding_Custom_Brush_Strokes.htm");
+  SetCsh(397,"IDH_Gallery_Font_Empty_Web_Cache",1389,"xarax/IDH_Gallery_Font_Empty_Web_Cache.htm");
+  SetCsh(398,"IDH_Dialog_Animation_Properties_Preview_in_Browser",1376,"xarax/IDH_Dialog_Animation_Properties_Preview_in_Browser.htm");
+  SetCsh(399,"IDH_How_Exporting_image_maps",1310,"xarax/IDH_How_Exporting_image_maps.htm");
+  SetCsh(400,"IDH_Dialog_Animation_Properties_Animation_Looping_and_Speed",1156,"xarax/IDH_Dialog_Animation_Properties_Animation_Looping_and_Speed.htm");
+  SetCsh(401,"IDH_Dialog_Animation_Properties_Frame_Properties",1057,"xarax/IDH_Dialog_Animation_Properties_Frame_Properties.htm");
+  SetCsh(402,"IDH_Dialog_Color_Editor_Color_Model",399,"xarax/IDH_Dialog_Color_Editor_Color_Model.htm");
+  SetCsh(403,"IDH_Definition_T",1296,"xarax/IDH_Definitions.htm#IDH_Definition_T");
+  SetCsh(404,"IDH_Misc_Window_Control_Bar",1264,"xarax/IDH_Misc_Window_Control_Bar.htm");
+  SetCsh(405,"IDH_Overview_Units",1250,"xarax/IDH_Overview_Units.htm");
+  SetCsh(406,"IDH_Tool_Transparency_Grain",1237,"xarax/IDH_Tool_Transparency_Grain.htm");
+  SetCsh(407,"IDH_How_Skew_Accurately",1199,"xarax/IDH_How_Skew_Accurately.htm");
+  SetCsh(408,"IDH_Tool_Shape_Parameters",1193,"xarax/IDH_Tool_Shape_Parameters.htm");
+  SetCsh(409,"IDH_Tool_Selector_Selection_Handles",1180,"xarax/IDH_Tool_Selector_Selection_Handles.htm");
+  SetCsh(410,"IDH_How_Selecting_Several_Point_Handles",1168,"xarax/IDH_How_Selecting_Several_Point_Handles.htm");
+  SetCsh(411,"IDH_How_Scaling_Ellipses",1151,"xarax/IDH_How_Scaling_Ellipses.htm");
+  SetCsh(412,"IDH_How_Rotating_Accurately",1143,"xarax/IDH_How_Rotating_Accurately.htm");
+  SetCsh(413,"IDH_How_Re_ordering_Layers",1135,"xarax/IDH_How_Re_ordering_Layers.htm");
+  SetCsh(414,"IDH_Tool_Rectangle_Radius_Creation",1121,"xarax/IDH_Tool_Rectangle_Radius_Creation.htm");
+  SetCsh(415,"IDH_How_Moving_the_Page",1022,"xarax/IDH_How_Moving_the_Page.htm");
+  SetCsh(416,"IDH_How_Enabling_guide_snapping",884,"xarax/IDH_How_Enabling_guide_snapping.htm");
+  SetCsh(417,"IDH_How_Enabling_Fill_Handles",882,"xarax/IDH_How_Enabling_Fill_Handles.htm");
+  SetCsh(418,"IDH_Tool_Ellipse_Diameter_Creation",877,"xarax/IDH_Tool_Ellipse_Diameter_Creation.htm");
+  SetCsh(419,"IDH_How_Drawing_a_Line_Shape_Editor_Tool",864,"xarax/IDH_How_Drawing_a_Line_Shape_Editor_Tool.htm");
+  SetCsh(420,"IDH_How_Light_Source",859,"xarax/IDH_How_Light_Source.htm");
+  SetCsh(421,"IDH_Definition_Zoom",840,"xarax/IDH_Definition_Zoom.htm");
+  SetCsh(422,"IDH_Definition_Vector_Format",835,"xarax/IDH_Definition_Vector_Format.htm");
+  SetCsh(423,"IDH_Definition_Undo",833,"xarax/IDH_Definition_Undo.htm");
+  SetCsh(424,"IDH_Definition_TrueType",832,"xarax/IDH_Definition_TrueType.htm");
+  SetCsh(425,"IDH_Definition_Spread",815,"xarax/IDH_Definition_Spread.htm");
+  SetCsh(426,"IDH_Definition_Quality",784,"xarax/IDH_Definition_Quality.htm");
+  SetCsh(427,"IDH_Definition_Mitre_Join",762,"xarax/IDH_Definition_Mitre_Join.htm");
+  SetCsh(428,"IDH_Definition_Linear_Fill",757,"xarax/IDH_Definition_Linear_Fill.htm");
+  SetCsh(429,"IDH_Definition_Group",738,"xarax/IDH_Definition_Group.htm");
+  SetCsh(430,"IDH_Definition_Grayscale_Bitmap",736,"xarax/IDH_Definition_Grayscale_Bitmap.htm");
+  SetCsh(431,"IDH_Definition_Film",721,"xarax/IDH_Definition_Film.htm");
+  SetCsh(432,"IDH_Definition_EPS",716,"xarax/IDH_Definition_EPS.htm");
+  SetCsh(433,"IDH_Definition_Document_Control_Menu",709,"xarax/IDH_Definition_Document_Control_Menu.htm");
+  SetCsh(434,"IDH_Definition_Compound_Object",690,"xarax/IDH_Definition_Compound_Object.htm");
+  SetCsh(435,"IDH_Definition_Bitmap_Transparency",677,"xarax/IDH_Definition_Bitmap_Transparency.htm");
+  SetCsh(436,"IDH_Definition_Bitmap_Fill",675,"xarax/IDH_Definition_Bitmap_Fill.htm");
+  SetCsh(437,"IDH_Dialog_Create_Bitmap_Copy_Size_and_Resolution",622,"xarax/IDH_Dialog_Create_Bitmap_Copy_Size_and_Resolution.htm");
+  SetCsh(438,"IDH_How_Changing_the_Tracking_of_Text",569,"xarax/IDH_How_Changing_the_Tracking_of_Text.htm");
+  SetCsh(439,"IDH_How_Changing_Conical_Fill_Colours",527,"xarax/IDH_How_Changing_Conical_Fill_Colours.htm");
+  SetCsh(440,"IDH_How_Changing_Shade_Colours",517,"xarax/IDH_How_Changing_Shade_Colours.htm");
+  SetCsh(441,"IDH_Tool_Blend_One_to_One",485,"xarax/IDH_Tool_Blend_One_to_One.htm");
+  SetCsh(442,"IDH_How_Applying_Elliptical_Fills",434,"xarax/IDH_How_Applying_Elliptical_Fills.htm");
+  SetCsh(443,"IDH_How_Applying_Circular_Transparency",431,"xarax/IDH_How_Applying_Circular_Transparency.htm");
+  SetCsh(444,"IDH_Alert_Only_named_colors_can_be_spot_colors",357,"xarax/IDH_Alert_Only_named_colors_can_be_spot_colors.htm");
+  SetCsh(445,"IDH_How_Moving_three_color_fill_handles",333,"xarax/IDH_How_Moving_three_color_fill_handles.htm");
+  SetCsh(446,"IDH_How_Changing_diamond_fills",322,"xarax/IDH_How_Changing_diamond_fills.htm");
+  SetCsh(447,"IDH_How_Applying_Three_Color_Fills",321,"xarax/IDH_How_Applying_Three_Color_Fills.htm");
+  SetCsh(448,"IDH_How_Applying_Four_Color_Fills",320,"xarax/IDH_How_Applying_Four_Color_Fills.htm");
+  SetCsh(449,"IDH_How_Putting_Web_files_on_the_Web",308,"xarax/IDH_How_Putting_Web_files_on_the_Web.htm");
+  SetCsh(450,"IDH_Dialog_Web_Export_Area_to_View",1265,"xarax/IDH_Dialog_Web_Export_Area_to_View.htm");
+  SetCsh(451,"IDH_How_Polygon_Curved_Corners",273,"xarax/IDH_How_Polygon_Curved_Corners.htm");
+  SetCsh(452,"IDH_How_QuickViewing_CorelXARA_documents",290,"xarax/IDH_How_QuickViewing_CorelXARA_documents.htm");
+  SetCsh(453,"IDH_Dialog_Gallery_Find_Search_Type",930,"xarax/IDH_Dialog_Gallery_Find_Search_Type.htm");
+  SetCsh(454,"IDH_Dialog_Web_Export",243,"xarax/IDH_Dialog_Web_Export.htm");
+  SetCsh(455,"IDH_How_Enabling_Interactive_Fill_Dragging",885,"xarax/IDH_How_Enabling_Interactive_Fill_Dragging.htm");
+  SetCsh(456,"IDH_How_Justifying_text",958,"xarax/IDH_How_Justifying_text.htm");
+  SetCsh(457,"IDH_Overview_CorelXARA_EPS",617,"xarax/IDH_Overview_CorelXARA_EPS.htm");
+  SetCsh(458,"IDH_Dialog_Bitmap_Export_Dithering",452,"xarax/IDH_Dialog_Bitmap_Export_Dithering.htm");
+  SetCsh(459,"IDH_How_Converting_groups_to_shapes",607,"xarax/IDH_How_Converting_groups_to_shapes.htm");
+  SetCsh(460,"IDH_How_Slicing_Shapes",1201,"xarax/IDH_How_Slicing_Shapes.htm");
+  SetCsh(461,"IDH_How_Savng_Documents",1149,"xarax/IDH_How_Savng_Documents.htm");
+  SetCsh(462,"IDH_Gallery_Clipart_Popup_Menu",580,"xarax/IDH_Gallery_Clipart_Popup_Menu.htm");
+  SetCsh(463,"IDH_Gallery_Clipart_Open",578,"xarax/IDH_Gallery_Clipart_Open.htm");
+  SetCsh(464,"IDH_Gallery_Clipart_Options",579,"xarax/IDH_Gallery_Clipart_Options.htm");
+  SetCsh(465,"IDH_Gallery_Clipart_Import",577,"xarax/IDH_Gallery_Clipart_Import.htm");
+  SetCsh(466,"IDH_Dialog_Rename_Colour",1131,"xarax/IDH_Dialog_Rename_Colour.htm");
+  SetCsh(467,"IDH_Tool_Text",218,"xarax/IDH_Tool_Text.htm");
+  SetCsh(468,"IDH_Popup_Selection",203,"xarax/IDH_Popup_Selection.htm");
+  SetCsh(469,"IDH_How_Editing_colors_in_CMYK",170,"xarax/IDH_How_Editing_colors_in_CMYK.htm");
+  SetCsh(470,"IDH_Alert_File_Cannot_All_be_Imported",114,"xarax/IDH_Alert_File_Cannot_All_be_Imported.htm");
+  SetCsh(471,"IDH_Alert_File_Cannot_All_be_Exported",113,"xarax/IDH_Alert_File_Cannot_All_be_Exported.htm");
+  SetCsh(472,"IDH_Command_Show_Grid",83,"xarax/IDH_Command_Show_Grid.htm");
+  SetCsh(473,"IDH_Command_Move_Forwards",52,"xarax/IDH_Command_Move_Forwards.htm");
+  SetCsh(474,"IDH_Command_Document_Info",34,"xarax/IDH_Command_Document_Info.htm");
+  SetCsh(475,"IDH_NavBar_Edit_States_Dialog_Box",678,"xarax/IDH_NavBar_Edit_States_Dialog_Box.htm");
+  SetCsh(476,"IDH_Command_Options_Plugin",1354,"xarax/IDH_Command_Options_Plugin.htm");
+  SetCsh(477,"Dilation_Bitmap_Effect",705,"xarax/Dilation_Bitmap_Effect.htm");
+  SetCsh(478,"IDH_How_Optimizing_CAMELOT_for_your_Internet_connection",1351,"xarax/IDH_How_Optimizing_CAMELOT_for_your_Internet_connection.htm");
+  SetCsh(479,"IDH_Gallery_Frame_Copy",1314,"xarax/IDH_Gallery_Frame_Copy.htm");
+  SetCsh(480,"IDH_How_Tracer_Troubleshooting_Too_Many_Shapes",598,"xarax/IDH_How_Tracer_Troubleshooting_Too_Many_Shapes.htm");
+  SetCsh(481,"IDH_Definition_Fill_Tool_Infobar",392,"xarax/IDH_Definition_Fill_Tool_Infobar.htm");
+  SetCsh(482,"IDH_Definition_Shape_Editor_Tool_Infobar",1306,"xarax/IDH_Definition_Shape_Editor_Tool_Infobar.htm");
+  SetCsh(483,"IDH_Definition_U",1297,"xarax/IDH_Definitions.htm#IDH_Definition_U");
+  SetCsh(484,"IDH_Definition_D",1280,"xarax/IDH_Definitions.htm#IDH_Definition_D");
+  SetCsh(485,"IDH_Misc_Mouse_Use",1255,"xarax/IDH_Misc_Mouse_Use.htm");
+  SetCsh(486,"IDH_Tool_Text_Justification_Right",1229,"xarax/IDH_Tool_Text_Justification_Right.htm");
+  SetCsh(487,"IDH_Tool_Text_Font_Size",1224,"xarax/IDH_Tool_Text_Font_Size.htm");
+  SetCsh(488,"IDH_Tool_Shape_Mode",1192,"xarax/IDH_Tool_Shape_Mode.htm");
+  SetCsh(489,"IDH_Tool_Selector_Rotation",1177,"xarax/IDH_Tool_Selector_Rotation.htm");
+  SetCsh(490,"IDH_Tool_Selector_Flip",1175,"xarax/IDH_Tool_Selector_Flip.htm");
+  SetCsh(491,"IDH_How_Scaling_Rectangles",1154,"xarax/IDH_How_Scaling_Rectangles.htm");
+  SetCsh(492,"IDH_Tool_QuickShape_Flatten",1112,"xarax/IDH_Tool_QuickShape_Flatten.htm");
+  SetCsh(493,"IDH_Tool_QuickShape_Mode",1108,"xarax/IDH_Tool_QuickShape_Mode.htm");
+  SetCsh(494,"IDH_How_Moving_QuickShapes",1019,"xarax/IDH_How_Moving_QuickShapes.htm");
+  SetCsh(495,"IDH_How_Moving_guidelines",1012,"xarax/IDH_How_Moving_guidelines.htm");
+  SetCsh(496,"IDH_How_Moving_and_Resizing_Galleries",1005,"xarax/IDH_How_Moving_and_Resizing_Galleries.htm");
+  SetCsh(497,"IDH_Tool_Mould_Remove",1000,"xarax/IDH_Tool_Mould_Remove.htm");
+  SetCsh(498,"IDH_Misc_Buttons",974,"xarax/IDH_Misc_Buttons.htm");
+  SetCsh(499,"IDH_Tool_Freehand_Refit",924,"xarax/IDH_Tool_Freehand_Refit.htm");
+  SetCsh(500,"IDH_Tool_Fill_Tiling",911,"xarax/IDH_Tool_Fill_Tiling.htm");
+  SetCsh(501,"IDH_Definition_View",836,"xarax/IDH_Definition_View.htm");
+  SetCsh(502,"IDH_Definition_Value",834,"xarax/IDH_Definition_Value.htm");
+  SetCsh(503,"IDH_Definition_Roberts_Cross",792,"xarax/IDH_Definition_Roberts_Cross.htm");
+  SetCsh(504,"IDH_Definition_Registration_Black",789,"xarax/IDH_Definition_Registration_Black.htm");
+  SetCsh(505,"IDH_Definition_Line",756,"xarax/IDH_Definition_Line.htm");
+  SetCsh(506,"IDH_Definition_Hue",744,"xarax/IDH_Definition_Hue.htm");
+  SetCsh(507,"IDH_Definition_Four_Color_Fill",728,"xarax/IDH_Definition_Four_Color_Fill.htm");
+  SetCsh(508,"IDH_Definition_Butt_Cap",684,"xarax/IDH_Definition_Butt_Cap.htm");
+  SetCsh(509,"IDH_How_Creating_PNG_files",647,"xarax/IDH_How_Creating_PNG_files.htm");
+  SetCsh(510,"IDH_How_Creating_a_named_colour",629,"xarax/IDH_How_Creating_a_named_colour.htm");
+  SetCsh(511,"IDH_How_Creating_a_Custom_Unit",627,"xarax/IDH_How_Creating_a_Custom_Unit.htm");
+  SetCsh(512,"IDH_How_Changing_Flat_Transparency",508,"xarax/IDH_How_Changing_Flat_Transparency.htm");
+  SetCsh(513,"IDH_How_Editing_Bitmaps",496,"xarax/IDH_How_Editing_Bitmaps.htm");
+  SetCsh(514,"IDH_How_Changing_an_Ellipse_into_a_Polygon",494,"xarax/IDH_How_Changing_an_Ellipse_into_a_Polygon.htm");
+  SetCsh(515,"IDH_How_Changing_a_Mould_Without_Redraw",491,"xarax/IDH_How_Changing_a_Mould_Without_Redraw.htm");
+  SetCsh(516,"IDH_How_Applying_Linear_Fills",440,"xarax/IDH_How_Applying_Linear_Fills.htm");
+  SetCsh(517,"IDH_How_Applying_Conical_Fills",432,"xarax/IDH_How_Applying_Conical_Fills.htm");
+  SetCsh(518,"IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Loop",420,"xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Loop.htm");
+  SetCsh(519,"IDH_Overview_Layers",359,"xarax/IDH_Overview_Layers.htm");
+  SetCsh(520,"IDH_Alert_You_cannot_create_spot_colors",354,"xarax/IDH_Alert_You_cannot_create_spot_colors.htm");
+  SetCsh(521,"IDH_How_Changing_four_point_transparency",341,"xarax/IDH_How_Changing_four_point_transparency.htm");
+  SetCsh(522,"IDH_How_Changing_three_point_transparency",340,"xarax/IDH_How_Changing_three_point_transparency.htm");
+  SetCsh(523,"IDH_How_Applying_four_point_transparency",338,"xarax/IDH_How_Applying_four_point_transparency.htm");
+  SetCsh(524,"IDH_How_Resizing_paragraph_text",331,"xarax/IDH_How_Resizing_paragraph_text.htm");
+  SetCsh(525,"IDH_Misc_Colour_Editor_Spot_Colors",587,"xarax/IDH_Misc_Colour_Editor_Spot_Colors.htm");
+  SetCsh(526,"IDH_How_Scaling_by_Dragging",284,"xarax/IDH_How_Scaling_by_Dragging.htm");
+  SetCsh(527,"IDH_How_Copying_Objects",281,"xarax/IDH_How_Copying_Objects.htm");
+  SetCsh(528,"IDH_Dialog_Bitmap_Tracer_Smoothing",478,"xarax/IDH_Dialog_Bitmap_Tracer_Smoothing.htm");
+  SetCsh(529,"IDH_Dialog_Bitmap_Tracer_Minimum_Area",473,"xarax/IDH_Dialog_Bitmap_Tracer_Minimum_Area.htm");
+  SetCsh(530,"IDH_Dialog_Bitmap_Tracer_Default_Button",469,"xarax/IDH_Dialog_Bitmap_Tracer_Default_Button.htm");
+  SetCsh(531,"IDH_Dialog_Gallery_Find_Find_First_Button",928,"xarax/IDH_Dialog_Gallery_Find_Find_First_Button.htm");
+  SetCsh(532,"IDH_How_Changing_the_Line_Spacing_of_Text",563,"xarax/IDH_How_Changing_the_Line_Spacing_of_Text.htm");
+  SetCsh(533,"IDH_How_Creating_bitmaps",632,"xarax/IDH_How_Creating_bitmaps.htm");
+  SetCsh(534,"IDH_How_Creating_GIF_files",638,"xarax/IDH_How_Creating_GIF_files.htm");
+  SetCsh(535,"IDH_Overview_Fills",912,"xarax/IDH_Overview_Fills.htm");
+  SetCsh(536,"IDH_How_Changing_The_Template_Document",260,"xarax/IDH_How_Changing_The_Template_Document.htm");
+  SetCsh(537,"IDH_How_Changing_Fractal_Transparency",510,"xarax/IDH_How_Changing_Fractal_Transparency.htm");
+  SetCsh(538,"IDH_How_Creating_Objects_with_Holes",651,"xarax/IDH_How_Creating_Objects_with_Holes.htm");
+  SetCsh(539,"IDH_Gallery_Clipart_Remove",581,"xarax/IDH_Gallery_Clipart_Remove.htm");
+  SetCsh(540,"IDH_Dialog_New_Named_Colour",1059,"xarax/IDH_Dialog_New_Named_Colour.htm");
+  SetCsh(541,"IDH_Dialog_PhotoCD_Import",231,"xarax/IDH_Dialog_PhotoCD_Import.htm");
+  SetCsh(542,"IDH_Popup_Mould",198,"xarax/IDH_Popup_Mould.htm");
+  SetCsh(543,"IDH_Dialog_Paste_Special",177,"xarax/IDH_Dialog_Paste_Special.htm");
+  SetCsh(544,"IDH_How_Editing_colors_in_RGB",172,"xarax/IDH_How_Editing_colors_in_RGB.htm");
+  SetCsh(545,"IDH_Alert_Library_No_Files",131,"xarax/IDH_Alert_Library_No_Files.htm");
+  SetCsh(546,"IDH_Alert_GIF_Transparency_Mask_Creation_Failed",121,"xarax/IDH_Alert_GIF_Transparency_Mask_Creation_Failed.htm");
+  SetCsh(547,"IDH_Alert_File_is_Read_Only",116,"xarax/IDH_Alert_File_is_Read_Only.htm");
+  SetCsh(548,"IDH_Alert_File_Exists",115,"xarax/IDH_Alert_File_Exists.htm");
+  SetCsh(549,"IDH_Command_Open",57,"xarax/IDH_Command_Open.htm");
+  SetCsh(550,"IDH_Command_New",55,"xarax/IDH_Command_New.htm");
+  SetCsh(551,"IDH_Command_Add_Shapes",2,"xarax/IDH_Command_Add_Shapes.htm");
+  SetCsh(552,"IDH_NavBar_Edit_Design_Dialog_Box",763,"xarax/IDH_NavBar_Edit_Design_Dialog_Box.htm");
+  SetCsh(553,"IDH_Command_Use_Help_From_CD",8,"xarax/IDH_Command_Use_Help_From_CD.htm");
+  SetCsh(554,"IDH_Gallery_Name",1400,"xarax/IDH_Gallery_Name.htm");
+  SetCsh(555,"Definition_Edge_Detection_Bitmap_Effect",710,"xarax/Definition_Edge_Detection_Bitmap_Effect.htm");
+  SetCsh(556,"IDH_Gallery_Font_Emprt_Web_Font_Cache",1390,"xarax/IDH_Gallery_Font_Emprt_Web_Font_Cache.htm");
+  SetCsh(557,"IDH_Definition_Browser_Palette",1383,"xarax/IDH_Definition_Browser_Palette.htm");
+  SetCsh(558,"IDH_Dialog_Preview_Animation",1324,"xarax/IDH_Dialog_Preview_Animation.htm");
+  SetCsh(559,"IDH_Command_Frame_Gallery",1054,"xarax/IDH_Command_Frame_Gallery.htm");
+  SetCsh(560,"IDH_How_Tracer_Troubleshooting_Sharp_edges_look_blurred",1037,"xarax/IDH_How_Tracer_Troubleshooting_Sharp_edges_look_blurred.htm");
+  SetCsh(561,"IDH_Alert_Cannot_Open_Web_Page",1028,"xarax/IDH_Alert_Cannot_Open_Web_Page.htm");
+  SetCsh(562,"IDH_How_Changing_the_gallery_cache_size",1333,"xarax/IDH_How_Changing_the_gallery_cache_size.htm");
+  SetCsh(563,"IDH_Definition_V",1298,"xarax/IDH_Definitions.htm#IDH_Definition_V");
+  SetCsh(564,"IDH_Definition_E",1281,"xarax/IDH_Definitions.htm#IDH_Definition_E");
+  SetCsh(565,"IDH_How_Using_rulers",1252,"xarax/IDH_How_Using_rulers.htm");
+  SetCsh(566,"IDH_Tool_Text_Baseline_and_Kerning",1220,"xarax/IDH_Tool_Text_Baseline_and_Kerning.htm");
+  SetCsh(567,"IDH_How_Stretching",1208,"xarax/IDH_How_Stretching.htm");
+  SetCsh(568,"IDH_Misc_Standard_Control_Bar",1205,"xarax/IDH_Misc_Standard_Control_Bar.htm");
+  SetCsh(569,"IDH_How_Setting_the_Color_Model_for_Local_Colors",1188,"xarax/IDH_How_Setting_the_Color_Model_for_Local_Colors.htm");
+  SetCsh(570,"IDH_How_Setting_Program_Options",1187,"xarax/IDH_How_Setting_Program_Options.htm");
+  SetCsh(571,"IDH_How_Selecting_a_Member",1157,"xarax/IDH_How_Selecting_a_Member.htm");
+  SetCsh(572,"IDH_How_Scaling",1152,"xarax/IDH_How_Scaling.htm");
+  SetCsh(573,"IDH_How_Previous_Zoom",1139,"xarax/IDH_How_Previous_Zoom.htm");
+  SetCsh(574,"IDH_Overview_QuickShapes",1115,"xarax/IDH_Overview_QuickShapes.htm");
+  SetCsh(575,"IDH_Tool_Mould_Grid",997,"xarax/IDH_Tool_Mould_Grid.htm");
+  SetCsh(576,"IDH_Misc_File_Control_Bar",896,"xarax/IDH_Misc_File_Control_Bar.htm");
+  SetCsh(577,"IDH_Tool_Ellipse_Radius_Creation",880,"xarax/IDH_Tool_Ellipse_Radius_Creation.htm");
+  SetCsh(578,"IDH_Definition_Shape",810,"xarax/IDH_Definition_Shape.htm");
+  SetCsh(579,"IDH_Definition_Select_Member",803,"xarax/IDH_Definition_Select_Member.htm");
+  SetCsh(580,"IDH_Definition_Redraw",788,"xarax/IDH_Definition_Redraw.htm");
+  SetCsh(581,"IDH_Definition_Panose",776,"xarax/IDH_Definition_Panose.htm");
+  SetCsh(582,"IDH_Definition_Panning",775,"xarax/IDH_Definition_Panning.htm");
+  SetCsh(583,"IDH_Definition_Interlacing",748,"xarax/IDH_Definition_Interlacing.htm");
+  SetCsh(584,"IDH_Definition_Grid",737,"xarax/IDH_Definition_Grid.htm");
+  SetCsh(585,"IDH_Definition_Fractal_Transparency",731,"xarax/IDH_Definition_Fractal_Transparency.htm");
+  SetCsh(586,"IDH_Definition_Floating",725,"xarax/IDH_Definition_Floating.htm");
+  SetCsh(587,"IDH_Definition_Elliptical_Fill",712,"xarax/IDH_Definition_Elliptical_Fill.htm");
+  SetCsh(588,"IDH_Definition_Bromide",683,"xarax/IDH_Definition_Bromide.htm");
+  SetCsh(589,"IDH_Misc_Basics",613,"xarax/IDH_Misc_Basics.htm");
+  SetCsh(590,"IDH_How_Changing_Fill_Type",570,"xarax/IDH_How_Changing_Fill_Type.htm");
+  SetCsh(591,"IDH_How_Changing_Bitmap_Fill_Tiling",564,"xarax/IDH_How_Changing_Bitmap_Fill_Tiling.htm");
+  SetCsh(592,"IDH_How_Changing_Bitmap_Fill_Resolution",554,"xarax/IDH_How_Changing_Bitmap_Fill_Resolution.htm");
+  SetCsh(593,"IDH_How_QuickShape_Sides",550,"xarax/IDH_How_QuickShape_Sides.htm");
+  SetCsh(594,"IDH_How_Changing_text_font",518,"xarax/IDH_How_Changing_text_font.htm");
+  SetCsh(595,"IDH_How_Editing_Circular_Fills",498,"xarax/IDH_How_Editing_Circular_Fills.htm");
+  SetCsh(596,"IDH_How_Applying_Fills",436,"xarax/IDH_How_Applying_Fills.htm");
+  SetCsh(597,"IDH_Tool_Shape_Delete",307,"xarax/IDH_Tool_Shape_Delete.htm");
+  SetCsh(598,"IDH_Alert_Web_Address_Too_Long",353,"xarax/IDH_Alert_Web_Address_Too_Long.htm");
+  SetCsh(599,"IDH_How_Creating_column_text",330,"xarax/IDH_How_Creating_column_text.htm");
+  SetCsh(600,"IDH_Alert_Overwrite_V1_file_with_a_V1_5",295,"xarax/IDH_Alert_Overwrite_V1_file_with_a_V1_5.htm");
+  SetCsh(601,"IDH_How_Copying_colour_to_another_object",286,"xarax/IDH_How_Copying_colour_to_another_object.htm");
+  SetCsh(602,"IDH_How_Selecting_Objects_in_Objects",264,"xarax/IDH_How_Selecting_Objects_in_Objects.htm");
+  SetCsh(603,"IDH_How_Using_the_Push_Tool_Temporarily",271,"xarax/IDH_How_Using_the_Push_Tool_Temporarily.htm");
+  SetCsh(604,"IDH_How_Reordering_Gallery_Items",251,"xarax/IDH_How_Reordering_Gallery_Items.htm");
+  SetCsh(605,"IDH_Overview_Popup_Menus",248,"xarax/IDH_Overview_Popup_Menus.htm");
+  SetCsh(606,"IDH_Alert_Layer_Delete_Query",132,"xarax/IDH_Alert_Layer_Delete_Query.htm");
+  SetCsh(607,"IDH_How_Outline_on_a_Bitmap",407,"xarax/IDH_How_Outline_on_a_Bitmap.htm");
+  SetCsh(608,"IDH_Dialog_Bitmap_Export_BMP_Compression",450,"xarax/IDH_Dialog_Bitmap_Export_BMP_Compression.htm");
+  SetCsh(609,"IDH_Dialog_Bitmap_Export_Palette",456,"xarax/IDH_Dialog_Bitmap_Export_Palette.htm");
+  SetCsh(610,"IDH_How_Viewing_Document_Information",1257,"xarax/IDH_How_Viewing_Document_Information.htm");
+  SetCsh(611,"IDH_Dialog_Name_Layer",234,"xarax/IDH_Dialog_Name_Layer.htm");
+  SetCsh(612,"IDH_Misc_Menus_and_Buttons",985,"xarax/IDH_Misc_Menus_and_Buttons.htm");
+  SetCsh(613,"IDH_Gallery_Bitmap_Insert",461,"xarax/IDH_Gallery_Bitmap_Insert.htm");
+  SetCsh(614,"IDH_Misc_Colour_Editor_Linked_Colours",584,"xarax/IDH_Misc_Colour_Editor_Linked_Colours.htm");
+  SetCsh(615,"IDH_Command_Paste_Attributes",225,"xarax/IDH_Command_Paste_Attributes.htm");
+  SetCsh(616,"IDH_Overview_Color_Line",193,"xarax/IDH_Overview_Color_Line.htm");
+  SetCsh(617,"IDH_Menu_File",188,"xarax/IDH_Menu_File.htm");
+  SetCsh(618,"IDH_Alert_Delete_Used_Colour",109,"xarax/IDH_Alert_Delete_Used_Colour.htm");
+  SetCsh(619,"IDH_Alert_Abort_or_Continue_Printing",97,"xarax/IDH_Alert_Abort_or_Continue_Printing.htm");
+  SetCsh(620,"IDH_Command_Scrollbars",81,"xarax/IDH_Command_Scrollbars.htm");
+  SetCsh(621,"IDH_Command_Options_View",67,"xarax/IDH_Command_Options_View.htm");
+  SetCsh(622,"IDH_Command_Line_Attribute_Gallery",49,"xarax/IDH_Command_Line_Attribute_Gallery.htm");
+  SetCsh(623,"IDH_Message__Bevel_already_applied",542,"xarax/IDH_Message__Bevel_already_applied.htm");
+  SetCsh(624,"IDH_Name_Gallery_Extend_Dialog_Box",1008,"xarax/IDH_Name_Gallery_Extend_Dialog_Box.htm");
+  SetCsh(625,"IDH_Gallery_Fill_Get_Fills",1384,"xarax/IDH_Gallery_Fill_Get_Fills.htm");
+  SetCsh(626,"IDH_Dialog_Bitmap_Export_JPEG_Use_Original",1382,"xarax/IDH_Dialog_Bitmap_Export_JPEG_Use_Original.htm");
+  SetCsh(627,"IDH_How_Previewing_bitmaps",1370,"xarax/IDH_How_Previewing_bitmaps.htm");
+  SetCsh(628,"IDH_Gallery_Frame_Delete",1316,"xarax/IDH_Gallery_Frame_Delete.htm");
+  SetCsh(629,"IDH_Command_Move_to_Next_Frame",1055,"xarax/IDH_Command_Move_to_Next_Frame.htm");
+  SetCsh(630,"IDH_How_Tracer_Troubleshooting_Too_much_detail",1039,"xarax/IDH_How_Tracer_Troubleshooting_Too_much_detail.htm");
+  SetCsh(631,"IDH_How_Configuring_the_program_so_new_objects_have_the_most_recent_attributes",1335,"xarax/IDH_How_Configuring_the_program_so_new_objects_have_the_most_recent_attributes.htm");
+  SetCsh(632,"IDH_Definition_W",1299,"xarax/IDH_Definitions.htm#IDH_Definition_W");
+  SetCsh(633,"IDH_Definition_F",1282,"xarax/IDH_Definitions.htm#IDH_Definition_F");
+  SetCsh(634,"IDH_Misc_Introduction",1263,"xarax/IDH_Misc_Introduction.htm");
+  SetCsh(635,"IDH_How_Transparent_Lines",1256,"xarax/IDH_How_Transparent_Lines.htm");
+  SetCsh(636,"IDH_How_Setting_Document_Options",1186,"xarax/IDH_How_Setting_Document_Options.htm");
+  SetCsh(637,"IDH_How_Reverse_Text_on_a_Curve",1140,"xarax/IDH_How_Reverse_Text_on_a_Curve.htm");
+  SetCsh(638,"IDH_How_Printing_Text",1073,"xarax/IDH_How_Printing_Text.htm");
+  SetCsh(639,"IDH_How_Moving_objects_to_the_guides_layer",1017,"xarax/IDH_How_Moving_objects_to_the_guides_layer.htm");
+  SetCsh(640,"IDH_How_Moving_Fractal_Fill_Handles",1010,"xarax/IDH_How_Moving_Fractal_Fill_Handles.htm");
+  SetCsh(641,"IDH_Tool_Mould_Paste_Envelope",998,"xarax/IDH_Tool_Mould_Paste_Envelope.htm");
+  SetCsh(642,"IDH_Tool_Mould_Banner_Envelope",986,"xarax/IDH_Tool_Mould_Banner_Envelope.htm");
+  SetCsh(643,"IDH_How_Bending_a_Straight_Line",980,"xarax/IDH_How_Bending_a_Straight_Line.htm");
+  SetCsh(644,"IDH_Overview_Guides",938,"xarax/IDH_Overview_Guides.htm");
+  SetCsh(645,"IDH_Popup_Guideline",937,"xarax/IDH_Popup_Guideline.htm");
+  SetCsh(646,"IDH_Tool_Fill_Bitmap",905,"xarax/IDH_Tool_Fill_Bitmap.htm");
+  SetCsh(647,"IDH_How_Extending_a_Line_Pen_Tool",892,"xarax/IDH_How_Extending_a_Line_Pen_Tool.htm");
+  SetCsh(648,"IDH_How_Editing_Text",875,"xarax/IDH_How_Editing_Text.htm");
+  SetCsh(649,"IDH_How_Drawing_a_Line_Freehand_Tool",862,"xarax/IDH_How_Drawing_a_Line_Freehand_Tool.htm");
+  SetCsh(650,"IDH_How_Deleting_Control_Bars",844,"xarax/IDH_How_Deleting_Control_Bars.htm");
+  SetCsh(651,"IDH_Definition_Transparency",829,"xarax/IDH_Definition_Transparency.htm");
+  SetCsh(652,"IDH_Definition_PhotoCD",779,"xarax/IDH_Definition_PhotoCD.htm");
+  SetCsh(653,"IDH_Definition_Pasteboard",777,"xarax/IDH_Definition_Pasteboard.htm");
+  SetCsh(654,"IDH_Definition_Named_Colour",766,"xarax/IDH_Definition_Named_Colour.htm");
+  SetCsh(655,"IDH_Definition_Mould_Handles",765,"xarax/IDH_Definition_Mould_Handles.htm");
+  SetCsh(656,"IDH_Definition_Linked_Colours",759,"xarax/IDH_Definition_Linked_Colours.htm");
+  SetCsh(657,"IDH_Definition_Laplacian",755,"xarax/IDH_Definition_Laplacian.htm");
+  SetCsh(658,"IDH_Definition_Kern",751,"xarax/IDH_Definition_Kern.htm");
+  SetCsh(659,"IDH_Definition_HSV",743,"xarax/IDH_Definition_HSV.htm");
+  SetCsh(660,"IDH_Definition_Guides_Layer",741,"xarax/IDH_Definition_Guides_Layer.htm");
+  SetCsh(661,"IDH_Definition_Flat_Fill",722,"xarax/IDH_Definition_Flat_Fill.htm");
+  SetCsh(662,"IDH_Definition_Fill_Arrow",719,"xarax/IDH_Definition_Fill_Arrow.htm");
+  SetCsh(663,"IDH_Definition_Current_Attribute",695,"xarax/IDH_Definition_Current_Attribute.htm");
+  SetCsh(664,"IDH_Definition_Bounds_Creation",682,"xarax/IDH_Definition_Bounds_Creation.htm");
+  SetCsh(665,"IDH_Definition_Blur",680,"xarax/IDH_Definition_Blur.htm");
+  SetCsh(666,"IDH_Definition_Blend",679,"xarax/IDH_Definition_Blend.htm");
+  SetCsh(667,"IDH_Definition_ATM",670,"xarax/IDH_Definition_ATM.htm");
+  SetCsh(668,"IDH_How_Changing_the_page_units",552,"xarax/IDH_How_Changing_the_page_units.htm");
+  SetCsh(669,"IDH_How_Applying_Attributes_to_Text",425,"xarax/IDH_How_Applying_Attributes_to_Text.htm");
+  SetCsh(670,"IDH_How_Overprinting_Objects",309,"xarax/IDH_How_Overprinting_Objects.htm");
+  SetCsh(671,"IDH_Alert_Drawing_too_large_for_CMX_export",297,"xarax/IDH_Alert_Drawing_too_large_for_CMX_export.htm");
+  SetCsh(672,"IDH_How_Restoring_and_Removing_Buttons",262,"xarax/IDH_How_Restoring_and_Removing_Buttons.htm");
+  SetCsh(673,"IDH_How_Temporary_Selector_Use",261,"xarax/IDH_How_Temporary_Selector_Use.htm");
+  SetCsh(674,"IDH_Command_Overprint_Fill",245,"xarax/IDH_Command_Overprint_Fill.htm");
+  SetCsh(675,"IDH_How_Creating_Custom_Transparencies",636,"xarax/IDH_How_Creating_Custom_Transparencies.htm");
+  SetCsh(676,"IDH_How_Using_the_Printer_Colors",854,"xarax/IDH_How_Using_the_Printer_Colors.htm");
+  SetCsh(677,"IDH_How_Spacing_buttons_on_control_bars",1204,"xarax/IDH_How_Spacing_buttons_on_control_bars.htm");
+  SetCsh(678,"IDH_Dialog_CorelXARA_EPS_Export_Resolution",616,"xarax/IDH_Dialog_CorelXARA_EPS_Export_Resolution.htm");
+  SetCsh(679,"IDH_Dialog_Gallery_Find_Text",931,"xarax/IDH_Dialog_Gallery_Find_Text.htm");
+  SetCsh(680,"IDH_How_Changing_CorelXARA_s_memory_requirements",502,"xarax/IDH_How_Changing_CorelXARA_s_memory_requirements.htm");
+  SetCsh(681,"IDH_How_Changing_the_Grid_Spacing",539,"xarax/IDH_How_Changing_the_Grid_Spacing.htm");
+  SetCsh(682,"IDH_How_Creating_Superscript_and_Subscript",983,"xarax/IDH_How_Creating_Superscript_and_Subscript.htm");
+  SetCsh(683,"IDH_How_Text_to_Shapes",610,"xarax/IDH_How_Text_to_Shapes.htm");
+  SetCsh(684,"IDH_How_Changing_Line_Ends",511,"xarax/IDH_How_Changing_Line_Ends.htm");
+  SetCsh(685,"IDH_How_Changing_Line_Joins",512,"xarax/IDH_How_Changing_Line_Joins.htm");
+  SetCsh(686,"IDH_How_Bitmap_Transparency_Resolution",555,"xarax/IDH_How_Bitmap_Transparency_Resolution.htm");
+  SetCsh(687,"IDH_Dialog_Unit_Properties",238,"xarax/IDH_Dialog_Unit_Properties.htm");
+  SetCsh(688,"IDH_Gallery_Font_Options",921,"xarax/IDH_Gallery_Font_Options.htm");
+  SetCsh(689,"IDH_Gallery_Fill_Options",900,"xarax/IDH_Gallery_Fill_Options.htm");
+  SetCsh(690,"IDH_Gallery_Line_Dash",969,"xarax/IDH_Gallery_Line_Dash.htm");
+  SetCsh(691,"IDH_Gallery_Colour_Delete",591,"xarax/IDH_Gallery_Colour_Delete.htm");
+  SetCsh(692,"IDH_Gallery_Layer_All_Editable",960,"xarax/IDH_Gallery_Layer_All_Editable.htm");
+  SetCsh(693,"IDH_Dialog_Guideline_Properties",229,"xarax/IDH_Dialog_Guideline_Properties.htm");
+  SetCsh(694,"IDH_Tool_Shape",217,"xarax/IDH_Tool_Shape.htm");
+  SetCsh(695,"IDH_Menu_Window",191,"xarax/IDH_Menu_Window.htm");
+  SetCsh(696,"IDH_Dialog_Gallery_Find_Dialog",176,"xarax/IDH_Dialog_Gallery_Find_Dialog.htm");
+  SetCsh(697,"IDH_Dialog_Bitmap_Export",159,"xarax/IDH_Dialog_Bitmap_Export.htm");
+  SetCsh(698,"IDH_Alert_Library_No_Index_File_Gen",133,"xarax/IDH_Alert_Library_No_Index_File_Gen.htm");
+  SetCsh(699,"IDH_Alert_Invalid_Input_Value",124,"xarax/IDH_Alert_Invalid_Input_Value.htm");
+  SetCsh(700,"IDH_Alert_File_Not_Found",117,"xarax/IDH_Alert_File_Not_Found.htm");
+  SetCsh(701,"IDH_Alert_Bad_Filename",99,"xarax/IDH_Alert_Bad_Filename.htm");
+  SetCsh(702,"IDH_Command_Zoom_to_Spread",96,"xarax/IDH_Command_Zoom_to_Spread.htm");
+  SetCsh(703,"IDH_Command_Alignment",3,"xarax/IDH_Command_Alignment.htm");
+  SetCsh(704,"IDH_Alert_Exclude_peripheral_elements",1240,"xarax/IDH_Alert_Exclude_peripheral_elements.htm");
+  SetCsh(705,"IDH_Command_Animation",1214,"xarax/IDH_Command_Animation.htm");
+  SetCsh(706,"IDH_Dialog_Web_Address_Target",1397,"xarax/IDH_Dialog_Web_Address_Target.htm");
+  SetCsh(707,"IDH_Gallery_Frame_Pop_up_menu",1371,"xarax/IDH_Gallery_Frame_Pop_up_menu.htm");
+  SetCsh(708,"IDH_How_Previewing_animated_GIF_files",1318,"xarax/IDH_How_Previewing_animated_GIF_files.htm");
+  SetCsh(709,"IDH_How_Configuring_the_program_to_ask_before_closing_views",1336,"xarax/IDH_How_Configuring_the_program_to_ask_before_closing_views.htm");
+  SetCsh(710,"IDH_How_Importing_files_with_layers",1338,"xarax/IDH_How_Importing_files_with_layers.htm");
+  SetCsh(711,"IDH_Dialog_Color_Editor_Color_to_Edit",398,"xarax/IDH_Dialog_Color_Editor_Color_to_Edit.htm");
+  SetCsh(712,"IDH_Gallery_Bitmap_Properties",349,"xarax/IDH_Gallery_Bitmap_Properties.htm");
+  SetCsh(713,"IDH_Alert_Bitmap_Too_Large",1305,"xarax/IDH_Alert_Bitmap_Too_Large.htm");
+  SetCsh(714,"IDH_Definition_X",1300,"xarax/IDH_Definitions.htm#IDH_Definition_X");
+  SetCsh(715,"IDH_Definition_G",1283,"xarax/IDH_Definitions.htm#IDH_Definition_G");
+  SetCsh(716,"IDH_How_Ungrouping_Objects",1245,"xarax/IDH_How_Ungrouping_Objects.htm");
+  SetCsh(717,"IDH_How_Freehand_Smoothing",1202,"xarax/IDH_How_Freehand_Smoothing.htm");
+  SetCsh(718,"IDH_How_Skewing",1198,"xarax/IDH_How_Skewing.htm");
+  SetCsh(719,"IDH_How_Rotating_the_Contents_of_a_Mould",1146,"xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm");
+  SetCsh(720,"IDH_How_Renaming_a_Named_Colour",1133,"xarax/IDH_How_Renaming_a_Named_Colour.htm");
+  SetCsh(721,"IDH_How_Moving_and_Resizing_Bars",1004,"xarax/IDH_How_Moving_and_Resizing_Bars.htm");
+  SetCsh(722,"IDH_Tool_Mould_Circular_Envelope",988,"xarax/IDH_Tool_Mould_Circular_Envelope.htm");
+  SetCsh(723,"IDH_How_Locking_a_Layer",979,"xarax/IDH_How_Locking_a_Layer.htm");
+  SetCsh(724,"IDH_Tool_Freehand_Smoothing",925,"xarax/IDH_Tool_Freehand_Smoothing.htm");
+  SetCsh(725,"IDH_How_Flipping",916,"xarax/IDH_How_Flipping.htm");
+  SetCsh(726,"IDH_How_Deleting_the_guides_layer",849,"xarax/IDH_How_Deleting_the_guides_layer.htm");
+  SetCsh(727,"IDH_Definition_Select_Inside",802,"xarax/IDH_Definition_Select_Inside.htm");
+  SetCsh(728,"IDH_Definition_Round_Cap",794,"xarax/IDH_Definition_Round_Cap.htm");
+  SetCsh(729,"IDH_Definition_Overprinting",773,"xarax/IDH_Definition_Overprinting.htm");
+  SetCsh(730,"IDH_Definition_JPEG",750,"xarax/IDH_Definition_JPEG.htm");
+  SetCsh(731,"IDH_Definition_Imagesetting",745,"xarax/IDH_Definition_Imagesetting.htm");
+  SetCsh(732,"IDH_Definition_Diameter_Creation",702,"xarax/IDH_Definition_Diameter_Creation.htm");
+  SetCsh(733,"IDH_Definition_Circular_Transparency",686,"xarax/IDH_Definition_Circular_Transparency.htm");
+  SetCsh(734,"IDH_How_Creating_a_Shade_Colour",650,"xarax/IDH_How_Creating_a_Shade_Colour.htm");
+  SetCsh(735,"IDH_How_Creating_animated_GIF_files",631,"xarax/IDH_How_Creating_animated_GIF_files.htm");
+  SetCsh(736,"IDH_How_Changing_Elliptical_Fill_Colours",528,"xarax/IDH_How_Changing_Elliptical_Fill_Colours.htm");
+  SetCsh(737,"IDH_How_Applying_Linear_Transparency",441,"xarax/IDH_How_Applying_Linear_Transparency.htm");
+  SetCsh(738,"IDH_How_Applying_Bitmap_Fills",428,"xarax/IDH_How_Applying_Bitmap_Fills.htm");
+  SetCsh(739,"IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Delay",419,"xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Delay.htm");
+  SetCsh(740,"IDH_Overview_Web_Address",361,"xarax/IDH_Overview_Web_Address.htm");
+  SetCsh(741,"IDH_Alert_This_document_contains_overlapping_transparent_objects",318,"xarax/IDH_Alert_This_document_contains_overlapping_transparent_objects.htm");
+  SetCsh(742,"IDH_How_Tip_of_the_Day",1242,"xarax/IDH_How_Tip_of_the_Day.htm");
+  SetCsh(743,"IDH_Misc_Xara_Ltd",254,"xarax/IDH_Misc_Xara_Ltd.htm");
+  SetCsh(744,"IDH_How_Searching_a_Gallery",255,"xarax/IDH_How_Searching_a_Gallery.htm");
+  SetCsh(745,"IDH_How_Applying_Fill_Colours",249,"xarax/IDH_How_Applying_Fill_Colours.htm");
+  SetCsh(746,"IDH_Dialog_Bitmap_Export_PNG_Transparency",1063,"xarax/IDH_Dialog_Bitmap_Export_PNG_Transparency.htm");
+  SetCsh(747,"IDH_Dialog_Bitmap_Tracer_Passes",474,"xarax/IDH_Dialog_Bitmap_Tracer_Passes.htm");
+  SetCsh(748,"IDH_Dialog_Bitmap_Tracer_Insert_Button",472,"xarax/IDH_Dialog_Bitmap_Tracer_Insert_Button.htm");
+  SetCsh(749,"IDH_Dialog_Gallery_Sort_Apply_to_Some_Sections",933,"xarax/IDH_Dialog_Gallery_Sort_Apply_to_Some_Sections.htm");
+  SetCsh(750,"IDH_Dialog_Gallery_Sort_Apply_to_All_Sections",932,"xarax/IDH_Dialog_Gallery_Sort_Apply_to_All_Sections.htm");
+  SetCsh(751,"IDH_Changing_the_Magnetic_Snap_Distances",548,"xarax/IDH_Changing_the_Magnetic_Snap_Distances.htm");
+  SetCsh(752,"IDH_Dialog_Bitmap_Export_Size_and_Resolution",449,"xarax/IDH_Dialog_Bitmap_Export_Size_and_Resolution.htm");
+  SetCsh(753,"IDH_How_Creating_TARGA_files",654,"xarax/IDH_How_Creating_TARGA_files.htm");
+  SetCsh(754,"IDH_Definition_Dithering",706,"xarax/IDH_Definition_Dithering.htm");
+  SetCsh(755,"IDH_How_Adding_Dashing_to_Lines",410,"xarax/IDH_How_Adding_Dashing_to_Lines.htm");
+  SetCsh(756,"IDH_How_Changing_an_Elliptical_Transparency",506,"xarax/IDH_How_Changing_an_Elliptical_Transparency.htm");
+  SetCsh(757,"IDH_How",945,"xarax/IDH_How.htm");
+  SetCsh(758,"IDH_Gallery_Font_Install",920,"xarax/IDH_Gallery_Font_Install.htm");
+  SetCsh(759,"IDH_Gallery_Bitmap_Save",464,"xarax/IDH_Gallery_Bitmap_Save.htm");
+  SetCsh(760,"IDH_Gallery_Bitmap_Options",462,"xarax/IDH_Gallery_Bitmap_Options.htm");
+  SetCsh(761,"IDH_Tool_Blend",207,"xarax/IDH_Tool_Blend.htm");
+  SetCsh(762,"IDH_Gallery_Font",183,"xarax/IDH_Gallery_Font.htm");
+  SetCsh(763,"IDH_Dialog_Bitmap_Export_WPG",169,"xarax/IDH_Dialog_Bitmap_Export_WPG.htm");
+  SetCsh(764,"IDH_Dialog_Bitmap_Export_TGA",167,"xarax/IDH_Dialog_Bitmap_Export_TGA.htm");
+  SetCsh(765,"IDH_Alert_Read_Write_Failure",144,"xarax/IDH_Alert_Read_Write_Failure.htm");
+  SetCsh(766,"IDH_Alert_Library_Problems_Creating_Index",134,"xarax/IDH_Alert_Library_Problems_Creating_Index.htm");
+  SetCsh(767,"IDH_Alert_Cannot_Close_File",105,"xarax/IDH_Alert_Cannot_Close_File.htm");
+  SetCsh(768,"IDH_Command_Fullscreen",41,"xarax/IDH_Command_Fullscreen.htm");
+  SetCsh(769,"IDH_Command_Fit_Text_To_Curve",39,"xarax/IDH_Command_Fit_Text_To_Curve.htm");
+  SetCsh(770,"IDH_Command_Exit",36,"xarax/IDH_Command_Exit.htm");
+  SetCsh(771,"IDH_Command_Bitmap_Effects_Special",13,"xarax/IDH_Command_Bitmap_Effects_Special.htm");
+  SetCsh(772,"IDH_Alert_Named_Objects_Overlap",1218,"xarax/IDH_Alert_Named_Objects_Overlap.htm");
+  SetCsh(773,"Definition_Sharpen_Bitmap_Effect",811,"xarax/Definition_Sharpen_Bitmap_Effect.htm");
+  SetCsh(774,"Isolate_Points_Bitmap_Effect",749,"xarax/Isolate_Points_Bitmap_Effect.htm");
+  SetCsh(775,"IDH_Dialog_Create_Bitmap_Copy_Create",625,"xarax/IDH_Dialog_Create_Bitmap_Copy_Create.htm");
+  SetCsh(776,"IDH_How_Showing_library_colors_on_the_Color_Line",1378,"xarax/IDH_How_Showing_library_colors_on_the_Color_Line.htm");
+  SetCsh(777,"IDH_Dialog_Image_Map_Export_Options",1049,"xarax/IDH_Dialog_Image_Map_Export_Options.htm");
+  SetCsh(778,"IDH_Overview_Text",1342,"xarax/IDH_Overview_Text.htm");
+  SetCsh(779,"IDH_Definition_H",1284,"xarax/IDH_Definitions.htm#IDH_Definition_H");
+  SetCsh(780,"IDH_How_Skew_by_Dragging",1200,"xarax/IDH_How_Skew_by_Dragging.htm");
+  SetCsh(781,"IDH_Tool_Shape_Smooth",1195,"xarax/IDH_Tool_Shape_Smooth.htm");
+  SetCsh(782,"IDH_Tool_Shape_Sharp",1194,"xarax/IDH_Tool_Shape_Sharp.htm");
+  SetCsh(783,"IDH_How_Scaling_and_Rotating_QuickShapes",1150,"xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm");
+  SetCsh(784,"IDH_How_Removing_Text_From_a_Curve",1127,"xarax/IDH_How_Removing_Text_From_a_Curve.htm");
+  SetCsh(785,"IDH_Tool_QuickShape_Radius_Creation",1111,"xarax/IDH_Tool_QuickShape_Radius_Creation.htm");
+  SetCsh(786,"IDH_Tool_QuickShape_Polygon",1110,"xarax/IDH_Tool_QuickShape_Polygon.htm");
+  SetCsh(787,"IDH_Tool_QuickShape_Sides",1109,"xarax/IDH_Tool_QuickShape_Sides.htm");
+  SetCsh(788,"IDH_Overview_Lines_and_Shapes",973,"xarax/IDH_Overview_Lines_and_Shapes.htm");
+  SetCsh(789,"IDH_How_Installing_a_Font",953,"xarax/IDH_How_Installing_a_Font.htm");
+  SetCsh(790,"IDH_How_Hiding_the_Line_in_Text_on_a_Curve",941,"xarax/IDH_How_Hiding_the_Line_in_Text_on_a_Curve.htm");
+  SetCsh(791,"IDH_How_Fitting_Text_to_a_Curve",915,"xarax/IDH_How_Fitting_Text_to_a_Curve.htm");
+  SetCsh(792,"IDH_How_Tracer_Troubleshooting",914,"xarax/IDH_How_Tracer_Troubleshooting.htm");
+  SetCsh(793,"IDH_Tool_Fill_Effect",907,"xarax/IDH_Tool_Fill_Effect.htm");
+  SetCsh(794,"IDH_Tool_Fill_Resolution",904,"xarax/IDH_Tool_Fill_Resolution.htm");
+  SetCsh(795,"IDH_How_Extending_a_Line_Freehand_Tool",891,"xarax/IDH_How_Extending_a_Line_Freehand_Tool.htm");
+  SetCsh(796,"IDH_Tool_Ellipse_Mode",878,"xarax/IDH_Tool_Ellipse_Mode.htm");
+  SetCsh(797,"IDH_Misc_Edit_Control_Bar",874,"xarax/IDH_Misc_Edit_Control_Bar.htm");
+  SetCsh(798,"IDH_How_Deleting_Points_on_LinesShapes",848,"xarax/IDH_How_Deleting_Points_on_LinesShapes.htm");
+  SetCsh(799,"IDH_How_Deleting_a_Named_Colour",843,"xarax/IDH_How_Deleting_a_Named_Colour.htm");
+  SetCsh(800,"IDH_Definitions",841,"xarax/IDH_Definitions.htm");
+  SetCsh(801,"IDH_Definition_Tool",825,"xarax/IDH_Definition_Tool.htm");
+  SetCsh(802,"IDH_Definition_Tint_Colour",824,"xarax/IDH_Definition_Tint_Colour.htm");
+  SetCsh(803,"IDH_Definition_Current_Selection",805,"xarax/IDH_Definition_Current_Selection.htm");
+  SetCsh(804,"IDH_Definition_Select_Under",804,"xarax/IDH_Definition_Select_Under.htm");
+  SetCsh(805,"IDH_Definition_Scrollbar",801,"xarax/IDH_Definition_Scrollbar.htm");
+  SetCsh(806,"IDH_Definition_RGB",791,"xarax/IDH_Definition_RGB.htm");
+  SetCsh(807,"IDH_Definition_Normal_Colour",767,"xarax/IDH_Definition_Normal_Colour.htm");
+  SetCsh(808,"IDH_Definition_Grayscale",735,"xarax/IDH_Definition_Grayscale.htm");
+  SetCsh(809,"IDH_Definition_Gallery",733,"xarax/IDH_Definition_Gallery.htm");
+  SetCsh(810,"IDH_Definition_Fill_Handle",720,"xarax/IDH_Definition_Fill_Handle.htm");
+  SetCsh(811,"IDH_Definition_Envelope",715,"xarax/IDH_Definition_Envelope.htm");
+  SetCsh(812,"IDH_How_Advanced_Blending",657,"xarax/IDH_How_Advanced_Blending.htm");
+  SetCsh(813,"IDH_How_Creating_the_guides_layer",655,"xarax/IDH_How_Creating_the_guides_layer.htm");
+  SetCsh(814,"IDH_How_Creating_guidelines",639,"xarax/IDH_How_Creating_guidelines.htm");
+  SetCsh(815,"IDH_How_Creating_a_named_color_from_an_object",630,"xarax/IDH_How_Creating_a_named_color_from_an_object.htm");
+  SetCsh(816,"IDH_How_Copying_Layers",611,"xarax/IDH_How_Copying_Layers.htm");
+  SetCsh(817,"IDH_How_Changing_Fractal_Fill_Tiling",567,"xarax/IDH_How_Changing_Fractal_Fill_Tiling.htm");
+  SetCsh(818,"IDH_Tool_Blend_Steps",484,"xarax/IDH_Tool_Blend_Steps.htm");
+  SetCsh(819,"IDH_How_Applying_attributes_to_the_text_cursor",426,"xarax/IDH_How_Applying_attributes_to_the_text_cursor.htm");
+  SetCsh(820,"IDH_Tool_Shape_Straight",312,"xarax/IDH_Tool_Shape_Straight.htm");
+  SetCsh(821,"IDH_How_Creating_Xara_Web_files",659,"xarax/IDH_How_Creating_Xara_Web_files.htm");
+  SetCsh(822,"IDH_Dialog_Web_Export_Convert_Text",1266,"xarax/IDH_Dialog_Web_Export_Convert_Text.htm");
+  SetCsh(823,"IDH_Command_Overprint_Line",246,"xarax/IDH_Command_Overprint_Line.htm");
+  SetCsh(824,"IDH_Dialog_Control_Bars_Delete_Button",602,"xarax/IDH_Dialog_Control_Bars_Delete_Button.htm");
+  SetCsh(825,"IDH_Dialog_Bitmap_Tracer_Final_Color_Tolerance",470,"xarax/IDH_Dialog_Bitmap_Tracer_Final_Color_Tolerance.htm");
+  SetCsh(826,"IDH_Dialog_Bitmap_Tracer_Reset_Settings_Button",476,"xarax/IDH_Dialog_Bitmap_Tracer_Reset_Settings_Button.htm");
+  SetCsh(827,"IDH_Dialog_Unit_Properties_Suffix_Prefix",1247,"xarax/IDH_Dialog_Unit_Properties_Suffix_Prefix.htm");
+  SetCsh(828,"IDH_Dialog_Gallery_Sort_Keys",934,"xarax/IDH_Dialog_Gallery_Sort_Keys.htm");
+  SetCsh(829,"IDH_Dialog_Print_Copies_Field",1065,"xarax/IDH_Dialog_Print_Copies_Field.htm");
+  SetCsh(830,"IDH_Dialog_Print_Printer_Button",1071,"xarax/IDH_Dialog_Print_Printer_Button.htm");
+  SetCsh(831,"IDH_How_Creating_DCX_files",637,"xarax/IDH_How_Creating_DCX_files.htm");
+  SetCsh(832,"IDH_How_Changing_the_default_paper_size",533,"xarax/IDH_How_Changing_the_default_paper_size.htm");
+  SetCsh(833,"IDH_How_Deleting_Objects",847,"xarax/IDH_How_Deleting_Objects.htm");
+  SetCsh(834,"IDH_Gallery_Font_Pop_up_Menu",922,"xarax/IDH_Gallery_Font_Pop_up_Menu.htm");
+  SetCsh(835,"IDH_Gallery_Bitmap_Delete",458,"xarax/IDH_Gallery_Bitmap_Delete.htm");
+  SetCsh(836,"IDH_Gallery_Layer_Guides",964,"xarax/IDH_Gallery_Layer_Guides.htm");
+  SetCsh(837,"IDH_Tool_Transparency",219,"xarax/IDH_Tool_Transparency.htm");
+  SetCsh(838,"IDH_Tool_Fill",209,"xarax/IDH_Tool_Fill.htm");
+  SetCsh(839,"IDH_How_Editing_Colors_in_Grayscale",173,"xarax/IDH_How_Editing_Colors_in_Grayscale.htm");
+  SetCsh(840,"IDH_Alert_XaraFont_Not_Found",157,"xarax/IDH_Alert_XaraFont_Not_Found.htm");
+  SetCsh(841,"IDH_Alert_Share_Violation",150,"xarax/IDH_Alert_Share_Violation.htm");
+  SetCsh(842,"IDH_Alert_Out_of_Memory",140,"xarax/IDH_Alert_Out_of_Memory.htm");
+  SetCsh(843,"IDH_Alert_No_Texture_Loaded",138,"xarax/IDH_Alert_No_Texture_Loaded.htm");
+  SetCsh(844,"IDH_Alert_Multiple_References_to_a_Bitmap_About_to_be_Deleted",136,"xarax/IDH_Alert_Multiple_References_to_a_Bitmap_About_to_be_Deleted.htm");
+  SetCsh(845,"IDH_Alert_Document_Unsaved",112,"xarax/IDH_Alert_Document_Unsaved.htm");
+  SetCsh(846,"IDH_Command_Slice_Shapes",84,"xarax/IDH_Command_Slice_Shapes.htm");
+  SetCsh(847,"IDH_Command_Select_All",82,"xarax/IDH_Command_Select_All.htm");
+  SetCsh(848,"IDH_Command_Options",58,"xarax/IDH_Command_Options.htm");
+  SetCsh(849,"IDH_Command_Cut",32,"xarax/IDH_Command_Cut.htm");
+  SetCsh(850,"IDH_Command_Control_Bars",29,"xarax/IDH_Command_Control_Bars.htm");
+  SetCsh(851,"IDH_Command_Cascade_Views",20,"xarax/IDH_Command_Cascade_Views.htm");
+  SetCsh(852,"IDH_Command_Arrange_Icons",5,"xarax/IDH_Command_Arrange_Icons.htm");
+  SetCsh(853,"IDH_Command_About_Studio",1,"xarax/IDH_Command_About_Studio.htm");
+  SetCsh(854,"IDH_Alert_NavBar_File_Exists",123,"xarax/IDH_Alert_NavBar_File_Exists.htm");
+  SetCsh(855,"IDH_Dialog_Edit_Brush_Properties",1215,"xarax/IDH_Dialog_Edit_Brush_Properties.htm");
+  SetCsh(856,"IDH_Command_Remove_Feathering",568,"xarax/IDH_Command_Remove_Feathering.htm");
+  SetCsh(857,"IDH_Tool_Shadow",43,"xarax/IDH_Tool_Shadow.htm");
+  SetCsh(858,"IDH_Menu_Plugin",1399,"xarax/IDH_Menu_Plugin.htm");
+  SetCsh(859,"IDH_Gallery_Font_Stop_Loading",1388,"xarax/IDH_Gallery_Font_Stop_Loading.htm");
+  SetCsh(860,"IDH_Command_Select_Previous_Frame",1372,"xarax/IDH_Command_Select_Previous_Frame.htm");
+  SetCsh(861,"IDH_How_Copying_frames",1323,"xarax/IDH_How_Copying_frames.htm");
+  SetCsh(862,"IDH_How_Changing_the_background",1046,"xarax/IDH_How_Changing_the_background.htm");
+  SetCsh(863,"IDH_Dialog_Bitmap_Properties",1029,"xarax/IDH_Dialog_Bitmap_Properties.htm");
+  SetCsh(864,"IDH_Definition_Button_Palette",143,"xarax/IDH_Definition_Button_Palette.htm");
+  SetCsh(865,"IDH_Definition_Ellipse_Tool_Infobar",206,"xarax/IDH_Definition_Ellipse_Tool_Infobar.htm");
+  SetCsh(866,"IDH_Definition_Z",1301,"xarax/IDH_Definitions.htm#IDH_Definition_Z");
+  SetCsh(867,"IDH_Definition_I",1285,"xarax/IDH_Definitions.htm#IDH_Definition_I");
+  SetCsh(868,"IDH_How_Scrollbars",1253,"xarax/IDH_How_Scrollbars.htm");
+  SetCsh(869,"IDH_Tool_Selector_Dimensions",1172,"xarax/IDH_Tool_Selector_Dimensions.htm");
+  SetCsh(870,"IDH_How_Selecting_Text_Objects",1170,"xarax/IDH_How_Selecting_Text_Objects.htm");
+  SetCsh(871,"IDH_How_Selecting",1165,"xarax/IDH_How_Selecting.htm");
+  SetCsh(872,"IDH_How_Reordering_Gallery_Sections",1134,"xarax/IDH_How_Reordering_Gallery_Sections.htm");
+  SetCsh(873,"IDH_How_Removing_a_Mould",1124,"xarax/IDH_How_Removing_a_Mould.htm");
+  SetCsh(874,"IDH_Tool_Rectangle_Curved_Corners",1117,"xarax/IDH_Tool_Rectangle_Curved_Corners.htm");
+  SetCsh(875,"IDH_Tool_Rectangle_Bounds_Creation",1116,"xarax/IDH_Tool_Rectangle_Bounds_Creation.htm");
+  SetCsh(876,"IDH_How_Forwards_and_Backwards",1015,"xarax/IDH_How_Forwards_and_Backwards.htm");
+  SetCsh(877,"IDH_Tool_Mould_Right_Perspective",1001,"xarax/IDH_Tool_Mould_Right_Perspective.htm");
+  SetCsh(878,"IDH_How_Loading_Files",978,"xarax/IDH_How_Loading_Files.htm");
+  SetCsh(879,"IDH_How_Extending_a_Line",894,"xarax/IDH_How_Extending_a_Line.htm");
+  SetCsh(880,"IDH_How_Extending_a_Line_Shape_Editor_Tool",893,"xarax/IDH_How_Extending_a_Line_Shape_Editor_Tool.htm");
+  SetCsh(881,"IDH_How_Drawing_a_Shape",871,"xarax/IDH_How_Drawing_a_Shape.htm");
+  SetCsh(882,"IDH_How_Drawing_Polygons",867,"xarax/IDH_How_Drawing_Polygons.htm");
+  SetCsh(883,"IDH_How_Parallel_Lines",866,"xarax/IDH_How_Parallel_Lines.htm");
+  SetCsh(884,"IDH_Definition_Text_Object",821,"xarax/IDH_Definition_Text_Object.htm");
+  SetCsh(885,"IDH_Definition_Skew",812,"xarax/IDH_Definition_Skew.htm");
+  SetCsh(886,"IDH_Definition_Shade_Colour",809,"xarax/IDH_Definition_Shade_Colour.htm");
+  SetCsh(887,"IDH_Definition_Ruler",796,"xarax/IDH_Definition_Ruler.htm");
+  SetCsh(888,"IDH_Definition_Mirroring",761,"xarax/IDH_Definition_Mirroring.htm");
+  SetCsh(889,"IDH_Definition_Key",752,"xarax/IDH_Definition_Key.htm");
+  SetCsh(890,"IDH_Definition_Handle",742,"xarax/IDH_Definition_Handle.htm");
+  SetCsh(891,"IDH_Definition_Elliptical_Transparency",713,"xarax/IDH_Definition_Elliptical_Transparency.htm");
+  SetCsh(892,"IDH_Definition_Document",708,"xarax/IDH_Definition_Document.htm");
+  SetCsh(893,"IDH_Definition_Circular_Fill",685,"xarax/IDH_Definition_Circular_Fill.htm");
+  SetCsh(894,"IDH_Definition_Application_Control_Menu",666,"xarax/IDH_Definition_Application_Control_Menu.htm");
+  SetCsh(895,"IDH_How_Colour_Line_Size",561,"xarax/IDH_How_Colour_Line_Size.htm");
+  SetCsh(896,"IDH_How_Editing_Linear_Fills",514,"xarax/IDH_How_Editing_Linear_Fills.htm");
+  SetCsh(897,"IDH_How_Changing_Fills",507,"xarax/IDH_How_Changing_Fills.htm");
+  SetCsh(898,"IDH_How_Editing_Elliptical_Fills",505,"xarax/IDH_How_Editing_Elliptical_Fills.htm");
+  SetCsh(899,"IDH_How_Changing_a_Line_into_a_Shape",317,"xarax/IDH_How_Changing_a_Line_into_a_Shape.htm");
+  SetCsh(900,"IDH_Alert_Print_as_bitmap",363,"xarax/IDH_Alert_Print_as_bitmap.htm");
+  SetCsh(901,"IDH_Definition_Diamond_Fill",703,"xarax/IDH_Definition_Diamond_Fill.htm");
+  SetCsh(902,"IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills",313,"xarax/IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills.htm");
+  SetCsh(903,"IDH_Definition_Service_Bureau",808,"xarax/IDH_Definition_Service_Bureau.htm");
+  SetCsh(904,"IDH_How_Adding_Points_to_a_LineShape",278,"xarax/IDH_How_Adding_Points_to_a_LineShape.htm");
+  SetCsh(905,"IDH_How_Setting_the_Current_Layer",1189,"xarax/IDH_How_Setting_the_Current_Layer.htm");
+  SetCsh(906,"IDH_How_Changing_the_Color_Units",524,"xarax/IDH_How_Changing_the_Color_Units.htm");
+  SetCsh(907,"IDH_Dialog_Unit_Properties_Unit_Name",1249,"xarax/IDH_Dialog_Unit_Properties_Unit_Name.htm");
+  SetCsh(908,"IDH_How_Changing_the_Size_of_the_Pasteboard",562,"xarax/IDH_How_Changing_the_Size_of_the_Pasteboard.htm");
+  SetCsh(909,"IDH_Dialog_Print_Options_Button",1066,"xarax/IDH_Dialog_Print_Options_Button.htm");
+  SetCsh(910,"IDH_Dialog_Print_Print_Pages_Options",1069,"xarax/IDH_Dialog_Print_Print_Pages_Options.htm");
+  SetCsh(911,"IDH_How_Creating_WPG_files",658,"xarax/IDH_How_Creating_WPG_files.htm");
+  SetCsh(912,"IDH_How_Opening_another_view_on_a_document",1061,"xarax/IDH_How_Opening_another_view_on_a_document.htm");
+  SetCsh(913,"IDH_How_Changing_Line_Thicknesses",513,"xarax/IDH_How_Changing_Line_Thicknesses.htm");
+  SetCsh(914,"IDH_How_Changing_a_Linear_Transparency",515,"xarax/IDH_How_Changing_a_Linear_Transparency.htm");
+  SetCsh(915,"IDH_How_Setting_the_Current_Attributes",256,"xarax/IDH_How_Setting_the_Current_Attributes.htm");
+  SetCsh(916,"IDH_Gallery_Font_Add",917,"xarax/IDH_Gallery_Font_Add.htm");
+  SetCsh(917,"IDH_Gallery_Clipart_Add",576,"xarax/IDH_Gallery_Clipart_Add.htm");
+  SetCsh(918,"IDH_Gallery_Line_Cap",971,"xarax/IDH_Gallery_Line_Cap.htm");
+  SetCsh(919,"IDH_Gallery_Colour_Edit",592,"xarax/IDH_Gallery_Colour_Edit.htm");
+  SetCsh(920,"IDH_Gallery_Layer_Visible_Editable",967,"xarax/IDH_Gallery_Layer_Visible_Editable.htm");
+  SetCsh(921,"IDH_Overview_Galleries",223,"xarax/IDH_Overview_Galleries.htm");
+  SetCsh(922,"IDH_Command_Rulers",110,"xarax/IDH_Command_Rulers.htm");
+  SetCsh(923,"IDH_Tool_Zoom",220,"xarax/IDH_Tool_Zoom.htm");
+  SetCsh(924,"IDH_Overview_Status_Line",194,"xarax/IDH_Overview_Status_Line.htm");
+  SetCsh(925,"IDH_Gallery_Clipart",180,"xarax/IDH_Gallery_Clipart.htm");
+  SetCsh(926,"IDH_Dialog_Bitmap_Export_PCT",164,"xarax/IDH_Dialog_Bitmap_Export_PCT.htm");
+  SetCsh(927,"IDH_Alert_User_Cancelled_Something",156,"xarax/IDH_Alert_User_Cancelled_Something.htm");
+  SetCsh(928,"IDH_Alert_Undo_Warnings",155,"xarax/IDH_Alert_Undo_Warnings.htm");
+  SetCsh(929,"IDH_Alert_Set_Current_Attribute_Text",149,"xarax/IDH_Alert_Set_Current_Attribute_Text.htm");
+  SetCsh(930,"IDH_Alert_Library_Create_Remote",130,"xarax/IDH_Alert_Library_Create_Remote.htm");
+  SetCsh(931,"IDH_Alert_Document_Template",111,"xarax/IDH_Alert_Document_Template.htm");
+  SetCsh(932,"IDH_Command_Options_Units",66,"xarax/IDH_Command_Options_Units.htm");
+  SetCsh(933,"IDH_Command_Options_Scaling",64,"xarax/IDH_Command_Options_Scaling.htm");
+  SetCsh(934,"IDH_Command_Move_Backwards",51,"xarax/IDH_Command_Move_Backwards.htm");
+  SetCsh(935,"IDH_Command_Delete",33,"xarax/IDH_Command_Delete.htm");
+  SetCsh(936,"IDH_Command_Close",24,"xarax/IDH_Command_Close.htm");
+  SetCsh(937,"IDH_Command_Clear_Selection",21,"xarax/IDH_Command_Clear_Selection.htm");
+  SetCsh(938,"IDH_Dialog_Edit_Brush_Sequence",954,"xarax/IDH_Dialog_Edit_Brush_Sequence.htm");
+  SetCsh(939,"IDH_Overview_Contours",1329,"xarax/IDH_Overview_Contours.htm");
+  SetCsh(940,"IDH_Tool_NavBar",282,"xarax/IDH_Tool_NavBar.htm");
+  SetCsh(941,"IDH_Overview_Bars",347,"xarax/IDH_Overview_Bars.htm");
+  SetCsh(942,"IDH_NavBar_Create_Dialog_Box",649,"xarax/IDH_NavBar_Create_Dialog_Box.htm");
+  SetCsh(943,"IDH_Command_Select_End_Frame",1393,"xarax/IDH_Command_Select_End_Frame.htm");
+  SetCsh(944,"IDH_Gallery_Font_Get_Fonts",1387,"xarax/IDH_Gallery_Font_Get_Fonts.htm");
+  SetCsh(945,"IDH_Dialog_Bitmap_Export_Dialog_Box___Preview_boxes",1365,"xarax/IDH_Dialog_Bitmap_Export_Dialog_Box___Preview_boxes.htm");
+  SetCsh(946,"IDH_How_Creating_frames",1322,"xarax/IDH_How_Creating_frames.htm");
+  SetCsh(947,"IDH_How_Importing_images_from_the_Web",1045,"xarax/IDH_How_Importing_images_from_the_Web.htm");
+  SetCsh(948,"IDH_How_Tracer_Troubleshooting_Trace_Not_Accurate_Enough",618,"xarax/IDH_How_Tracer_Troubleshooting_Trace_Not_Accurate_Enough.htm");
+  SetCsh(949,"IDH_How_Tracer_Troubleshooting_Too_Many_Handles",490,"xarax/IDH_How_Tracer_Troubleshooting_Too_Many_Handles.htm");
+  SetCsh(950,"IDH_How_Changing_the_selection_with_the_Tab_key",1334,"xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm");
+  SetCsh(951,"IDH_Definition_Zoom_Tool_Infobar",395,"xarax/IDH_Definition_Zoom_Tool_Infobar.htm");
+  SetCsh(952,"IDH_Definition_Transparency_Tool_Infobar",394,"xarax/IDH_Definition_Transparency_Tool_Infobar.htm");
+  SetCsh(953,"IDH_Overview_OLE",1303,"xarax/IDH_Overview_OLE.htm");
+  SetCsh(954,"IDH_How_Configuring_a_web_server_for_Xara_file",1302,"xarax/IDH_How_Configuring_a_web_server_for_Xara_file.htm");
+  SetCsh(955,"IDH_Definition_J",1286,"xarax/IDH_Definitions.htm#IDH_Definition_J");
+  SetCsh(956,"IDH_Tool_Transparency_Tiling",1236,"xarax/IDH_Tool_Transparency_Tiling.htm");
+  SetCsh(957,"IDH_How_Select_All_Point_Handles",1161,"xarax/IDH_How_Select_All_Point_Handles.htm");
+  SetCsh(958,"IDH_How_Rotating_Ellipses",1141,"xarax/IDH_How_Rotating_Ellipses.htm");
+  SetCsh(959,"IDH_Tool_QuickShape_Diameter_Creation",1106,"xarax/IDH_Tool_QuickShape_Diameter_Creation.htm");
+  SetCsh(960,"IDH_How_Moving_Fill_Handles",1009,"xarax/IDH_How_Moving_Fill_Handles.htm");
+  SetCsh(961,"IDH_Tool_Mould_Default_Perspective",992,"xarax/IDH_Tool_Mould_Default_Perspective.htm");
+  SetCsh(962,"IDH_Tool_Mould_Default_Envelope",991,"xarax/IDH_Tool_Mould_Default_Envelope.htm");
+  SetCsh(963,"IDH_Tool_Fill_Handle_Colour",910,"xarax/IDH_Tool_Fill_Handle_Colour.htm");
+  SetCsh(964,"IDH_How_Enabling_Selection_Handles",887,"xarax/IDH_How_Enabling_Selection_Handles.htm");
+  SetCsh(965,"IDH_How_Deselecting_objects",852,"xarax/IDH_How_Deselecting_objects.htm");
+  SetCsh(966,"IDH_Definition_Centre_Of_Transformation",828,"xarax/IDH_Definition_Centre_Of_Transformation.htm");
+  SetCsh(967,"IDH_Definition_Conical_Fill",691,"xarax/IDH_Definition_Conical_Fill.htm");
+  SetCsh(968,"IDH_Definition_Bevelled_Join",673,"xarax/IDH_Definition_Bevelled_Join.htm");
+  SetCsh(969,"IDH_How_New_Control_Bars",643,"xarax/IDH_How_New_Control_Bars.htm");
+  SetCsh(970,"IDH_How_Creating_layers",641,"xarax/IDH_How_Creating_layers.htm");
+  SetCsh(971,"IDH_How_Changing_Text_Size",560,"xarax/IDH_How_Changing_Text_Size.htm");
+  SetCsh(972,"IDH_How_Changing_Fractal_Fill_Colours",530,"xarax/IDH_How_Changing_Fractal_Fill_Colours.htm");
+  SetCsh(973,"IDH_How_adding_keywords_etc",414,"xarax/IDH_How_adding_keywords_etc.htm");
+  SetCsh(974,"IDH_How_Colouring_Objects",44,"xarax/IDH_How_Colouring_Objects.htm");
+  SetCsh(975,"IDH_How_Gallery_Display_Format",327,"xarax/IDH_How_Gallery_Display_Format.htm");
+  SetCsh(976,"IDH_How_Colour_Line_Moving_Colours",342,"xarax/IDH_How_Colour_Line_Moving_Colours.htm");
+  SetCsh(977,"IDH_Dialog_Web_Export_Use_JPEG_on_Compatible_Bitmaps",1271,"xarax/IDH_Dialog_Web_Export_Use_JPEG_on_Compatible_Bitmaps.htm");
+  SetCsh(978,"IDH_Dialog_CorelXARA_EPS_Export_Export_Text_As_Curves",614,"xarax/IDH_Dialog_CorelXARA_EPS_Export_Export_Text_As_Curves.htm");
+  SetCsh(979,"IDH_Dialog_Control_Bars_Large_Buttons",603,"xarax/IDH_Dialog_Control_Bars_Large_Buttons.htm");
+  SetCsh(980,"IDH_How_Deleting_a_custom_unit",842,"xarax/IDH_How_Deleting_a_custom_unit.htm");
+  SetCsh(981,"IDH_How_Changing_the_nudge_size",549,"xarax/IDH_How_Changing_the_nudge_size.htm");
+  SetCsh(982,"IDH_How_Kerning_text",959,"xarax/IDH_How_Kerning_text.htm");
+  SetCsh(983,"IDH_How_Creating_TIFF_files",656,"xarax/IDH_How_Creating_TIFF_files.htm");
+  SetCsh(984,"IDH_How_Renaming_a_layer",1132,"xarax/IDH_How_Renaming_a_layer.htm");
+  SetCsh(985,"IDH_How_Intersecting_Shapes",955,"xarax/IDH_How_Intersecting_Shapes.htm");
+  SetCsh(986,"IDH_How_Undoing_and_Redoing_Operations",1244,"xarax/IDH_How_Undoing_and_Redoing_Operations.htm");
+  SetCsh(987,"IDH_Gallery_Bitmap_Popup_Menu",463,"xarax/IDH_Gallery_Bitmap_Popup_Menu.htm");
+  SetCsh(988,"IDH_Gallery_Bitmap_Trace",465,"xarax/IDH_Gallery_Bitmap_Trace.htm");
+  SetCsh(989,"IDH_Misc_Colour_Editor_Tint_Colours",588,"xarax/IDH_Misc_Colour_Editor_Tint_Colours.htm");
+  SetCsh(990,"IDH_Tool_Rectangle",215,"xarax/IDH_Tool_Rectangle.htm");
+  SetCsh(991,"IDH_Menu_Help",189,"xarax/IDH_Menu_Help.htm");
+  SetCsh(992,"IDH_Alert_Fonts_Gallery_Sure_InstallDeinstall",118,"xarax/IDH_Alert_Fonts_Gallery_Sure_InstallDeinstall.htm");
+  SetCsh(993,"IDH_Alert_Close_open_documents",107,"xarax/IDH_Alert_Close_open_documents.htm");
+  SetCsh(994,"IDH_Alert_Browsing_Cannot_Find_Library",104,"xarax/IDH_Alert_Browsing_Cannot_Find_Library.htm");
+  SetCsh(995,"IDH_Alert_Bad_Document_File_Format",98,"xarax/IDH_Alert_Bad_Document_File_Format.htm");
+  SetCsh(996,"IDH_Command_Save_All",78,"xarax/IDH_Command_Save_All.htm");
+  SetCsh(997,"IDH_Command_Save",77,"xarax/IDH_Command_Save.htm");
+  SetCsh(998,"IDH_Command_Move_to_Layer_Behind",53,"xarax/IDH_Command_Move_to_Layer_Behind.htm");
+  SetCsh(999,"IDH_Command_Line_Width",50,"xarax/IDH_Command_Line_Width.htm");
+  SetCsh(1000,"IDH_Command_Join_Shapes",47,"xarax/IDH_Command_Join_Shapes.htm");
+  SetCsh(1001,"IDH_Command_Font_Gallery",40,"xarax/IDH_Command_Font_Gallery.htm");
+  SetCsh(1002,"IDH_Command_Fill_Gallery",38,"xarax/IDH_Command_Fill_Gallery.htm");
+  SetCsh(1003,"IDH_Command_Always_On_Top",4,"xarax/IDH_Command_Always_On_Top.htm");
+  SetCsh(1004,"IDH_Dialog_Edit_Brush_Spacing",768,"xarax/IDH_Dialog_Edit_Brush_Spacing.htm");
+  SetCsh(1005,"IDH_Alert_File_Replace",624,"xarax/IDH_Alert_File_Replace.htm");
+  SetCsh(1006,"IDH_Overview_Rollovers",346,"xarax/IDH_Overview_Rollovers.htm");
+  SetCsh(1007,"IDH_Dialog_Web_Address_Clickable_Area",1398,"xarax/IDH_Dialog_Web_Address_Clickable_Area.htm");
+  SetCsh(1008,"IDH_Misc_GIF_Animation_Control_Bar",1343,"xarax/IDH_Misc_GIF_Animation_Control_Bar.htm");
+  SetCsh(1009,"IDH_Gallery_Frame_Properties",1315,"xarax/IDH_Gallery_Frame_Properties.htm");
+  SetCsh(1010,"IDH_Command_Options_Internet",1308,"xarax/IDH_Command_Options_Internet.htm");
+  SetCsh(1011,"IDH_Command_Default_Page_Background",1155,"xarax/IDH_Command_Default_Page_Background.htm");
+  SetCsh(1012,"IDH_Command_Preview_Animation_in_Browser",1053,"xarax/IDH_Command_Preview_Animation_in_Browser.htm");
+  SetCsh(1013,"IDH_Dialog_Animation_Properties",1051,"xarax/IDH_Dialog_Animation_Properties.htm");
+  SetCsh(1014,"IDH_How_Tracer_Troubleshooting_Tracing_is_too_slow",1036,"xarax/IDH_How_Tracer_Troubleshooting_Tracing_is_too_slow.htm");
+  SetCsh(1015,"IDH_How_Tracer_Troubleshooting_Trace_missing_small_areas",1035,"xarax/IDH_How_Tracer_Troubleshooting_Trace_missing_small_areas.htm");
+  SetCsh(1016,"IDH_Command_Xara_On_The_Web",1027,"xarax/IDH_Command_Xara_On_The_Web.htm");
+  SetCsh(1017,"IDH_Definition_QuickShape_Tool_Infobar",396,"xarax/IDH_Definition_QuickShape_Tool_Infobar.htm");
+  SetCsh(1018,"IDH_Definition_K",1287,"xarax/IDH_Definitions.htm#IDH_Definition_K");
+  SetCsh(1019,"IDH_Tool_Text_Justification_Left",1227,"xarax/IDH_Tool_Text_Justification_Left.htm");
+  SetCsh(1020,"IDH_Tool_Text_Font",1223,"xarax/IDH_Tool_Text_Font.htm");
+  SetCsh(1021,"IDH_How_Selecting_Text_Lines",1164,"xarax/IDH_How_Selecting_Text_Lines.htm");
+  SetCsh(1022,"IDH_How_Scaling_Accurately",1153,"xarax/IDH_How_Scaling_Accurately.htm");
+  SetCsh(1023,"IDH_How_Saving_From_the_Bitmap_Gallery",1148,"xarax/IDH_How_Saving_From_the_Bitmap_Gallery.htm");
+  SetCsh(1024,"IDH_Tool_Rectangle_Diameter_Creation",1118,"xarax/IDH_Tool_Rectangle_Diameter_Creation.htm");
+  SetCsh(1025,"IDH_How_Changing_Star_Shaped_Polygon_Shape",1024,"xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm");
+  SetCsh(1026,"IDH_Misc_Supported_Formats",976,"xarax/IDH_Misc_Supported_Formats.htm");
+  SetCsh(1027,"IDH_Misc_Importing_GIFs",952,"xarax/IDH_Misc_Importing_GIFs.htm");
+  SetCsh(1028,"IDH_How_Importing_CMX_files",949,"xarax/IDH_How_Importing_CMX_files.htm");
+  SetCsh(1029,"IDH_Tool_Fill_Type",908,"xarax/IDH_Tool_Fill_Type.htm");
+  SetCsh(1030,"IDH_Tool_Ellipse_Bounds_Creation",876,"xarax/IDH_Tool_Ellipse_Bounds_Creation.htm");
+  SetCsh(1031,"IDH_Definition_Temp_Directory",819,"xarax/IDH_Definition_Temp_Directory.htm");
+  SetCsh(1032,"IDH_Definition_Template_Document",818,"xarax/IDH_Definition_Template_Document.htm");
+  SetCsh(1033,"IDH_Definition_Round_Join",795,"xarax/IDH_Definition_Round_Join.htm");
+  SetCsh(1034,"IDH_Definition_Perspective",778,"xarax/IDH_Definition_Perspective.htm");
+  SetCsh(1035,"IDH_Definition_Infobar",746,"xarax/IDH_Definition_Infobar.htm");
+  SetCsh(1036,"IDH_Definition_Four_Point_Transparency",729,"xarax/IDH_Definition_Four_Point_Transparency.htm");
+  SetCsh(1037,"IDH_Definition_Background_Redraw",672,"xarax/IDH_Definition_Background_Redraw.htm");
+  SetCsh(1038,"IDH_How_Editing_moulded_text",516,"xarax/IDH_How_Editing_moulded_text.htm");
+  SetCsh(1039,"IDH_How_Blending_Objects",488,"xarax/IDH_How_Blending_Objects.htm");
+  SetCsh(1040,"IDH_Tool_Blend_Effect",483,"xarax/IDH_Tool_Blend_Effect.htm");
+  SetCsh(1041,"IDH_How_Applying_Bitmap_Transparency",429,"xarax/IDH_How_Applying_Bitmap_Transparency.htm");
+  SetCsh(1042,"IDH_How_Aligning_Text_on_a_Curve",416,"xarax/IDH_How_Aligning_Text_on_a_Curve.htm");
+  SetCsh(1043,"IDH_How_Importing_PhotoCD_files",386,"xarax/IDH_How_Importing_PhotoCD_files.htm");
+  SetCsh(1044,"IDH_How_Printing_Spot_versus_Process",301,"xarax/IDH_How_Printing_Spot_versus_Process.htm");
+  SetCsh(1045,"IDH_Dialog_Web_Address_Remove",1262,"xarax/IDH_Dialog_Web_Address_Remove.htm");
+  SetCsh(1046,"IDH_How_Adding_Web_Addresses_to_Objects",299,"xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm");
+  SetCsh(1047,"IDH_How_Typing_Text_onto_a_Curve",272,"xarax/IDH_How_Typing_Text_onto_a_Curve.htm");
+  SetCsh(1048,"IDH_Dialog_Gallery_Find_Find_Next_Button",929,"xarax/IDH_Dialog_Gallery_Find_Find_Next_Button.htm");
+  SetCsh(1049,"IDH_How_Creating_a_Double_Page_Spread",628,"xarax/IDH_How_Creating_a_Double_Page_Spread.htm");
+  SetCsh(1050,"IDH_How_Configuring_the_mouse_buttons",601,"xarax/IDH_How_Configuring_the_mouse_buttons.htm");
+  SetCsh(1051,"IDH_How_Moving_the_Transformation_Center",263,"xarax/IDH_How_Moving_the_Transformation_Center.htm");
+  SetCsh(1052,"IDH_Dialog_Print_Collate_Copies_Option",1064,"xarax/IDH_Dialog_Print_Collate_Copies_Option.htm");
+  SetCsh(1053,"IDH_Dialog_Bitmap_Export_JPEG_Options",455,"xarax/IDH_Dialog_Bitmap_Export_JPEG_Options.htm");
+  SetCsh(1054,"IDH_Overview_Transparency",1234,"xarax/IDH_Overview_Transparency.htm");
+  SetCsh(1055,"IDH_How_Changing_the_paper_size",553,"xarax/IDH_How_Changing_the_paper_size.htm");
+  SetCsh(1056,"IDH_How_Creating_Custom_Mould_Shapes",635,"xarax/IDH_How_Creating_Custom_Mould_Shapes.htm");
+  SetCsh(1057,"IDH_How_Placing_on_the_Clipboard",660,"xarax/IDH_How_Placing_on_the_Clipboard.htm");
+  SetCsh(1058,"IDH_How_Changing_Circular_Transparency",499,"xarax/IDH_How_Changing_Circular_Transparency.htm");
+  SetCsh(1059,"IDH_Gallery_Font_Deinstall",919,"xarax/IDH_Gallery_Font_Deinstall.htm");
+  SetCsh(1060,"IDH_Popup_Point_Handle_Deselect_All_Handles",311,"xarax/IDH_Popup_Point_Handle_Deselect_All_Handles.htm");
+  SetCsh(1061,"IDH_Gallery_Fill_Import",899,"xarax/IDH_Gallery_Fill_Import.htm");
+  SetCsh(1062,"IDH_Gallery_Line_Width",972,"xarax/IDH_Gallery_Line_Width.htm");
+  SetCsh(1063,"IDH_Gallery_Bitmap_Fill",460,"xarax/IDH_Gallery_Bitmap_Fill.htm");
+  SetCsh(1064,"IDH_Command_Colour_Editor_Advanced",583,"xarax/IDH_Command_Colour_Editor_Advanced.htm");
+  SetCsh(1065,"IDH_Tool_Pen",212,"xarax/IDH_Tool_Pen.htm");
+  SetCsh(1066,"IDH_Popup_Text",204,"xarax/IDH_Popup_Text.htm");
+  SetCsh(1067,"IDH_Popup_Point_Handle",199,"xarax/IDH_Popup_Point_Handle.htm");
+  SetCsh(1068,"IDH_Menu_Utilities",190,"xarax/IDH_Menu_Utilities.htm");
+  SetCsh(1069,"IDH_Alert_This_Op_Will_Remove_Perspective",152,"xarax/IDH_Alert_This_Op_Will_Remove_Perspective.htm");
+  SetCsh(1070,"IDH_Alert_No_Result_When_Combining_Shapes",137,"xarax/IDH_Alert_No_Result_When_Combining_Shapes.htm");
+  SetCsh(1071,"IDH_Alert_Fractal_Too_Small",120,"xarax/IDH_Alert_Fractal_Too_Small.htm");
+  SetCsh(1072,"IDH_Command_Snap_To_Objects",86,"xarax/IDH_Command_Snap_To_Objects.htm");
+  SetCsh(1073,"IDH_Command_Reverse_Text_on_Curve",76,"xarax/IDH_Command_Reverse_Text_on_Curve.htm");
+  SetCsh(1074,"IDH_Command_Quality",75,"xarax/IDH_Command_Quality.htm");
+  SetCsh(1075,"IDH_Command_Options_General",59,"xarax/IDH_Command_Options_General.htm");
+  SetCsh(1076,"IDH_Command_Colour_Line",26,"xarax/IDH_Command_Colour_Line.htm");
+  SetCsh(1077,"IDH_Command_Bars",7,"xarax/IDH_Command_Bars.htm");
+  SetCsh(1078,"IDH_Dialog_Edit_Brush_Offset",817,"xarax/IDH_Dialog_Edit_Brush_Offset.htm");
+  SetCsh(1079,"IDH_Message__Contour_already_applied",541,"xarax/IDH_Message__Contour_already_applied.htm");
+  SetCsh(1080,"IDH_PopUp_Menu",427,"xarax/IDH_PopUp_Menu.htm");
+  SetCsh(1081,"IDH_How_Exporting_WMF",1043,"xarax/IDH_How_Exporting_WMF.htm");
+  SetCsh(1082,"IDH_Definition_Tiling",1042,"xarax/IDH_Definition_Tiling.htm");
+  SetCsh(1083,"IDH_How_Locking_Handles_on_Edges",1041,"xarax/IDH_How_Locking_Handles_on_Edges.htm");
+  SetCsh(1084,"IDH_How_Changing_the_brightness_and_contrast_of_bitmaps",1031,"xarax/IDH_How_Changing_the_brightness_and_contrast_of_bitmaps.htm");
+  SetCsh(1085,"IDH_Definition_L",1288,"xarax/IDH_Definitions.htm#IDH_Definition_L");
+  SetCsh(1086,"IDH_How_View_Whole_Page",1276,"xarax/IDH_How_View_Whole_Page.htm");
+  SetCsh(1087,"IDH_How_Timed_Redraw",1232,"xarax/IDH_How_Timed_Redraw.htm");
+  SetCsh(1088,"IDH_Tool_Selector_Transformation_Centre_Grid",1183,"xarax/IDH_Tool_Selector_Transformation_Centre_Grid.htm");
+  SetCsh(1089,"IDH_Tool_Selector_Edit_Handles",1173,"xarax/IDH_Tool_Selector_Edit_Handles.htm");
+  SetCsh(1090,"IDH_Tool_Selector_Aspect_Lock",1171,"xarax/IDH_Tool_Selector_Aspect_Lock.htm");
+  SetCsh(1091,"IDH_How_Selecting_a_Single_Point_Handle",1159,"xarax/IDH_How_Selecting_a_Single_Point_Handle.htm");
+  SetCsh(1092,"IDH_How_Rotating_Rectangles",1145,"xarax/IDH_How_Rotating_Rectangles.htm");
+  SetCsh(1093,"IDH_How_Moving_Oobjects_Between_Layers",1016,"xarax/IDH_How_Moving_Oobjects_Between_Layers.htm");
+  SetCsh(1094,"IDH_Tool_Mould_Rotate",1002,"xarax/IDH_Tool_Mould_Rotate.htm");
+  SetCsh(1095,"IDH_How_Joining_Lines",957,"xarax/IDH_How_Joining_Lines.htm");
+  SetCsh(1096,"IDH_Misc_General_Control_Bar",935,"xarax/IDH_Misc_General_Control_Bar.htm");
+  SetCsh(1097,"IDH_Tool_Fill_Bitmap_Colour",906,"xarax/IDH_Tool_Fill_Bitmap_Colour.htm");
+  SetCsh(1098,"IDH_How_Motion_Blur",865,"xarax/IDH_How_Motion_Blur.htm");
+  SetCsh(1099,"IDH_How_Deleting_guidelines",845,"xarax/IDH_How_Deleting_guidelines.htm");
+  SetCsh(1100,"IDH_Definition_Three_Point_Transparency",823,"xarax/IDH_Definition_Three_Point_Transparency.htm");
+  SetCsh(1101,"IDH_Definition_Scale_Mode",799,"xarax/IDH_Definition_Scale_Mode.htm");
+  SetCsh(1102,"IDH_Definition_Saturation",797,"xarax/IDH_Definition_Saturation.htm");
+  SetCsh(1103,"IDH_Definition_Outlining",772,"xarax/IDH_Definition_Outlining.htm");
+  SetCsh(1104,"IDH_Definition_Flip",724,"xarax/IDH_Definition_Flip.htm");
+  SetCsh(1105,"IDH_Definition_File_Format",717,"xarax/IDH_Definition_File_Format.htm");
+  SetCsh(1106,"IDH_Definition_em",714,"xarax/IDH_Definition_em.htm");
+  SetCsh(1107,"IDH_Definition_Default_Bitmap",701,"xarax/IDH_Definition_Default_Bitmap.htm");
+  SetCsh(1108,"IDH_Definition_CMYK",688,"xarax/IDH_Definition_CMYK.htm");
+  SetCsh(1109,"IDH_Definition_Tracer",676,"xarax/IDH_Definition_Tracer.htm");
+  SetCsh(1110,"IDH_How_Cycling_the_Selected_Point_Handles",661,"xarax/IDH_How_Cycling_the_Selected_Point_Handles.htm");
+  SetCsh(1111,"IDH_How_Blend_Steps",551,"xarax/IDH_How_Blend_Steps.htm");
+  SetCsh(1112,"IDH_How_Changing_the_font_units",536,"xarax/IDH_How_Changing_the_font_units.htm");
+  SetCsh(1113,"IDH_How_Changing_Linear_Fill_Colours",531,"xarax/IDH_How_Changing_Linear_Fill_Colours.htm");
+  SetCsh(1114,"IDH_How_Bitmap_Fill_Change_Bitmap",521,"xarax/IDH_How_Bitmap_Fill_Change_Bitmap.htm");
+  SetCsh(1115,"IDH_How_Applying_Conical_Transparency",433,"xarax/IDH_How_Applying_Conical_Transparency.htm");
+  SetCsh(1116,"IDH_Overview_Internet_Bitmaps",289,"xarax/IDH_Overview_Internet_Bitmaps.htm");
+  SetCsh(1117,"IDH_How_Entering_Text",387,"xarax/IDH_How_Entering_Text.htm");
+  SetCsh(1118,"IDH_How_Moving_four_color_fill_handles",335,"xarax/IDH_How_Moving_four_color_fill_handles.htm");
+  SetCsh(1119,"IDH_How_Change_the_colors_of_an_diamond_fill",332,"xarax/IDH_How_Change_the_colors_of_an_diamond_fill.htm");
+  SetCsh(1120,"IDH_How_Changing_three_color_fills",323,"xarax/IDH_How_Changing_three_color_fills.htm");
+  SetCsh(1121,"IDH_How_Exporting_part_of_a_document",316,"xarax/IDH_How_Exporting_part_of_a_document.htm");
+  SetCsh(1122,"IDH_Overview_Overprinting",305,"xarax/IDH_Overview_Overprinting.htm");
+  SetCsh(1123,"IDH_How_Printing_Getting_Your_Job_Printed",303,"xarax/IDH_How_Printing_Getting_Your_Job_Printed.htm");
+  SetCsh(1124,"IDH_Alert_Unable_to_find_printer_profile",296,"xarax/IDH_Alert_Unable_to_find_printer_profile.htm");
+  SetCsh(1125,"IDH_Misc_Key_Shortcuts",288,"xarax/IDH_Misc_Key_Shortcuts.htm");
+  SetCsh(1126,"IDH_Dialog_Bitmap_Tracer_Save_Settings_Button",477,"xarax/IDH_Dialog_Bitmap_Tracer_Save_Settings_Button.htm");
+  SetCsh(1127,"IDH_How_Creating_RAS_files",648,"xarax/IDH_How_Creating_RAS_files.htm");
+  SetCsh(1128,"IDH_How_Creating_New_Documents",644,"xarax/IDH_How_Creating_New_Documents.htm");
+  SetCsh(1129,"IDH_How_Fractal_Transparency_Resolution",557,"xarax/IDH_How_Fractal_Transparency_Resolution.htm");
+  SetCsh(1130,"IDH_Misc_Menus",975,"xarax/IDH_Misc_Menus.htm");
+  SetCsh(1131,"IDH_Gallery_Fill_Remove",902,"xarax/IDH_Gallery_Fill_Remove.htm");
+  SetCsh(1132,"IDH_Gallery_Colour_Name",593,"xarax/IDH_Gallery_Colour_Name.htm");
+  SetCsh(1133,"IDH_Tool_Selector",216,"xarax/IDH_Tool_Selector.htm");
+  SetCsh(1134,"IDH_Popup_QuickShape",202,"xarax/IDH_Popup_QuickShape.htm");
+  SetCsh(1135,"IDH_Popup_Blend",196,"xarax/IDH_Popup_Blend.htm");
+  SetCsh(1136,"IDH_Gallery_Fill",182,"xarax/IDH_Gallery_Fill.htm");
+  SetCsh(1137,"IDH_Dialog_Bitmap_Export_RAS",166,"xarax/IDH_Dialog_Bitmap_Export_RAS.htm");
+  SetCsh(1138,"IDH_Alert_Library_Check_Index_Create",128,"xarax/IDH_Alert_Library_Check_Index_Create.htm");
+  SetCsh(1139,"IDH_Command_Subtract_Shapes",88,"xarax/IDH_Command_Subtract_Shapes.htm");
+  SetCsh(1140,"IDH_Command_Save_As",79,"xarax/IDH_Command_Save_As.htm");
+  SetCsh(1141,"IDH_Command_Print_Borders",71,"xarax/IDH_Command_Print_Borders.htm");
+  SetCsh(1142,"IDH_Command_New_View",56,"xarax/IDH_Command_New_View.htm");
+  SetCsh(1143,"IDH_Command_Layer_Gallery",48,"xarax/IDH_Command_Layer_Gallery.htm");
+  SetCsh(1144,"IDH_Command_Combine_Shapes",27,"xarax/IDH_Command_Combine_Shapes.htm");
+  SetCsh(1145,"IDH_Command_Colour_Gallery",25,"xarax/IDH_Command_Colour_Gallery.htm");
+  SetCsh(1146,"IDH_Command_Bring_to_Front",19,"xarax/IDH_Command_Bring_to_Front.htm");
+  SetCsh(1147,"IDH_how_creating_multicolor_fills",1216,"xarax/IDH_how_creating_multicolor_fills.htm");
+  SetCsh(1148,"IDH_Command_Apply_ClipView",547,"xarax/IDH_Command_Apply_ClipView.htm");
+  SetCsh(1149,"IDH_Bitmap_effects_plug_ins",1353,"xarax/IDH_Bitmap_effects_plug_ins.htm");
+  SetCsh(1150,"IDH_Alert_INI_File_Out_of_Date",447,"xarax/IDH_Alert_INI_File_Out_of_Date.htm");
+  SetCsh(1151,"IDH_Gallery_Clipart_Get_Clipart",1375,"xarax/IDH_Gallery_Clipart_Get_Clipart.htm");
+  SetCsh(1152,"IDH_Command_Select_Next_Frame",1373,"xarax/IDH_Command_Select_Next_Frame.htm");
+  SetCsh(1153,"IDH_Definition_Image_Map",1130,"xarax/IDH_Definition_Image_Map.htm");
+  SetCsh(1154,"IDH_Command_Move_to_Previous_Frame",1056,"xarax/IDH_Command_Move_to_Previous_Frame.htm");
+  SetCsh(1155,"IDH_Gallery_Frame",1048,"xarax/IDH_Gallery_Frame.htm");
+  SetCsh(1156,"IDH_Overview_Molds",1040,"xarax/IDH_Overview_Molds.htm");
+  SetCsh(1157,"IDH_Definition_M",1289,"xarax/IDH_Definitions.htm#IDH_Definition_M");
+  SetCsh(1158,"IDH_How_Zoom_to_Selection",1274,"xarax/IDH_How_Zoom_to_Selection.htm");
+  SetCsh(1159,"IDH_Tool_Transparency_Resolution",1235,"xarax/IDH_Tool_Transparency_Resolution.htm");
+  SetCsh(1160,"IDH_How_Smoothing_a_LineShape",1203,"xarax/IDH_How_Smoothing_a_LineShape.htm");
+  SetCsh(1161,"IDH_How_Line_Length_and_Angle",1190,"xarax/IDH_How_Line_Length_and_Angle.htm");
+  SetCsh(1162,"IDH_How_Selecting_Text",1169,"xarax/IDH_How_Selecting_Text.htm");
+  SetCsh(1163,"IDH_How_Reshaping_an_Envelope",1136,"xarax/IDH_How_Reshaping_an_Envelope.htm");
+  SetCsh(1164,"IDH_How_Deleting_Bitmaps",1125,"xarax/IDH_How_Deleting_Bitmaps.htm");
+  SetCsh(1165,"IDH_How_Moving_Points_on_LinesShapes",1018,"xarax/IDH_How_Moving_Points_on_LinesShapes.htm");
+  SetCsh(1166,"IDH_Tool_Mould_Paste_Perspective",999,"xarax/IDH_Tool_Mould_Paste_Perspective.htm");
+  SetCsh(1167,"IDH_Tool_Mould_Floor_Perspective",995,"xarax/IDH_Tool_Mould_Floor_Perspective.htm");
+  SetCsh(1168,"IDH_How_Bitmap_Masking",984,"xarax/IDH_How_Bitmap_Masking.htm");
+  SetCsh(1169,"IDH_How_Listing_the_positions_of_guidelines",977,"xarax/IDH_How_Listing_the_positions_of_guidelines.htm");
+  SetCsh(1170,"IDH_How_Hiding_the_Colour_Line",940,"xarax/IDH_How_Hiding_the_Colour_Line.htm");
+  SetCsh(1171,"IDH_How_Exporting_CMX_files",890,"xarax/IDH_How_Exporting_CMX_files.htm");
+  SetCsh(1172,"IDH_Definition_QuickShapes",785,"xarax/IDH_Definition_QuickShapes.htm");
+  SetCsh(1173,"IDH_Definition_Guidelines",740,"xarax/IDH_Definition_Guidelines.htm");
+  SetCsh(1174,"IDH_Definition_Folder",726,"xarax/IDH_Definition_Folder.htm");
+  SetCsh(1175,"IDH_Definition_Edit_Handle",711,"xarax/IDH_Definition_Edit_Handle.htm");
+  SetCsh(1176,"IDH_Definition_Contone",693,"xarax/IDH_Definition_Contone.htm");
+  SetCsh(1177,"IDH_Definition_Attribute",671,"xarax/IDH_Definition_Attribute.htm");
+  SetCsh(1178,"IDH_Dialog_Create_Bitmap_Copy_Background",621,"xarax/IDH_Dialog_Create_Bitmap_Copy_Background.htm");
+  SetCsh(1179,"IDH_How_Copying_Objects_That_Use_Connected_Colours",612,"xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm");
+  SetCsh(1180,"IDH_How_Changing_Transparency_Shape",574,"xarax/IDH_How_Changing_Transparency_Shape.htm");
+  SetCsh(1181,"IDH_How_Changing_Tranparency",573,"xarax/IDH_How_Changing_Tranparency.htm");
+  SetCsh(1182,"IDH_How_Changing_Fractal_Fill_Grain",537,"xarax/IDH_How_Changing_Fractal_Fill_Grain.htm");
+  SetCsh(1183,"IDH_How_Editing_Fractal_Fills",509,"xarax/IDH_How_Editing_Fractal_Fills.htm");
+  SetCsh(1184,"IDH_How_Editing_Bitmap_Fills",495,"xarax/IDH_How_Editing_Bitmap_Fills.htm");
+  SetCsh(1185,"IDH_How_Rectangle_to_Ellipse",492,"xarax/IDH_How_Rectangle_to_Ellipse.htm");
+  SetCsh(1186,"IDH_Misc_Button_Palette_Control_Bar",489,"xarax/IDH_Misc_Button_Palette_Control_Bar.htm");
+  SetCsh(1187,"IDH_Tool_Blend_Anti_Alias",482,"xarax/IDH_Tool_Blend_Anti_Alias.htm");
+  SetCsh(1188,"IDH_How_Applying_Flat_Transparency",437,"xarax/IDH_How_Applying_Flat_Transparency.htm");
+  SetCsh(1189,"IDH_How_Selecting_Difficult_Objects",360,"xarax/IDH_How_Selecting_Difficult_Objects.htm");
+  SetCsh(1190,"IDH_Tool_Shape_Curved",306,"xarax/IDH_Tool_Shape_Curved.htm");
+  SetCsh(1191,"IDH_How_Applying_diamond_transparency",336,"xarax/IDH_How_Applying_diamond_transparency.htm");
+  SetCsh(1192,"IDH_Command_Web_Address",292,"xarax/IDH_Command_Web_Address.htm");
+  SetCsh(1193,"IDH_How_Changing_Curved_Lines_and_Shapes",279,"xarax/IDH_How_Changing_Curved_Lines_and_Shapes.htm");
+  SetCsh(1194,"IDH_How_Drawing_Ellipses",270,"xarax/IDH_How_Drawing_Ellipses.htm");
+  SetCsh(1195,"IDH_Command_Imagesetting",244,"xarax/IDH_Command_Imagesetting.htm");
+  SetCsh(1196,"IDH_Dialog_Bitmap_Tracer_Remove_Noise",475,"xarax/IDH_Dialog_Bitmap_Tracer_Remove_Noise.htm");
+  SetCsh(1197,"IDH_How_Hiding_the_page_shadow",942,"xarax/IDH_How_Hiding_the_page_shadow.htm");
+  SetCsh(1198,"IDH_How_Creating_bitmaps_from_objects",626,"xarax/IDH_How_Creating_bitmaps_from_objects.htm");
+  SetCsh(1199,"IDH_Dialog_Add_Folder_FindCD_Button",404,"xarax/IDH_Dialog_Add_Folder_FindCD_Button.htm");
+  SetCsh(1200,"IDH_Dialog_Bitmap_Export_TIFF_Compression",457,"xarax/IDH_Dialog_Bitmap_Export_TIFF_Compression.htm");
+  SetCsh(1201,"IDH_How_Button_Size",1191,"xarax/IDH_How_Button_Size.htm");
+  SetCsh(1202,"IDH_Alert_Library_No_Index_Skip",241,"xarax/IDH_Alert_Library_No_Index_Skip.htm");
+  SetCsh(1203,"IDH_How_Moving_Fractal_Transparency_Handles",1011,"xarax/IDH_How_Moving_Fractal_Transparency_Handles.htm");
+  SetCsh(1204,"IDH_How_Changing_a_Bitmap_Transparency",497,"xarax/IDH_How_Changing_a_Bitmap_Transparency.htm");
+  SetCsh(1205,"IDH_How_Moving_Transparency_Handles",1025,"xarax/IDH_How_Moving_Transparency_Handles.htm");
+  SetCsh(1206,"IDH_Gallery_Font_Apply",918,"xarax/IDH_Gallery_Font_Apply.htm");
+  SetCsh(1207,"IDH_Gallery_Line_Join",970,"xarax/IDH_Gallery_Line_Join.htm");
+  SetCsh(1208,"IDH_Gallery_Bitmap_Trans",466,"xarax/IDH_Gallery_Bitmap_Trans.htm");
+  SetCsh(1209,"IDH_Alert_ATM_Deinstall_Problems",232,"xarax/IDH_Alert_ATM_Deinstall_Problems.htm");
+  SetCsh(1210,"IDH_Alert_ATM_Not_Running",230,"xarax/IDH_Alert_ATM_Not_Running.htm");
+  SetCsh(1211,"IDH_Dialog_Layer_Properties",228,"xarax/IDH_Dialog_Layer_Properties.htm");
+  SetCsh(1212,"IDH_Popup_Point_Handle_Select_All_Points",201,"xarax/IDH_Popup_Point_Handle_Select_All_Points.htm");
+  SetCsh(1213,"IDH_Gallery_Layer",184,"xarax/IDH_Gallery_Layer.htm");
+  SetCsh(1214,"IDH_Dialog_CorelXARA_EPS_Export",178,"xarax/IDH_Dialog_CorelXARA_EPS_Export.htm");
+  SetCsh(1215,"IDH_Dialog_Gallery_Add_Folder",174,"xarax/IDH_Dialog_Gallery_Add_Folder.htm");
+  SetCsh(1216,"IDH_Dialog_Bitmap_Export_TIFF",168,"xarax/IDH_Dialog_Bitmap_Export_TIFF.htm");
+  SetCsh(1217,"IDH_Dialog_Bitmap_Export_PCX",165,"xarax/IDH_Dialog_Bitmap_Export_PCX.htm");
+  SetCsh(1218,"IDH_Command_1234",158,"xarax/IDH_Command_1234.htm");
+  SetCsh(1219,"IDH_Alert_Set_Current_Attribute_Graphic",148,"xarax/IDH_Alert_Set_Current_Attribute_Graphic.htm");
+  SetCsh(1220,"IDH_Alert_Fonts_Substituted",119,"xarax/IDH_Alert_Fonts_Substituted.htm");
+  SetCsh(1221,"IDH_Command_Print",70,"xarax/IDH_Command_Print.htm");
+  SetCsh(1222,"IDH_Command_Bitmap_Effects_Resize",12,"xarax/IDH_Command_Bitmap_Effects_Resize.htm");
+  SetCsh(1223,"IDH_Command_Arrange_Views",6,"xarax/IDH_Command_Arrange_Views.htm");
+  SetCsh(1224,"IDH_Command_Slice_Image",543,"xarax/IDH_Command_Slice_Image.htm");
+  SetCsh(1225,"IDH_Tool_Contour",345,"xarax/IDH_Tool_Contour.htm");
+  SetCsh(1226,"IDH_Tool_Bevel",103,"xarax/IDH_Tool_Bevel.htm");
+  SetCsh(1227,"IDH_Save_Template_Dialog",1352,"xarax/IDH_Save_Template_Dialog.htm");
+  SetCsh(1228,"IDH_Command_Print_Options",544,"xarax/IDH_Command_Print_Options.htm");
+  SetCsh(1229,"IDH_Gallery_Fill_Stop_Loading",1386,"xarax/IDH_Gallery_Fill_Stop_Loading.htm");
+  SetCsh(1230,"IDH_Gallery_Color_Background_Button",1377,"xarax/IDH_Gallery_Color_Background_Button.htm");
+  SetCsh(1231,"IDH_Gallery_Clipart_Stop_Loading",1374,"xarax/IDH_Gallery_Clipart_Stop_Loading.htm");
+  SetCsh(1232,"IDH_How_Moving_objects_between_frames",1327,"xarax/IDH_How_Moving_objects_between_frames.htm");
+  SetCsh(1233,"IDH_Gallery_Frame_Background_and_Overlay",1321,"xarax/IDH_Gallery_Frame_Background_and_Overlay.htm");
+  SetCsh(1234,"IDH_Dialog_Color_Editor_Color_Type",401,"xarax/IDH_Dialog_Color_Editor_Color_Type.htm");
+  SetCsh(1235,"IDH_Definition_Mould_Tool_Infobar",393,"xarax/IDH_Definition_Mould_Tool_Infobar.htm");
+  SetCsh(1236,"IDH_Definition_N",1290,"xarax/IDH_Definitions.htm#IDH_Definition_N");
+  SetCsh(1237,"IDH_How_View_Whole_Drawing",1275,"xarax/IDH_How_View_Whole_Drawing.htm");
+  SetCsh(1238,"IDH_How_Polygon_Edge_Warping",1259,"xarax/IDH_How_Polygon_Edge_Warping.htm");
+  SetCsh(1239,"IDH_How_updating_a_gallery",1251,"xarax/IDH_How_updating_a_gallery.htm");
+  SetCsh(1240,"IDH_Tool_Transparency_Levels",1239,"xarax/IDH_Tool_Transparency_Levels.htm");
+  SetCsh(1241,"IDH_How_Displaying_Hidden_Buttons",1197,"xarax/IDH_How_Displaying_Hidden_Buttons.htm");
+  SetCsh(1242,"IDH_Tool_Shape_Smoothing",1196,"xarax/IDH_Tool_Shape_Smoothing.htm");
+  SetCsh(1243,"IDH_Tool_Selector_SkewRotate_Mode",1182,"xarax/IDH_Tool_Selector_SkewRotate_Mode.htm");
+  SetCsh(1244,"IDH_How_Selecting_Text_Characters",1162,"xarax/IDH_How_Selecting_Text_Characters.htm");
+  SetCsh(1245,"IDH_Tool_QuickShape_Parameters",1113,"xarax/IDH_Tool_QuickShape_Parameters.htm");
+  SetCsh(1246,"IDH_Tool_Mould_Left_Perspective",996,"xarax/IDH_Tool_Mould_Left_Perspective.htm");
+  SetCsh(1247,"IDH_Misc_Gaddesden",926,"xarax/IDH_Misc_Gaddesden.htm");
+  SetCsh(1248,"IDH_How_Enabling_Object_Snapping",886,"xarax/IDH_How_Enabling_Object_Snapping.htm");
+  SetCsh(1249,"IDH_How_Drawing_a_Shape_With_the_Shape_Editor_Tool",870,"xarax/IDH_How_Drawing_a_Shape_With_the_Shape_Editor_Tool.htm");
+  SetCsh(1250,"IDH_How_Displaying_the_rulers",858,"xarax/IDH_How_Displaying_the_rulers.htm");
+  SetCsh(1251,"IDH_How_Displaying_The_Grid",856,"xarax/IDH_How_Displaying_The_Grid.htm");
+  SetCsh(1252,"IDH_Definition_Scale",798,"xarax/IDH_Definition_Scale.htm");
+  SetCsh(1253,"IDH_Definition_Redo",787,"xarax/IDH_Definition_Redo.htm");
+  SetCsh(1254,"IDH_Definition_Font",727,"xarax/IDH_Definition_Font.htm");
+  SetCsh(1255,"IDH_Definition_Bar",694,"xarax/IDH_Definition_Bar.htm");
+  SetCsh(1256,"IDH_Definition_Bitmap",674,"xarax/IDH_Definition_Bitmap.htm");
+  SetCsh(1257,"IDH_Definition_Apply_Inside",667,"xarax/IDH_Definition_Apply_Inside.htm");
+  SetCsh(1258,"IDH_Definition_Anti_Aliasing",665,"xarax/IDH_Definition_Anti_Aliasing.htm");
+  SetCsh(1259,"IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Restore",421,"xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Restore.htm");
+  SetCsh(1260,"IDH_How_adding_files_to_a_gallery",411,"xarax/IDH_How_adding_files_to_a_gallery.htm");
+  SetCsh(1261,"IDH_Tool_Shape_Break",310,"xarax/IDH_Tool_Shape_Break.htm");
+  SetCsh(1262,"IDH_How_Changing_the_tiling_of_four_color_fills",566,"xarax/IDH_How_Changing_the_tiling_of_four_color_fills.htm");
+  SetCsh(1263,"IDH_How_Changing_the_tiling_of_a_three_color_fill",334,"xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm");
+  SetCsh(1264,"IDH_How_Creating_spot_colors",653,"xarax/IDH_How_Creating_spot_colors.htm");
+  SetCsh(1265,"IDH_Definition_Spot_Color",816,"xarax/IDH_Definition_Spot_Color.htm");
+  SetCsh(1266,"IDH_Definition_Screen_Frequency",800,"xarax/IDH_Definition_Screen_Frequency.htm");
+  SetCsh(1267,"IDH_Dialog_Web_Export_Remove_Bitmap",1269,"xarax/IDH_Dialog_Web_Export_Remove_Bitmap.htm");
+  SetCsh(1268,"IDH_Pop_up_Menu",467,"xarax/IDH_Pop_up_Menu.htm");
+  SetCsh(1269,"IDH_How_Polygon_Stellate",268,"xarax/IDH_How_Polygon_Stellate.htm");
+  SetCsh(1270,"IDH_Overview_Web_Files",1272,"xarax/IDH_Overview_Web_Files.htm");
+  SetCsh(1271,"IDH_Dialog_Bitmap_Tracer_Accuracy",468,"xarax/IDH_Dialog_Bitmap_Tracer_Accuracy.htm");
+  SetCsh(1272,"IDH_Dialog_Bitmap_Effects_Test_Button",445,"xarax/IDH_Dialog_Bitmap_Effects_Test_Button.htm");
+  SetCsh(1273,"IDH_How_Changing_the_constrain_angle",532,"xarax/IDH_How_Changing_the_constrain_angle.htm");
+  SetCsh(1274,"Setting_a_scale_factor",1184,"xarax/Setting_a_scale_factor.htm");
+  SetCsh(1275,"IDH_Dialog_Print_Print_To_File_Option",1070,"xarax/IDH_Dialog_Print_Print_To_File_Option.htm");
+  SetCsh(1276,"IDH_Overview_Printing",258,"xarax/IDH_Overview_Printing.htm");
+  SetCsh(1277,"IDH_Overview_Attributes",444,"xarax/IDH_Overview_Attributes.htm");
+  SetCsh(1278,"IDH_Dialog_Bitmap_Export_GIF_Transparency",453,"xarax/IDH_Dialog_Bitmap_Export_GIF_Transparency.htm");
+  SetCsh(1279,"IDH_Definition_Optimised_Palette",771,"xarax/IDH_Definition_Optimised_Palette.htm");
+  SetCsh(1280,"IDH_How_Subtracting_Shapes",1210,"xarax/IDH_How_Subtracting_Shapes.htm");
+  SetCsh(1281,"IDH_Alert_Loading_EPS",240,"xarax/IDH_Alert_Loading_EPS.htm");
+  SetCsh(1282,"IDH_How_Inverting_a_Greyscale_Bitmap",956,"xarax/IDH_How_Inverting_a_Greyscale_Bitmap.htm");
+  SetCsh(1283,"IDH_Gallery_Fill_Popup_Menu",901,"xarax/IDH_Gallery_Fill_Popup_Menu.htm");
+  SetCsh(1284,"IDH_Gallery_Colour_New",594,"xarax/IDH_Gallery_Colour_New.htm");
+  SetCsh(1285,"IDH_Gallery_Layer_New",965,"xarax/IDH_Gallery_Layer_New.htm");
+  SetCsh(1286,"IDH_How_Typing_International_characters",1243,"xarax/IDH_How_Typing_International_characters.htm");
+  SetCsh(1287,"IDH_Command_Options_Grid_and_Ruler",224,"xarax/IDH_Command_Options_Grid_and_Ruler.htm");
+  SetCsh(1288,"IDH_Dialog_Gallery_Sort_Dialog",222,"xarax/IDH_Dialog_Gallery_Sort_Dialog.htm");
+  SetCsh(1289,"IDH_Tool_Freehand",210,"xarax/IDH_Tool_Freehand.htm");
+  SetCsh(1290,"IDH_Gallery_Line",185,"xarax/IDH_Gallery_Line.htm");
+  SetCsh(1291,"IDH_Gallery_Colour",181,"xarax/IDH_Gallery_Colour.htm");
+  SetCsh(1292,"IDH_Dialog_Bitmap_Export_GIF",162,"xarax/IDH_Dialog_Bitmap_Export_GIF.htm");
+  SetCsh(1293,"IDH_Alert_Set_Current_Attribute",147,"xarax/IDH_Alert_Set_Current_Attribute.htm");
+  SetCsh(1294,"IDH_Alert_Clipboard_Problem",106,"xarax/IDH_Alert_Clipboard_Problem.htm");
+  SetCsh(1295,"IDH_Alert_Bad_Mould_Shape",100,"xarax/IDH_Alert_Bad_Mould_Shape.htm");
+  SetCsh(1296,"IDH_Command_Intersect_Shapes",46,"xarax/IDH_Command_Intersect_Shapes.htm");
+  SetCsh(1297,"IDH_Command_Duplicate",35,"xarax/IDH_Command_Duplicate.htm");
+  SetCsh(1298,"IDH_Command_Clone",23,"xarax/IDH_Command_Clone.htm");
+  SetCsh(1299,"IDH_Command_Bitmap_Effects_Flip_and_Rotate",11,"xarax/IDH_Command_Bitmap_Effects_Flip_and_Rotate.htm");
+
+
+//-->
+</script>
+<script language="javascript">
+<!--
+//Find CSH according to hash string after this page
+if (getHash().length > 0)
+{
+   // VH 05/16/00 now support 
+   // TopicID=
+   // TopicNumber=
+   // RemoteURL=   
+   // and WindowsOptions
+   // with the format #a=xxx,b=xxx,c=xxx...
+   var strHashString = getHash().toString();
+   // change ? to : for remote URL. because java applet have some problem to pass a URL with two : inside the URL so we changed it. 
+   // so here need to change it back.
+   strHashString = strHashString.substring(1,strHashString.length);
+   strHashString = strHashString.replace("%072%057%057", "://");
+   var nTopicNum = GetTopicNumber(strHashString);
+
+   if (nTopicNum != -1)
+   {
+      FindTopicByTopicNum(nTopicNum);
+   }
+   else
+   {
+      if (gstrURL.length > 0) 
+	RedirectTo(gstrURL);
+      else
+      	RedirectToHomePage();
+   }
+}
+else
+{
+   RedirectToHomePage();
+}
+//-->
+</script>
+<noscript>
+ <p> Your browser does not support JavaScript. WebHelp Context-Sensitive Help requires JavaScript support to run.</p>
+</noscript>
+</body>
+</html>
+
+
+
+
+
+

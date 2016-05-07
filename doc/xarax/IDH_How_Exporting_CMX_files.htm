@@ -1,0 +1,100 @@
+<HTML>
+<HEAD><!-- $MVD$:fontset("Courier New","Courier New") -->
+ <link rel='stylesheet' href='../xarax_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../xarax.css'>");}
+//-->
+</script>
+ <TITLE>Exporting CMX files</TITLE>
+ <META NAME="generator" CONTENT="RoboHelp by eHelp Corporation www.ehelp.com">
+ <meta name="copyright" value="©1995-2004 Xara Group Ltd."><SCRIPT LANGUAGE="JavaScript" TITLE="BSSC Special Effects" SRC="../ehlpdhtm.js" name="EHELP_DHTM"></SCRIPT>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="../whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js"></script>
+</HEAD>
+<BODY>
+ <script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("../xaralx.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<P class="How-Title" style="line-height:12.00pt;">Exporting CMX files</P>
+ <P class="Base" >You can export files in CMX version 5 <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_File_Format.htm');return false;">format</A> or CMX version 6 format. Using this format you can transfer files from Xara LX to CorelDRAW (version 5 or later) You can also place CMX files on the Internet as Netscape Navigator has a plug-in that can display them. Always use CMX version 6 where possible as it stores the picture more accurately (it is a 32-bit format as opposed to a 16-bit format).</P>
+ <P class="Base" >CMX 5 format has a maximum width and height of 40 inches (just over 1 meter). If your drawing is bigger than this, it is automatically scaled down when you create the CMX file (Xara LX warns you if this happens.) Note that the page size is irrelevant - what matters is objects in the drawing. </P>
+ <P class="Base" >Some Xara LX features do not exist in CorelDRAW or are implemented differently:</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Transparency.htm');return false;">Transparency</A>. CMX supports only flat transparency. Other transparency types are converted to flat transparency.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Elliptical_Fill.htm');return false;">Elliptical fills</A> are converted to circular fills.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Bitmap_Fill.htm');return false;">Bitmap fills</A>. CMX does not support rotated tiles.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Fractal_Fill.htm');return false;">Fractal Cloud fills</A> and <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Definition_Fractal_Plasma_Fills.htm');return false;">Fractal Plasma fills</A>. These will transfer fine, but are exported as bitmap fills.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Three_Color_Fill.htm');return false;">Three Color Fills</A> and <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Four_Color_Fill.htm');return false;">Four Color Fills</A> will not export.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Blend.htm');return false;">Blends</A>. Not part of the CMX format. Blends are exported as individual objects.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Mould.htm');return false;">Molds</A>. Not part of the CMX format. The correct shape is exported but the mold outline is lost.</P>
+ <P class="Simple-Bullet-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_QuickShapes.htm');return false;">QuickShapes</A>. All QuickShapes are converted to simple shapes.</P>
+ <P class="Base" >Not all of Xara LX fill types have equivalents in CorelDRAW, however most fill types will transfer correctly. If you put a fill handle outside a object's <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Bounding_Box.htm');return false;">bounding box</A>, it will move so it is inside the bounding box. If you use either of the rainbow fill-effects, the two fill handles will move so they are the same distance from the edges of the bounding box.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;To export a CMX file</P>
+ <P class="How-Number-List" >1. Open the document you want to export as a CMX file.</P>
+ <P class="How-Number-List" >2. From the File menu, choose <span style="font-weight:bold; "><B>Export</B></span>.</P>
+ <P class="How-Number-List" >3. Select <span style="font-weight:bold; "><B>CMX 6</B></span> (32-bit) or <span style="font-weight:bold; "><B>CMX 5</B></span> (16-bit) from the list of file types.</P>
+ <P class="How-Number-List" >4. Choose a filename and location for the file.</P>
+ <P class="How-Number-List" ><span style="font-weight:bold; "><B>Note</B></span></P>
+ <P class="How-Number-List" >Use CMX 5 format to export to CorelDRAW 5. Use CMX 6 for CorelDRAW 6 and later.</P>
+ <P class="Related-Topics-Title" >_______________</P>
+ <P class="Related-Topics-Title" ><a href="javascript:void(0);" onClick="var e; if (parseInt(navigator.appVersion)>=4){e=event;}  if (parseInt(navigator.appVersion) >=2 && typeof(PickupDialog_Invoke) == 'function') PickupDialog_Invoke(e,'');return false;" title=""><img src="../ss_btn_.gif" border=0 height=14 width=14 alt=""></a>  Related Topics</P>
+<script type="text/javascript" language="JavaScript" title="WebHelpRelatedTopics"><!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//--></script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</BODY>
+</HTML>

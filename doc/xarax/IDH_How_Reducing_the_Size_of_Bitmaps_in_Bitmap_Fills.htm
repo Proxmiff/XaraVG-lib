@@ -1,0 +1,100 @@
+<HTML>
+<HEAD><!-- $MVD$:fontset("Courier New","Courier New") -->
+ <link rel='stylesheet' href='../xarax_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../xarax.css'>");}
+//-->
+</script>
+ <TITLE>Reducing the resolution of bitmaps and bitmap fills</TITLE>
+ <META NAME="generator" CONTENT="RoboHelp by eHelp Corporation www.ehelp.com">
+ <meta name="copyright" value="©1995-2004 Xara Group Ltd."><SCRIPT LANGUAGE="JavaScript" TITLE="BSSC Special Effects" SRC="../ehlpdhtm.js" name="EHELP_DHTM"></SCRIPT>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="../whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js"></script>
+</HEAD>
+<BODY>
+ <script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("../xaralx.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<P class="How-Title" style="line-height:12.00pt;">Reducing the resolution of bitmaps and bitmap fills</P>
+ <P class="Base" >If you have any <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Bitmap_Fill.htm');return false;">bitmap fills</A> in a drawing, you can reduce the size of the file by reducing the resolution of the bitmaps in the fills. This is useful if you are creating images for use on the Web. Images do not need to be displayed at more than 96 dpi and can often be much less. In a similar way if your document contains bitmaps that have been masked or converted to shapes, you can reduce their size by creating a new bitmap from them discarding any areas you cannot see.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;To reduce the resolution of a bitmap fill</P>
+ <P class="How-Number-List" >1. Select the object with the bitmap fill (see <A href="IDH_How_Selecting.htm">Selecting objects</A>).</P>
+ <P class="How-Number-List" >2. Choose the Fill Tool and make sure no fill handles are selected. (Click away from the fill handle if necessary.)</P>
+ <P class="How-Number-List" >3. The <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Fill_Tool_Infobar.htm');return false;">Fill Tool Infobar</A> now tells you the resolution of the bitmap. (If you reduce the size of the object you see the bitmap resolution go up as you would expect.)</P>
+ <P class="How-Number-List" >4. From <A href="IDH_Menu_Plugin.htm">Bitmap Effect &amp; Plug-ins</A> on the Utilities menu choose <span style="font-weight:bold; "><B>Bitmap Effects</B></span> then <span style="font-weight:bold; "><B>Resize</B></span>.</P>
+ <P class="How-Number-List" >5. The current bitmap will be shown in the dialog box. If not, select the correct one from the drop down list. The dialog box shows the current X and Y pixel size.</P>
+ <P class="How-Number-List" >6. Enter a new pixel size, that is lower than the current size. Halving the size will halve the bitmap resolution. Keep the interpolate and lock aspect options selected.</P>
+ <P class="How-Number-List" >7. Click <span style="font-weight:bold; "><B>OK</B></span>. This inserts the new reduced resolution into the drawing.</P>
+ <P class="How-Number-List" >8. Select the original shape that had the fill in, and then the Fill Tool again. On the Fill Tool Infobar is a drop down that lists all the bitmap contained in the current document. The one at the end of the list will be the resized version of the bitmap. It will say (resized) after it.</P>
+ <P class="How-Number-List" >9. Select this resized bitmap from the list. This will exactly replace the old one.</P>
+ <P class="How-Number-List" ><span style="font-weight:bold; "><B>Note</B></span>: As this method uses interpolation when it reduces the size of the bitmap, the bitmap may look better on the screen than it did before.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;To reduce the resolution by creating a new bitmap</P>
+ <P class="How-Number-List" >1. Select the bitmap.</P>
+ <P class="How-Number-List" >2. From the Arrange menu, choose <span style="font-weight:bold; "><B>Create Bitmap Copy</B></span>.</P>
+ <P class="How-Number-List" >3. In the dialog box, select the resolution you need. 96dpi will usually give the best results.</P>
+ <P class="How-Number-List" >4. Shift-click the Create button to create the bitmap. Holding down Shift when you click creates the bitmap in the same place as the original bitmap.</P>
+ <P class="How-Number-List" >5. Cut (CTRL+X) the new bitmap to the <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('IDH_Definition_Clipboard.htm');return false;">clipboard</A>.</P>
+ <P class="How-Number-List" >6. Delete the original bitmap.</P>
+ <P class="How-Number-List" >7. Press CTRL+Shift+V to paste the new bitmap back where it was.</P>
+ <P class="How-Number-List" >This method works well on masked bitmaps as the areas you cannot see are no longer stored in the file.</P>
+ <P class="Related-Topics-Title" >_______________</P>
+ <P class="Related-Topics-Title" >Related Topics</P>
+ <P class="Simple-Bullet-List" ><A href="IDH_Tool_Fill.htm">Fill Tool</A></P>
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</BODY>
+</HTML>

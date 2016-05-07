@@ -1,0 +1,1576 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<ftstdata>
+<topic name="Getting Started with Drawings" url="Getting_Started_with_Drawings.htm" />
+<topic name="Introduction" url="Introduction.htm" />
+<topic name="Add colors to multicolor fill" url="xarax/Add_colors_to_multicolor_fills.htm" />
+<topic name="Alternative names" url="xarax/Alternative_names.htm" />
+<topic name="Bar Properties Dialog Box - Create button" url="xarax/Bar_Creation_Dialog_Box_Create_button.htm" />
+<topic name="Bar Properties Dialog Box - BackBar" url="xarax/Bar_Properties___BackBar.htm" />
+<topic name="Bar Properties Dialog Box - Buttons are all" url="xarax/Bar_Properties___Buttons_are_all.htm" />
+<topic name="Bar Properties Dialog Box - Number of Buttons" url="xarax/Bar_Properties___Number_of_buttons.htm" />
+<topic name="Bar Properties Dialog Box - Button Stretching" url="xarax/Bar_Properties_Button_Stretching.htm" />
+<topic name="Bar Properties Dialog Box - Bar Direction" url="xarax/Bar_Properties_Dialog_Box___Bar_Direction.htm" />
+<topic name="Bar Properties Dialog Box - Group Stretching" url="xarax/Bar_Properties_dialog_box___Group_Stretching.htm" />
+<topic name="Bar Properties Dialog Box - Button Spacing" url="xarax/Bar_Properties_Dialog_Box_Spacing.htm" />
+<topic name="Batch export" url="xarax/Batch_export.htm" />
+<topic name="Bevel direction" url="xarax/Bevel_direction.htm" />
+<topic name="Bevel pop-up menu" url="xarax/Bevel_pop_up_menu.htm" />
+<topic name="Bevel Tool - Bevel settings" url="xarax/Bevel_settings.htm" />
+<topic name="Bevel Tool - Inner/Outer bevel" url="xarax/Bevel_Tool___Inner_Outer_bevel.htm" />
+<topic name="Bevel Tool - Join style" url="xarax/Bevel_Tool___Join_style.htm" />
+<topic name="Bevel Tool - Slider Type" url="xarax/Bevel_Tool_Slider_type.htm" />
+<topic name="Bevel Tool - Bevel type" url="xarax/Bevel_type.htm" />
+<topic name="Preview button" url="xarax/Bitmap_Export___Preview_Button.htm" />
+<topic name="Bitmap Export Dialog Box" url="xarax/Bitmap_Export_Dialog_Box.htm" />
+<topic name="Bitmap Export Dialog Box - Area to Save" url="xarax/Bitmap_Export_Dialog_Box___Area_to_Save.htm" />
+<topic name="Bitmap Export Dialog Box - Color Depth" url="xarax/Bitmap_Export_Dialog_Box___Color_Depth.htm" />
+<topic name="Bitmap Export Dialog Box - Colors" url="xarax/Bitmap_Export_Dialog_Box___Colors.htm" />
+<topic name="Bitmap Export Dialog Box - Bitmap Options tab" url="xarax/Bitmap_Export_Dialog_Box___GIF_Options__backup_.htm" />
+<topic name="Bitmap Export Dialog Box - Palette" url="xarax/Bitmap_Export_Dialog_Box___Palette.htm" />
+<topic name="Bitmap Export Dialog Box - Bitmap Options" url="xarax/Bitmap_Export_Dialog_Box___PNG_Options__backup_.htm" />
+<topic name="Bitmap Export Dialog Box - Size (and Resolution)" url="xarax/Bitmap_Export_Dialog_Box___Size__and_Resolution_.htm" />
+<topic name="Bitmap Export Dialog Box - Control Buttons" url="xarax/Bitmap_Export_Dialog_Box_Control_Buttons.htm" />
+<topic name="Bitmap Gallery - Background Button" url="xarax/Bitmap_Gallery___Background_Button.htm" />
+<topic name="Bitmap Gallery - Preview Button" url="xarax/Bitmap_Gallery___Preview_Button.htm" />
+<topic name="Blend Tool - Attribute Profile" url="xarax/Blend_Tool_Attribute_Profile.htm" />
+<topic name="Blend Tool - Blend along a curve" url="xarax/Blend_Tool_Blend_along_a_curve.htm" />
+<topic name="Blend Tool - Position Profile" url="xarax/Blend_Tool_Position_Profile.htm" />
+<topic name="Blend Tool - Rotate along Curve" url="xarax/Blend_Tool_Rotate_along_Curve.htm" />
+<topic name="Blending along a curve" url="xarax/Blending_along_a_curve.htm" />
+<topic name="Blur the edges of the shadow" url="xarax/Blur_shadow_edges.htm" />
+<topic name="Changing Brush Stroke Properties" url="xarax/Brush_Stroke_Properties.htm" />
+<topic name="Change circular fill tiling" url="xarax/Change_circular_fill_tiling.htm" />
+<topic name="Changing existing colors in multi-stage fills" url="xarax/Change_colors_in_multicolor_fills.htm" />
+<topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+<topic name="Change shadow transparency" url="xarax/Change_shadow_transparency.htm" />
+<topic name="Change the position of a color in a multicolor fill" url="xarax/Change_the_position_of_a_color_in_a_multicolor_fill.htm" />
+<topic name="Changing colors in multicolor fills" url="xarax/Changing_colors_in_multicolor_fills.htm" />
+<topic name="Changing contour size" url="xarax/Changing_contour_size.htm" />
+<topic name="Changing diamond fill tiling" url="xarax/Changing_diamond_fill_tiling.htm" />
+<topic name="Changing elliptical fill tiling" url="xarax/Changing_elliptical_fill_tiling.htm" />
+<topic name="Changing linear fill tiling" url="xarax/Changing_linear_fill_tiling.htm" />
+<topic name="Changing multi-stage fills" url="xarax/Changing_multicolor_fills.htm" />
+<topic name="Changing the bevel color" url="xarax/Changing_the_bevel_color.htm" />
+<topic name="Changing the bevel join" url="xarax/Changing_the_bevel_join.htm" />
+<topic name="Changing the blend attribute profile" url="xarax/Changing_the_blend_attribute_profile.htm" />
+<topic name="Changing the blend position profile" url="xarax/Changing_the_blend_position_profile.htm" />
+<topic name="Changing the Brush Stoke design" url="xarax/Changing_the_Brush_Stoke_design.htm" />
+<topic name="Changing the contour attribute profile" url="xarax/Changing_the_contour_attribute_profile.htm" />
+<topic name="Changing the contour color" url="xarax/Changing_the_contour_color.htm" />
+<topic name="Changing the contour position profile" url="xarax/Changing_the_contour_position_profile.htm" />
+<topic name="Changing the default units" url="xarax/Changing_the_default_units.htm" />
+<topic name="Changing the feathering profile" url="xarax/Changing_the_feathering_profile.htm" />
+<topic name="Changing the feathering size" url="xarax/Changing_the_feathering_size.htm" />
+<topic name="Changing the fill profile" url="xarax/Changing_the_fill_profile.htm" />
+<topic name="Changing the grain of a fractal transparencyA" url="xarax/Changing_the_grain_of_a_fractal_transparencyA.htm" />
+<topic name="Changing the level in flat transparency" url="xarax/Changing_the_level_in_flat_transparency.htm" />
+<topic name="Changing the levels in bitmap transparency" url="xarax/Changing_the_levels_in_bitmap_transparencyA.htm" />
+<topic name="Changing the levels in circular transparency" url="xarax/Changing_the_levels_in_circular_transparencyA.htm" />
+<topic name="Changing the levels in conical transparency" url="xarax/Changing_the_levels_in_conical_transparencyA.htm" />
+<topic name="Changing the levels in diamond transparency" url="xarax/Changing_the_levels_in_diamond_transparencyA.htm" />
+<topic name="Changing the levels in elliptical transparency" url="xarax/Changing_the_levels_in_elliptical_transparencyA.htm" />
+<topic name="Changing the levels in four point transparency" url="xarax/Changing_the_levels_in_four_point_transparencyA.htm" />
+<topic name="Changing the levels in fractal transparency" url="xarax/Changing_the_levels_in_fractal_transparencyA.htm" />
+<topic name="Changing the levels in linear transparency" url="xarax/Changing_the_levels_in_linear_transparencyA.htm" />
+<topic name="Changing the levels in three point transparency" url="xarax/Changing_the_levels_in_three_point_transparencyA.htm" />
+<topic name="Changing the number of steps in a contour" url="xarax/Changing_the_number_of_steps_in_a_contour.htm" />
+<topic name="Changing the position of a Wall shadow" url="xarax/Changing_the_position_of_a_Wall_shadow.htm" />
+<topic name="Changing the shadow color" url="xarax/Changing_the_shadow_color.htm" />
+<topic name="Changing the shadow profile" url="xarax/Changing_the_shadow_profile.htm" />
+<topic name="Changing the size of a Floor shadow" url="xarax/Changing_the_size_of_a_Floor_shadow.htm" />
+<topic name="Changing the size of a Glow shadow" url="xarax/Changing_the_size_of_a_Glow_shadow.htm" />
+<topic name="Changing the stroke shape of a line" url="xarax/Changing_the_stroke_shape_of_a_line.htm" />
+<topic name="Changing the tiling of bitmap transparencyA" url="xarax/Changing_the_tiling_of_bitmap_transparencyA.htm" />
+<topic name="Changing the tiling of four point transparencyA" url="xarax/Changing_the_tiling_of_four_point_transparencyA.htm" />
+<topic name="Changing the tiling of fractal transparencyA" url="xarax/Changing_the_tiling_of_fractal_transparencyA.htm" />
+<topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+<topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+<topic name="Changing the way colors fade in a contour" url="xarax/Changing_the_way_colors_fade_in_a_contour.htm" />
+<topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+<topic name="Clipart gallery - Drop-down" url="xarax/Clipart_gallery___Drop_down.htm" />
+<topic name="Color Editor - Make local to frame" url="xarax/Color_Editor___Make_local_to_frame.htm" />
+<topic name="Color Editor - No Color button" url="xarax/Color_Editor___No_Color_button.htm" />
+<topic name="Color Editor - Rename color button" url="xarax/Color_Editor___Rename_color_button.htm" />
+<topic name="Color Editor - Snap to Browser Palette" url="xarax/Color_Editor___Snap_to_Browser_Palette.htm" />
+<topic name="Color Editor - Color Picker" url="xarax/Color_Editor_Color_Picker.htm" />
+<topic name="Color Editor - Color Swatches" url="xarax/Color_Editor_Color_Swatches.htm" />
+<topic name="Contour Tool - Attribute Profile" url="xarax/Contour_Tool___Attribute_Profile.htm" />
+<topic name="Contour Tool - Effect Field" url="xarax/Contour_Tool___Effect_Field.htm" />
+<topic name="Contour Tool - Inner/Outer" url="xarax/Contour_Tool___Inner_Outer.htm" />
+<topic name="Contour Tool - Inset Path" url="xarax/Contour_Tool___Inset_Path.htm" />
+<topic name="Contour Tool - Join style" url="xarax/Contour_Tool___Join_style.htm" />
+<topic name="Contour Tool - Remove Button" url="xarax/Contour_Tool___Remove_Button.htm" />
+<topic name="Contour Tool - Steps Field" url="xarax/Contour_Tool___Steps_Field.htm" />
+<topic name="Contour Tool - Position Profile" url="xarax/Contour_Tool_Position_Profile.htm" />
+<topic name="Selecting objects using the Contour Tool" url="xarax/Contour_Tool_select.htm" />
+<topic name="Contour Tool - Countour Width" url="xarax/Contour_Tool_Slider.htm" />
+<topic name="Converting bevel to shapes" url="xarax/Converting_bevel_to_shapes.htm" />
+<topic name="Converting contours to shapes" url="xarax/Converting_contours_to_shapes.htm" />
+<topic name="Converting lines to shapes" url="xarax/Converting_lines_to_shapes.htm" />
+<topic name="Converting shadows to shapes" url="xarax/Converting_shadows_to_shapes.htm" />
+<topic name="Create a ClipView" url="xarax/Create_a_ClipView.htm" />
+<topic name="Creating a BackBar" url="xarax/Creating_a_backbar.htm" />
+<topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+<topic name="Creating new default brushes" url="xarax/Creating_new_default_brushes.htm" />
+<topic name="Creating rollover buttons" url="xarax/Creating_rollover_buttons.htm" />
+<topic name="Creating template sets" url="xarax/Creating_template_sets.htm" />
+<topic name="Creating Tint Colors" url="xarax/Creating_Tint_Colors.htm" />
+<topic name="Definition: Brush" url="xarax/Definition___Brush.htm" />
+<topic name="Definition: Animated documents" url="xarax/Definition__Animated_documents.htm" />
+<topic name="Definition: Bevel" url="xarax/Definition__Bevel.htm" />
+<topic name="Definition: Brightness transparency type" url="xarax/Definition__Brightness_transparency_type.htm" />
+<topic name="Definition: Contour" url="xarax/Definition__Contour.htm" />
+<topic name="Definition: Contour Tool Infobar" url="xarax/Definition__Contour_Tool_Infobar.htm" />
+<topic name="Definition: Contrast transparency type" url="xarax/Definition__Contrast_transparency_type.htm" />
+<topic name="Definition: CorelXARA" url="xarax/Definition__CorelXARA.htm" />
+<topic name="Definition: Darken transparency type" url="xarax/Definition__Darken_transparency_type.htm" />
+<topic name="Definition: Feathering" url="xarax/Definition__Feathering.htm" />
+<topic name="Definition: Fractal Plasma Transparency" url="xarax/Definition__Fractal_Plasma_Transprency.htm" />
+<topic name="Definition__Group_Transparency" url="xarax/Definition__Group_Transparency.htm" />
+<topic name="Definition: Hue transparency type" url="xarax/Definition__Hue_transparency_type.htm" />
+<topic name="Definition: Interactive Dragging" url="xarax/Definition__Interactive_Dragging.htm" />
+<topic name="Definition: Luminosity transparency type" url="xarax/Definition__Luminosity_transparency_type.htm" />
+<topic name="Definition: Named Object" url="xarax/Definition__Named_Object.htm" />
+<topic name="Definition: Resolution" url="xarax/Definition__Resolution.htm" />
+<topic name="Definition__resolution__Create_bitmap_" url="xarax/Definition__resolution__Create_bitmap_.htm" />
+<topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+<topic name="Definition: Saturation transparency type" url="xarax/Definition__Saturation_transparency_type.htm" />
+<topic name="Definition: Shadow Tool Infobar" url="xarax/Definition__Shadow_Tool_Infobar.htm" />
+<topic name="Definition: Stroke Shape" url="xarax/Definition__stroke_shape.htm" />
+<topic name="Definition: Toolbar" url="xarax/Definition__Toolbar.htm" />
+<topic name="Definition: WebSnap palette" url="xarax/Definition__WebSnap_palette.htm" />
+<topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+<topic name="Definition: Alpha-channel" url="xarax/Definition_Alpha_channel.htm" />
+<topic name="Definition: Bleach transparency type" url="xarax/Definition_Bleach_transparency_type.htm" />
+<topic name="Definition: Custom Bitmap Effect" url="xarax/Definition_Custom_Bitmap_Effect.htm" />
+<topic name="Definition: Edge Detection Bitmap Effect" url="xarax/Definition_Edge_Detection_Bitmap_Effect.htm" />
+<topic name="Definition: Fractal Plasma Fills" url="xarax/Definition_Fractal_Plasma_Fills.htm" />
+<topic name="Definition: Lighten transparency type" url="xarax/Definition_Lighten_transparency_type.htm" />
+<topic name="Definition: Mix transparency type" url="xarax/Definition_Mix_transparency_type.htm" />
+<topic name="Definition: Navigation Bars" url="xarax/Definition_Navbar.htm" />
+<topic name="Definition: NavBar Tool Infobar" url="xarax/Definition_NavBar_Tool_Infobar.htm" />
+<topic name="Definition: Drawing Documents" url="xarax/Definition_Normal_Documents.htm" />
+<topic name="Definition: Normal Screen Mode" url="xarax/Definition_Normal_Screen_Mode.htm" />
+<topic name="Definition: Push Tool Infobar" url="xarax/Definition_Push_Tool_Infobar.htm" />
+<topic name="Definition: Rectangle Tool Infobar" url="xarax/Definition_Rectangle_Tool_Infobar.htm" />
+<topic name="Definition: Sharpen Bitmap Effect" url="xarax/Definition_Sharpen_Bitmap_Effect.htm" />
+<topic name="Definition: Stained Glass transparency type" url="xarax/Definition_Stained_Glass_transparency_type.htm" />
+<topic name="Definition: Text Tool Infobar" url="xarax/Definition_Text_Tool_Infobar.htm" />
+<topic name="Delete a color in multi-stage fill" url="xarax/Delete_a_color_in_multicolor_fill.htm" />
+<topic name="Deleting a brush" url="xarax/Deleting_a_brush.htm" />
+<topic name="Deleting a navigation bar button" url="xarax/Deleting_a_navigation_bar_button.htm" />
+<topic name="Deleting a rollover button state" url="xarax/Deleting_a_rollover_button_state.htm" />
+<topic name="Deleting colors" url="xarax/Deleting_colors.htm" />
+<topic name="Bitmap Export Dialog Box - Preview Button" url="xarax/Dialog_Bitmap_Export_Dialog_Box___Preview_Button.htm" />
+<topic name="Definition: Dilation Bitmap Effect" url="xarax/Dilation_Bitmap_Effect.htm" />
+<topic name="Displaying the Toolbar" url="xarax/Displaying_the_Toolbar.htm" />
+<topic name="Downloading Items" url="xarax/Downloading_Items.htm" />
+<topic name="Save brush as new" url="xarax/Edit_brush_Save.htm" />
+<topic name="Edit color - Lock a color (bitmap export)" url="xarax/Edit_color___Lock_a_color.htm" />
+<topic name="Edit color - Lock a color (bitmap copy)" url="xarax/Edit_color___Lock_a_color__bitmap_copy_.htm" />
+<topic name="Edit color - color definition (bitmap export)" url="xarax/Edit_color_color_definition.htm" />
+<topic name="Edit color - color definition (bitmap copy)" url="xarax/Edit_color_color_definition_bitmap_copy_.htm" />
+<topic name="Edit color - delete color (bitmap export)" url="xarax/Edit_color_delete_color.htm" />
+<topic name="Edit color - delete color (bitmap copy)" url="xarax/Edit_color_delete_color__bitmap_copy_.htm" />
+<topic name="Edit color - make transparent (bitmap export)" url="xarax/Edit_color_make_transparent.htm" />
+<topic name="Edit color - make transparent (bitmap copy)" url="xarax/Edit_color_make_transparent__bitmap_copy_.htm" />
+<topic name="Edit color - make web safe (bitmap export)" url="xarax/Edit_color_make_web_safe.htm" />
+<topic name="Edit color - make web safe (bitmap copy)" url="xarax/Edit_color_make_web_safe__bitmap_copy_.htm" />
+<topic name="Editing brushes" url="xarax/Editing_brushes.htm" />
+<topic name="Editing colors in the Create Bitmap Copy palette" url="xarax/Editing_colors_in_the_Create_Bitmap_Copy_palette.htm" />
+<topic name="Editing colors in the export palette" url="xarax/Editing_colors_in_the_export_palette.htm" />
+<topic name="Exporting as PDF" url="xarax/Exporting_as_PDF.htm" />
+<topic name="Exporting Macromedia Flash files" url="xarax/Exporting_Macromedia_Flash_files.htm" />
+<topic name="Feather Control Bar" url="xarax/Feather_Control_bar.htm" />
+<topic name="Feather Control Bar - Profile" url="xarax/Feather_Control_Bar___Profile.htm" />
+<topic name="Feather Control Bar - Size" url="xarax/Feather_Control_Bar___Size.htm" />
+<topic name="Feathering_Notes" url="xarax/Feathering_Notes.htm" />
+<topic name="Feathering objects" url="xarax/Feathering_objects.htm" />
+<topic name="Fill Tool - Profile" url="xarax/Fill_Tool_Profile.htm" />
+<topic name="Firewalls and Your Privacy" url="xarax/Firewalls_and_Your_Privacy.htm" />
+<topic name="Freehand &amp; Brush Tool - Create Brush" url="xarax/Freehand_Tool___Create_Brush.htm" />
+<topic name="Freehand &amp; Brush Tool - Edit Brush" url="xarax/Freehand_Tool___Edit_Brush.htm" />
+<topic name="Freehand &amp; Brush Tool - Select Brush" url="xarax/Freehand_Tool___Select_Brush.htm" />
+<topic name="Freehand &amp; Brush Tool - Select Stroke" url="xarax/Freehand_Tool___Select_Stroke.htm" />
+<topic name="Gallery Docking and Undocking" url="xarax/Gallery_Docking_and_Undocking.htm" />
+<topic name="Graphics Quality" url="xarax/Graphics_Quality.htm" />
+<topic name="Group Transparency" url="xarax/Group_Transparency.htm" />
+<topic name="Hiding the line in blend on a curve" url="xarax/Hiding_the_curve.htm" />
+<topic name="Applying a shadow" url="xarax/How_Apply_shadow.htm" />
+<topic name="Applying a bevel" url="xarax/How_Applying_a_bevel.htm" />
+<topic name="Changing the bevel light source" url="xarax/How_bevel_light.htm" />
+<topic name="Modifying the bevel shape" url="xarax/How_bevel_shape.htm" />
+<topic name="Changing the bevel size" url="xarax/How_Change_bevel_size.htm" />
+<topic name="Modifying bevels" url="xarax/How_Modifying_bevels.htm" />
+<topic name="Removing a shadow" url="xarax/How_Removing_a_shadow.htm" />
+<topic name="Message: Abort or continue printing" url="xarax/IDH_Alert_Abort_or_Continue_Printing.htm" />
+<topic name="Message: Problems Installing or De-installing an ATM Font" url="xarax/IDH_Alert_ATM_Deinstall_Problems.htm" />
+<topic name="Message: The Adobe Type Manager is Not Running" url="xarax/IDH_Alert_ATM_Not_Running.htm" />
+<topic name="Message: Document file is invalid" url="xarax/IDH_Alert_Bad_Document_File_Format.htm" />
+<topic name="Message: Invalid file name" url="xarax/IDH_Alert_Bad_Filename.htm" />
+<topic name="Message: Shape not suitable for molding" url="xarax/IDH_Alert_Bad_Mould_Shape.htm" />
+<topic name="Message: Incompatible processor" url="xarax/IDH_Alert_Bad_Pentium.htm" />
+<topic name="Message: Text to search for is invalid" url="xarax/IDH_Alert_Bad_Text_Search.htm" />
+<topic name="Message: A bar's settings file is invalid or corrupt" url="xarax/IDH_Alert_Bars_File_Problem.htm" />
+<topic name="Message: Bitmap too large" url="xarax/IDH_Alert_Bitmap_Too_Large.htm" />
+<topic name="Message: Failed to find the CD" url="xarax/IDH_Alert_Browsing_Cannot_Find_Library.htm" />
+<topic name="Message: Cannot close file" url="xarax/IDH_Alert_Cannot_Close_File.htm" />
+<topic name="Message: Cannot open web page" url="xarax/IDH_Alert_Cannot_Open_Web_Page.htm" />
+<topic name="Message: CorelDRAW version 6 files are not supported" url="xarax/IDH_Alert_CD6_files_not_supported.htm" />
+<topic name="Message: Retain the clipboard contents?" url="xarax/IDH_Alert_Clipboard_Problem.htm" />
+<topic name="Message: Close open documents?" url="xarax/IDH_Alert_Close_open_documents.htm" />
+<topic name="Message: Some of the selected named colors are in use in your document" url="xarax/IDH_Alert_Delete_Used_Colour.htm" />
+<topic name="Message: Save new document template" url="xarax/IDH_Alert_Document_Template.htm" />
+<topic name="Message: Document is unsaved" url="xarax/IDH_Alert_Document_Unsaved.htm" />
+<topic name="Message: Drawing is too large for CMX export" url="xarax/IDH_Alert_Drawing_too_large_for_CMX_export.htm" />
+<topic name="Message: Peripheral objects overlap" url="xarax/IDH_Alert_Exclude_peripheral_elements.htm" />
+<topic name="Message: Export entire page or spread?" url="xarax/IDH_Alert_Export_Entire_Spread.htm" />
+<topic name="Message: Export to Existing File" url="xarax/IDH_Alert_Export_to_Existing_File.htm" />
+<topic name="Message: Some parts of the document could not be exported" url="xarax/IDH_Alert_File_Cannot_All_be_Exported.htm" />
+<topic name="Message: Some parts of the document could not be imported" url="xarax/IDH_Alert_File_Cannot_All_be_Imported.htm" />
+<topic name="Message: File already exists" url="xarax/IDH_Alert_File_Exists.htm" />
+<topic name="Message: File is read-only" url="xarax/IDH_Alert_File_is_Read_Only.htm" />
+<topic name="Message: File not found" url="xarax/IDH_Alert_File_Not_Found.htm" />
+<topic name="Message: File already exists - replace?" url="xarax/IDH_Alert_File_Replace.htm" />
+<topic name="Message: Are you sure you want to install or deinstall this font?" url="xarax/IDH_Alert_Fonts_Gallery_Sure_InstallDeinstall.htm" />
+<topic name="Message: Some fonts have been substituted" url="xarax/IDH_Alert_Fonts_Substituted.htm" />
+<topic name="Message: Problem creating fractal" url="xarax/IDH_Alert_Fractal_Too_Small.htm" />
+<topic name="Message: Failed to make transparency mask for GIF" url="xarax/IDH_Alert_GIF_Transparency_Mask_Creation_Failed.htm" />
+<topic name="Message: Your settings are out of date" url="xarax/IDH_Alert_INI_File_Out_of_Date.htm" />
+<topic name="Message: Input is invalid" url="xarax/IDH_Alert_Invalid_Input_Value.htm" />
+<topic name="Message: This layer contains objects, are you sure you want to delete them" url="xarax/IDH_Alert_Layer_Delete_Query.htm" />
+<topic name="Message: Unable to find folder" url="xarax/IDH_Alert_Library_Browse_Or_Scan.htm" />
+<topic name="Message: Unable to find index" url="xarax/IDH_Alert_Library_Cannot_Find_Index.htm" />
+<topic name="Message: Unable to update index" url="xarax/IDH_Alert_Library_Cannot_Update_Index.htm" />
+<topic name="Message: Creating a new index" url="xarax/IDH_Alert_Library_Check_Index_Create.htm" />
+<topic name="Message: Removing gallery sections" url="xarax/IDH_Alert_Library_Check_Remove.htm" />
+<topic name="Message: Creating remote indexes" url="xarax/IDH_Alert_Library_Create_Remote.htm" />
+<topic name="Message: Unable to find any files to add to index" url="xarax/IDH_Alert_Library_No_Files.htm" />
+<topic name="Message: No library index file available" url="xarax/IDH_Alert_Library_No_Index_File_Gen.htm" />
+<topic name="Message: Failed to locate gallery index" url="xarax/IDH_Alert_Library_No_Index_Skip.htm" />
+<topic name="Message: Problems creating a new index" url="xarax/IDH_Alert_Library_Problems_Creating_Index.htm" />
+<topic name="Message: Problems creating a thumbnail" url="xarax/IDH_Alert_Library_Thumbnail_Problem.htm" />
+<topic name="Message: You cannot load Xara LX EPS files" url="xarax/IDH_Alert_Loading_EPS.htm" />
+<topic name="Message: Bitmap is being used within a document" url="xarax/IDH_Alert_Multiple_References_to_a_Bitmap_About_to_be_Deleted.htm" />
+<topic name="Message: Named objects overlap" url="xarax/IDH_Alert_Named_Objects_Overlap.htm" />
+<topic name="Message: File already exists" url="xarax/IDH_Alert_NavBar_File_Exists.htm" />
+<topic name="Message: No result on combining shapes" url="xarax/IDH_Alert_No_Result_When_Combining_Shapes.htm" />
+<topic name="Message: No suitable texture is available" url="xarax/IDH_Alert_No_Texture_Loaded.htm" />
+<topic name="Message: The appropriate type of object is not selected" url="xarax/IDH_Alert_Nothing_Selected.htm" />
+<topic name="Message: Only named colors can be spot colors" url="xarax/IDH_Alert_Only_named_colors_can_be_spot_colors.htm" />
+<topic name="Message: Out of memory" url="xarax/IDH_Alert_Out_of_Memory.htm" />
+<topic name="Message: Overrun/truncated files" url="xarax/IDH_Alert_Overrun_or_Truncated_File.htm" />
+<topic name="Message: Do you want to overwrite the old format file?" url="xarax/IDH_Alert_Overwrite_V1_file_with_a_V1_5.htm" />
+<topic name="Message: Are you sure you want to print this document as a bitmap" url="xarax/IDH_Alert_Print_as_bitmap.htm" />
+<topic name="Message: A problem occurred when installing or de-installing a font" url="xarax/IDH_Alert_Problem_Installing_Font.htm" />
+<topic name="Message: Cannot read or write Registry entries" url="xarax/IDH_Alert_Problem_With_INI_File.htm" />
+<topic name="Message: General failure to read or write a file" url="xarax/IDH_Alert_Read_Write_Failure.htm" />
+<topic name="Message: Program installation incomplete or corrupted" url="xarax/IDH_Alert_Reinstall_the_Program.htm" />
+<topic name="Message: Internal error" url="xarax/IDH_Alert_Serious_Problem.htm" />
+<topic name="Message: Setting a Current Attribute" url="xarax/IDH_Alert_Set_Current_Attribute.htm" />
+<topic name="Message: Set current graphic attribute?" url="xarax/IDH_Alert_Set_Current_Attribute_Graphic.htm" />
+<topic name="Message: Set current text attribute?" url="xarax/IDH_Alert_Set_Current_Attribute_Text.htm" />
+<topic name="Message: File-sharing violation" url="xarax/IDH_Alert_Share_Violation.htm" />
+<topic name="Message: Spread too large" url="xarax/IDH_Alert_Spread_Too_Large.htm" />
+<topic name="Message: This document contains overlapping transparent objects" url="xarax/IDH_Alert_This_document_contains_overlapping_transparent_objects.htm" />
+<topic name="Message: This operation will remove a perspective fill" url="xarax/IDH_Alert_This_Op_Will_Remove_Perspective.htm" />
+<topic name="Message: Cannot create file" url="xarax/IDH_Alert_Unable_to_Create_File.htm" />
+<topic name="Message: Unable to find printer profile" url="xarax/IDH_Alert_Unable_to_find_printer_profile.htm" />
+<topic name="Message: About to lose Undo information" url="xarax/IDH_Alert_Undo_Warnings.htm" />
+<topic name="Message: Operation canceled" url="xarax/IDH_Alert_User_Cancelled_Something.htm" />
+<topic name="Message: Web address is too long" url="xarax/IDH_Alert_Web_Address_Too_Long.htm" />
+<topic name="Message: Font Not Found" url="xarax/IDH_Alert_XaraFont_Not_Found.htm" />
+<topic name="Message: You cannot create spot colors" url="xarax/IDH_Alert_You_cannot_create_spot_colors.htm" />
+<topic name="Bitmap Effects Plug-ins" url="xarax/IDH_Bitmap_effects_plug_ins.htm" />
+<topic name="Changing the magnetic snap distances" url="xarax/IDH_Changing_the_Magnetic_Snap_Distances.htm" />
+<topic name="1,2,3,4 (File Menu)" url="xarax/IDH_Command_1234.htm" />
+<topic name="About Xara LX (Help Menu)" url="xarax/IDH_Command_About_Studio.htm" />
+<topic name="Add Shapes (Arrange Menu)" url="xarax/IDH_Command_Add_Shapes.htm" />
+<topic name="Alignment (Arrange Menu)" url="xarax/IDH_Command_Alignment.htm" />
+<topic name="Always on Top" url="xarax/IDH_Command_Always_On_Top.htm" />
+<topic name="Animation (Utilities Menu)" url="xarax/IDH_Command_Animation.htm" />
+<topic name="Apply ClipView (Arrange Menu)" url="xarax/IDH_Command_Apply_ClipView.htm" />
+<topic name="Arrange Icons (Window Menu)" url="xarax/IDH_Command_Arrange_Icons.htm" />
+<topic name="Arrange Views (Window Menu)" url="xarax/IDH_Command_Arrange_Views.htm" />
+<topic name="Bars (Window Menu)" url="xarax/IDH_Command_Bars.htm" />
+<topic name="Bitmap Effects - Brightness and Contrast" url="xarax/IDH_Command_Bitmap_Effects_Brightness_and_Contrast.htm" />
+<topic name="Bitmap Effects - Flip and Rotate" url="xarax/IDH_Command_Bitmap_Effects_Flip_and_Rotate.htm" />
+<topic name="Bitmap Effects - Resize" url="xarax/IDH_Command_Bitmap_Effects_Resize.htm" />
+<topic name="Bitmap Effects - Special Effects" url="xarax/IDH_Command_Bitmap_Effects_Special.htm" />
+<topic name="Bitmap Gallery (Utilities Menu)" url="xarax/IDH_Command_Bitmap_Gallery.htm" />
+<topic name="Bitmap Tracer (Utilities Menu)" url="xarax/IDH_Command_Bitmap_Tracer.htm" />
+<topic name="Break Shapes (Arrange Menu)" url="xarax/IDH_Command_Break_Shapes.htm" />
+<topic name="Bring To Front (Arrange Menu)" url="xarax/IDH_Command_Bring_to_Front.htm" />
+<topic name="Cascade (Window Menu)" url="xarax/IDH_Command_Cascade_Views.htm" />
+<topic name="Clear Selection (Edit Menu)" url="xarax/IDH_Command_Clear_Selection.htm" />
+<topic name="Clipart Gallery (Utilities Menu)" url="xarax/IDH_Command_Clipart_Gallery.htm" />
+<topic name="Clone (Edit Menu)" url="xarax/IDH_Command_Clone.htm" />
+<topic name="Close (File Menu)" url="xarax/IDH_Command_Close.htm" />
+<topic name="Color Editor - Advanced" url="xarax/IDH_Command_Colour_Editor_Advanced.htm" />
+<topic name="Color Gallery (Utilities Menu)" url="xarax/IDH_Command_Colour_Gallery.htm" />
+<topic name="Color Line (Window Menu)" url="xarax/IDH_Command_Colour_Line.htm" />
+<topic name="Combine Shapes (Arrange Menu)" url="xarax/IDH_Command_Combine_Shapes.htm" />
+<topic name="Show Printer Colors (Window Menu)" url="xarax/IDH_Command_Composite_Print_Preview.htm" />
+<topic name="Help (Help Menu)" url="xarax/IDH_Command_Contents.htm" />
+<topic name="Control Bars (Window Menu)" url="xarax/IDH_Command_Control_Bars.htm" />
+<topic name="Convert Line to Shape (Arrange Menu)" url="xarax/IDH_Command_Convert_Line_to_Shape.htm" />
+<topic name="Convert to Editable Shapes (Arrange Menu)" url="xarax/IDH_Command_Convert_to_Shapes.htm" />
+<topic name="Copy (Edit Menu)" url="xarax/IDH_Command_Copy.htm" />
+<topic name="Create Bitmap Copy (Arrange Menu)" url="xarax/IDH_Command_Create_Bitmap_Copy.htm" />
+<topic name="Cut (Edit Menu)" url="xarax/IDH_Command_Cut.htm" />
+<topic name="Default Page Background" url="xarax/IDH_Command_Default_Page_Background.htm" />
+<topic name="Delete (Edit Menu)" url="xarax/IDH_Command_Delete.htm" />
+<topic name="Document Info (File Menu)" url="xarax/IDH_Command_Document_Info.htm" />
+<topic name="Duplicate (Edit Menu)" url="xarax/IDH_Command_Duplicate.htm" />
+<topic name="Exit (File Menu)" url="xarax/IDH_Command_Exit.htm" />
+<topic name="Export (File Menu)" url="xarax/IDH_Command_Export.htm" />
+<topic name="Export Animated GIF (File Menu)" url="xarax/IDH_Command_Export_Animated_GIF.htm" />
+<topic name="Feather (Arrange Menu)" url="xarax/IDH_Command_Feather.htm" />
+<topic name="Fill Gallery (Utilities Menu)" url="xarax/IDH_Command_Fill_Gallery.htm" />
+<topic name="Fit Text To Curve (Arrange Menu)" url="xarax/IDH_Command_Fit_Text_To_Curve.htm" />
+<topic name="Font Gallery (Utilities Menu)" url="xarax/IDH_Command_Font_Gallery.htm" />
+<topic name="Frame Gallery (Utilities Menu)" url="xarax/IDH_Command_Frame_Gallery.htm" />
+<topic name="Full Screen (Window Menu)" url="xarax/IDH_Command_Fullscreen.htm" />
+<topic name="Galleries (Utilities Menu)" url="xarax/IDH_Command_Galleries.htm" />
+<topic name="Group (Arrange Menu)" url="xarax/IDH_Command_Group.htm" />
+<topic name="Imagesetting (Utilities Menu)" url="xarax/IDH_Command_Imagesetting.htm" />
+<topic name="Import (File Menu)" url="xarax/IDH_Command_Import.htm" />
+<topic name="Import from Web (File Menu)" url="xarax/IDH_Command_Import_from_Web.htm" />
+<topic name="Intersect Shapes (Arrange Menu)" url="xarax/IDH_Command_Intersect_Shapes.htm" />
+<topic name="Join Shapes (Arrange Menu)" url="xarax/IDH_Command_Join_Shapes.htm" />
+<topic name="Layer Gallery (Utilities Menu)" url="xarax/IDH_Command_Layer_Gallery.htm" />
+<topic name="Line Gallery (Utilities Menu)" url="xarax/IDH_Command_Line_Attribute_Gallery.htm" />
+<topic name="Line Width" url="xarax/IDH_Command_Line_Width.htm" />
+<topic name="Move Backwards (Arrange Menu)" url="xarax/IDH_Command_Move_Backwards.htm" />
+<topic name="Move Forwards (Arrange Menu)" url="xarax/IDH_Command_Move_Forwards.htm" />
+<topic name="Move to Layer Behind (Arrange Menu)" url="xarax/IDH_Command_Move_to_Layer_Behind.htm" />
+<topic name="Move to Layer in Front (Arrange Menu)" url="xarax/IDH_Command_Move_to_Layer_in_Front.htm" />
+<topic name="Move to Next Frame (Arrange Menu)" url="xarax/IDH_Command_Move_to_Next_Frame.htm" />
+<topic name="Move to Previous Frame (Arrange Menu)" url="xarax/IDH_Command_Move_to_Previous_Frame.htm" />
+<topic name="Name Gallery (Utilities Menu)" url="xarax/IDH_Command_Name_Gallery.htm" />
+<topic name="New (File Menu)" url="xarax/IDH_Command_New.htm" />
+<topic name="New Animation (File Menu)" url="xarax/IDH_Command_New_Animation.htm" />
+<topic name="New View (Window Menu)" url="xarax/IDH_Command_New_View.htm" />
+<topic name="Open (File Menu)" url="xarax/IDH_Command_Open.htm" />
+<topic name="Options (Utilities Menu)" url="xarax/IDH_Command_Options.htm" />
+<topic name="General Options" url="xarax/IDH_Command_Options_General.htm" />
+<topic name="Grid and Ruler Options" url="xarax/IDH_Command_Options_Grid_and_Ruler.htm" />
+<topic name="Internet Options" url="xarax/IDH_Command_Options_Internet.htm" />
+<topic name="Mouse Options" url="xarax/IDH_Command_Options_Mouse.htm" />
+<topic name="Output Options" url="xarax/IDH_Command_Options_Output.htm" />
+<topic name="Page Options" url="xarax/IDH_Command_Options_Page.htm" />
+<topic name="Plug-ins Options" url="xarax/IDH_Command_Options_Plugin.htm" />
+<topic name="Print Layout Options" url="xarax/IDH_Command_Options_Print_Layout.htm" />
+<topic name="Scaling Options" url="xarax/IDH_Command_Options_Scaling.htm" />
+<topic name="Tune-ups Options" url="xarax/IDH_Command_Options_Tuneups.htm" />
+<topic name="Units Options" url="xarax/IDH_Command_Options_Units.htm" />
+<topic name="View Options" url="xarax/IDH_Command_Options_View.htm" />
+<topic name="Overprint Fill (Utilities Menu)" url="xarax/IDH_Command_Overprint_Fill.htm" />
+<topic name="Overprint Line (Utilities Menu)" url="xarax/IDH_Command_Overprint_Line.htm" />
+<topic name="Paste (Edit Menu)" url="xarax/IDH_Command_Paste.htm" />
+<topic name="Paste at Same Position" url="xarax/IDH_Command_Paste_at_Same_Position.htm" />
+<topic name="Paste Attributes (Edit Menu)" url="xarax/IDH_Command_Paste_Attributes.htm" />
+<topic name="Preview All Frames (Utilities Menu)" url="xarax/IDH_Command_Preview_All_Frames.htm" />
+<topic name="Preview Animation in Browser (Utilities Menu)" url="xarax/IDH_Command_Preview_Animation_in_Browser.htm" />
+<topic name="Previous Zoom" url="xarax/IDH_Command_Previous_Zoom.htm" />
+<topic name="Print (File Menu)" url="xarax/IDH_Command_Print.htm" />
+<topic name="Show Print Borders (Window Menu)" url="xarax/IDH_Command_Print_Borders.htm" />
+<topic name="Print Options (File Menu)" url="xarax/IDH_Command_Print_Options.htm" />
+<topic name="Print Setup (File Menu)" url="xarax/IDH_Command_Print_Setup.htm" />
+<topic name="Print Text As Shapes" url="xarax/IDH_Command_Print_Text_as_Shapes.htm" />
+<topic name="Put To Back (Arrange Menu)" url="xarax/IDH_Command_Put_to_Back.htm" />
+<topic name="Quality (Window Menu)" url="xarax/IDH_Command_Quality.htm" />
+<topic name="Remove Feathering (Arrange Menu)" url="xarax/IDH_Command_Remove_Feathering.htm" />
+<topic name="Reverse Text On Curve" url="xarax/IDH_Command_Reverse_Text_on_Curve.htm" />
+<topic name="Rulers (Window Menu)" url="xarax/IDH_Command_Rulers.htm" />
+<topic name="Save (File Menu)" url="xarax/IDH_Command_Save.htm" />
+<topic name="Save All (File Menu)" url="xarax/IDH_Command_Save_All.htm" />
+<topic name="Save As (File Menu)" url="xarax/IDH_Command_Save_As.htm" />
+<topic name="Save Template (File Menu)" url="xarax/IDH_Command_Save_As_Template.htm" />
+<topic name="Scrollbars (Window Menu)" url="xarax/IDH_Command_Scrollbars.htm" />
+<topic name="Select All (Edit Menu)" url="xarax/IDH_Command_Select_All.htm" />
+<topic name="Select End Frame (Control Bars)" url="xarax/IDH_Command_Select_End_Frame.htm" />
+<topic name="Select Next Frame (Control Bars)" url="xarax/IDH_Command_Select_Next_Frame.htm" />
+<topic name="Select Previous Frame (Control Bars)" url="xarax/IDH_Command_Select_Previous_Frame.htm" />
+<topic name="Select Start Frame (Control Bars)" url="xarax/IDH_Command_Select_Start_Frame.htm" />
+<topic name="Show Grid (Window Menu)" url="xarax/IDH_Command_Show_Grid.htm" />
+<topic name="Show Guides (Window Menu)" url="xarax/IDH_Command_Show_Guides.htm" />
+<topic name="Image Slicing (File Menu)" url="xarax/IDH_Command_Slice_Image.htm" />
+<topic name="Slice (cut) Shapes (Arrange Menu)" url="xarax/IDH_Command_Slice_Shapes.htm" />
+<topic name="Snap to Grid (Window Menu)" url="xarax/IDH_Command_Snap_To_Grid.htm" />
+<topic name="Snap to Guides (Window Menu)" url="xarax/IDH_Command_Snap_to_Guides.htm" />
+<topic name="Snap to Objects (Window Menu)" url="xarax/IDH_Command_Snap_To_Objects.htm" />
+<topic name="Status Line (Window Menu)" url="xarax/IDH_Command_Status_Line.htm" />
+<topic name="Subtract Shapes (Arrange Menu)" url="xarax/IDH_Command_Subtract_Shapes.htm" />
+<topic name="Tip of the Day (Help Menu)" url="xarax/IDH_Command_Tip_of_the_Day.htm" />
+<topic name="Undo and Redo (Edit Menu)" url="xarax/IDH_Command_Undo.htm" />
+<topic name="Ungroup (Arrange Menu)" url="xarax/IDH_Command_Ungroup.htm" />
+<topic name="Use Help from the Web" url="xarax/IDH_Command_Use_Help_From_CD.htm" />
+<topic name="Web Address (Utilities Menu)" url="xarax/IDH_Command_Web_Address.htm" />
+<topic name="Xara On The Web" url="xarax/IDH_Command_Xara_On_The_Web.htm" />
+<topic name="Zoom Magnification" url="xarax/IDH_Command_Zoom.htm" />
+<topic name="Zoom To Drawing" url="xarax/IDH_Command_Zoom_to_Drawing.htm" />
+<topic name="Zoom To Selection" url="xarax/IDH_Command_Zoom_to_Selection.htm" />
+<topic name="Zoom To Page" url="xarax/IDH_Command_Zoom_to_Spread.htm" />
+<topic name="Define Buttons Dialog Box" url="xarax/IDH_Define_Buttons_dialog_box.htm" />
+<topic name="Definition: Alignment" url="xarax/IDH_Definition_Alignment.htm" />
+<topic name="Definition: Animated GIF files" url="xarax/IDH_Definition_Animated_GIF.htm" />
+<topic name="Definition: Anti-aliasing" url="xarax/IDH_Definition_Anti_Aliasing.htm" />
+<topic name="Definition: Application Control Menu" url="xarax/IDH_Definition_Application_Control_Menu.htm" />
+<topic name="Definition: Apply Inside" url="xarax/IDH_Definition_Apply_Inside.htm" />
+<topic name="Definition: Aspect Ratio" url="xarax/IDH_Definition_Aspect_Ratio.htm" />
+<topic name="Definition: ATM" url="xarax/IDH_Definition_ATM.htm" />
+<topic name="Definition: Attribute" url="xarax/IDH_Definition_Attribute.htm" />
+<topic name="Definition: Background Redraw" url="xarax/IDH_Definition_Background_Redraw.htm" />
+<topic name="Definition: Control Bar" url="xarax/IDH_Definition_Bar.htm" />
+<topic name="Definition: Beveled Join" url="xarax/IDH_Definition_Bevelled_Join.htm" />
+<topic name="Definition: Bitmap" url="xarax/IDH_Definition_Bitmap.htm" />
+<topic name="Definition: Bitmap Fill" url="xarax/IDH_Definition_Bitmap_Fill.htm" />
+<topic name="Definition: Bitmap Transparency" url="xarax/IDH_Definition_Bitmap_Transparency.htm" />
+<topic name="Definition: Blend" url="xarax/IDH_Definition_Blend.htm" />
+<topic name="Definition: Blend Tool Infobar" url="xarax/IDH_Definition_Blend_Tool_Infobar.htm" />
+<topic name="Definition: Blur (Bitmap Effect)" url="xarax/IDH_Definition_Blur.htm" />
+<topic name="Definition: Bounding Box" url="xarax/IDH_Definition_Bounding_Box.htm" />
+<topic name="Definition: Bounds Creation" url="xarax/IDH_Definition_Bounds_Creation.htm" />
+<topic name="Definition: Bromide" url="xarax/IDH_Definition_Bromide.htm" />
+<topic name="Definition: Browser Palette" url="xarax/IDH_Definition_Browser_Palette.htm" />
+<topic name="Definition: Butt Cap" url="xarax/IDH_Definition_Butt_Cap.htm" />
+<topic name="Definition: Button Palette" url="xarax/IDH_Definition_Button_Palette.htm" />
+<topic name="Definition: Transformation Center" url="xarax/IDH_Definition_Centre_Of_Transformation.htm" />
+<topic name="Definition: Circular Fill" url="xarax/IDH_Definition_Circular_Fill.htm" />
+<topic name="Definition: Circular Transparency" url="xarax/IDH_Definition_Circular_Transparency.htm" />
+<topic name="Definition: Clipboard" url="xarax/IDH_Definition_Clipboard.htm" />
+<topic name="Definition: CMYK" url="xarax/IDH_Definition_CMYK.htm" />
+<topic name="Definition: Color Model" url="xarax/IDH_Definition_Colour_Model.htm" />
+<topic name="Definition: Compound Object" url="xarax/IDH_Definition_Compound_Object.htm" />
+<topic name="Definition: Conical Fill" url="xarax/IDH_Definition_Conical_Fill.htm" />
+<topic name="Definition: Conical Transparency" url="xarax/IDH_Definition_Conical_Transparency.htm" />
+<topic name="Definition: Contone" url="xarax/IDH_Definition_Contone.htm" />
+<topic name="Definition: Current Attribute" url="xarax/IDH_Definition_Current_Attribute.htm" />
+<topic name="Definition: Current Fill Attribute" url="xarax/IDH_Definition_Current_Fill_Attribute.htm" />
+<topic name="Definition: Current Layer" url="xarax/IDH_Definition_Current_Layer.htm" />
+<topic name="Definition: Selection" url="xarax/IDH_Definition_Current_Selection.htm" />
+<topic name="Definition: Curve Handle" url="xarax/IDH_Definition_Curve_Handle.htm" />
+<topic name="Definition: Dash" url="xarax/IDH_Definition_Dash.htm" />
+<topic name="Definition: Default Bitmap" url="xarax/IDH_Definition_Default_Bitmap.htm" />
+<topic name="Definition: Diameter Creation" url="xarax/IDH_Definition_Diameter_Creation.htm" />
+<topic name="Definition: Diamond Fill" url="xarax/IDH_Definition_Diamond_Fill.htm" />
+<topic name="Definition: Diamond Transparency" url="xarax/IDH_Definition_Diamond_Transparency.htm" />
+<topic name="Definition: Dithering" url="xarax/IDH_Definition_Dithering.htm" />
+<topic name="Definition: Docked" url="xarax/IDH_Definition_Docked.htm" />
+<topic name="Definition: Document" url="xarax/IDH_Definition_Document.htm" />
+<topic name="Definition: Document Control Menu" url="xarax/IDH_Definition_Document_Control_Menu.htm" />
+<topic name="Definition: Edit Handle" url="xarax/IDH_Definition_Edit_Handle.htm" />
+<topic name="Definition: Ellipse Tool Infobar" url="xarax/IDH_Definition_Ellipse_Tool_Infobar.htm" />
+<topic name="Definition: Elliptical Fill" url="xarax/IDH_Definition_Elliptical_Fill.htm" />
+<topic name="Definition: Elliptical Transparency" url="xarax/IDH_Definition_Elliptical_Transparency.htm" />
+<topic name="Definition: Em" url="xarax/IDH_Definition_em.htm" />
+<topic name="Definition: Envelope mold" url="xarax/IDH_Definition_Envelope.htm" />
+<topic name="Definition: EPS &amp; EPSF" url="xarax/IDH_Definition_EPS.htm" />
+<topic name="Definition: File Format" url="xarax/IDH_Definition_File_Format.htm" />
+<topic name="Definition: Fill" url="xarax/IDH_Definition_Fill.htm" />
+<topic name="Definition: Fill Arrow" url="xarax/IDH_Definition_Fill_Arrow.htm" />
+<topic name="Definition: Fill Handle" url="xarax/IDH_Definition_Fill_Handle.htm" />
+<topic name="Definition: Fill Tool Infobar" url="xarax/IDH_Definition_Fill_Tool_Infobar.htm" />
+<topic name="Definition: Film" url="xarax/IDH_Definition_Film.htm" />
+<topic name="Definition: Flat Fill" url="xarax/IDH_Definition_Flat_Fill.htm" />
+<topic name="Definition: Flat Transparency" url="xarax/IDH_Definition_Flat_Transparency.htm" />
+<topic name="Definition: Flip" url="xarax/IDH_Definition_Flip.htm" />
+<topic name="Definition: Floating" url="xarax/IDH_Definition_Floating.htm" />
+<topic name="Definition: Folder" url="xarax/IDH_Definition_Folder.htm" />
+<topic name="Definition: Font" url="xarax/IDH_Definition_Font.htm" />
+<topic name="Definition: Four Color Fill" url="xarax/IDH_Definition_Four_Color_Fill.htm" />
+<topic name="Definition: Four Point Transparency" url="xarax/IDH_Definition_Four_Point_Transparency.htm" />
+<topic name="Definition: Fractal Cloud Fill" url="xarax/IDH_Definition_Fractal_Fill.htm" />
+<topic name="Definition: Fractal Cloud Transparency" url="xarax/IDH_Definition_Fractal_Transparency.htm" />
+<topic name="Definition: Frame" url="xarax/IDH_Definition_Frame.htm" />
+<topic name="Definition: Freehand Tool Infobar" url="xarax/IDH_Definition_Freehand_Tool_Infobar.htm" />
+<topic name="Definition: Full Screen Mode" url="xarax/IDH_Definition_Fullscreen_Mode.htm" />
+<topic name="Definition: Gallery" url="xarax/IDH_Definition_Gallery.htm" />
+<topic name="Definition: GIF" url="xarax/IDH_Definition_GIF.htm" />
+<topic name="Definition: Grayscale" url="xarax/IDH_Definition_Grayscale.htm" />
+<topic name="Definition: Grayscale Bitmap" url="xarax/IDH_Definition_Grayscale_Bitmap.htm" />
+<topic name="Definition: Grid" url="xarax/IDH_Definition_Grid.htm" />
+<topic name="Definition: Group" url="xarax/IDH_Definition_Group.htm" />
+<topic name="Definition: Guide Object" url="xarax/IDH_Definition_Guide_Objects.htm" />
+<topic name="Definition: Guideline" url="xarax/IDH_Definition_Guidelines.htm" />
+<topic name="Definition: Guides Layer" url="xarax/IDH_Definition_Guides_Layer.htm" />
+<topic name="Definition: Handle" url="xarax/IDH_Definition_Handle.htm" />
+<topic name="Definition: HSV" url="xarax/IDH_Definition_HSV.htm" />
+<topic name="Definition: Hue" url="xarax/IDH_Definition_Hue.htm" />
+<topic name="Definition: Image map" url="xarax/IDH_Definition_Image_Map.htm" />
+<topic name="Definition: Imagesetting" url="xarax/IDH_Definition_Imagesetting.htm" />
+<topic name="Definition: Infobar" url="xarax/IDH_Definition_Infobar.htm" />
+<topic name="Definition: Interlacing" url="xarax/IDH_Definition_Interlacing.htm" />
+<topic name="Definition: Inter-line Spacing" url="xarax/IDH_Definition_Interline_Spacing.htm" />
+<topic name="Definition: JPEG" url="xarax/IDH_Definition_JPEG.htm" />
+<topic name="Definition: Kern" url="xarax/IDH_Definition_Kern.htm" />
+<topic name="Definition: Key" url="xarax/IDH_Definition_Key.htm" />
+<topic name="Definition: Keyword" url="xarax/IDH_Definition_Keyword.htm" />
+<topic name="Definition: Laplacian Bitmap Effect" url="xarax/IDH_Definition_Laplacian.htm" />
+<topic name="Definition: Layer" url="xarax/IDH_Definition_Layer.htm" />
+<topic name="Definition: Line" url="xarax/IDH_Definition_Line.htm" />
+<topic name="Definition: Linear Fill" url="xarax/IDH_Definition_Linear_Fill.htm" />
+<topic name="Definition: Linear Transparency" url="xarax/IDH_Definition_Linear_Transparency.htm" />
+<topic name="Definition: Linked Color" url="xarax/IDH_Definition_Linked_Colours.htm" />
+<topic name="Definition: Local Color" url="xarax/IDH_Definition_Local_Colour.htm" />
+<topic name="Definition: Mirroring" url="xarax/IDH_Definition_Mirroring.htm" />
+<topic name="Definition: Miter Join" url="xarax/IDH_Definition_Mitre_Join.htm" />
+<topic name="Definition: Mold" url="xarax/IDH_Definition_Mould.htm" />
+<topic name="Definition: Mold Handle" url="xarax/IDH_Definition_Mould_Handles.htm" />
+<topic name="Definition: Mold Tool Infobar" url="xarax/IDH_Definition_Mould_Tool_Infobar.htm" />
+<topic name="Definition: Named Color" url="xarax/IDH_Definition_Named_Colour.htm" />
+<topic name="Definition: Normal Color" url="xarax/IDH_Definition_Normal_Colour.htm" />
+<topic name="Definition: Object" url="xarax/IDH_Definition_Object.htm" />
+<topic name="Definition: Object Snapping" url="xarax/IDH_Definition_Object_Snapping.htm" />
+<topic name="Definition: Optimized Palette" url="xarax/IDH_Definition_Optimised_Palette.htm" />
+<topic name="Definition: Outlining" url="xarax/IDH_Definition_Outlining.htm" />
+<topic name="Definition: Overprinting" url="xarax/IDH_Definition_Overprinting.htm" />
+<topic name="Definition: Page" url="xarax/IDH_Definition_Page.htm" />
+<topic name="Definition: Panning" url="xarax/IDH_Definition_Panning.htm" />
+<topic name="Definition: Panose" url="xarax/IDH_Definition_Panose.htm" />
+<topic name="Definition: Pasteboard" url="xarax/IDH_Definition_Pasteboard.htm" />
+<topic name="Definition: Perspective mold" url="xarax/IDH_Definition_Perspective.htm" />
+<topic name="Definition: PhotoCD" url="xarax/IDH_Definition_PhotoCD.htm" />
+<topic name="Definition: Point Handle" url="xarax/IDH_Definition_Point_Handle.htm" />
+<topic name="Definition: PostScript" url="xarax/IDH_Definition_PostScript.htm" />
+<topic name="Definition: Print Shop" url="xarax/IDH_Definition_Print_Shop.htm" />
+<topic name="Definition: Process Colors" url="xarax/IDH_Definition_Process_Colors.htm" />
+<topic name="Definition: Quality" url="xarax/IDH_Definition_Quality.htm" />
+<topic name="Definition: QuickShape Tool Infobar" url="xarax/IDH_Definition_QuickShape_Tool_Infobar.htm" />
+<topic name="Definition: QuickShape" url="xarax/IDH_Definition_QuickShapes.htm" />
+<topic name="Definition: Radius Creation" url="xarax/IDH_Definition_Radius_Creation.htm" />
+<topic name="Definition: Redo" url="xarax/IDH_Definition_Redo.htm" />
+<topic name="Definition: Redraw" url="xarax/IDH_Definition_Redraw.htm" />
+<topic name="Definition: Registration Black" url="xarax/IDH_Definition_Registration_Black.htm" />
+<topic name="Definition: Rendering" url="xarax/IDH_Definition_Rendering.htm" />
+<topic name="Definition: Restore" url="xarax/IDH_Definition_Restore.htm" />
+<topic name="Definition: RGB" url="xarax/IDH_Definition_RGB.htm" />
+<topic name="Definition: Robert's Cross (Bitmap Effect)" url="xarax/IDH_Definition_Roberts_Cross.htm" />
+<topic name="Definition: Rotate/Skew Mode" url="xarax/IDH_Definition_RotateSkew_Mode.htm" />
+<topic name="Definition: Round Cap" url="xarax/IDH_Definition_Round_Cap.htm" />
+<topic name="Definition: Round Join" url="xarax/IDH_Definition_Round_Join.htm" />
+<topic name="Definition: Ruler" url="xarax/IDH_Definition_Ruler.htm" />
+<topic name="Definition: Saturation" url="xarax/IDH_Definition_Saturation.htm" />
+<topic name="Definition: Scale" url="xarax/IDH_Definition_Scale.htm" />
+<topic name="Definition: Scale Mode" url="xarax/IDH_Definition_Scale_Mode.htm" />
+<topic name="Definition: Screen Frequency" url="xarax/IDH_Definition_Screen_Frequency.htm" />
+<topic name="Definition: Scrollbar" url="xarax/IDH_Definition_Scrollbar.htm" />
+<topic name="Definition: Select Inside" url="xarax/IDH_Definition_Select_Inside.htm" />
+<topic name="Definition: Select Member" url="xarax/IDH_Definition_Select_Member.htm" />
+<topic name="Definition: Select Under" url="xarax/IDH_Definition_Select_Under.htm" />
+<topic name="Definition: Selection Handle" url="xarax/IDH_Definition_Selection_Handle.htm" />
+<topic name="Definition: Selection Marker" url="xarax/IDH_Definition_Selection_Marker.htm" />
+<topic name="Definition: Selector Tool Infobar" url="xarax/IDH_Definition_Selector_Tool_Infobar.htm" />
+<topic name="Definition: Service Bureau" url="xarax/IDH_Definition_Service_Bureau.htm" />
+<topic name="Definition: Shade Color" url="xarax/IDH_Definition_Shade_Colour.htm" />
+<topic name="Definition: Shape" url="xarax/IDH_Definition_Shape.htm" />
+<topic name="Definition: Shape Editor Tool Infobar" url="xarax/IDH_Definition_Shape_Editor_Tool_Infobar.htm" />
+<topic name="Definition: Skew" url="xarax/IDH_Definition_Skew.htm" />
+<topic name="Definition: Snapping (Magnetic)" url="xarax/IDH_Definition_Snapping.htm" />
+<topic name="Definition: Spot Color" url="xarax/IDH_Definition_Spot_Color.htm" />
+<topic name="Definition: Spread" url="xarax/IDH_Definition_Spread.htm" />
+<topic name="Definition: Square Cap" url="xarax/IDH_Definition_Square_Cap.htm" />
+<topic name="Definition: Temporary Directory" url="xarax/IDH_Definition_Temp_Directory.htm" />
+<topic name="Definition: Template Document" url="xarax/IDH_Definition_Template_Document.htm" />
+<topic name="Definition: Text Cursor" url="xarax/IDH_Definition_Text_Cursor.htm" />
+<topic name="Definition: Text Object" url="xarax/IDH_Definition_Text_Object.htm" />
+<topic name="Definition: Three Color Fill" url="xarax/IDH_Definition_Three_Color_Fill.htm" />
+<topic name="Definition: Three Point Transparency" url="xarax/IDH_Definition_Three_Point_Transparency.htm" />
+<topic name="Definition: Tiling" url="xarax/IDH_Definition_Tiling.htm" />
+<topic name="Definition: Tint Color" url="xarax/IDH_Definition_Tint_Colour.htm" />
+<topic name="Definition: Tool" url="xarax/IDH_Definition_Tool.htm" />
+<topic name="Definition: Bitmap Tracer" url="xarax/IDH_Definition_Tracer.htm" />
+<topic name="Definition: Slider" url="xarax/IDH_Definition_Trackbar.htm" />
+<topic name="Definition: Tracking" url="xarax/IDH_Definition_Tracking.htm" />
+<topic name="Definition: Transparency" url="xarax/IDH_Definition_Transparency.htm" />
+<topic name="Definition: Transparency Arrow" url="xarax/IDH_Definition_Transparency_Arrow.htm" />
+<topic name="Definition: Transparency Handle" url="xarax/IDH_Definition_Transparency_Handle.htm" />
+<topic name="Definition: Transparency Tool Infobar" url="xarax/IDH_Definition_Transparency_Tool_Infobar.htm" />
+<topic name="Definition: TrueType" url="xarax/IDH_Definition_TrueType.htm" />
+<topic name="Definition: Undo" url="xarax/IDH_Definition_Undo.htm" />
+<topic name="Definition: Value" url="xarax/IDH_Definition_Value.htm" />
+<topic name="Definition: Vector Format" url="xarax/IDH_Definition_Vector_Format.htm" />
+<topic name="Definition: View" url="xarax/IDH_Definition_View.htm" />
+<topic name="Definition: Web Address" url="xarax/IDH_Definition_Web_Address.htm" />
+<topic name="Definition: Zoom" url="xarax/IDH_Definition_Zoom.htm" />
+<topic name="Definition: Zoom Tool Infobar" url="xarax/IDH_Definition_Zoom_Tool_Infobar.htm" />
+<topic name="Definitions" url="xarax/IDH_Definitions.htm" />
+<topic name="Add Folder Dialog Box - Add Button" url="xarax/IDH_Dialog_Add_Folder_Add_Button.htm" />
+<topic name="Add Folder Dialog Box - Find CD Button" url="xarax/IDH_Dialog_Add_Folder_FindCD_Button.htm" />
+<topic name="Add Folder Dialog Box - Update Button" url="xarax/IDH_Dialog_Add_Folder_Update_Button.htm" />
+<topic name="Animation Properties Dialog Box" url="xarax/IDH_Dialog_Animation_Properties.htm" />
+<topic name="Animation Properties Dialog Box - Animation Colors" url="xarax/IDH_Dialog_Animation_Properties_Animation_Colors.htm" />
+<topic name="Animation Properties Dialog Box - Animation Loop and Speed" url="xarax/IDH_Dialog_Animation_Properties_Animation_Looping_and_Speed.htm" />
+<topic name="Animation Properties Dialog Box - Frame" url="xarax/IDH_Dialog_Animation_Properties_Frame_Properties.htm" />
+<topic name="Animation Properties Dialog Box - Preview in Browser" url="xarax/IDH_Dialog_Animation_Properties_Preview_in_Browser.htm" />
+<topic name="Bitmap Effects - Insert Button" url="xarax/IDH_Dialog_Bitmap_Effects_Insert_Button.htm" />
+<topic name="Bitmap Effects - Test Button" url="xarax/IDH_Dialog_Bitmap_Effects_Test_Button.htm" />
+<topic name="Bitmap Export Dialog Boxes" url="xarax/IDH_Dialog_Bitmap_Export.htm" />
+<topic name="Animated GIF Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_Animated_GIF.htm" />
+<topic name="Animated GIF Export Dialog Box - Animation Delay" url="xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Delay.htm" />
+<topic name="Animated GIF Export Dialog Box - Animation Loop" url="xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Loop.htm" />
+<topic name="Animated GIF Export Dialog Box - Animation Restore" url="xarax/IDH_Dialog_Bitmap_Export_Animated_GIF_Animation_Restore.htm" />
+<topic name="Bitmap Export Dialog Box - Bitmap Size" url="xarax/IDH_Dialog_Bitmap_Export_Bitmap_Size.htm" />
+<topic name="BMP Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_BMP.htm" />
+<topic name="Bitmap Export Dialog Box - BMP Compression" url="xarax/IDH_Dialog_Bitmap_Export_BMP_Compression.htm" />
+<topic name="DCX Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_DCX.htm" />
+<topic name="Bitmap Export Dialog Box - Browser Preview" url="xarax/IDH_Dialog_Bitmap_Export_Dialog___Browser_Preview.htm" />
+<topic name="Bitmap Export Dialog Box - Image Map" url="xarax/IDH_Dialog_Bitmap_Export_Dialog___Image_Map.htm" />
+<topic name="Bitmap Export Dialog Box - Export Button" url="xarax/IDH_Dialog_Bitmap_Export_Dialog_Box___Export_Button.htm" />
+<topic name="Bitmap Export Dialog Box - Preview boxes" url="xarax/IDH_Dialog_Bitmap_Export_Dialog_Box___Preview_boxes.htm" />
+<topic name="Bitmap Export Dialog Box - Dithering" url="xarax/IDH_Dialog_Bitmap_Export_Dithering.htm" />
+<topic name="GIF Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_GIF.htm" />
+<topic name="Bitmap Export Dialog Box - GIF Options" url="xarax/IDH_Dialog_Bitmap_Export_GIF_Transparency.htm" />
+<topic name="JPEG Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_JPEG.htm" />
+<topic name="Bitmap Export Dialog Box - JPEG Options" url="xarax/IDH_Dialog_Bitmap_Export_JPEG_Options.htm" />
+<topic name="JPEG Export Dialog Box - Use Original JPEG" url="xarax/IDH_Dialog_Bitmap_Export_JPEG_Use_Original.htm" />
+<topic name="Bitmap Export Dialog Box - Palette Options" url="xarax/IDH_Dialog_Bitmap_Export_Palette.htm" />
+<topic name="PICT Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_PCT.htm" />
+<topic name="PCX Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_PCX.htm" />
+<topic name="PNG Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_PNG.htm" />
+<topic name="Bitmap Export Dialog Box - PNG Options" url="xarax/IDH_Dialog_Bitmap_Export_PNG_Transparency.htm" />
+<topic name="RAS Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_RAS.htm" />
+<topic name="Bitmap Export Dialog Box - Bitmap Size (and Resolution)" url="xarax/IDH_Dialog_Bitmap_Export_Size_and_Resolution.htm" />
+<topic name="TARGA Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_TGA.htm" />
+<topic name="TIFF Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_TIFF.htm" />
+<topic name="Bitmap Export Dialog Box - TIFF Compression" url="xarax/IDH_Dialog_Bitmap_Export_TIFF_Compression.htm" />
+<topic name="WPG Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_WPG.htm" />
+<topic name="Bitmap Properties Dialog Box" url="xarax/IDH_Dialog_Bitmap_Properties.htm" />
+<topic name="Bitmap Tracer Dialog Box - Accuracy" url="xarax/IDH_Dialog_Bitmap_Tracer_Accuracy.htm" />
+<topic name="Bitmap Tracer Dialog Box - Defaults Button" url="xarax/IDH_Dialog_Bitmap_Tracer_Default_Button.htm" />
+<topic name="Bitmap Tracer Dialog Box - Final Color Tolerance" url="xarax/IDH_Dialog_Bitmap_Tracer_Final_Color_Tolerance.htm" />
+<topic name="Bitmap Tracer Dialog Box - Initial Color Tolerance" url="xarax/IDH_Dialog_Bitmap_Tracer_Initial_Color_Tolerance.htm" />
+<topic name="Bitmap Tracer Dialog Box - Insert Button" url="xarax/IDH_Dialog_Bitmap_Tracer_Insert_Button.htm" />
+<topic name="Bitmap Tracer Dialog Box - Minimum Area" url="xarax/IDH_Dialog_Bitmap_Tracer_Minimum_Area.htm" />
+<topic name="Bitmap Tracer Dialog Box - Passes" url="xarax/IDH_Dialog_Bitmap_Tracer_Passes.htm" />
+<topic name="Bitmap Tracer Dialog Box - Remove Noise" url="xarax/IDH_Dialog_Bitmap_Tracer_Remove_Noise.htm" />
+<topic name="Bitmap Tracer Dialog Box - Reset Setting Button" url="xarax/IDH_Dialog_Bitmap_Tracer_Reset_Settings_Button.htm" />
+<topic name="Bitmap Tracer Dialog Box - Save Settings Buttons" url="xarax/IDH_Dialog_Bitmap_Tracer_Save_Settings_Button.htm" />
+<topic name="Bitmap Tracer Dialog Box - Smoothing" url="xarax/IDH_Dialog_Bitmap_Tracer_Smoothing.htm" />
+<topic name="Bitmap Tracer Dialog Box - Trace Button" url="xarax/IDH_Dialog_Bitmap_Tracer_Trace_Button.htm" />
+<topic name="Bitmap Tracer Dialog Box - Trace Mode" url="xarax/IDH_Dialog_Bitmap_Tracer_Trace_Mode.htm" />
+<topic name="Color Editor - 3D" url="xarax/IDH_Dialog_Color_Editor_3D.htm" />
+<topic name="Color Editor - Color Model" url="xarax/IDH_Dialog_Color_Editor_Color_Model.htm" />
+<topic name="Color Editor - Choose a Color to Edit" url="xarax/IDH_Dialog_Color_Editor_Color_to_Edit.htm" />
+<topic name="Color Editor - Color Type" url="xarax/IDH_Dialog_Color_Editor_Color_Type.htm" />
+<topic name="Color Editor - Component Values" url="xarax/IDH_Dialog_Color_Editor_Component_Values.htm" />
+<topic name="Color Editor - New Named Color Button" url="xarax/IDH_Dialog_Color_Editor_New_Named_Color.htm" />
+<topic name="Color Editor - Shades" url="xarax/IDH_Dialog_Color_Editor_Shades.htm" />
+<topic name="Color Editor - Show Only Simple Options" url="xarax/IDH_Dialog_Color_Editor_Simple_Options.htm" />
+<topic name="Control Bars Dialog Box - Delete Button" url="xarax/IDH_Dialog_Control_Bars_Delete_Button.htm" />
+<topic name="Control Bars Dialog Box - Large Buttons" url="xarax/IDH_Dialog_Control_Bars_Large_Buttons.htm" />
+<topic name="Control Bars Dialog Box - New Button" url="xarax/IDH_Dialog_Control_Bars_New_Button.htm" />
+<topic name="Control Bars Dialog Box - Reset Button" url="xarax/IDH_Dialog_Control_Bars_Reset_Button.htm" />
+<topic name="EPS Export Dialog Box" url="xarax/IDH_Dialog_CorelXARA_EPS_Export.htm" />
+<topic name="EPS Export Dialog Box - Export Text As Curves" url="xarax/IDH_Dialog_CorelXARA_EPS_Export_Export_Text_As_Curves.htm" />
+<topic name="EPS Export Dialog Box - Resolution" url="xarax/IDH_Dialog_CorelXARA_EPS_Export_Resolution.htm" />
+<topic name="Create Bitmap Copy - Palette Options" url="xarax/IDH_Dialog_Create_Bitmap_Copy___Palette_Options.htm" />
+<topic name="Create Bitmap Copy - Options" url="xarax/IDH_Dialog_Create_Bitmap_Copy_Background.htm" />
+<topic name="Create Bitmap Copy Dialog Box - Create Button" url="xarax/IDH_Dialog_Create_Bitmap_Copy_Create.htm" />
+<topic name="Create Bitmap Copy - Bitmap Size and Resolution" url="xarax/IDH_Dialog_Create_Bitmap_Copy_Size_and_Resolution.htm" />
+<topic name="Edit Brush Dialog Box" url="xarax/IDH_Dialog_Edit_Brush.htm" />
+<topic name="Edit Brush - Offset Tab" url="xarax/IDH_Dialog_Edit_Brush_Offset.htm" />
+<topic name="Edit Brush - Fill Properties" url="xarax/IDH_Dialog_Edit_Brush_Properties.htm" />
+<topic name="Edit Brush - Rotation Tab" url="xarax/IDH_Dialog_Edit_Brush_Rotation.htm" />
+<topic name="Edit Brush - Scaling Tab" url="xarax/IDH_Dialog_Edit_Brush_Scaling.htm" />
+<topic name="Edit Brush - Transparency Tab" url="xarax/IDH_Dialog_Edit_Brush_Sequence.htm" />
+<topic name="Edit Brush - Spacing Tab" url="xarax/IDH_Dialog_Edit_Brush_Spacing.htm" />
+<topic name="Add Folder Dialog Box" url="xarax/IDH_Dialog_Gallery_Add_Folder.htm" />
+<topic name="Gallery Find Dialog Box" url="xarax/IDH_Dialog_Gallery_Find_Dialog.htm" />
+<topic name="Gallery Find Dialog Box - Find First Button" url="xarax/IDH_Dialog_Gallery_Find_Find_First_Button.htm" />
+<topic name="Gallery Find Dialog Box - Find Next Button" url="xarax/IDH_Dialog_Gallery_Find_Find_Next_Button.htm" />
+<topic name="Gallery Find Dialog Box - Search Type" url="xarax/IDH_Dialog_Gallery_Find_Search_Type.htm" />
+<topic name="Gallery Find Dialog Box - Text" url="xarax/IDH_Dialog_Gallery_Find_Text.htm" />
+<topic name="Gallery Properties Dialog Box" url="xarax/IDH_Dialog_Gallery_Properties.htm" />
+<topic name="Gallery Sort Dialog Box - Apply to All Gallery Sections" url="xarax/IDH_Dialog_Gallery_Sort_Apply_to_All_Sections.htm" />
+<topic name="Gallery Sort Dialog Box - Only Apply to Some Sections" url="xarax/IDH_Dialog_Gallery_Sort_Apply_to_Some_Sections.htm" />
+<topic name="Gallery Sort Dialog Box" url="xarax/IDH_Dialog_Gallery_Sort_Dialog.htm" />
+<topic name="Gallery Sort Dialog Box - Primary and Secondary Keys" url="xarax/IDH_Dialog_Gallery_Sort_Keys.htm" />
+<topic name="Guideline Properties Dialog Box" url="xarax/IDH_Dialog_Guideline_Properties.htm" />
+<topic name="Image Map Export Options" url="xarax/IDH_Dialog_Image_Map_Export_Options.htm" />
+<topic name="Layer Properties Dialog Box" url="xarax/IDH_Dialog_Layer_Properties.htm" />
+<topic name="Name Layer Dialog Box" url="xarax/IDH_Dialog_Name_Layer.htm" />
+<topic name="Name an Object Dialog Box" url="xarax/IDH_Dialog_Name_Objects.htm" />
+<topic name="New Named Color Dialog Box" url="xarax/IDH_Dialog_New_Named_Colour.htm" />
+<topic name="Paste Special Dialog Box" url="xarax/IDH_Dialog_Paste_Special.htm" />
+<topic name="PhotoCD Import Dialog Box" url="xarax/IDH_Dialog_PhotoCD_Import.htm" />
+<topic name="Preview Dialog Box" url="xarax/IDH_Dialog_Preview_Animation.htm" />
+<topic name="Print Dialog Box - Collate Copies Option" url="xarax/IDH_Dialog_Print_Collate_Copies_Option.htm" />
+<topic name="Print Dialog Box - Copies Field" url="xarax/IDH_Dialog_Print_Copies_Field.htm" />
+<topic name="Print Dialog Box - Options Button" url="xarax/IDH_Dialog_Print_Options_Button.htm" />
+<topic name="Print Dialog Box - Print Button" url="xarax/IDH_Dialog_Print_Print_Button.htm" />
+<topic name="Print Dialog Box - Print Objects Options" url="xarax/IDH_Dialog_Print_Print_Objects_Options.htm" />
+<topic name="Print Dialog Box - Print Pages Options" url="xarax/IDH_Dialog_Print_Print_Pages_Options.htm" />
+<topic name="Print Dialog Box - Print To File Option" url="xarax/IDH_Dialog_Print_Print_To_File_Option.htm" />
+<topic name="Print Dialog Box - Printer Button" url="xarax/IDH_Dialog_Print_Printer_Button.htm" />
+<topic name="Rename Color Dialog Box" url="xarax/IDH_Dialog_Rename_Colour.htm" />
+<topic name="Change a name" url="xarax/IDH_Dialog_Rename_Objects.htm" />
+<topic name="Unit Properties Dialog Box" url="xarax/IDH_Dialog_Unit_Properties.htm" />
+<topic name="Unit Properties Dialog Box - Abbreviation" url="xarax/IDH_Dialog_Unit_Properties_Abbreviation.htm" />
+<topic name="Unit Properties Dialog Box - Prefix or Suffix" url="xarax/IDH_Dialog_Unit_Properties_Suffix_Prefix.htm" />
+<topic name="Unit Properties Dialog Box - Unit Definition" url="xarax/IDH_Dialog_Unit_Properties_Unit_Definition.htm" />
+<topic name="Unit Properties Dialog Box - Unit Name" url="xarax/IDH_Dialog_Unit_Properties_Unit_Name.htm" />
+<topic name="Web Address Dialog Box - Add Button" url="xarax/IDH_Dialog_Web_Address_Add.htm" />
+<topic name="Web Address Dialog Box - Clickable area" url="xarax/IDH_Dialog_Web_Address_Clickable_Area.htm" />
+<topic name="Web Address Dialog Box - Correct URL automatically" url="xarax/IDH_Dialog_Web_Address_Correct.htm" />
+<topic name="Web Address Dialog Box - Remove Button" url="xarax/IDH_Dialog_Web_Address_Remove.htm" />
+<topic name="Web Address Dialog Box - Target frame for URL" url="xarax/IDH_Dialog_Web_Address_Target.htm" />
+<topic name="Web Address Dialog Box - URL" url="xarax/IDH_Dialog_Web_Address_URL.htm" />
+<topic name="Xara Web File Export Dialog Box" url="xarax/IDH_Dialog_Web_Export.htm" />
+<topic name="Xara Web File Export Dialog Box - Area to View" url="xarax/IDH_Dialog_Web_Export_Area_to_View.htm" />
+<topic name="Xara Web File Export Dialog Box - Convert text to outlines" url="xarax/IDH_Dialog_Web_Export_Convert_Text.htm" />
+<topic name="Xara Web File Export Dialog Box - Remove Preview Bitmap" url="xarax/IDH_Dialog_Web_Export_Remove_Bitmap.htm" />
+<topic name="Xara Web File Export Dialog Box - Remove extra editing information" url="xarax/IDH_Dialog_Web_Export_Remove_Editing_Info.htm" />
+<topic name="Xara Web File Export Dialog Box - Remove Invisible Layers" url="xarax/IDH_Dialog_Web_Export_Remove_Invisible_Layers.htm" />
+<topic name="Xara Web File Export Dialog Box - Remove Unused Colors" url="xarax/IDH_Dialog_Web_Export_Remove_Unused_Colors.htm" />
+<topic name="Xara Web File Export Dialog Box - Use JPEG on compatible bitmaps" url="xarax/IDH_Dialog_Web_Export_Use_JPEG_on_Compatible_Bitmaps.htm" />
+<topic name="Xara XAR File Export Dialog Box" url="xarax/IDH_Dialog_Xar_Export.htm" />
+<topic name="Bitmap Gallery Overview" url="xarax/IDH_Gallery_Bitmap.htm" />
+<topic name="Bitmap Gallery - Delete Button" url="xarax/IDH_Gallery_Bitmap_Delete.htm" />
+<topic name="Bitmap Gallery - Fill Button" url="xarax/IDH_Gallery_Bitmap_Fill.htm" />
+<topic name="Bitmap Gallery - Insert Button" url="xarax/IDH_Gallery_Bitmap_Insert.htm" />
+<topic name="Bitmap Gallery - Options Button" url="xarax/IDH_Gallery_Bitmap_Options.htm" />
+<topic name="Bitmap Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Bitmap_Popup_Menu.htm" />
+<topic name="Bitmap Gallery - Bitmap Properties Button" url="xarax/IDH_Gallery_Bitmap_Properties.htm" />
+<topic name="Bitmap Gallery - Save Button" url="xarax/IDH_Gallery_Bitmap_Save.htm" />
+<topic name="Bitmap Gallery - Trace Button" url="xarax/IDH_Gallery_Bitmap_Trace.htm" />
+<topic name="Bitmap Gallery - Transparency Button" url="xarax/IDH_Gallery_Bitmap_Trans.htm" />
+<topic name="Clipart Gallery Overview" url="xarax/IDH_Gallery_Clipart.htm" />
+<topic name="Clipart Gallery - Disk Clipart Button" url="xarax/IDH_Gallery_Clipart_Add.htm" />
+<topic name="Clipart Gallery - Empty web clipart cache" url="xarax/IDH_Gallery_Clipart_Empty_Cache.htm" />
+<topic name="Clipart Gallery - Get Clipart Button" url="xarax/IDH_Gallery_Clipart_Get_Clipart.htm" />
+<topic name="Clipart Gallery - Import Button" url="xarax/IDH_Gallery_Clipart_Import.htm" />
+<topic name="Clipart Gallery - Open Button" url="xarax/IDH_Gallery_Clipart_Open.htm" />
+<topic name="Clipart Gallery - Options Button" url="xarax/IDH_Gallery_Clipart_Options.htm" />
+<topic name="Clipart Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Clipart_Popup_Menu.htm" />
+<topic name="Clipart Gallery - Remove Button" url="xarax/IDH_Gallery_Clipart_Remove.htm" />
+<topic name="Clipart Gallery - Stop Loading Button" url="xarax/IDH_Gallery_Clipart_Stop_Loading.htm" />
+<topic name="Color Gallery - Background Button" url="xarax/IDH_Gallery_Color_Background_Button.htm" />
+<topic name="Color Gallery Overview" url="xarax/IDH_Gallery_Colour.htm" />
+<topic name="Color Gallery - Apply Button" url="xarax/IDH_Gallery_Colour_Apply.htm" />
+<topic name="Color Gallery - Delete Button" url="xarax/IDH_Gallery_Colour_Delete.htm" />
+<topic name="Color Gallery - Edit Button" url="xarax/IDH_Gallery_Colour_Edit.htm" />
+<topic name="Color Gallery - Name Button" url="xarax/IDH_Gallery_Colour_Name.htm" />
+<topic name="Color Gallery - New Button" url="xarax/IDH_Gallery_Colour_New.htm" />
+<topic name="Color Gallery - Options Button" url="xarax/IDH_Gallery_Colour_Options.htm" />
+<topic name="Color Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Colour_Popup_Menu.htm" />
+<topic name="Color Gallery - Redefine Button" url="xarax/IDH_Gallery_Colour_Redefine.htm" />
+<topic name="Bitmap Gallery - Plug-ins Button" url="xarax/IDH_Gallery_Effects.htm" />
+<topic name="Fill Gallery Overview" url="xarax/IDH_Gallery_Fill.htm" />
+<topic name="Fill Gallery - Disk Fills Button" url="xarax/IDH_Gallery_Fill_Add.htm" />
+<topic name="Fill Gallery - Background" url="xarax/IDH_Gallery_Fill_Background.htm" />
+<topic name="Fill Gallery - Fill Button" url="xarax/IDH_Gallery_Fill_Fill.htm" />
+<topic name="Fill Gallery - Get Fills" url="xarax/IDH_Gallery_Fill_Get_Fills.htm" />
+<topic name="Fill Gallery - Import Button" url="xarax/IDH_Gallery_Fill_Import.htm" />
+<topic name="Fill Gallery - Options Button" url="xarax/IDH_Gallery_Fill_Options.htm" />
+<topic name="Fill Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Fill_Popup_Menu.htm" />
+<topic name="Fill Gallery - Remove Button" url="xarax/IDH_Gallery_Fill_Remove.htm" />
+<topic name="Fill Gallery - Stop Loading" url="xarax/IDH_Gallery_Fill_Stop_Loading.htm" />
+<topic name="Fill Gallery - Transparency Button" url="xarax/IDH_Gallery_Fill_Transparency.htm" />
+<topic name="Font Gallery Overview" url="xarax/IDH_Gallery_Font.htm" />
+<topic name="Font Gallery - Disk Fonts Button" url="xarax/IDH_Gallery_Font_Add.htm" />
+<topic name="Font Gallery - Apply Button" url="xarax/IDH_Gallery_Font_Apply.htm" />
+<topic name="Font Gallery - De-install Button" url="xarax/IDH_Gallery_Font_Deinstall.htm" />
+<topic name="Font Gallery - Empty Web Fonts Cache" url="xarax/IDH_Gallery_Font_Emprt_Web_Font_Cache.htm" />
+<topic name="Fill Gallery - Empty Web Fonts Cache" url="xarax/IDH_Gallery_Font_Empty_Web_Cache.htm" />
+<topic name="Font Gallery - Get Fonts" url="xarax/IDH_Gallery_Font_Get_Fonts.htm" />
+<topic name="Font Gallery - Install Button" url="xarax/IDH_Gallery_Font_Install.htm" />
+<topic name="Font Gallery - Options Button" url="xarax/IDH_Gallery_Font_Options.htm" />
+<topic name="Font Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Font_Pop_up_Menu.htm" />
+<topic name="Font Gallery - Remove Button" url="xarax/IDH_Gallery_Font_Remove.htm" />
+<topic name="Font Gallery - Stop Loading" url="xarax/IDH_Gallery_Font_Stop_Loading.htm" />
+<topic name="Frame Gallery Overview" url="xarax/IDH_Gallery_Frame.htm" />
+<topic name="Frame Gallery - All Editable Button" url="xarax/IDH_Gallery_Frame_All_Editable_Button.htm" />
+<topic name="Frame Gallery - All Visible Button" url="xarax/IDH_Gallery_Frame_All_Visible.htm" />
+<topic name="Frame Gallery - Background and Overlay Settings" url="xarax/IDH_Gallery_Frame_Background_and_Overlay.htm" />
+<topic name="Frame Gallery - Copy Button" url="xarax/IDH_Gallery_Frame_Copy.htm" />
+<topic name="Frame Gallery - Delete Button" url="xarax/IDH_Gallery_Frame_Delete.htm" />
+<topic name="Frame Gallery - New Button" url="xarax/IDH_Gallery_Frame_New.htm" />
+<topic name="Frame Gallery - Pop-up menu" url="xarax/IDH_Gallery_Frame_Pop_up_menu.htm" />
+<topic name="Frame Gallery - Preview Button" url="xarax/IDH_Gallery_Frame_Preview.htm" />
+<topic name="Frame Gallery - Properties Button" url="xarax/IDH_Gallery_Frame_Properties.htm" />
+<topic name="Layer Gallery Overview" url="xarax/IDH_Gallery_Layer.htm" />
+<topic name="Layer Gallery - All Editable" url="xarax/IDH_Gallery_Layer_All_Editable.htm" />
+<topic name="Layer Gallery - All Visible Button" url="xarax/IDH_Gallery_Layer_All_Visible.htm" />
+<topic name="Layer Gallery - Copy Button" url="xarax/IDH_Gallery_Layer_Copy.htm" />
+<topic name="Layer Gallery - Delete Button" url="xarax/IDH_Gallery_Layer_Delete.htm" />
+<topic name="Layer Gallery - Guides Layer" url="xarax/IDH_Gallery_Layer_Guides.htm" />
+<topic name="Layer Gallery - New Button" url="xarax/IDH_Gallery_Layer_New.htm" />
+<topic name="Layer Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Layer_Popup_Menu.htm" />
+<topic name="Layer Gallery - Visible and Editable Settings" url="xarax/IDH_Gallery_Layer_Visible_Editable.htm" />
+<topic name="Line Gallery Overview" url="xarax/IDH_Gallery_Line.htm" />
+<topic name="Line Gallery - Arrows" url="xarax/IDH_Gallery_Line_Arrows.htm" />
+<topic name="Line Gallery - Line Cap" url="xarax/IDH_Gallery_Line_Cap.htm" />
+<topic name="Line Gallery - Dash Pattern" url="xarax/IDH_Gallery_Line_Dash.htm" />
+<topic name="Line Gallery - Join Type" url="xarax/IDH_Gallery_Line_Join.htm" />
+<topic name="Line Gallery - Line Width" url="xarax/IDH_Gallery_Line_Width.htm" />
+<topic name="Name Gallery Overview" url="xarax/IDH_Gallery_Name.htm" />
+<topic name="How do I ...?" url="xarax/IDH_How.htm" />
+<topic name="Adding arrowheads to lines" url="xarax/IDH_How_Adding_Arrowheads_to_Lines.htm" />
+<topic name="Adding clipart to the clipart gallery" url="xarax/IDH_How_Adding_Clipart_to_the_Clipart_Gallery.htm" />
+<topic name="Creating custom brushes" url="xarax/IDH_How_Adding_Custom_Brush_Strokes.htm" />
+<topic name="Adding dash patterns to lines" url="xarax/IDH_How_Adding_Dashing_to_Lines.htm" />
+<topic name="Adding files to a gallery" url="xarax/IDH_How_adding_files_to_a_gallery.htm" />
+<topic name="Adding fills to the fill gallery" url="xarax/IDH_How_Adding_Fills_to_the_Fill_Gallery.htm" />
+<topic name="Adding titles, descriptions and keywords to documents" url="xarax/IDH_How_adding_keywords_etc.htm" />
+<topic name="Adding points to lines and shapes" url="xarax/IDH_How_Adding_Points_to_a_LineShape.htm" />
+<topic name="Adding shapes" url="xarax/IDH_How_Adding_Shapes.htm" />
+<topic name="Adding web addresses to objects" url="xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm" />
+<topic name="Creating two-way blends" url="xarax/IDH_How_Advanced_Blending.htm" />
+<topic name="Aligning and distributing objects" url="xarax/IDH_How_Aligning_objects.htm" />
+<topic name="Aligning the centers of QuickShapes" url="xarax/IDH_How_Aligning_QuickShape_centres.htm" />
+<topic name="Aligning text on a curve" url="xarax/IDH_How_Aligning_Text_on_a_Curve.htm" />
+<topic name="Altering point handles" url="xarax/IDH_How_Altering_Point_Handles.htm" />
+<topic name="Anti-aliasing steps in blends" url="xarax/IDH_How_Anti_aliasing_steps_in_blends.htm" />
+<topic name="Applying molds" url="xarax/IDH_How_Applying_a_Mould.htm" />
+<topic name="Applying attributes to a selected region of text" url="xarax/IDH_How_Applying_Attributes_to_a_Selected_Region_Of_Text.htm" />
+<topic name="Applying attributes to a whole text object" url="xarax/IDH_How_Applying_attributes_to_a_whole_text_object.htm" />
+<topic name="Applying attributes to individual text characters" url="xarax/IDH_How_Applying_attributes_to_individual_text_characters.htm" />
+<topic name="Applying attributes to text" url="xarax/IDH_How_Applying_Attributes_to_Text.htm" />
+<topic name="Applying attributes to the text cursor" url="xarax/IDH_How_Applying_attributes_to_the_text_cursor.htm" />
+<topic name="Applying bitmap fills" url="xarax/IDH_How_Applying_Bitmap_Fills.htm" />
+<topic name="Applying bitmap transparency" url="xarax/IDH_How_Applying_Bitmap_Transparency.htm" />
+<topic name="Applying circular fills" url="xarax/IDH_How_Applying_Circular_Fills.htm" />
+<topic name="Applying circular transparency" url="xarax/IDH_How_Applying_Circular_Transparency.htm" />
+<topic name="Applying conical fills" url="xarax/IDH_How_Applying_Conical_Fills.htm" />
+<topic name="Applying conical transparency" url="xarax/IDH_How_Applying_Conical_Transparency.htm" />
+<topic name="Applying diamond fills" url="xarax/IDH_How_Applying_Diamond_Fills.htm" />
+<topic name="Applying diamond transparency" url="xarax/IDH_How_Applying_diamond_transparency.htm" />
+<topic name="Applying elliptical fills" url="xarax/IDH_How_Applying_Elliptical_Fills.htm" />
+<topic name="Applying elliptical transparency" url="xarax/IDH_How_Applying_Elliptical_Transparency.htm" />
+<topic name="Changing an object's fill color" url="xarax/IDH_How_Applying_Fill_Colours.htm" />
+<topic name="Applying fills" url="xarax/IDH_How_Applying_Fills.htm" />
+<topic name="Applying flat transparency" url="xarax/IDH_How_Applying_Flat_Transparency.htm" />
+<topic name="Applying four color fills" url="xarax/IDH_How_Applying_Four_Color_Fills.htm" />
+<topic name="Applying four point transparency" url="xarax/IDH_How_Applying_four_point_transparency.htm" />
+<topic name="Applying fractal fills" url="xarax/IDH_How_Applying_Fractal_Fills.htm" />
+<topic name="Applying fractal transparency" url="xarax/IDH_How_Applying_Fractal_Transparency.htm" />
+<topic name="Changing an object's line color" url="xarax/IDH_How_Applying_Line_Colour.htm" />
+<topic name="Applying linear fills" url="xarax/IDH_How_Applying_Linear_Fills.htm" />
+<topic name="Applying linear transparency" url="xarax/IDH_How_Applying_Linear_Transparency.htm" />
+<topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+<topic name="Applying three color fills" url="xarax/IDH_How_Applying_Three_Color_Fills.htm" />
+<topic name="Applying three point transparency" url="xarax/IDH_How_Applying_three_point_transparency.htm" />
+<topic name="Applying transparency" url="xarax/IDH_How_Applying_Transparency.htm" />
+<topic name="Turning background redraw on and off" url="xarax/IDH_How_Background_Redraw_Option.htm" />
+<topic name="Making a straight line curved" url="xarax/IDH_How_Bending_a_Straight_Line.htm" />
+<topic name="Changing the bitmap in a bitmap fill" url="xarax/IDH_How_Bitmap_Fill_Change_Bitmap.htm" />
+<topic name="Cropping or Masking a bitmap" url="xarax/IDH_How_Bitmap_Masking.htm" />
+<topic name="Changing the resolution of a bitmap transparency" url="xarax/IDH_How_Bitmap_Transparency_Resolution.htm" />
+<topic name="Changing the way colors fade in a blend" url="xarax/IDH_How_Blend_Effect.htm" />
+<topic name="Changing the number of steps in a blend" url="xarax/IDH_How_Blend_Steps.htm" />
+<topic name="Blending bitmaps" url="xarax/IDH_How_Blending_Bitmaps.htm" />
+<topic name="Blending objects" url="xarax/IDH_How_Blending_Objects.htm" />
+<topic name="Breaking lines and shapes apart" url="xarax/IDH_How_Breaking_a_LineShape.htm" />
+<topic name="Setting the size of buttons" url="xarax/IDH_How_Button_Size.htm" />
+<topic name="Changing the colors in diamond fills" url="xarax/IDH_How_Change_the_colors_of_an_diamond_fill.htm" />
+<topic name="Changing bitmap transparency" url="xarax/IDH_How_Changing_a_Bitmap_Transparency.htm" />
+<topic name="Changing conical transparency" url="xarax/IDH_How_Changing_a_Conical_Transparency.htm" />
+<topic name="Changing a line into a shape" url="xarax/IDH_How_Changing_a_Line_into_a_Shape.htm" />
+<topic name="Changing linear transparency" url="xarax/IDH_How_Changing_a_Linear_Transparency.htm" />
+<topic name="Changing a mold without it redrawing" url="xarax/IDH_How_Changing_a_Mould_Without_Redraw.htm" />
+<topic name="Changing named colors" url="xarax/IDH_How_Changing_a_Named_Colour.htm" />
+<topic name="Changing an ellipse into a polygon" url="xarax/IDH_How_Changing_an_Ellipse_into_a_Polygon.htm" />
+<topic name="Changing elliptical transparency" url="xarax/IDH_How_Changing_an_Elliptical_Transparency.htm" />
+<topic name="Changing the colors in bitmap fills" url="xarax/IDH_How_Changing_Bitmap_Fill_Colours.htm" />
+<topic name="Changing the resolution of a bitmap fill" url="xarax/IDH_How_Changing_Bitmap_Fill_Resolution.htm" />
+<topic name="Changing the tiling of bitmap fills" url="xarax/IDH_How_Changing_Bitmap_Fill_Tiling.htm" />
+<topic name="Changing the colors in circular fills" url="xarax/IDH_How_Changing_Circular_Fill_Colours.htm" />
+<topic name="Changing circular transparency" url="xarax/IDH_How_Changing_Circular_Transparency.htm" />
+<topic name="Changing the colors in conical fills" url="xarax/IDH_How_Changing_Conical_Fill_Colours.htm" />
+<topic name="Changing the program's memory requirements" url="xarax/IDH_How_Changing_CorelXARA_s_memory_requirements.htm" />
+<topic name="Changing curved lines and shapes" url="xarax/IDH_How_Changing_Curved_Lines_and_Shapes.htm" />
+<topic name="Changing diamond fills" url="xarax/IDH_How_Changing_diamond_fills.htm" />
+<topic name="Changing diamond transparency" url="xarax/IDH_How_Changing_diamond_transparency.htm" />
+<topic name="Changing the colors in elliptical fills" url="xarax/IDH_How_Changing_Elliptical_Fill_Colours.htm" />
+<topic name="Changing the type of  fill" url="xarax/IDH_How_Changing_Fill_Type.htm" />
+<topic name="Changing fills" url="xarax/IDH_How_Changing_Fills.htm" />
+<topic name="Changing flat transparency" url="xarax/IDH_How_Changing_Flat_Transparency.htm" />
+<topic name="Changing four color fills" url="xarax/IDH_How_Changing_four_color_fills.htm" />
+<topic name="Changing four point transparency" url="xarax/IDH_How_Changing_four_point_transparency.htm" />
+<topic name="Changing the colors in fractal fills" url="xarax/IDH_How_Changing_Fractal_Fill_Colours.htm" />
+<topic name="Changing the grain of a fractal fill" url="xarax/IDH_How_Changing_Fractal_Fill_Grain.htm" />
+<topic name="Changing the resolution of a fractal fill" url="xarax/IDH_How_Changing_Fractal_Fill_Resolution.htm" />
+<topic name="Changing the tiling of fractal fills" url="xarax/IDH_How_Changing_Fractal_Fill_Tiling.htm" />
+<topic name="Changing fractal transparency" url="xarax/IDH_How_Changing_Fractal_Transparency.htm" />
+<topic name="Changing line ends" url="xarax/IDH_How_Changing_Line_Ends.htm" />
+<topic name="Changing line joins" url="xarax/IDH_How_Changing_Line_Joins.htm" />
+<topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+<topic name="Changing the colors in fills" url="xarax/IDH_How_Changing_Linear_Fill_Colours.htm" />
+<topic name="Changing shade colors" url="xarax/IDH_How_Changing_Shade_Colours.htm" />
+<topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+<topic name="Changing text font" url="xarax/IDH_How_Changing_text_font.htm" />
+<topic name="Changing the size of text" url="xarax/IDH_How_Changing_Text_Size.htm" />
+<topic name="Changing the aspect ratio of text" url="xarax/IDH_How_Changing_the_Aspect_Ratio_of_Text.htm" />
+<topic name="Changing the background" url="xarax/IDH_How_Changing_the_background.htm" />
+<topic name="Changing the baseline shift of text" url="xarax/IDH_How_Changing_the_Baseline_Shift_of_Text.htm" />
+<topic name="Changing the bleed setting" url="xarax/IDH_How_Changing_the_Bleed_Setting.htm" />
+<topic name="Changing the brightness and contrast of bitmaps" url="xarax/IDH_How_Changing_the_brightness_and_contrast_of_bitmaps.htm" />
+<topic name="Changing the color units" url="xarax/IDH_How_Changing_the_Color_Units.htm" />
+<topic name="Changing the colors in four color fills" url="xarax/IDH_How_Changing_the_colors_in_a_four_color_fill.htm" />
+<topic name="Changing the colors in three color fills" url="xarax/IDH_How_Changing_the_colors_of_three_color_fills.htm" />
+<topic name="Changing the color of guides" url="xarax/IDH_How_Changing_the_colour_of_guides.htm" />
+<topic name="Changing the constrain angle" url="xarax/IDH_How_Changing_the_constrain_angle.htm" />
+<topic name="Changing the default paper size" url="xarax/IDH_How_Changing_the_default_paper_size.htm" />
+<topic name="Changing the duplication distance" url="xarax/IDH_How_Changing_the_duplication_distance.htm" />
+<topic name="Changing the fill effect of a fill" url="xarax/IDH_How_Changing_the_Fill_Effect.htm" />
+<topic name="Changing the font units" url="xarax/IDH_How_Changing_the_font_units.htm" />
+<topic name="Changing the gallery cache size" url="xarax/IDH_How_Changing_the_gallery_cache_size.htm" />
+<topic name="Changing the grid spacing" url="xarax/IDH_How_Changing_the_Grid_Spacing.htm" />
+<topic name="Changing the spacing between lines of text" url="xarax/IDH_How_Changing_the_Line_Spacing_of_Text.htm" />
+<topic name="Changing the nudge size" url="xarax/IDH_How_Changing_the_nudge_size.htm" />
+<topic name="Changing the page units" url="xarax/IDH_How_Changing_the_page_units.htm" />
+<topic name="Changing the page size" url="xarax/IDH_How_Changing_the_paper_size.htm" />
+<topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+<topic name="Moving the ruler zero point" url="xarax/IDH_How_Changing_the_ruler_zero_point.htm" />
+<topic name="Changing the screen dithering" url="xarax/IDH_How_Changing_the_screen_dithering.htm" />
+<topic name="Changing the selection with the Tab key" url="xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm" />
+<topic name="Changing the shape of the grid" url="xarax/IDH_How_Changing_the_Shape_of_the_Grid.htm" />
+<topic name="Changing the size of the pasteboard" url="xarax/IDH_How_Changing_the_Size_of_the_Pasteboard.htm" />
+<topic name="Creating a template document" url="xarax/IDH_How_Changing_The_Template_Document.htm" />
+<topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+<topic name="Changing the tiling of four color fills" url="xarax/IDH_How_Changing_the_tiling_of_four_color_fills.htm" />
+<topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+<topic name="Changing the undo size" url="xarax/IDH_How_Changing_the_undo_size.htm" />
+<topic name="Changing three color fills" url="xarax/IDH_How_Changing_three_color_fills.htm" />
+<topic name="Changing three point transparency" url="xarax/IDH_How_Changing_three_point_transparency.htm" />
+<topic name="Changing transparency" url="xarax/IDH_How_Changing_Tranparency.htm" />
+<topic name="Changing transparency shape" url="xarax/IDH_How_Changing_Transparency_Shape.htm" />
+<topic name="Closing a gallery" url="xarax/IDH_How_Closing_A_Gallery.htm" />
+<topic name="Moving colors on the Color Line" url="xarax/IDH_How_Colour_Line_Moving_Colours.htm" />
+<topic name="Changing the size of the Color line" url="xarax/IDH_How_Colour_Line_Size.htm" />
+<topic name="Coloring objects" url="xarax/IDH_How_Colouring_Objects.htm" />
+<topic name="Drawing concentric QuickShapes" url="xarax/IDH_How_Concentric_Circles.htm" />
+<topic name="Configuring a web server for Xara files" url="xarax/IDH_How_Configuring_a_web_server_for_Xara_file.htm" />
+<topic name="Configuring the mouse buttons" url="xarax/IDH_How_Configuring_the_mouse_buttons.htm" />
+<topic name="Configuring the program so new objects have the most recent attributes" url="xarax/IDH_How_Configuring_the_program_so_new_objects_have_the_most_recent_attributes.htm" />
+<topic name="Configuring the program to ask before closing views" url="xarax/IDH_How_Configuring_the_program_to_ask_before_closing_views.htm" />
+<topic name="Configuring the program to ask before setting the current attributes" url="xarax/IDH_How_Configuring_the_program_to_ask_before_setting_the_current_attributes.htm" />
+<topic name="Converting bitmaps to shapes" url="xarax/IDH_How_Converting_bitmaps_to_shapes.htm" />
+<topic name="Converting blends to shapes" url="xarax/IDH_How_Converting_Blends_to_Shapes.htm" />
+<topic name="Converting groups to shapes" url="xarax/IDH_How_Converting_groups_to_shapes.htm" />
+<topic name="Converting molds to shapes" url="xarax/IDH_How_Converting_Moulds_to_Shapes.htm" />
+<topic name="Applying an object's color to another object" url="xarax/IDH_How_Copying_colour_to_another_object.htm" />
+<topic name="Copying frames" url="xarax/IDH_How_Copying_frames.htm" />
+<topic name="Copying layers" url="xarax/IDH_How_Copying_Layers.htm" />
+<topic name="Copying objects" url="xarax/IDH_How_Copying_Objects.htm" />
+<topic name="Copying objects using connected colors" url="xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm" />
+<topic name="Creating a custom unit" url="xarax/IDH_How_Creating_a_Custom_Unit.htm" />
+<topic name="Creating a double page spread" url="xarax/IDH_How_Creating_a_Double_Page_Spread.htm" />
+<topic name="Creating named colors from objects" url="xarax/IDH_How_Creating_a_named_color_from_an_object.htm" />
+<topic name="Creating named colors" url="xarax/IDH_How_Creating_a_named_colour.htm" />
+<topic name="Creating shade colors" url="xarax/IDH_How_Creating_a_Shade_Colour.htm" />
+<topic name="Creating animated GIF files" url="xarax/IDH_How_Creating_animated_GIF_files.htm" />
+<topic name="Creating bitmaps" url="xarax/IDH_How_Creating_bitmaps.htm" />
+<topic name="Creating bitmaps from objects" url="xarax/IDH_How_Creating_bitmaps_from_objects.htm" />
+<topic name="Creating BMP files" url="xarax/IDH_How_Creating_BMP_files.htm" />
+<topic name="Creating column text" url="xarax/IDH_How_Creating_column_text.htm" />
+<topic name="Creating custom fills" url="xarax/IDH_How_Creating_Custom_Fills.htm" />
+<topic name="Creating custom mold shapes" url="xarax/IDH_How_Creating_Custom_Mould_Shapes.htm" />
+<topic name="Creating custom transparencies" url="xarax/IDH_How_Creating_Custom_Transparencies.htm" />
+<topic name="Creating DCX files" url="xarax/IDH_How_Creating_DCX_files.htm" />
+<topic name="Creating frames" url="xarax/IDH_How_Creating_frames.htm" />
+<topic name="Creating GIF files" url="xarax/IDH_How_Creating_GIF_files.htm" />
+<topic name="Creating guidelines" url="xarax/IDH_How_Creating_guidelines.htm" />
+<topic name="Creating JPEG files" url="xarax/IDH_How_Creating_JPEG_files.htm" />
+<topic name="Creating layers" url="xarax/IDH_How_Creating_layers.htm" />
+<topic name="Creating multi-stage fills" url="xarax/IDH_how_creating_multicolor_fills.htm" />
+<topic name="Creating new documents" url="xarax/IDH_How_Creating_New_Documents.htm" />
+<topic name="Creating shapes with holes" url="xarax/IDH_How_Creating_Objects_with_Holes.htm" />
+<topic name="Creating PCX files" url="xarax/IDH_How_Creating_PCX_files.htm" />
+<topic name="Creating PICT files" url="xarax/IDH_How_Creating_PICT_files.htm" />
+<topic name="Creating PNG files" url="xarax/IDH_How_Creating_PNG_files.htm" />
+<topic name="Creating RAS files" url="xarax/IDH_How_Creating_RAS_files.htm" />
+<topic name="Creating simple pattern fills" url="xarax/IDH_How_Creating_simple_pattern_fills.htm" />
+<topic name="Creating simple text" url="xarax/IDH_How_Creating_simple_text.htm" />
+<topic name="Creating small XAR and WEB files" url="xarax/IDH_How_Creating_small_XAR_and_WEB_files.htm" />
+<topic name="Creating spot colors" url="xarax/IDH_How_Creating_spot_colors.htm" />
+<topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+<topic name="Creating TARGA files" url="xarax/IDH_How_Creating_TARGA_files.htm" />
+<topic name="Creating the guides layer" url="xarax/IDH_How_Creating_the_guides_layer.htm" />
+<topic name="Creating TIFF files" url="xarax/IDH_How_Creating_TIFF_files.htm" />
+<topic name="Creating WPG files" url="xarax/IDH_How_Creating_WPG_files.htm" />
+<topic name="Creating Xara Web files" url="xarax/IDH_How_Creating_Xara_Web_files.htm" />
+<topic name="Adding curved corners to rectangles" url="xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm" />
+<topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+<topic name="Cycling which points are selected" url="xarax/IDH_How_Cycling_the_Selected_Point_Handles.htm" />
+<topic name="De-installing fonts" url="xarax/IDH_How_Deinstalling_a_Font.htm" />
+<topic name="Deleting a custom unit" url="xarax/IDH_How_Deleting_a_custom_unit.htm" />
+<topic name="Deleting named colors" url="xarax/IDH_How_Deleting_a_Named_Colour.htm" />
+<topic name="Removing bitmaps from a document" url="xarax/IDH_How_Deleting_Bitmaps.htm" />
+<topic name="Deleting control bars" url="xarax/IDH_How_Deleting_Control_Bars.htm" />
+<topic name="Deleting frames" url="xarax/IDH_How_Deleting_frames.htm" />
+<topic name="Deleting guidelines" url="xarax/IDH_How_Deleting_guidelines.htm" />
+<topic name="Deleting layers" url="xarax/IDH_How_Deleting_Layers.htm" />
+<topic name="Deleting objects" url="xarax/IDH_How_Deleting_Objects.htm" />
+<topic name="Deleting points on lines and shapes" url="xarax/IDH_How_Deleting_Points_on_LinesShapes.htm" />
+<topic name="Deleting the guides layer" url="xarax/IDH_How_Deleting_the_guides_layer.htm" />
+<topic name="Deselecting all point handles" url="xarax/IDH_How_Deselect_All_Point_Handles.htm" />
+<topic name="Deselecting objects" url="xarax/IDH_How_Deselecting_objects.htm" />
+<topic name="Deselecting selected objects" url="xarax/IDH_How_Deselecting_One_Object.htm" />
+<topic name="Deselecting all objects" url="xarax/IDH_How_Deslecting_All_Objects.htm" />
+<topic name="Displaying and hiding control bars" url="xarax/IDH_How_Displaying_and_hiding_control_bars.htm" />
+<topic name="Displaying and hiding guides" url="xarax/IDH_How_Displaying_and_hiding_guides.htm" />
+<topic name="Showing hidden buttons" url="xarax/IDH_How_Displaying_Hidden_Buttons.htm" />
+<topic name="Displaying the grid" url="xarax/IDH_How_Displaying_The_Grid.htm" />
+<topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+<topic name="Displaying the rulers" url="xarax/IDH_How_Displaying_the_rulers.htm" />
+<topic name="Drawing lines" url="xarax/IDH_How_Drawing_a_Line.htm" />
+<topic name="Drawing lines with the Freehand Tool" url="xarax/IDH_How_Drawing_a_Line_Freehand_Tool.htm" />
+<topic name="Drawing lines with the Pen Tool" url="xarax/IDH_How_Drawing_a_Line_Pen_Tool.htm" />
+<topic name="Drawing lines with the Shape Editor Tool" url="xarax/IDH_How_Drawing_a_Line_Shape_Editor_Tool.htm" />
+<topic name="Drawing shapes" url="xarax/IDH_How_Drawing_a_Shape.htm" />
+<topic name="Drawing shapes with the Freehand Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Freehand_Tool.htm" />
+<topic name="Drawing shapes with the Pen Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Pen_Tool.htm" />
+<topic name="Drawing shapes with the Shape Editor Tool" url="xarax/IDH_How_Drawing_a_Shape_With_the_Shape_Editor_Tool.htm" />
+<topic name="Drawing ellipses and circles" url="xarax/IDH_How_Drawing_Ellipses.htm" />
+<topic name="Drawing polygons" url="xarax/IDH_How_Drawing_Polygons.htm" />
+<topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+<topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+<topic name="Changing bitmap fills" url="xarax/IDH_How_Editing_Bitmap_Fills.htm" />
+<topic name="Changing bitmap palettes" url="xarax/IDH_How_Editing_Bitmaps.htm" />
+<topic name="Changing circular fills" url="xarax/IDH_How_Editing_Circular_Fills.htm" />
+<topic name="Editing colors in CMYK" url="xarax/IDH_How_Editing_colors_in_CMYK.htm" />
+<topic name="Editing colors in grayscale" url="xarax/IDH_How_Editing_Colors_in_Grayscale.htm" />
+<topic name="Editing colors in HSV" url="xarax/IDH_How_Editing_Colors_in_HSV.htm" />
+<topic name="Editing colors in RGB" url="xarax/IDH_How_Editing_colors_in_RGB.htm" />
+<topic name="Changing conical fills" url="xarax/IDH_How_Editing_Conical_Fills.htm" />
+<topic name="Changing elliptical fills" url="xarax/IDH_How_Editing_Elliptical_Fills.htm" />
+<topic name="Changing fractal fills" url="xarax/IDH_How_Editing_Fractal_Fills.htm" />
+<topic name="Changing linear fills" url="xarax/IDH_How_Editing_Linear_Fills.htm" />
+<topic name="Changing molded text" url="xarax/IDH_How_Editing_moulded_text.htm" />
+<topic name="Editing text" url="xarax/IDH_How_Editing_Text.htm" />
+<topic name="Enabling edit handles" url="xarax/IDH_How_Enabling_Edit_Handles.htm" />
+<topic name="Enabling fill handles and fill arrows" url="xarax/IDH_How_Enabling_Fill_Handles.htm" />
+<topic name="Enabling grid snapping" url="xarax/IDH_How_Enabling_Grid_Snapping.htm" />
+<topic name="Enabling guide snapping" url="xarax/IDH_How_Enabling_guide_snapping.htm" />
+<topic name="Enabling interactive fill and transparency dragging" url="xarax/IDH_How_Enabling_Interactive_Fill_Dragging.htm" />
+<topic name="Enabling object snapping" url="xarax/IDH_How_Enabling_Object_Snapping.htm" />
+<topic name="Enabling selection handles" url="xarax/IDH_How_Enabling_Selection_Handles.htm" />
+<topic name="Ensuring the current layer is always editable" url="xarax/IDH_How_Ensuring_the_current_layer_is_always_editable.htm" />
+<topic name="Creating new text" url="xarax/IDH_How_Entering_Text.htm" />
+<topic name="Exporting CMX files" url="xarax/IDH_How_Exporting_CMX_files.htm" />
+<topic name="Exporting documents" url="xarax/IDH_How_Exporting_documents.htm" />
+<topic name="Exporting image maps" url="xarax/IDH_How_Exporting_image_maps.htm" />
+<topic name="Exporting part of a document" url="xarax/IDH_How_Exporting_part_of_a_document.htm" />
+<topic name="Exporting Window metafiles" url="xarax/IDH_How_Exporting_WMF.htm" />
+<topic name="Extending lines" url="xarax/IDH_How_Extending_a_Line.htm" />
+<topic name="Extending a line with the Freehand Tool" url="xarax/IDH_How_Extending_a_Line_Freehand_Tool.htm" />
+<topic name="Extending a line with the Pen Tool" url="xarax/IDH_How_Extending_a_Line_Pen_Tool.htm" />
+<topic name="Extending a line with the Shape Editor Tool" url="xarax/IDH_How_Extending_a_Line_Shape_Editor_Tool.htm" />
+<topic name="Finding clipart" url="xarax/IDH_How_Finding_Clipart.htm" />
+<topic name="Fitting text to a curve" url="xarax/IDH_How_Fitting_Text_to_a_Curve.htm" />
+<topic name="Flipping objects" url="xarax/IDH_How_Flipping.htm" />
+<topic name="Flipping and rotating bitmaps" url="xarax/IDH_How_Flipping_and_rotating_bitmaps.htm" />
+<topic name="Moving objects backwards and forwards" url="xarax/IDH_How_Forwards_and_Backwards.htm" />
+<topic name="Changing the resolution of a fractal transparency" url="xarax/IDH_How_Fractal_Transparency_Resolution.htm" />
+<topic name="Erasing part of a freehand line" url="xarax/IDH_How_Freehand_Erasing.htm" />
+<topic name="Smoothing a freehand line" url="xarax/IDH_How_Freehand_Smoothing.htm" />
+<topic name="Drawing straight lines with the Freehand Tool" url="xarax/IDH_How_Freehand_Straight.htm" />
+<topic name="Switching to full screen mode" url="xarax/IDH_How_Full_Screen.htm" />
+<topic name="Changing the way galleries look" url="xarax/IDH_How_Gallery_Display_Format.htm" />
+<topic name="Getting help" url="xarax/IDH_How_Getting_Help.htm" />
+<topic name="Grouping objects" url="xarax/IDH_How_Grouping_Objects.htm" />
+<topic name="Hiding layers" url="xarax/IDH_How_Hiding_Layers.htm" />
+<topic name="Hiding the scrollbars" url="xarax/IDH_How_Hiding_Scrollbars.htm" />
+<topic name="Hiding the Color Line" url="xarax/IDH_How_Hiding_the_Colour_Line.htm" />
+<topic name="Hiding the line in text on a curve" url="xarax/IDH_How_Hiding_the_Line_in_Text_on_a_Curve.htm" />
+<topic name="Hiding the page shadow" url="xarax/IDH_How_Hiding_the_page_shadow.htm" />
+<topic name="Hiding the Status Line" url="xarax/IDH_How_Hiding_the_Status_Line.htm" />
+<topic name="Importing animated GIF files" url="xarax/IDH_How_Importing_animated_GIF_files.htm" />
+<topic name="Importing CDR files" url="xarax/IDH_How_Importing_CDR.htm" />
+<topic name="Importing CMX files" url="xarax/IDH_How_Importing_CMX_files.htm" />
+<topic name="Importing colors and palettes" url="xarax/IDH_How_Importing_Colours.htm" />
+<topic name="Importing files" url="xarax/IDH_How_Importing_Files.htm" />
+<topic name="Importing files with layers" url="xarax/IDH_How_Importing_files_with_layers.htm" />
+<topic name="Importing images from the Web" url="xarax/IDH_How_Importing_images_from_the_Web.htm" />
+<topic name="Importing PhotoCD files" url="xarax/IDH_How_Importing_PhotoCD_files.htm" />
+<topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+<topic name="Installing fonts" url="xarax/IDH_How_Installing_a_Font.htm" />
+<topic name="Intersecting shapes" url="xarax/IDH_How_Intersecting_Shapes.htm" />
+<topic name="Inverting a grayscale bitmap" url="xarax/IDH_How_Inverting_a_Greyscale_Bitmap.htm" />
+<topic name="Joining lines" url="xarax/IDH_How_Joining_Lines.htm" />
+<topic name="Justifying text" url="xarax/IDH_How_Justifying_text.htm" />
+<topic name="Kerning text" url="xarax/IDH_How_Kerning_text.htm" />
+<topic name="Drawing a light source" url="xarax/IDH_How_Light_Source.htm" />
+<topic name="Adding a lighting highlight to a drawing" url="xarax/IDH_How_Lighting_Effects.htm" />
+<topic name="Setting the length and angle of a straight line segment" url="xarax/IDH_How_Line_Length_and_Angle.htm" />
+<topic name="Listing the positions of guidelines" url="xarax/IDH_How_Listing_the_positions_of_guidelines.htm" />
+<topic name="Loading files" url="xarax/IDH_How_Loading_Files.htm" />
+<topic name="Locking layers" url="xarax/IDH_How_Locking_a_Layer.htm" />
+<topic name="Locking handles onto the edges of objects" url="xarax/IDH_How_Locking_Handles_on_Edges.htm" />
+<topic name="Making text bold" url="xarax/IDH_How_Making_Text_Bold.htm" />
+<topic name="Making text italic" url="xarax/IDH_How_Making_Text_Italic.htm" />
+<topic name="Drawing motion blur" url="xarax/IDH_How_Motion_Blur.htm" />
+<topic name="Moving objects" url="xarax/IDH_How_Moving.htm" />
+<topic name="Moving a point on a line or shape" url="xarax/IDH_How_Moving_a_Point_on_a_Line.htm" />
+<topic name="Moving objects accurately" url="xarax/IDH_How_Moving_Accurately.htm" />
+<topic name="Moving and copying buttons" url="xarax/IDH_How_Moving_and_Copying_Buttons.htm" />
+<topic name="Moving and resizing control bars" url="xarax/IDH_How_Moving_and_Resizing_Bars.htm" />
+<topic name="Moving and resizing galleries" url="xarax/IDH_How_Moving_and_Resizing_Galleries.htm" />
+<topic name="Moving between documents" url="xarax/IDH_How_Moving_between_documents.htm" />
+<topic name="Moving bitmap fill handles" url="xarax/IDH_How_Moving_Bitmap_Fill_Handles.htm" />
+<topic name="Moving objects by dragging" url="xarax/IDH_How_Moving_by_Dragging.htm" />
+<topic name="Moving diamond fill handles" url="xarax/IDH_How_Moving_diamond_fill_handles.htm" />
+<topic name="Moving fill handles" url="xarax/IDH_How_Moving_Fill_Handles.htm" />
+<topic name="Moving four color fill handles" url="xarax/IDH_How_Moving_four_color_fill_handles.htm" />
+<topic name="Moving four point transparency handles" url="xarax/IDH_How_Moving_four_point_transparency_handles.htm" />
+<topic name="Moving fractal fill handles" url="xarax/IDH_How_Moving_Fractal_Fill_Handles.htm" />
+<topic name="Moving fractal transparency handles" url="xarax/IDH_How_Moving_Fractal_Transparency_Handles.htm" />
+<topic name="Moving guidelines" url="xarax/IDH_How_Moving_guidelines.htm" />
+<topic name="Moving handles to the center of QuickShapes" url="xarax/IDH_How_Moving_handles_to_the_center_of_quickshapes.htm" />
+<topic name="Moving objects between frames" url="xarax/IDH_How_Moving_objects_between_frames.htm" />
+<topic name="Moving objects to the guides layer" url="xarax/IDH_How_Moving_objects_to_the_guides_layer.htm" />
+<topic name="Moving objects between layers" url="xarax/IDH_How_Moving_Oobjects_Between_Layers.htm" />
+<topic name="Moving several points on a line or shape" url="xarax/IDH_How_Moving_Points_on_a_Line.htm" />
+<topic name="Moving points on shapes and lines" url="xarax/IDH_How_Moving_Points_on_LinesShapes.htm" />
+<topic name="Moving QuickShapes" url="xarax/IDH_How_Moving_QuickShapes.htm" />
+<topic name="Moving text around a curve" url="xarax/IDH_How_Moving_Text_Around_a_Curve.htm" />
+<topic name="Moving the page" url="xarax/IDH_How_Moving_the_Page.htm" />
+<topic name="Moving the transformation center" url="xarax/IDH_How_Moving_the_Transformation_Center.htm" />
+<topic name="Moving three color fill handles" url="xarax/IDH_How_Moving_three_color_fill_handles.htm" />
+<topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+<topic name="Moving transparency handles" url="xarax/IDH_How_Moving_Transparency_Handles.htm" />
+<topic name="Creating multi-stage blends" url="xarax/IDH_How_Multistage_Blends.htm" />
+<topic name="Creating new control bars" url="xarax/IDH_How_New_Control_Bars.htm" />
+<topic name="Nudging objects and handles" url="xarax/IDH_How_Nudging_objects_and_handles.htm" />
+<topic name="Opening another view on a document" url="xarax/IDH_How_Opening_another_view_on_a_document.htm" />
+<topic name="Opening documents from disk" url="xarax/IDH_How_Opening_Documents.htm" />
+<topic name="Optimizing Xara LX for your Internet connection" url="xarax/IDH_How_Optimizing_CAMELOT_for_your_Internet_connection.htm" />
+<topic name="Adding an outline to a bitmap" url="xarax/IDH_How_Outline_on_a_Bitmap.htm" />
+<topic name="Overprinting objects" url="xarax/IDH_How_Overprinting_Objects.htm" />
+<topic name="Drawing parallel lines" url="xarax/IDH_How_Parallel_Lines.htm" />
+<topic name="Pasting objects from the clipboard" url="xarax/IDH_How_Pasting.htm" />
+<topic name="Pasting attributes from the clipboard" url="xarax/IDH_How_Pasting_Attributes.htm" />
+<topic name="Cutting and copying objects to the clipboard" url="xarax/IDH_How_Placing_on_the_Clipboard.htm" />
+<topic name="Changing curved corners on a polygon" url="xarax/IDH_How_Polygon_Corner_Curvature.htm" />
+<topic name="Adding curved corners to polygons" url="xarax/IDH_How_Polygon_Curved_Corners.htm" />
+<topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+<topic name="Changing a polygon into an ellipse" url="xarax/IDH_How_Polygon_into_an_Ellipse.htm" />
+<topic name="Making a polygon star-shaped" url="xarax/IDH_How_Polygon_Stellate.htm" />
+<topic name="Previewing animated GIF files" url="xarax/IDH_How_Previewing_animated_GIF_files.htm" />
+<topic name="Previewing bitmaps" url="xarax/IDH_How_Previewing_bitmaps.htm" />
+<topic name="Returning to the previous zoom" url="xarax/IDH_How_Previous_Zoom.htm" />
+<topic name="Printing documents" url="xarax/IDH_How_Printing_Documents.htm" />
+<topic name="Printing: Getting Your Job Printed" url="xarax/IDH_How_Printing_Getting_Your_Job_Printed.htm" />
+<topic name="Printing: Multiple Copies" url="xarax/IDH_How_Printing_Multiple_Copies.htm" />
+<topic name="Printing: Ordering Proofs" url="xarax/IDH_How_Printing_Ordering_Proofs.htm" />
+<topic name="Printing: Spot Color versus Process Color" url="xarax/IDH_How_Printing_Spot_versus_Process.htm" />
+<topic name="Printing text" url="xarax/IDH_How_Printing_Text.htm" />
+<topic name="Putting WEB files on WWW pages" url="xarax/IDH_How_Putting_Web_files_on_the_Web.htm" />
+<topic name="Changing the number of sides of a polygon" url="xarax/IDH_How_QuickShape_Sides.htm" />
+<topic name="Converting QuickShapes to shapes" url="xarax/IDH_How_QuickShapes_to_Shapes.htm" />
+<topic name="Quick Viewing documents" url="xarax/IDH_How_QuickViewing_CorelXARA_documents.htm" />
+<topic name="Reordering layers" url="xarax/IDH_How_Re_ordering_Layers.htm" />
+<topic name="Changing curved corners on a rectangle" url="xarax/IDH_How_Rectangle_Corner_Curvature.htm" />
+<topic name="Changing a rectangle into an ellipse" url="xarax/IDH_How_Rectangle_to_Ellipse.htm" />
+<topic name="Redrawing part of a line or shape" url="xarax/IDH_How_Redrawing_LineShape.htm" />
+<topic name="Reducing the resolution of bitmaps and bitmap fills" url="xarax/IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills.htm" />
+<topic name="Removing a blend" url="xarax/IDH_How_Removing_a_Blend.htm" />
+<topic name="Removing a mold" url="xarax/IDH_How_Removing_a_Mould.htm" />
+<topic name="Removing objects from groups" url="xarax/IDH_How_Removing_Objects_From_Groups.htm" />
+<topic name="Removing text from a curve" url="xarax/IDH_How_Removing_Text_From_a_Curve.htm" />
+<topic name="Removing web addresses from objects" url="xarax/IDH_How_Removing_Web_Addresses_from_Objects.htm" />
+<topic name="Renaming layers" url="xarax/IDH_How_Renaming_a_layer.htm" />
+<topic name="Renaming named colors" url="xarax/IDH_How_Renaming_a_Named_Colour.htm" />
+<topic name="Reordering frames" url="xarax/IDH_How_Reordering_frames.htm" />
+<topic name="Reordering items in a gallery" url="xarax/IDH_How_Reordering_Gallery_Items.htm" />
+<topic name="Reordering gallery sections" url="xarax/IDH_How_Reordering_Gallery_Sections.htm" />
+<topic name="Reshaping envelope molds" url="xarax/IDH_How_Reshaping_an_Envelope.htm" />
+<topic name="Reshaping perspective molds" url="xarax/IDH_How_Reshaping_perspective_moulds.htm" />
+<topic name="Reshaping text on a curve" url="xarax/IDH_How_Reshaping_Text_on_a_Curve.htm" />
+<topic name="Resizing column text" url="xarax/IDH_How_Resizing_paragraph_text.htm" />
+<topic name="Removing and restoring buttons" url="xarax/IDH_How_Restoring_and_Removing_Buttons.htm" />
+<topic name="Reversing text on a curve" url="xarax/IDH_How_Reverse_Text_on_a_Curve.htm" />
+<topic name="Rotating objects" url="xarax/IDH_How_Rotating.htm" />
+<topic name="Rotating objects accurately" url="xarax/IDH_How_Rotating_Accurately.htm" />
+<topic name="Rotating objects by dragging" url="xarax/IDH_How_Rotating_by_Dragging.htm" />
+<topic name="Rotating column text" url="xarax/IDH_How_Rotating_column_text.htm" />
+<topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+<topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+<topic name="Rotating the contents of a mold" url="xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm" />
+<topic name="Saving bitmaps from a document" url="xarax/IDH_How_Saving_From_the_Bitmap_Gallery.htm" />
+<topic name="Saving documents to disk" url="xarax/IDH_How_Savng_Documents.htm" />
+<topic name="Scaling objects" url="xarax/IDH_How_Scaling.htm" />
+<topic name="Scaling objects accurately" url="xarax/IDH_How_Scaling_Accurately.htm" />
+<topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+<topic name="Scaling objects by dragging" url="xarax/IDH_How_Scaling_by_Dragging.htm" />
+<topic name="Scaling ellipses" url="xarax/IDH_How_Scaling_Ellipses.htm" />
+<topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+<topic name="Using scrollbars" url="xarax/IDH_How_Scrollbars.htm" />
+<topic name="Searching a gallery" url="xarax/IDH_How_Searching_a_Gallery.htm" />
+<topic name="Selecting all point handles" url="xarax/IDH_How_Select_All_Point_Handles.htm" />
+<topic name="Selecting objects under other objects" url="xarax/IDH_How_Select_Under.htm" />
+<topic name="Selecting objects" url="xarax/IDH_How_Selecting.htm" />
+<topic name="Selecting a member of an object" url="xarax/IDH_How_Selecting_a_Member.htm" />
+<topic name="Selecting a single point handle" url="xarax/IDH_How_Selecting_a_Single_Point_Handle.htm" />
+<topic name="Selecting all objects" url="xarax/IDH_How_Selecting_All_Objects.htm" />
+<topic name="Selecting difficult objects" url="xarax/IDH_How_Selecting_Difficult_Objects.htm" />
+<topic name="Selecting items in a gallery" url="xarax/IDH_How_Selecting_Gallery_Items.htm" />
+<topic name="Selecting objects in objects" url="xarax/IDH_How_Selecting_Objects_in_Objects.htm" />
+<topic name="Selecting point handles" url="xarax/IDH_How_Selecting_Point_Handles.htm" />
+<topic name="Selecting several objects" url="xarax/IDH_How_Selecting_Several_Objects.htm" />
+<topic name="Selecting several point handles" url="xarax/IDH_How_Selecting_Several_Point_Handles.htm" />
+<topic name="Selecting a single object" url="xarax/IDH_How_Selecting_Single_Object.htm" />
+<topic name="Selecting text" url="xarax/IDH_How_Selecting_Text.htm" />
+<topic name="Selecting characters in text objects" url="xarax/IDH_How_Selecting_Text_Characters.htm" />
+<topic name="Selecting lines of text in text objects" url="xarax/IDH_How_Selecting_Text_Lines.htm" />
+<topic name="Selecting text objects" url="xarax/IDH_How_Selecting_Text_Objects.htm" />
+<topic name="Selecting part of a text object" url="xarax/IDH_How_Selecting_Text_Regions.htm" />
+<topic name="Setting current attributes from an object" url="xarax/IDH_How_Set_Current_Attributes_with_an_Object.htm" />
+<topic name="Setting document options" url="xarax/IDH_How_Setting_Document_Options.htm" />
+<topic name="Setting program options" url="xarax/IDH_How_Setting_Program_Options.htm" />
+<topic name="Setting the color model for local colors" url="xarax/IDH_How_Setting_the_Color_Model_for_Local_Colors.htm" />
+<topic name="Setting the current attributes" url="xarax/IDH_How_Setting_the_Current_Attributes.htm" />
+<topic name="Setting the current layer" url="xarax/IDH_How_Setting_the_Current_Layer.htm" />
+<topic name="Showing library colors on the Color Line" url="xarax/IDH_How_Showing_library_colors_on_the_Color_Line.htm" />
+<topic name="Skewing objects accurately" url="xarax/IDH_How_Skew_Accurately.htm" />
+<topic name="Skewing objects by dragging" url="xarax/IDH_How_Skew_by_Dragging.htm" />
+<topic name="Skewing objects" url="xarax/IDH_How_Skewing.htm" />
+<topic name="Slicing shapes" url="xarax/IDH_How_Slicing_Shapes.htm" />
+<topic name="Smoothing lines and shapes" url="xarax/IDH_How_Smoothing_a_LineShape.htm" />
+<topic name="Spacing buttons on control bars" url="xarax/IDH_How_Spacing_buttons_on_control_bars.htm" />
+<topic name="Straightening curved line segments" url="xarax/IDH_How_Straightening_curved_line_segments.htm" />
+<topic name="Stretching objects" url="xarax/IDH_How_Stretching.htm" />
+<topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+<topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+<topic name="Subtracting shapes" url="xarax/IDH_How_Subtracting_Shapes.htm" />
+<topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+<topic name="Switching selection handle mode" url="xarax/IDH_How_Switching_Selection_Handle_Mode.htm" />
+<topic name="Using the Selector Tool temporarily" url="xarax/IDH_How_Temporary_Selector_Use.htm" />
+<topic name="Converting text to shapes" url="xarax/IDH_How_Text_to_Shapes.htm" />
+<topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+<topic name="Timing redraw" url="xarax/IDH_How_Timed_Redraw.htm" />
+<topic name="Turning Tip of the Day on and off" url="xarax/IDH_How_Tip_of_the_Day.htm" />
+<topic name="Bitmap Tracer Troubleshooter" url="xarax/IDH_How_Tracer_Troubleshooting.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Sharp edges look blurred" url="xarax/IDH_How_Tracer_Troubleshooting_Sharp_edges_look_blurred.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Tracing accesses the disc frequently" url="xarax/IDH_How_Tracer_Troubleshooting_Thrashing.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Too many handles on each shape" url="xarax/IDH_How_Tracer_Troubleshooting_Too_Many_Handles.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Too many shapes" url="xarax/IDH_How_Tracer_Troubleshooting_Too_Many_Shapes.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Tracer spends too long on the detail" url="xarax/IDH_How_Tracer_Troubleshooting_Too_much_detail.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Trace missing small areas" url="xarax/IDH_How_Tracer_Troubleshooting_Trace_missing_small_areas.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Trace Not Accurate Enough" url="xarax/IDH_How_Tracer_Troubleshooting_Trace_Not_Accurate_Enough.htm" />
+<topic name="Bitmap Tracer Troubleshooter - Tracing is too slow" url="xarax/IDH_How_Tracer_Troubleshooting_Tracing_is_too_slow.htm" />
+<topic name="Tracing bitmaps" url="xarax/IDH_How_Tracing_a_Bitmap.htm" />
+<topic name="Changing a transparency bitmap" url="xarax/IDH_How_Transparency_Bitmap_Change.htm" />
+<topic name="Using transparent lines" url="xarax/IDH_How_Transparent_Lines.htm" />
+<topic name="Typing international characters" url="xarax/IDH_How_Typing_International_characters.htm" />
+<topic name="Typing text onto a curve" url="xarax/IDH_How_Typing_Text_onto_a_Curve.htm" />
+<topic name="Undoing and redoing operations" url="xarax/IDH_How_Undoing_and_Redoing_Operations.htm" />
+<topic name="Ungrouping objects" url="xarax/IDH_How_Ungrouping_Objects.htm" />
+<topic name="Updating a disk-based gallery" url="xarax/IDH_How_updating_a_gallery.htm" />
+<topic name="Using rulers" url="xarax/IDH_How_Using_rulers.htm" />
+<topic name="Displaying a document using the printer colors" url="xarax/IDH_How_Using_the_Printer_Colors.htm" />
+<topic name="Using the Push Tool temporarily" url="xarax/IDH_How_Using_the_Push_Tool_Temporarily.htm" />
+<topic name="Zooming to the whole drawing" url="xarax/IDH_How_View_Whole_Drawing.htm" />
+<topic name="Zooming to the whole page" url="xarax/IDH_How_View_Whole_Page.htm" />
+<topic name="Viewing document information" url="xarax/IDH_How_Viewing_Document_Information.htm" />
+<topic name="Viewing several document at once" url="xarax/IDH_How_Viewing_several_document_at_once.htm" />
+<topic name="Warping the edges of rectangles" url="xarax/IDH_How_Warping_Rectangle_Edges.htm" />
+<topic name="Using the Zoom Tool temporarily" url="xarax/IDH_How_Zoom_Temporary.htm" />
+<topic name="Zooming to the selection" url="xarax/IDH_How_Zoom_to_Selection.htm" />
+<topic name="Zooming in and out" url="xarax/IDH_How_Zooming_in_and_out.htm" />
+<topic name="Arrange Menu" url="xarax/IDH_Menu_Arrange.htm" />
+<topic name="Edit Menu" url="xarax/IDH_Menu_Edit.htm" />
+<topic name="File Menu" url="xarax/IDH_Menu_File.htm" />
+<topic name="Help Menu" url="xarax/IDH_Menu_Help.htm" />
+<topic name="Bitmap Effect &amp; Plug-ins Menu" url="xarax/IDH_Menu_Plugin.htm" />
+<topic name="Utilities Menu" url="xarax/IDH_Menu_Utilities.htm" />
+<topic name="Window Menu" url="xarax/IDH_Menu_Window.htm" />
+<topic name="Message: Objects cannot have both bevels and contours" url="xarax/IDH_Message__Bevel_already_applied.htm" />
+<topic name="Message: Objects cannot have both bevels and contours" url="xarax/IDH_Message__Contour_already_applied.htm" />
+<topic name="Arrange Control Bar" url="xarax/IDH_Misc_Arrange_Control_Bar.htm" />
+<topic name="The Basics" url="xarax/IDH_Misc_Basics.htm" />
+<topic name="Button Palette Control Bar" url="xarax/IDH_Misc_Button_Palette_Control_Bar.htm" />
+<topic name="List of Default Control Bars" url="xarax/IDH_Misc_Buttons.htm" />
+<topic name="Color Editor (Utilities Menu)" url="xarax/IDH_Misc_Colour_Editor.htm" />
+<topic name="Color Editor - Linked Colors" url="xarax/IDH_Misc_Colour_Editor_Linked_Colours.htm" />
+<topic name="Color Editor Menu" url="xarax/IDH_Misc_Colour_Editor_Menu.htm" />
+<topic name="Color Editor - Normal Colors" url="xarax/IDH_Misc_Colour_Editor_Normal_Colours.htm" />
+<topic name="Color Editor - Shade Colors" url="xarax/IDH_Misc_Colour_Editor_Shade_Colours.htm" />
+<topic name="Color Editor - Spot Colors" url="xarax/IDH_Misc_Colour_Editor_Spot_Colors.htm" />
+<topic name="Color Editor - Tint Colors" url="xarax/IDH_Misc_Colour_Editor_Tint_Colours.htm" />
+<topic name="Edit Control Bar" url="xarax/IDH_Misc_Edit_Control_Bar.htm" />
+<topic name="File Control Bar" url="xarax/IDH_Misc_File_Control_Bar.htm" />
+<topic name="Gaddesden Place" url="xarax/IDH_Misc_Gaddesden.htm" />
+<topic name="Gallery Control Bar" url="xarax/IDH_Misc_Gallery_Control_Bar.htm" />
+<topic name="General Control Bar" url="xarax/IDH_Misc_General_Control_Bar.htm" />
+<topic name="GIF Animation Control Bar" url="xarax/IDH_Misc_GIF_Animation_Control_Bar.htm" />
+<topic name="Imagesetting Control Bar" url="xarax/IDH_Misc_Imagesetting_Control_Bar.htm" />
+<topic name="Importing transparent bitmap files" url="xarax/IDH_Misc_Importing_GIFs.htm" />
+<topic name="Welcome" url="xarax/IDH_Misc_Introduction.htm" />
+<topic name="List of Keyboard Shortcuts" url="xarax/IDH_Misc_Key_Shortcuts.htm" />
+<topic name="Using the keyboard" url="xarax/IDH_Misc_Keyboard_Use.htm" />
+<topic name="List of Menus" url="xarax/IDH_Misc_Menus.htm" />
+<topic name="Menus and Buttons" url="xarax/IDH_Misc_Menus_and_Buttons.htm" />
+<topic name="Using the mouse" url="xarax/IDH_Misc_Mouse_Use.htm" />
+<topic name="Standard Control Bar" url="xarax/IDH_Misc_Standard_Control_Bar.htm" />
+<topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+<topic name="The Tools" url="xarax/IDH_Misc_Tools.htm" />
+<topic name="What's Under Development" url="xarax/IDH_Misc_Whats_Under_Development.htm" />
+<topic name="Window Control Bar" url="xarax/IDH_Misc_Window_Control_Bar.htm" />
+<topic name="About Xara Group Ltd." url="xarax/IDH_Misc_Xara_Ltd.htm" />
+<topic name="Name Gallery Extend dialog box" url="xarax/IDH_Name_Gallery_Extend_Dialog_Box.htm" />
+<topic name="Name Gallery - New Button" url="xarax/IDH_Name_Gallery_New_Button.htm" />
+<topic name="Bar Properties Dialog Box" url="xarax/IDH_NavBar_Create_Dialog_Box.htm" />
+<topic name="NavBar Set New Design Dialog Box" url="xarax/IDH_NavBar_Edit_Design_Dialog_Box.htm" />
+<topic name="NavBar Edit States Dialog box" url="xarax/IDH_NavBar_Edit_States_Dialog_Box.htm" />
+<topic name="Attributes Overview" url="xarax/IDH_Overview_Attributes.htm" />
+<topic name="Creating Navigation Bars" url="xarax/IDH_Overview_Bars.htm" />
+<topic name="Bitmaps Overview" url="xarax/IDH_Overview_Bitmaps.htm" />
+<topic name="Blends Overview" url="xarax/IDH_Overview_Blends.htm" />
+<topic name="Color Line Overview" url="xarax/IDH_Overview_Color_Line.htm" />
+<topic name="Colors Overview" url="xarax/IDH_Overview_Colors.htm" />
+<topic name="Contouring objects" url="xarax/IDH_Overview_Contours.htm" />
+<topic name="Xara LX EPS Overview" url="xarax/IDH_Overview_CorelXARA_EPS.htm" />
+<topic name="Customization Overview" url="xarax/IDH_Overview_Customization.htm" />
+<topic name="Fills Overview" url="xarax/IDH_Overview_Fills.htm" />
+<topic name="Galleries Overview" url="xarax/IDH_Overview_Galleries.htm" />
+<topic name="Guidelines and Guide Objects Overview" url="xarax/IDH_Overview_Guides.htm" />
+<topic name="Image Maps Overview" url="xarax/IDH_Overview_Image_Maps.htm" />
+<topic name="Infobar Overview" url="xarax/IDH_Overview_Infobar.htm" />
+<topic name="Internet Bitmaps Overview" url="xarax/IDH_Overview_Internet_Bitmaps.htm" />
+<topic name="Layers Overview" url="xarax/IDH_Overview_Layers.htm" />
+<topic name="Lines and Shapes Overview" url="xarax/IDH_Overview_Lines_and_Shapes.htm" />
+<topic name="Object Snapping Overview" url="xarax/IDH_Overview_Magnetic_Snapping.htm" />
+<topic name="Molds Overview" url="xarax/IDH_Overview_Molds.htm" />
+<topic name="OLE Overview" url="xarax/IDH_Overview_OLE.htm" />
+<topic name="Overprinting Overview" url="xarax/IDH_Overview_Overprinting.htm" />
+<topic name="Pop-up Menus Overview" url="xarax/IDH_Overview_Popup_Menus.htm" />
+<topic name="Printing Overview" url="xarax/IDH_Overview_Printing.htm" />
+<topic name="QuickShapes Overview" url="xarax/IDH_Overview_QuickShapes.htm" />
+<topic name="Creating Rollovers" url="xarax/IDH_Overview_Rollovers.htm" />
+<topic name="Status Line Overview" url="xarax/IDH_Overview_Status_Line.htm" />
+<topic name="Text Overview" url="xarax/IDH_Overview_Text.htm" />
+<topic name="Transparency Overview" url="xarax/IDH_Overview_Transparency.htm" />
+<topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+<topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+<topic name="Xara WEB Files Overview" url="xarax/IDH_Overview_Web_Files.htm" />
+<topic name="Bitmap Pop-up Menu" url="xarax/IDH_Pop_up_Menu.htm" />
+<topic name="Blend Pop-up Menu" url="xarax/IDH_Popup_Blend.htm" />
+<topic name="Guideline Pop-up Menu" url="xarax/IDH_Popup_Guideline.htm" />
+<topic name="Line and Shape Pop-up Menu" url="xarax/IDH_Popup_Line.htm" />
+<topic name="Contour Pop-up Menu" url="xarax/IDH_PopUp_Menu.htm" />
+<topic name="Mold Pop-up Menu" url="xarax/IDH_Popup_Mould.htm" />
+<topic name="Point Handle Pop-up Menu" url="xarax/IDH_Popup_Point_Handle.htm" />
+<topic name="Deselect All Points" url="xarax/IDH_Popup_Point_Handle_Deselect_All_Handles.htm" />
+<topic name="Select All Points" url="xarax/IDH_Popup_Point_Handle_Select_All_Points.htm" />
+<topic name="QuickShape Pop-up Menu" url="xarax/IDH_Popup_QuickShape.htm" />
+<topic name="Ruler Pop-up Menu" url="xarax/IDH_Popup_Ruler.htm" />
+<topic name="Selection Pop-up Menu" url="xarax/IDH_Popup_Selection.htm" />
+<topic name="Text Pop-up Menu" url="xarax/IDH_Popup_Text.htm" />
+<topic name="View Pop-up Menu" url="xarax/IDH_Popup_View.htm" />
+<topic name="Save Template" url="xarax/IDH_Save_Template_Dialog.htm" />
+<topic name="Selector Tool - New Name Button" url="xarax/IDH_Selector_Tool_New_Name_Button.htm" />
+<topic name="Bevel Tool overview" url="xarax/IDH_Tool_Bevel.htm" />
+<topic name="Blend Tool Overview" url="xarax/IDH_Tool_Blend.htm" />
+<topic name="Blend Tool - Anti-alias Button" url="xarax/IDH_Tool_Blend_Anti_Alias.htm" />
+<topic name="Blend Tool - Effect Field" url="xarax/IDH_Tool_Blend_Effect.htm" />
+<topic name="Blend Tool - One to One Button" url="xarax/IDH_Tool_Blend_One_to_One.htm" />
+<topic name="Blend Tool - Remove Button" url="xarax/IDH_Tool_Blend_Remove.htm" />
+<topic name="Blend Tool - Number of Steps Field" url="xarax/IDH_Tool_Blend_Steps.htm" />
+<topic name="Contour Tool Overview" url="xarax/IDH_Tool_Contour.htm" />
+<topic name="Ellipse Tool Overview" url="xarax/IDH_Tool_Ellipse.htm" />
+<topic name="Ellipse Tool - Bounds Creation Button" url="xarax/IDH_Tool_Ellipse_Bounds_Creation.htm" />
+<topic name="Ellipse Tool - Diameter Creation Button" url="xarax/IDH_Tool_Ellipse_Diameter_Creation.htm" />
+<topic name="Ellipse Tool - Mode Indicator" url="xarax/IDH_Tool_Ellipse_Mode.htm" />
+<topic name="Ellipse Tool - Parameters Field" url="xarax/IDH_Tool_Ellipse_Parameters.htm" />
+<topic name="Ellipse Tool - Radius Creation Button" url="xarax/IDH_Tool_Ellipse_Radius_Creation.htm" />
+<topic name="Fill Tool Overview" url="xarax/IDH_Tool_Fill.htm" />
+<topic name="Fill Tool - Bitmap Field" url="xarax/IDH_Tool_Fill_Bitmap.htm" />
+<topic name="Fill Tool - Bitmap Fill Color Field" url="xarax/IDH_Tool_Fill_Bitmap_Colour.htm" />
+<topic name="Fill Tool - Fill Effect Field" url="xarax/IDH_Tool_Fill_Effect.htm" />
+<topic name="Fill Tool - Fractal Cloud Fill Grain Field" url="xarax/IDH_Tool_Fill_Grain.htm" />
+<topic name="Fill Tool - Selected Fill Handle Color Fields" url="xarax/IDH_Tool_Fill_Handle_Colour.htm" />
+<topic name="Fill Tool - Bitmap and Fractal Fill Resolution Field" url="xarax/IDH_Tool_Fill_Resolution.htm" />
+<topic name="Fill Tool - Tiling Field" url="xarax/IDH_Tool_Fill_Tiling.htm" />
+<topic name="Fill Tool - Fill Type Field" url="xarax/IDH_Tool_Fill_Type.htm" />
+<topic name="Freehand &amp; Brush Tool Overview" url="xarax/IDH_Tool_Freehand.htm" />
+<topic name="Freehand &amp; Brush Tool - Re-fit Indicator" url="xarax/IDH_Tool_Freehand_Refit.htm" />
+<topic name="Freehand &amp; Brush Tool - Smoothing Slider" url="xarax/IDH_Tool_Freehand_Smoothing.htm" />
+<topic name="Mold Tool Overview" url="xarax/IDH_Tool_Mould.htm" />
+<topic name="Mold Tool - Banner Envelope Button" url="xarax/IDH_Tool_Mould_Banner_Envelope.htm" />
+<topic name="Mold Tool - Ceiling Perspective Button" url="xarax/IDH_Tool_Mould_Ceiling_Perspective.htm" />
+<topic name="Mold Tool - Circular Envelope Button" url="xarax/IDH_Tool_Mould_Circular_Envelope.htm" />
+<topic name="Mold Tool - Concave Envelope Button" url="xarax/IDH_Tool_Mould_Concave_Envelope.htm" />
+<topic name="Mold Tool - Copy mold Button" url="xarax/IDH_Tool_Mould_Copy_Mould.htm" />
+<topic name="Mold Tool - Default Envelope Button" url="xarax/IDH_Tool_Mould_Default_Envelope.htm" />
+<topic name="Mold Tool - Default Perspective Button" url="xarax/IDH_Tool_Mould_Default_Perspective.htm" />
+<topic name="Mold Tool - Detach mold" url="xarax/IDH_Tool_Mould_Detach.htm" />
+<topic name="Mold Tool - Elliptical Envelope Button" url="xarax/IDH_Tool_Mould_Elliptical_Envelope.htm" />
+<topic name="Mold Tool - Floor Perspective Button" url="xarax/IDH_Tool_Mould_Floor_Perspective.htm" />
+<topic name="Mold Tool - Mesh Button" url="xarax/IDH_Tool_Mould_Grid.htm" />
+<topic name="Mold Tool - Left Perspective Button" url="xarax/IDH_Tool_Mould_Left_Perspective.htm" />
+<topic name="Mold Tool - Paste Envelope Button" url="xarax/IDH_Tool_Mould_Paste_Envelope.htm" />
+<topic name="Mold Tool - Paste Perspective Button" url="xarax/IDH_Tool_Mould_Paste_Perspective.htm" />
+<topic name="Mold Tool - Remove Button" url="xarax/IDH_Tool_Mould_Remove.htm" />
+<topic name="Mold Tool - Right Perspective Button" url="xarax/IDH_Tool_Mould_Right_Perspective.htm" />
+<topic name="Mold Tool - Rotate Contents" url="xarax/IDH_Tool_Mould_Rotate.htm" />
+<topic name="Button &amp; NavBar Tool Overview" url="xarax/IDH_Tool_NavBar.htm" />
+<topic name="Pen Tool Overview" url="xarax/IDH_Tool_Pen.htm" />
+<topic name="Push Tool Overview" url="xarax/IDH_Tool_Push.htm" />
+<topic name="QuickShape Tool Overview" url="xarax/IDH_Tool_QuickShape.htm" />
+<topic name="QuickShape Tool - Bounds Creation Button" url="xarax/IDH_Tool_QuickShape_Bounds_Creation.htm" />
+<topic name="QuickShape Tool - Curved Corners Button" url="xarax/IDH_Tool_QuickShape_Curved_Corners.htm" />
+<topic name="QuickShape Tool - Diameter Creation Button" url="xarax/IDH_Tool_QuickShape_Diameter_Creation.htm" />
+<topic name="QuickShape Tool - Ellipse Button" url="xarax/IDH_Tool_QuickShape_Ellipse.htm" />
+<topic name="QuickShape Tool - Restore Edges Button" url="xarax/IDH_Tool_QuickShape_Flatten.htm" />
+<topic name="QuickShape Tool - Mode Indicator" url="xarax/IDH_Tool_QuickShape_Mode.htm" />
+<topic name="QuickShape Tool - Shape Parameters Field" url="xarax/IDH_Tool_QuickShape_Parameters.htm" />
+<topic name="QuickShape Tool - Polygon Button" url="xarax/IDH_Tool_QuickShape_Polygon.htm" />
+<topic name="QuickShape Tool - Radius Creation Button" url="xarax/IDH_Tool_QuickShape_Radius_Creation.htm" />
+<topic name="QuickShape Tool - Number of Sides Field" url="xarax/IDH_Tool_QuickShape_Sides.htm" />
+<topic name="QuickShape Tool - Star Button" url="xarax/IDH_Tool_QuickShape_Star.htm" />
+<topic name="Rectangle Tool Overview" url="xarax/IDH_Tool_Rectangle.htm" />
+<topic name="Rectangle Tool - Bounds Creation Button" url="xarax/IDH_Tool_Rectangle_Bounds_Creation.htm" />
+<topic name="Rectangle Tool - Curved Corners Button" url="xarax/IDH_Tool_Rectangle_Curved_Corners.htm" />
+<topic name="Rectangle Tool - Diameter Creation Button" url="xarax/IDH_Tool_Rectangle_Diameter_Creation.htm" />
+<topic name="Rectangle Tool - Mode Indicator" url="xarax/IDH_Tool_Rectangle_Mode.htm" />
+<topic name="Rectangle Tool - Parameters Field" url="xarax/IDH_Tool_Rectangle_Parameters.htm" />
+<topic name="Rectangle Tool - Radius Creation Button" url="xarax/IDH_Tool_Rectangle_Radius_Creation.htm" />
+<topic name="Selector Tool Overview" url="xarax/IDH_Tool_Selector.htm" />
+<topic name="Selector Tool - Aspect Ratio Lock Button" url="xarax/IDH_Tool_Selector_Aspect_Lock.htm" />
+<topic name="Selector Tool - Dimensions Field" url="xarax/IDH_Tool_Selector_Dimensions.htm" />
+<topic name="Selector Tool - Edit Handles Button" url="xarax/IDH_Tool_Selector_Edit_Handles.htm" />
+<topic name="Selector Tool - Fill Handles Button" url="xarax/IDH_Tool_Selector_Fill_Handles.htm" />
+<topic name="Selector Tool - Flip Buttons" url="xarax/IDH_Tool_Selector_Flip.htm" />
+<topic name="Selector Tool - Position Field" url="xarax/IDH_Tool_Selector_Position.htm" />
+<topic name="Selector Tool - Rotation Field" url="xarax/IDH_Tool_Selector_Rotation.htm" />
+<topic name="Selector Tool - Scale Line Width Button" url="xarax/IDH_Tool_Selector_Scale_Line_Widths.htm" />
+<topic name="Selector Tool - Scaling Field" url="xarax/IDH_Tool_Selector_Scaling.htm" />
+<topic name="Selector Tool - Selection Handles Button" url="xarax/IDH_Tool_Selector_Selection_Handles.htm" />
+<topic name="Selector Tool - Skew Field" url="xarax/IDH_Tool_Selector_Skew.htm" />
+<topic name="Selector Tool - Skew/Rotate Mode Button" url="xarax/IDH_Tool_Selector_SkewRotate_Mode.htm" />
+<topic name="Selector Tool - Transformation Center Grid" url="xarax/IDH_Tool_Selector_Transformation_Centre_Grid.htm" />
+<topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+<topic name="Shape Editor Tool Overview" url="xarax/IDH_Tool_Shape.htm" />
+<topic name="Shape Editor Tool - Break Button" url="xarax/IDH_Tool_Shape_Break.htm" />
+<topic name="Shape Editor Tool - Curved Lines Button" url="xarax/IDH_Tool_Shape_Curved.htm" />
+<topic name="Shape Editor Tool - Delete Points Button" url="xarax/IDH_Tool_Shape_Delete.htm" />
+<topic name="Shape Editor Tool - Mode Indicator" url="xarax/IDH_Tool_Shape_Mode.htm" />
+<topic name="Shape Editor Tool - Parameter Fields" url="xarax/IDH_Tool_Shape_Parameters.htm" />
+<topic name="Shape Editor Tool - Sharp Point Button" url="xarax/IDH_Tool_Shape_Sharp.htm" />
+<topic name="Shape Editor Tool - Smooth Point Button" url="xarax/IDH_Tool_Shape_Smooth.htm" />
+<topic name="Shape Editor Tool - Smoothing Slider" url="xarax/IDH_Tool_Shape_Smoothing.htm" />
+<topic name="Shape Editor Tool - Straight Lines Button" url="xarax/IDH_Tool_Shape_Straight.htm" />
+<topic name="Text Tool Overview" url="xarax/IDH_Tool_Text.htm" />
+<topic name="Text Tool - Aspect Ratio Field" url="xarax/IDH_Tool_Text_Aspect_Ratio.htm" />
+<topic name="Text Tool - Baseline Shift and Kerning" url="xarax/IDH_Tool_Text_Baseline_and_Kerning.htm" />
+<topic name="Text Tool - Bold Button" url="xarax/IDH_Tool_Text_Bold.htm" />
+<topic name="Text Tool - Font Field" url="xarax/IDH_Tool_Text_Font.htm" />
+<topic name="Text Tool - Font Size Field" url="xarax/IDH_Tool_Text_Font_Size.htm" />
+<topic name="Text Tool - Italic Button" url="xarax/IDH_Tool_Text_Italic.htm" />
+<topic name="Text Tool - Center Justification Button" url="xarax/IDH_Tool_Text_Justification_Centre.htm" />
+<topic name="Text Tool - Full Justification Button" url="xarax/IDH_Tool_Text_Justification_Full.htm" />
+<topic name="Text Tool - Left Justification Button" url="xarax/IDH_Tool_Text_Justification_Left.htm" />
+<topic name="Text Tool - Right Justification Button" url="xarax/IDH_Tool_Text_Justification_Right.htm" />
+<topic name="Text Tool - Script Buttons" url="xarax/IDH_Tool_Text_Script.htm" />
+<topic name="Text Tool - Line Spacing and Tracking" url="xarax/IDH_Tool_Text_Tracking_and_Line_Spacing.htm" />
+<topic name="Transparency Tool Overview" url="xarax/IDH_Tool_Transparency.htm" />
+<topic name="Transparency Tool - Transparency Fill Type Field" url="xarax/IDH_Tool_Transparency_Fill_Type.htm" />
+<topic name="Transparency Tool - Fractal Cloud Transparency Grain Slider" url="xarax/IDH_Tool_Transparency_Grain.htm" />
+<topic name="Transparency Tool - Transparency Level Slider" url="xarax/IDH_Tool_Transparency_Levels.htm" />
+<topic name="Transparency Tool - Bitmap and Fractal Cloud Transparency Resolution Field" url="xarax/IDH_Tool_Transparency_Resolution.htm" />
+<topic name="Transparency Tool - Transparency Tiling Field" url="xarax/IDH_Tool_Transparency_Tiling.htm" />
+<topic name="Zoom Tool Overview" url="xarax/IDH_Tool_Zoom.htm" />
+<topic name="Image Slicing Overview" url="xarax/Image_Slicing_Overview.htm" />
+<topic name="Image Slicing Overview (alternative)" url="xarax/Image_Slicing_Overview__alternative_.htm" />
+<topic name="Definition: Isolate Points Bitmap Effect" url="xarax/Isolate_Points_Bitmap_Effect.htm" />
+<topic name="Layer Gallery - Move Button" url="xarax/Layer_Gallery___Move_Button.htm" />
+<topic name="Layers and Frames" url="xarax/Layers_and_Frames.htm" />
+<topic name="Line Gallery - Stroke Shapes" url="xarax/Line_Gallery___Stroke_Shapes.htm" />
+<topic name="Line Gallery - Brush Strokes" url="xarax/Line_Gallery_Brush_Strokes.htm" />
+<topic name="Linked stretching" url="xarax/Linked_stretching.htm" />
+<topic name="Linked stretching (NavBar Tool)" url="xarax/Linked_stretching__NavBar_Tool_.htm" />
+<topic name="List of Text Tool key shortcuts" url="xarax/List_of_Text_Tool_shortcuts__master_list_.htm" />
+<topic name="Editing Live Effects" url="xarax/live/Editing_Live_Effects.htm" />
+<topic name="Editing shapes" url="xarax/live/Editing_shapes.htm" />
+<topic name="How Live Effects work" url="xarax/live/How_Live_Effects_work.htm" />
+<topic name="Live Effect resolution" url="xarax/live/Live_Effect_resolution.htm" />
+<topic name="Live Effects Tool" url="xarax/live/Live_effects_tool.htm" />
+<topic name="Locked vs. Live Effects" url="xarax/live/Locked_vs._Live_Effects.htm" />
+<topic name="Locking effects" url="xarax/live/Locking_effects.htm" />
+<topic name="Adobe® Photoshop vs. Xara Picture Editor plug-ins" url="xarax/live/Photoshop_vs._Xara_Picture_Editor_plug-ins.htm" />
+<topic name="Saving and transferring files" url="xarax/live/Saving_and_transferring_files.htm" />
+<topic name="To apply a Live Effect" url="xarax/live/To_apply_a_Live_Effect.htm" />
+<topic name="Live stretching &amp; Set new design" url="xarax/Live_stretching___Set_new_design.htm" />
+<topic name="Macromedia Dreamweaver - making Xara LX as the default editor" url="xarax/Macromedia_Dreamweaver___making_Xara_X_as_the_default_editor.htm" />
+<topic name="Macromedia Dreamweaver support for single bitmaps" url="xarax/Macromedia_Dreamweaver_Support.htm" />
+<topic name="Macromedia Dreamweaver support for Navigation Bars" url="xarax/Macromedia_Dreamweaver_support_for_Navigation_Bars.htm" />
+<topic name="Masking or clipping objects" url="xarax/Masking_or_clipping_objects.htm" />
+<topic name="Modifying contours" url="xarax/Modifying_contours.htm" />
+<topic name="Modifying shadows" url="xarax/Modifying_shadows.htm" />
+<topic name="Mouse-wheel operations" url="xarax/Mouse_wheel_operations.htm" />
+<topic name="Move objects in a ClipView" url="xarax/Move_objects_in_a_ClipView.htm" />
+<topic name="Move the shadow" url="xarax/Move_the_shadow.htm" />
+<topic name="Moving bitmap transparency handles" url="xarax/Moving_bitmap_transparency_handles.htm" />
+<topic name="Multi-layer Export" url="xarax/Multi-layer_Export.htm" />
+<topic name="Name Gallery - Apply Button" url="xarax/Name_Gallery___Apply_Button.htm" />
+<topic name="Name Gallery - Properties" url="xarax/Name_Gallery___Properties.htm" />
+<topic name="Name Gallery - Delete Button" url="xarax/Name_Gallery_Delete_Button.htm" />
+<topic name="Name Gallery - Export Button" url="xarax/Name_Gallery_Export_Button.htm" />
+<topic name="Name Gallery Export Properties" url="xarax/Name_Gallery_Export_Properties.htm" />
+<topic name="Name Gallery Image Slicing Properties" url="xarax/Name_Gallery_Image_Slicing_Properties.htm" />
+<topic name="Name Gallery - Intersect Button" url="xarax/Name_Gallery_Intersect_Button.htm" />
+<topic name="Name Gallery - Pop-up menu" url="xarax/Name_Gallery_Pop_Up_menu.htm" />
+<topic name="Name Gallery - Redefine Button" url="xarax/Name_Gallery_Redefine_Button.htm" />
+<topic name="Name Gallery - Remove Button" url="xarax/Name_Gallery_Remove_Button.htm" />
+<topic name="Name Gallery - Rename Button" url="xarax/Name_Gallery_Rename_Button.htm" />
+<topic name="Name Gallery - Select Button" url="xarax/Name_Gallery_Select_Button.htm" />
+<topic name="Name Gallery Stretching Properties" url="xarax/Name_Gallery_Stretching_Properties.htm" />
+<topic name="Naming Objects Overview" url="xarax/Naming_Objects_Overview.htm" />
+<topic name="Button &amp; NavBar Tool - Live Stretching" url="xarax/NavBar_Tool___Live_Stretching.htm" />
+<topic name="Button &amp; NavBar Tool - Button State" url="xarax/NavBar_Tool_Button_State.htm" />
+<topic name="Button &amp; NavBar Tool - Edit Properties" url="xarax/NavBar_Tool_Edit_Properties.htm" />
+<topic name="Button &amp; NavBar Tool - Edit States Button" url="xarax/NavBar_Tool_Edit_States_Button.htm" />
+<topic name="Button &amp; NavBar Tool - Export Button" url="xarax/NavBar_Tool_Export_Button.htm" />
+<topic name="Button &amp; NavBar Tool - Set new design" url="xarax/NavBar_Tool_MouseOff_Design.htm" />
+<topic name="Button &amp; NavBar Tool - New" url="xarax/NavBar_Tool_New.htm" />
+<topic name="Drawing and Animation Documents" url="xarax/Normal_and_Animation_Documents.htm" />
+<topic name="Other Xara Products" url="xarax/Other_Xara_Products.htm" />
+<topic name="Painting with bitmaps" url="xarax/Painting_with_bitmaps.htm" />
+<topic name="Pressure sensitivity and brushes" url="xarax/Pressure_sensitivity_and_brushes.htm" />
+<topic name="Previewing bitmaps in a browser" url="xarax/Previewing_bitmaps_in_a_browser.htm" />
+<topic name="Profile dialog box" url="xarax/profile_dialog_box.htm" />
+<topic name="Register (Help Menu)" url="xarax/Register_(Help_Menu).htm" />
+<topic name="Registering Xara LX" url="xarax/Registering_Xara_X.htm" />
+<topic name="Remove a ClipView" url="xarax/Remove_a_ClipView.htm" />
+<topic name="Removing a brush stroke" url="xarax/Removing_a_brush_stroke.htm" />
+<topic name="Removing a contour" url="xarax/Removing_a_contour.htm" />
+<topic name="Removing a stroke shape" url="xarax/Removing_a_stroke_shape.htm" />
+<topic name="Removing bevels" url="xarax/Removing_bevels.htm" />
+<topic name="Removing blend from a curve" url="xarax/Removing_blend_from_a_curve.htm" />
+<topic name="Removing feathering" url="xarax/Removing_feathering.htm" />
+<topic name="Removing transparency" url="xarax/Removing_transparency.htm" />
+<topic name="Reverse line direction" url="xarax/Reverse_line_direction.htm" />
+<topic name="Selecting navigation bar objects" url="xarax/Selecting_navigation_bar_objects.htm" />
+<topic name="Selecting objects using the Name Gallery" url="xarax/Selecting_objects_using_the_Name_Gallery.htm" />
+<topic name="Setting a scale factor" url="xarax/Setting_a_scale_factor.htm" />
+<topic name="Shadow pop-up menu" url="xarax/Shadow_pop_up_menu.htm" />
+<topic name="Shadow Tool - Profile" url="xarax/Shadow_Tool___Profile.htm" />
+<topic name="Shadow Tool - X-Y" url="xarax/Shadow_Tool___X_Y.htm" />
+<topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+<topic name="Shadow Tool - Shadow Blur" url="xarax/Shadow_Tool_Shadow_Blur.htm" />
+<topic name="Shadow Tool - Shadow Transparency" url="xarax/Shadow_Tool_Shadow_Transparency.htm" />
+<topic name="Shadow Tool - Shadow Type" url="xarax/Shadow_Tool_ShadowType.htm" />
+<topic name="Shape Editor Tool - Reverse Path Button" url="xarax/Shape_Editor_Tool___Reverse_Path_Button.htm" />
+<topic name="Smooth_when_scaled_up" url="xarax/Smooth_when_scaled_up.htm" />
+<topic name="Speed" url="xarax/Speed.htm" />
+<topic name="Swap between inside and outside contours" url="xarax/Swap_between_inside_and_outside_contours.htm" />
+<topic name="Text Tool - Automatic Kerning" url="xarax/Text_Tool___Automatic_Kerning.htm" />
+<topic name="Transparency Tool - Bitmap Name Field" url="xarax/Transparency_Tool___Bitmap_Name_Field.htm" />
+<topic name="Transparency Tool - Transparency Type Field" url="xarax/Transparency_Tool___Painting_Mode_Field.htm" />
+<topic name="Transparency Tool - Profile" url="xarax/Transparency_Tool___Profile.htm" />
+<topic name="Update (Help Menu)" url="xarax/Update_(Help_Menu).htm" />
+<topic name="Use Hints, Tips and Movies from CD" url="xarax/Use_Hints__Tips_and_Movies_from_CD.htm" />
+<topic name="Using ClipView" url="xarax/Using_ClipView.htm" />
+<topic name="Using Contours to Resize Objects" url="xarax/Using_Contours_to_Resize_Objects.htm" />
+<topic name="Using slicing to optimize web graphics" url="xarax/Using_slicing_to_optimize_web_graphics.htm" />
+<topic name="Using Clipart Templates" url="xarax/Using_Templates.htm" />
+<topic name="Value" url="xarax/Value.htm" />
+<topic name="Xara WEB File Export Dialog Box - Export Size" url="xarax/Xara_WEB_File_Export_Dialog_Box___Export_Size.htm" />
+<topic name="Xara LX license terms" url="xarax/Xara_X_license_terms.htm" />
+<topic name="Zoom to Name" url="xarax/Zoom_to_name.htm" />
+
+</ftstdata>  

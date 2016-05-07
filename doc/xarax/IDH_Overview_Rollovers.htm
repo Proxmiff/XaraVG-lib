@@ -1,0 +1,121 @@
+<HTML>
+<HEAD><!-- $MVD$:fontset("Courier New","Courier New") -->
+ <link rel='stylesheet' href='../xarax_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='../xarax.css'>");}
+//-->
+</script>
+ <TITLE>Creating Rollovers</TITLE>
+ <META NAME="generator" CONTENT="RoboHelp by eHelp Corporation www.ehelp.com">
+ <meta name="copyright" value="©1995-2004 Xara Group Ltd."><SCRIPT LANGUAGE="JavaScript" TITLE="BSSC Special Effects" SRC="../ehlpdhtm.js" name="EHELP_DHTM"></SCRIPT>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="../whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js"></script>
+</HEAD>
+<BODY>
+ <script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Overviews\nRollovers");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("../xaralx.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<P class="Banner-Base" >Creating Rollovers</P>
+ <P class="Base" ><A href="IDH_Overview_Bars.htm">Creating Navigation Bars</A> describes the basic operation of creating a <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Definition_Navbar.htm');return false;">navigation bar</A>. This page gives information on the additional steps required for creating <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Definition__Rollovers.htm');return false;">rollover</A> buttons in that bar. You can create a standalone rollover button by creating a single button navigation bar.</P>
+ <P class="Base" >Note that rollovers are slightly more complicated than a simple bar because they use JavaScript on web page. You do not need to know JavaScript but you may need to know the basics of HTML tags and attributes.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;Creating rollover buttons:</P>
+ <P class="How-Number-List" >After creating a simple navigation bar (which just contains the <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Definition__Rollovers.htm');return false;">MouseOff state</A>), you can create buttons for the other rollover states.</P>
+ <P class="How-Number-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="IDH_Overview_Bars.htm">Details of creating a simple navigation bar</A></P>
+ <P class="How-Number-List" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;<A href="Creating_rollover_buttons.htm">Details of creating rollover buttons</A></P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;Viewing the button states:</P>
+ <P class="How-Number-List" >1.&nbsp;Select from the drop-down list on the Button &amp; NavBar Tool <A href="javascript:void(0);" onMouseOver="if (parseInt(navigator.appVersion) >= 4 && typeof(BSPSPopupOnMouseOver) == 'function') BSPSPopupOnMouseOver(event);" class="BSSCPopup" onclick="BSSCPopup('Definition_NavBar_Tool_Infobar.htm');return false;">Infobar</A>.</P>
+ <P class="How-Number-List" >&nbsp;Any unused states appear as <span style="font-weight:bold; "><B>No states</B></span> in the name field.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;Assigning web addresses (URLs) to rollover buttons</P>
+ <P class="Base" >To make it easier to create rollovers, you can give each set of buttons a URL. This is the web address to jump to when the user clicks the button on a web page. Adding the URL in Xara LX means the exported HTML includes the correct anchor tags (which saves you having to edit them afterwards) <A href="IDH_How_Adding_Web_Addresses_to_Objects.htm">Details of adding web addresses to objects</A>. </P>
+ <P class="Tip-title" style="line-height:12.00pt;">Notes: </P>
+ <P class="Tip-body" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;You only need to add the URL to one of the button states (for example, just to MouseOff); the same URL applies to all the other button states. </P>
+ <P class="Tip-body" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;You can add the URL to just a part of the button; in the exported HTML, the URL applies to the complete button.</P>
+ <P class="Tip-body" ><IMG src="../image/BULLET.gif" border="0" height="16" width="16" alt="image\BULLET.gif">&nbsp;If you apply different URLs to different button states, Xara LX uses the last URL applied.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;Exporting rollovers</P>
+ <P class="Base" >This is the same as for <A href="IDH_Overview_Bars.htm">simple bars</A>.</P>
+ <P class="Base" >If you want to use these rollovers in Macromedia Dreamweaver, there is a <A href="Macromedia_Dreamweaver_support_for_Navigation_Bars.htm">separate page</A> describing how to do this.</P>
+ <P class="Base" >If you are not using Dreamweaver: we suggest inserting the bar into an existing web page. This automatically copies the JavaScript to the correct place on the web page.</P>
+ <P class="How-Title" style="line-height:12.00pt;"><IMG src="../image/PRCARROW.gif" border="0" height="9" width="7" alt="image\PRCARROW.gif">&nbsp;Using the graphics and HTML/JavaScript on a web page</P>
+ <P class="Base" >To include a bar with rollovers on a web page requires some HTML and JavaScript on the web page. This description assumes you know how to edit the web page and have a basic knowledge of HTML. (You do not need to know JavaScript.) </P>
+ <P class="How-Number-List" >1.&nbsp;Skip this step if you inserted the bar into an existing web page. It applies only if you created a new page or overwrote an existing page.</P>
+ <P class="How-Number-List" >&nbsp;Copy the JavaScript into your web page. The script starts</P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;!-- Navbar def --&gt;</B></span></P>
+ <P class="How-Number-List" >&nbsp;and ends</P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;!-- Navbar def end --&gt;</B></span></P>
+ <P class="How-Number-List" >&nbsp;Copy this entire block into the HEAD section of your web page. A convenient place is just before the &lt;/head&gt; tag. If your web page already contains some JavaScript, just insert this new script after the existing &lt;/script&gt; tag. You can have more than one JavaScript block on the same HTML page. </P>
+ <P class="How-Number-List" >2.&nbsp;You may need to move the bar to where you want it on the page. <span style="font-weight:bold; "><B>Technical Note:</B></span> the bar is contained in a Table. This ensures correct formatting. Copy the entire Table to where you want the bar to appear. The Table starts </P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;table name=&quot;XaraTable&quot;...</B></span> </P>
+ <P class="How-Number-List" >&nbsp;and ends</P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;/table&gt;</B></span></P>
+ <P class="Base" >You may also need to copy the graphics files to your web server:</P>
+ <P class="How-Number-List" >1.&nbsp;We recommend copying the graphics to the same folder as the web page. If you use a different folder to the web page, you need to edit the SRC attributes to point to the correct folder.</P>
+ <P class="How-Number-List" >2.&nbsp;Copy the graphics to your web site. The buttons are named <span style="font-weight:bold; "><B>Button1.gif</B></span>, <span style="font-weight:bold; "><B>Button2.gif</B></span> etc. for the default MouseOff state and <span style="font-weight:bold; "><B>Button1MouseOver.gif</B></span>, <span style="font-weight:bold; "><B>Button1Selected.gif</B></span> etc. for the other states.</P>
+ <P class="How-Number-List" >&nbsp;For complex bars there may be other graphics with names such as <span style="font-weight:bold; "><B>r2c1.gif</B></span> plus a file called <span style="font-weight:bold; "><B>shim.gif</B></span>. Copy all these to your web site. <span style="font-weight:bold; "><B>Technical note:</B></span> Shim.gif is a dummy graphic used for padding.</P>
+ <P class="How-Number-List" >3.&nbsp;Unless you <A href="IDH_How_Adding_Web_Addresses_to_Objects.htm">assigned a web address</A> to the button, the bar uses a dummy address to jump to when the button is clicked. You need to edit this to point to the correct page. The link address is in the HREF attribute of the Anchor tag:</P>
+ <P class="How-Number-List" >&nbsp;&nbsp;<span style="font-weight:bold; "><B>&lt;a href=&quot;untitled.htm&quot; ...&gt;</B></span></P>
+ <P class="Movie-Title-1" >Movies</P>
+ <P class="Demo-buttons" ><img src="../ss_btn_.gif" border=0 height=14 width=14 alt=""> Creating JavaScript rollovers</P>
+ <P class="Related-Topics-Title" >_______________</P>
+ <P class="Related-Topics-Title" ><a href="javascript:void(0);" onClick="var e; if (parseInt(navigator.appVersion)>=4){e=event;}  if (parseInt(navigator.appVersion) >=2 && typeof(PickupDialog_Invoke) == 'function') PickupDialog_Invoke(e,'','Creating a BackBar','Creating_a_backbar.htm','Creating rollover buttons','Creating_rollover_buttons.htm','Definition: Rollovers','Definition__Rollovers.htm','Deleting a rollover button state','Deleting_a_rollover_button_state.htm','Live stretching & Set new design','Live_stretching___Set_new_design.htm','NavBar Set New Design Dialog Box','IDH_NavBar_Edit_Design_Dialog_Box.htm');return false;" title=""><img src="../ss_btn_.gif" border=0 height=14 width=14 alt=""></a> Related Topics</P>
+<script type="text/javascript" language="JavaScript" title="WebHelpRelatedTopics"><!--
+if (parseInt(navigator.appVersion) >= 3 && typeof (WritePopupMenuLayer) == "function")
+  WritePopupMenuLayer();
+//--></script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</BODY>
+</HTML>

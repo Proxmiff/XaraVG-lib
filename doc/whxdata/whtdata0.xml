@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<tocdata>
+<item name="Welcome" url="xarax/IDH_Misc_Introduction.htm" />
+<item name="What's Under Development" url="xarax/IDH_Misc_Whats_Under_Development.htm" />
+<item name="Xara Xtreme LX license terms" url="xarax/Xara_X_license_terms.htm" />
+<item name="Other Xara Products" url="xarax/Other_Xara_Products.htm" />
+<book name="Overviews" >
+  <item name="Introduction" url="Introduction.htm" />
+  <item name="Lines and Shapes" url="xarax/IDH_Overview_Lines_and_Shapes.htm" />
+  <item name="QuickShapes" url="xarax/IDH_Overview_QuickShapes.htm" />
+  <item name="Colors" url="xarax/IDH_Overview_Colors.htm" />
+  <item name="Fills" url="xarax/IDH_Overview_Fills.htm" />
+  <item name="Transparency" url="xarax/IDH_Overview_Transparency.htm" />
+  <item name="Bitmaps" url="xarax/IDH_Overview_Bitmaps.htm" />
+  <item name="Internet Bitmaps" url="xarax/IDH_Overview_Internet_Bitmaps.htm" />
+  <item name="Animated GIFs" url="xarax/IDH_How_Creating_animated_GIF_files.htm" />
+  <item name="Navigation Bars" url="xarax/IDH_Overview_Bars.htm" />
+  <item name="Rollovers" url="xarax/IDH_Overview_Rollovers.htm" />
+  <item name="Contours" url="xarax/IDH_Overview_Contours.htm" />
+  <item name="Layers" url="xarax/IDH_Overview_Layers.htm" />
+  <item name="Guidelines and Guide Objects" url="xarax/IDH_Overview_Guides.htm" />
+  <item name="Magnetic Snapping" url="xarax/IDH_Overview_Magnetic_Snapping.htm" />
+  <item name="Units" url="xarax/IDH_Overview_Units.htm" />
+  <item name="Attributes" url="xarax/IDH_Overview_Attributes.htm" />
+  <item name="Customization" url="xarax/IDH_Overview_Customization.htm" />
+  <item name="Printing" url="xarax/IDH_Overview_Printing.htm" />
+  <item name="Exporting as PDF" url="xarax/Exporting_as_PDF.htm" />
+</book>
+<book name="Tools" >
+  <item name="Selector Tool" url="xarax/IDH_Tool_Selector.htm" />
+  <item name="Freehand &amp; Brush Tool" url="xarax/IDH_Tool_Freehand.htm" />
+  <item name="Shape Editor Tool" url="xarax/IDH_Tool_Shape.htm" />
+  <item name="Pen Tool" url="xarax/IDH_Tool_Pen.htm" />
+  <item name="Rectangle Tool" url="xarax/IDH_Tool_Rectangle.htm" />
+  <item name="Ellipse Tool" url="xarax/IDH_Tool_Ellipse.htm" />
+  <item name="QuickShape Tool" url="xarax/IDH_Tool_QuickShape.htm" />
+  <item name="Text Tool" url="xarax/IDH_Tool_Text.htm" />
+  <item name="Fill Tool" url="xarax/IDH_Tool_Fill.htm" />
+  <item name="Transparency Tool" url="xarax/IDH_Tool_Transparency.htm" />
+  <item name="Shadow Tool" url="xarax/IDH_Tool_Shadow.htm" />
+  <item name="Bevel Tool" url="xarax/IDH_Tool_Bevel.htm" />
+  <item name="Contour Tool" url="xarax/IDH_Tool_Contour.htm" />
+  <item name="Blend Tool" url="xarax/IDH_Tool_Blend.htm" />
+  <item name="Mold Tool" url="xarax/IDH_Tool_Mould.htm" />
+  <item name="Live Effects Tool" url="xarax/live/Live_effects_tool.htm" />
+  <item name="Push Tool" url="xarax/IDH_Tool_Push.htm" />
+  <item name="Zoom Tool" url="xarax/IDH_Tool_Zoom.htm" />
+  <item name="NavBar Tool" url="xarax/IDH_Tool_NavBar.htm" />
+</book>
+<book name="Galleries" >
+  <item name="Introduction" url="xarax/IDH_Overview_Galleries.htm" />
+  <item name="Color Gallery" url="xarax/IDH_Gallery_Colour.htm" />
+  <item name="Layer Gallery" url="xarax/IDH_Gallery_Layer.htm" />
+  <item name="Frame Gallery" url="xarax/IDH_Gallery_Frame.htm" />
+  <item name="Font Gallery" url="xarax/IDH_Gallery_Font.htm" />
+  <item name="Line Gallery" url="xarax/IDH_Gallery_Line.htm" />
+  <item name="Bitmap Gallery" url="xarax/IDH_Gallery_Bitmap.htm" />
+  <item name="Fill Gallery" url="xarax/IDH_Gallery_Fill.htm" />
+  <item name="Clipart Gallery" url="xarax/IDH_Gallery_Clipart.htm" />
+  <item name="Name Gallery" url="xarax/IDH_Gallery_Name.htm" />
+</book>
+<book name="Menus" >
+  <item name="File" url="xarax/IDH_Menu_File.htm" />
+  <item name="Edit" url="xarax/IDH_Menu_Edit.htm" />
+  <item name="Arrange" url="xarax/IDH_Menu_Arrange.htm" />
+  <item name="Utilities" url="xarax/IDH_Menu_Utilities.htm" />
+  <item name="Windows" url="xarax/IDH_Menu_Window.htm" />
+  <item name="Help" url="xarax/IDH_Menu_Help.htm" />
+  <item name="Pop-up" url="xarax/IDH_Overview_Popup_Menus.htm" />
+</book>
+<book name="Control Bars" >
+  <item name="File" url="xarax/IDH_Misc_File_Control_Bar.htm" />
+  <item name="Standard" url="xarax/IDH_Misc_Standard_Control_Bar.htm" />
+  <item name="Arrange" url="xarax/IDH_Misc_Arrange_Control_Bar.htm" />
+  <item name="Animation" url="xarax/IDH_Misc_GIF_Animation_Control_Bar.htm" />
+  <item name="Window" url="xarax/IDH_Misc_Window_Control_Bar.htm" />
+  <item name="Gallery" url="xarax/IDH_Misc_Gallery_Control_Bar.htm" />
+  <item name="Edit" url="xarax/IDH_Misc_Edit_Control_Bar.htm" />
+  <item name="General" url="xarax/IDH_Misc_General_Control_Bar.htm" />
+  <item name="Imagesetting" url="xarax/IDH_Misc_Imagesetting_Control_Bar.htm" />
+  <item name="Button Palette" url="xarax/IDH_Misc_Button_Palette_Control_Bar.htm" />
+</book>
+<book name="Reference" >
+  <item name="Keyboard Shortcuts" url="xarax/IDH_Misc_Key_Shortcuts.htm" />
+  <item name="Text Tool Keyboard Shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  <item name="Mouse Operations" url="xarax/IDH_Misc_Mouse_Use.htm" />
+  <item name="Color Editor" url="xarax/IDH_Misc_Colour_Editor.htm" />
+  <item name="Color Line" url="xarax/IDH_Overview_Color_Line.htm" />
+  <item name="Status Line" url="xarax/IDH_Overview_Status_Line.htm" />
+</book>
+<book name="Getting Help" >
+  <item name="Help!" url="xarax/IDH_How_Getting_Help.htm" />
+</book>
+
+</tocdata>

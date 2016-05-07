@@ -1,0 +1,2456 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<indexdata>
+<key name="perspective molds" >
+  <topic name="Applying molds" url="xarax/IDH_How_Applying_a_Mould.htm" />
+  <topic name="Changing a mold without it redrawing" url="xarax/IDH_How_Changing_a_Mould_Without_Redraw.htm" />
+  <topic name="Changing molded text" url="xarax/IDH_How_Editing_moulded_text.htm" />
+  <topic name="Converting molds to shapes" url="xarax/IDH_How_Converting_Moulds_to_Shapes.htm" />
+  <topic name="Creating custom mold shapes" url="xarax/IDH_How_Creating_Custom_Mould_Shapes.htm" />
+  <topic name="Definition: Perspective mold" url="xarax/IDH_Definition_Perspective.htm" />
+  <topic name="Mold Pop-up Menu" url="xarax/IDH_Popup_Mould.htm" />
+  <topic name="Removing a mold" url="xarax/IDH_How_Removing_a_Mould.htm" />
+  <topic name="Reshaping perspective molds" url="xarax/IDH_How_Reshaping_perspective_moulds.htm" />
+  <topic name="Rotating the contents of a mold" url="xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm" />
+  <key name=".perspective mold (glossary entry)" >
+    <topic name="Definition: Perspective mold" url="xarax/IDH_Definition_Perspective.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying molds" url="xarax/IDH_How_Applying_a_Mould.htm" />
+  </key>
+  <key name="changing molded text" >
+    <topic name="Changing molded text" url="xarax/IDH_How_Editing_moulded_text.htm" />
+  </key>
+  <key name="changing without the mold redrawing" >
+    <topic name="Changing a mold without it redrawing" url="xarax/IDH_How_Changing_a_Mould_Without_Redraw.htm" />
+  </key>
+  <key name="converting to shapes" >
+    <topic name="Converting molds to shapes" url="xarax/IDH_How_Converting_Moulds_to_Shapes.htm" />
+  </key>
+  <key name="creating custom mold shapes" >
+    <topic name="Creating custom mold shapes" url="xarax/IDH_How_Creating_Custom_Mould_Shapes.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Mold Pop-up Menu" url="xarax/IDH_Popup_Mould.htm" />
+  </key>
+  <key name="removing" >
+    <topic name="Removing a mold" url="xarax/IDH_How_Removing_a_Mould.htm" />
+  </key>
+  <key name="reshaping" >
+    <topic name="Reshaping perspective molds" url="xarax/IDH_How_Reshaping_perspective_moulds.htm" />
+  </key>
+  <key name="rotating" >
+    <topic name="Rotating the contents of a mold" url="xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm" />
+  </key>
+</key>
+<key name="PGM files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="PhotoCD files" >
+  <topic name="Definition: PhotoCD" url="xarax/IDH_Definition_PhotoCD.htm" />
+  <topic name="Importing PhotoCD files" url="xarax/IDH_How_Importing_PhotoCD_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+  <key name=".PhotoCD (glossary entry)" >
+    <topic name="Definition: PhotoCD" url="xarax/IDH_Definition_PhotoCD.htm" />
+  </key>
+  <key name="adding to galleries" >
+    <topic name="Importing PhotoCD files" url="xarax/IDH_How_Importing_PhotoCD_files.htm" />
+  </key>
+  <key name="importing" >
+    <topic name="Importing PhotoCD files" url="xarax/IDH_How_Importing_PhotoCD_files.htm" />
+  </key>
+</key>
+<key name="Photoshop files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="pi (measurements)" >
+  <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+</key>
+<key name="PICT files" >
+  <topic name="Creating PICT files" url="xarax/IDH_How_Creating_PICT_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="pix (measurements)" >
+  <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+</key>
+<key name="pixel" >
+  <topic name="Definition: Bitmap" url="xarax/IDH_Definition_Bitmap.htm" />
+</key>
+<key name="plug-ins" >
+  <topic name="Live Effects Tool" url="xarax/live/Live_effects_tool.htm" />
+</key>
+<key name="PNG files" >
+  <topic name="Creating PNG files" url="xarax/IDH_How_Creating_PNG_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+  <topic name="PNG Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_PNG.htm" />
+  <key name="creating" >
+    <topic name="Creating PNG files" url="xarax/IDH_How_Creating_PNG_files.htm" />
+  </key>
+  <key name="export dialog box" >
+    <topic name="PNG Export Dialog Box" url="xarax/IDH_Dialog_Bitmap_Export_PNG.htm" />
+  </key>
+  <key name="multi-layer export" >
+    <topic name="Multi-layer Export" url="xarax/Multi-layer_Export.htm" />
+  </key>
+</key>
+<key name="point handles" >
+  <topic name="Adding points to lines and shapes" url="xarax/IDH_How_Adding_Points_to_a_LineShape.htm" />
+  <topic name="Altering point handles" url="xarax/IDH_How_Altering_Point_Handles.htm" />
+  <topic name="Cycling which points are selected" url="xarax/IDH_How_Cycling_the_Selected_Point_Handles.htm" />
+  <topic name="Definition: Point Handle" url="xarax/IDH_Definition_Point_Handle.htm" />
+  <topic name="Deleting points on lines and shapes" url="xarax/IDH_How_Deleting_Points_on_LinesShapes.htm" />
+  <topic name="Moving points on shapes and lines" url="xarax/IDH_How_Moving_Points_on_LinesShapes.htm" />
+  <topic name="Point Handle Pop-up Menu" url="xarax/IDH_Popup_Point_Handle.htm" />
+  <topic name="Selecting a single point handle" url="xarax/IDH_How_Selecting_a_Single_Point_Handle.htm" />
+  <topic name="Selecting all point handles" url="xarax/IDH_How_Select_All_Point_Handles.htm" />
+  <topic name="Selecting point handles" url="xarax/IDH_How_Selecting_Point_Handles.htm" />
+  <topic name="Selecting several point handles" url="xarax/IDH_How_Selecting_Several_Point_Handles.htm" />
+  <topic name="Smoothing lines and shapes" url="xarax/IDH_How_Smoothing_a_LineShape.htm" />
+  <topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+  <key name=".point handles (glossary entry)" >
+    <topic name="Definition: Point Handle" url="xarax/IDH_Definition_Point_Handle.htm" />
+  </key>
+  <key name="adding" >
+    <topic name="Adding points to lines and shapes" url="xarax/IDH_How_Adding_Points_to_a_LineShape.htm" />
+  </key>
+  <key name="cycling which are selected" >
+    <topic name="Cycling which points are selected" url="xarax/IDH_How_Cycling_the_Selected_Point_Handles.htm" />
+  </key>
+  <key name="deleting" >
+    <topic name="Deleting points on lines and shapes" url="xarax/IDH_How_Deleting_Points_on_LinesShapes.htm" />
+    <topic name="Smoothing lines and shapes" url="xarax/IDH_How_Smoothing_a_LineShape.htm" />
+  </key>
+  <key name="deselecting" >
+    <topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+  </key>
+  <key name="making sharp or smooth" >
+    <topic name="Altering point handles" url="xarax/IDH_How_Altering_Point_Handles.htm" />
+  </key>
+  <key name="moving" >
+    <topic name="Moving points on shapes and lines" url="xarax/IDH_How_Moving_Points_on_LinesShapes.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Point Handle Pop-up Menu" url="xarax/IDH_Popup_Point_Handle.htm" />
+  </key>
+  <key name="selecting" >
+    <topic name="Selecting a single point handle" url="xarax/IDH_How_Selecting_a_Single_Point_Handle.htm" />
+    <topic name="Selecting all point handles" url="xarax/IDH_How_Select_All_Point_Handles.htm" />
+    <topic name="Selecting point handles" url="xarax/IDH_How_Selecting_Point_Handles.htm" />
+    <topic name="Selecting several point handles" url="xarax/IDH_How_Selecting_Several_Point_Handles.htm" />
+    <topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+  </key>
+</key>
+<key name="polygons" >
+  <topic name="Adding curved corners to polygons" url="xarax/IDH_How_Polygon_Curved_Corners.htm" />
+  <topic name="Changing a polygon into an ellipse" url="xarax/IDH_How_Polygon_into_an_Ellipse.htm" />
+  <topic name="Changing curved corners on a polygon" url="xarax/IDH_How_Polygon_Corner_Curvature.htm" />
+  <topic name="Changing the number of sides of a polygon" url="xarax/IDH_How_QuickShape_Sides.htm" />
+  <topic name="Drawing polygons" url="xarax/IDH_How_Drawing_Polygons.htm" />
+  <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  <topic name="Making a polygon star-shaped" url="xarax/IDH_How_Polygon_Stellate.htm" />
+  <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+  <key name="changing into ellipses" >
+    <topic name="Changing a polygon into an ellipse" url="xarax/IDH_How_Polygon_into_an_Ellipse.htm" />
+  </key>
+  <key name="curved corners" >
+    <topic name="Adding curved corners to polygons" url="xarax/IDH_How_Polygon_Curved_Corners.htm" />
+    <topic name="Changing curved corners on a polygon" url="xarax/IDH_How_Polygon_Corner_Curvature.htm" />
+  </key>
+  <key name="drawing" >
+    <topic name="Drawing polygons" url="xarax/IDH_How_Drawing_Polygons.htm" />
+    <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  </key>
+  <key name="number of sides" >
+    <topic name="Changing the number of sides of a polygon" url="xarax/IDH_How_QuickShape_Sides.htm" />
+  </key>
+  <key name="scaling and rotating" >
+    <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  </key>
+  <key name="star-shaped" >
+    <topic name="Making a polygon star-shaped" url="xarax/IDH_How_Polygon_Stellate.htm" />
+    <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  </key>
+  <key name="warping edges" >
+    <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+  </key>
+</key>
+<key name="pop-up menus" >
+  <topic name="Bevel pop-up menu" url="xarax/Bevel_pop_up_menu.htm" />
+  <topic name="Bitmap Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Bitmap_Popup_Menu.htm" />
+  <topic name="Bitmap Pop-up Menu" url="xarax/IDH_Pop_up_Menu.htm" />
+  <topic name="Blend Pop-up Menu" url="xarax/IDH_Popup_Blend.htm" />
+  <topic name="Clipart Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Clipart_Popup_Menu.htm" />
+  <topic name="Color Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Colour_Popup_Menu.htm" />
+  <topic name="Contour Pop-up Menu" url="xarax/IDH_PopUp_Menu.htm" />
+  <topic name="Fill Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Fill_Popup_Menu.htm" />
+  <topic name="Font Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Font_Pop_up_Menu.htm" />
+  <topic name="Frame Gallery - Pop-up menu" url="xarax/IDH_Gallery_Frame_Pop_up_menu.htm" />
+  <topic name="Guideline Pop-up Menu" url="xarax/IDH_Popup_Guideline.htm" />
+  <topic name="Layer Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Layer_Popup_Menu.htm" />
+  <topic name="Line and Shape Pop-up Menu" url="xarax/IDH_Popup_Line.htm" />
+  <topic name="Mold Pop-up Menu" url="xarax/IDH_Popup_Mould.htm" />
+  <topic name="Name Gallery - Pop-up menu" url="xarax/Name_Gallery_Pop_Up_menu.htm" />
+  <topic name="Point Handle Pop-up Menu" url="xarax/IDH_Popup_Point_Handle.htm" />
+  <topic name="Pop-up Menus Overview" url="xarax/IDH_Overview_Popup_Menus.htm" />
+  <topic name="QuickShape Pop-up Menu" url="xarax/IDH_Popup_QuickShape.htm" />
+  <topic name="Ruler Pop-up Menu" url="xarax/IDH_Popup_Ruler.htm" />
+  <topic name="Selection Pop-up Menu" url="xarax/IDH_Popup_Selection.htm" />
+  <topic name="Shadow pop-up menu" url="xarax/Shadow_pop_up_menu.htm" />
+  <topic name="Text Pop-up Menu" url="xarax/IDH_Popup_Text.htm" />
+  <topic name="View Pop-up Menu" url="xarax/IDH_Popup_View.htm" />
+  <key name="bevels" >
+    <topic name="Bevel pop-up menu" url="xarax/Bevel_pop_up_menu.htm" />
+  </key>
+  <key name="Bitmap Gallery" >
+    <topic name="Bitmap Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Bitmap_Popup_Menu.htm" />
+  </key>
+  <key name="bitmaps" >
+    <topic name="Bitmap Pop-up Menu" url="xarax/IDH_Pop_up_Menu.htm" />
+  </key>
+  <key name="blend" >
+    <topic name="Blend Pop-up Menu" url="xarax/IDH_Popup_Blend.htm" />
+  </key>
+  <key name="Clipart Gallery" >
+    <topic name="Clipart Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Clipart_Popup_Menu.htm" />
+  </key>
+  <key name="Color Gallery" >
+    <topic name="Color Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Colour_Popup_Menu.htm" />
+  </key>
+  <key name="contour" >
+    <topic name="Contour Pop-up Menu" url="xarax/IDH_PopUp_Menu.htm" />
+  </key>
+  <key name="Fill Gallery" >
+    <topic name="Fill Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Fill_Popup_Menu.htm" />
+  </key>
+  <key name="Font Gallery" >
+    <topic name="Font Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Font_Pop_up_Menu.htm" />
+  </key>
+  <key name="Frame Gallery" >
+    <topic name="Frame Gallery - Pop-up menu" url="xarax/IDH_Gallery_Frame_Pop_up_menu.htm" />
+  </key>
+  <key name="guideline" >
+    <topic name="Guideline Pop-up Menu" url="xarax/IDH_Popup_Guideline.htm" />
+  </key>
+  <key name="Layer Gallery" >
+    <topic name="Layer Gallery - Pop-up Menu" url="xarax/IDH_Gallery_Layer_Popup_Menu.htm" />
+  </key>
+  <key name="lines and shapes" >
+    <topic name="Line and Shape Pop-up Menu" url="xarax/IDH_Popup_Line.htm" />
+  </key>
+  <key name="mold" >
+    <topic name="Mold Pop-up Menu" url="xarax/IDH_Popup_Mould.htm" />
+  </key>
+  <key name="Name Gallery" >
+    <topic name="Name Gallery - Pop-up menu" url="xarax/Name_Gallery_Pop_Up_menu.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Pop-up Menus Overview" url="xarax/IDH_Overview_Popup_Menus.htm" />
+  </key>
+  <key name="point handle" >
+    <topic name="Point Handle Pop-up Menu" url="xarax/IDH_Popup_Point_Handle.htm" />
+  </key>
+  <key name="quickshapes" >
+    <topic name="QuickShape Pop-up Menu" url="xarax/IDH_Popup_QuickShape.htm" />
+  </key>
+  <key name="ruler" >
+    <topic name="Ruler Pop-up Menu" url="xarax/IDH_Popup_Ruler.htm" />
+  </key>
+  <key name="selection" >
+    <topic name="Selection Pop-up Menu" url="xarax/IDH_Popup_Selection.htm" />
+  </key>
+  <key name="shadows" >
+    <topic name="Shadow pop-up menu" url="xarax/Shadow_pop_up_menu.htm" />
+  </key>
+  <key name="text" >
+    <topic name="Text Pop-up Menu" url="xarax/IDH_Popup_Text.htm" />
+  </key>
+  <key name="view" >
+    <topic name="View Pop-up Menu" url="xarax/IDH_Popup_View.htm" />
+  </key>
+</key>
+<key name="PostScript (glossary entry)" >
+  <topic name="Definition: PostScript" url="xarax/IDH_Definition_PostScript.htm" />
+</key>
+<key name="PPM files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="pressure sensitivity" >
+  <topic name="Pressure sensitivity and brushes" url="xarax/Pressure_sensitivity_and_brushes.htm" />
+  <key name="and brushes" >
+    <topic name="Pressure sensitivity and brushes" url="xarax/Pressure_sensitivity_and_brushes.htm" />
+  </key>
+</key>
+<key name="previewing" >
+  <topic name="Bitmap Export Dialog Box - Browser Preview" url="xarax/IDH_Dialog_Bitmap_Export_Dialog___Browser_Preview.htm" />
+  <topic name="Previewing animated GIF files" url="xarax/IDH_How_Previewing_animated_GIF_files.htm" />
+  <topic name="Previewing bitmaps in a browser" url="xarax/Previewing_bitmaps_in_a_browser.htm" />
+  <key name="animated GIF files" >
+    <topic name="Previewing animated GIF files" url="xarax/IDH_How_Previewing_animated_GIF_files.htm" />
+  </key>
+  <key name="bitmaps in browser" >
+    <topic name="Bitmap Export Dialog Box - Browser Preview" url="xarax/IDH_Dialog_Bitmap_Export_Dialog___Browser_Preview.htm" />
+    <topic name="Previewing bitmaps in a browser" url="xarax/Previewing_bitmaps_in_a_browser.htm" />
+  </key>
+  <key name="CMYK plates" >
+    <topic name="Displaying a document using the printer colors" url="xarax/IDH_How_Using_the_Printer_Colors.htm" />
+  </key>
+  <key name="navigation bars" >
+    <topic name="Previewing bitmaps in a browser" url="xarax/Previewing_bitmaps_in_a_browser.htm" />
+  </key>
+</key>
+<key name="previous zoom" >
+  <topic name="Returning to the previous zoom" url="xarax/IDH_How_Previous_Zoom.htm" />
+</key>
+<key name="print borders" >
+  <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  <key name="showing" >
+    <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  </key>
+</key>
+<key name="print options" >
+  <topic name="Print Options (File Menu)" url="xarax/IDH_Command_Print_Options.htm" />
+</key>
+<key name="print shop (glossary entry)" >
+  <topic name="Definition: Print Shop" url="xarax/IDH_Definition_Print_Shop.htm" />
+</key>
+<key name="printable area" >
+  <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+</key>
+<key name="printer colors" >
+  <topic name="Displaying a document using the printer colors" url="xarax/IDH_How_Using_the_Printer_Colors.htm" />
+  <key name="displaying" >
+    <topic name="Displaying a document using the printer colors" url="xarax/IDH_How_Using_the_Printer_Colors.htm" />
+  </key>
+</key>
+<key name="printing" >
+  <topic name="Printing documents" url="xarax/IDH_How_Printing_Documents.htm" />
+  <topic name="Printing Overview" url="xarax/IDH_Overview_Printing.htm" />
+  <topic name="Printing: Getting Your Job Printed" url="xarax/IDH_How_Printing_Getting_Your_Job_Printed.htm" />
+  <topic name="Printing: Multiple Copies" url="xarax/IDH_How_Printing_Multiple_Copies.htm" />
+  <topic name="Printing: Ordering Proofs" url="xarax/IDH_How_Printing_Ordering_Proofs.htm" />
+  <key name="documents" >
+    <topic name="Printing documents" url="xarax/IDH_How_Printing_Documents.htm" />
+  </key>
+  <key name="getting your job printed" >
+    <topic name="Printing: Getting Your Job Printed" url="xarax/IDH_How_Printing_Getting_Your_Job_Printed.htm" />
+  </key>
+  <key name="ordering proofs" >
+    <topic name="Printing: Ordering Proofs" url="xarax/IDH_How_Printing_Ordering_Proofs.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Printing Overview" url="xarax/IDH_Overview_Printing.htm" />
+  </key>
+  <key name="print borders" >
+    <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  </key>
+  <key name="printable area" >
+    <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  </key>
+  <key name="printing to PDF" >
+    <topic name="Printing to PDF" url="xarax/Exporting_as_PDF.htm" />
+  </key>
+</key>
+<key name="privacy" >
+  <topic name="Firewalls and Your Privacy" url="xarax/Firewalls_and_Your_Privacy.htm" />
+</key>
+<key name="process colors" >
+  <topic name="Definition: Process Colors" url="xarax/IDH_Definition_Process_Colors.htm" />
+  <topic name="Printing: Spot Color versus Process Color" url="xarax/IDH_How_Printing_Spot_versus_Process.htm" />
+  <key name=".process colors (glossary entry)" >
+    <topic name="Definition: Process Colors" url="xarax/IDH_Definition_Process_Colors.htm" />
+  </key>
+  <key name="versus spot colors" >
+    <topic name="Printing: Spot Color versus Process Color" url="xarax/IDH_How_Printing_Spot_versus_Process.htm" />
+  </key>
+</key>
+<key name="Profile dialog box" >
+  <topic name="Profile dialog box" url="xarax/profile_dialog_box.htm" />
+</key>
+<key name="progressive JPEGs" >
+  <topic name="Bitmap Export Dialog Box - JPEG Options" url="xarax/IDH_Dialog_Bitmap_Export_JPEG_Options.htm" />
+</key>
+<key name="proofs" >
+  <topic name="Printing: Ordering Proofs" url="xarax/IDH_How_Printing_Ordering_Proofs.htm" />
+</key>
+<key name="PSD files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="pt (measurements)" >
+  <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+</key>
+<key name="Push Tool" >
+  <topic name="Definition: Push Tool Infobar" url="xarax/Definition_Push_Tool_Infobar.htm" />
+  <topic name="Push Tool Overview" url="xarax/IDH_Tool_Push.htm" />
+  <topic name="Using the Push Tool temporarily" url="xarax/IDH_How_Using_the_Push_Tool_Temporarily.htm" />
+</key>
+<key name="Put to back" >
+  <topic name="Moving objects backwards and forwards" url="xarax/IDH_How_Forwards_and_Backwards.htm" />
+</key>
+<key name="quality" >
+  <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+  <topic name="Definition: Quality" url="xarax/IDH_Definition_Quality.htm" />
+  <key name=".quality (glossary entry)" >
+    <topic name="Definition: Quality" url="xarax/IDH_Definition_Quality.htm" />
+  </key>
+  <key name="changing the quality setting" >
+    <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+  </key>
+</key>
+<key name="quick viewing documents" >
+  <topic name="Quick Viewing documents" url="xarax/IDH_How_QuickViewing_CorelXARA_documents.htm" />
+</key>
+<key name="QuickShape Tool" >
+  <topic name="Definition: QuickShape Tool Infobar" url="xarax/IDH_Definition_QuickShape_Tool_Infobar.htm" />
+  <topic name="QuickShape Tool Overview" url="xarax/IDH_Tool_QuickShape.htm" />
+</key>
+<key name="quickshapes" >
+  <topic name="Adding curved corners to polygons" url="xarax/IDH_How_Polygon_Curved_Corners.htm" />
+  <topic name="Adding curved corners to rectangles" url="xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm" />
+  <topic name="Aligning the centers of QuickShapes" url="xarax/IDH_How_Aligning_QuickShape_centres.htm" />
+  <topic name="Changing curved corners on a polygon" url="xarax/IDH_How_Polygon_Corner_Curvature.htm" />
+  <topic name="Changing curved corners on a rectangle" url="xarax/IDH_How_Rectangle_Corner_Curvature.htm" />
+  <topic name="Changing the number of sides of a polygon" url="xarax/IDH_How_QuickShape_Sides.htm" />
+  <topic name="Converting QuickShapes to shapes" url="xarax/IDH_How_QuickShapes_to_Shapes.htm" />
+  <topic name="Definition: QuickShape" url="xarax/IDH_Definition_QuickShapes.htm" />
+  <topic name="Drawing ellipses and circles" url="xarax/IDH_How_Drawing_Ellipses.htm" />
+  <topic name="Drawing polygons" url="xarax/IDH_How_Drawing_Polygons.htm" />
+  <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+  <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  <topic name="Making a polygon star-shaped" url="xarax/IDH_How_Polygon_Stellate.htm" />
+  <topic name="Moving QuickShapes" url="xarax/IDH_How_Moving_QuickShapes.htm" />
+  <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  <topic name="QuickShape Pop-up Menu" url="xarax/IDH_Popup_QuickShape.htm" />
+  <topic name="QuickShapes Overview" url="xarax/IDH_Overview_QuickShapes.htm" />
+  <topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+  <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+  <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  <topic name="Scaling ellipses" url="xarax/IDH_How_Scaling_Ellipses.htm" />
+  <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+  <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+  <topic name="Warping the edges of rectangles" url="xarax/IDH_How_Warping_Rectangle_Edges.htm" />
+  <key name=".quickshapes (glossary entry)" >
+    <topic name="Definition: QuickShape" url="xarax/IDH_Definition_QuickShapes.htm" />
+  </key>
+  <key name="concentric" >
+    <topic name="Aligning the centers of QuickShapes" url="xarax/IDH_How_Aligning_QuickShape_centres.htm" />
+  </key>
+  <key name="converting to shapes" >
+    <topic name="Converting QuickShapes to shapes" url="xarax/IDH_How_QuickShapes_to_Shapes.htm" />
+  </key>
+  <key name="curved corners" >
+    <topic name="Adding curved corners to polygons" url="xarax/IDH_How_Polygon_Curved_Corners.htm" />
+    <topic name="Adding curved corners to rectangles" url="xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm" />
+    <topic name="Changing curved corners on a polygon" url="xarax/IDH_How_Polygon_Corner_Curvature.htm" />
+    <topic name="Changing curved corners on a rectangle" url="xarax/IDH_How_Rectangle_Corner_Curvature.htm" />
+  </key>
+  <key name="drawing" >
+    <topic name="Drawing ellipses and circles" url="xarax/IDH_How_Drawing_Ellipses.htm" />
+    <topic name="Drawing polygons" url="xarax/IDH_How_Drawing_Polygons.htm" />
+    <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+    <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  </key>
+  <key name="moving" >
+    <topic name="Moving QuickShapes" url="xarax/IDH_How_Moving_QuickShapes.htm" />
+  </key>
+  <key name="number of sides" >
+    <topic name="Changing the number of sides of a polygon" url="xarax/IDH_How_QuickShape_Sides.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="QuickShapes Overview" url="xarax/IDH_Overview_QuickShapes.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="QuickShape Pop-up Menu" url="xarax/IDH_Popup_QuickShape.htm" />
+  </key>
+  <key name="rotating" >
+    <topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+    <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+    <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  </key>
+  <key name="scaling" >
+    <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+    <topic name="Scaling ellipses" url="xarax/IDH_How_Scaling_Ellipses.htm" />
+    <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  </key>
+  <key name="squashing" >
+    <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+  <key name="star-shaped" >
+    <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+    <topic name="Making a polygon star-shaped" url="xarax/IDH_How_Polygon_Stellate.htm" />
+    <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  </key>
+  <key name="stretching" >
+    <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+  <key name="warping edges" >
+    <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+    <topic name="Warping the edges of rectangles" url="xarax/IDH_How_Warping_Rectangle_Edges.htm" />
+  </key>
+</key>
+<key name="radial fills" >
+  <topic name="Alternative names" url="xarax/Alternative_names.htm" />
+</key>
+<key name="radius creation (glossary entry)" >
+  <topic name="Definition: Radius Creation" url="xarax/IDH_Definition_Radius_Creation.htm" />
+</key>
+<key name="rainbow" >
+  <topic name="Changing the fill effect of a fill" url="xarax/IDH_How_Changing_the_Fill_Effect.htm" />
+  <key name="fill effect" >
+    <topic name="Changing the fill effect of a fill" url="xarax/IDH_How_Changing_the_Fill_Effect.htm" />
+  </key>
+</key>
+<key name="RAS files" >
+  <topic name="Creating RAS files" url="xarax/IDH_How_Creating_RAS_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Rectangle Tool" >
+  <topic name="Definition: Rectangle Tool Infobar" url="xarax/Definition_Rectangle_Tool_Infobar.htm" />
+  <topic name="Rectangle Tool Overview" url="xarax/IDH_Tool_Rectangle.htm" />
+</key>
+<key name="rectangles" >
+  <topic name="Adding curved corners to rectangles" url="xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm" />
+  <topic name="Aligning the centers of QuickShapes" url="xarax/IDH_How_Aligning_QuickShape_centres.htm" />
+  <topic name="Changing a rectangle into an ellipse" url="xarax/IDH_How_Rectangle_to_Ellipse.htm" />
+  <topic name="Changing curved corners on a rectangle" url="xarax/IDH_How_Rectangle_Corner_Curvature.htm" />
+  <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+  <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+  <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  <topic name="Warping the edges of rectangles" url="xarax/IDH_How_Warping_Rectangle_Edges.htm" />
+  <key name="changing into ellipses" >
+    <topic name="Changing a rectangle into an ellipse" url="xarax/IDH_How_Rectangle_to_Ellipse.htm" />
+  </key>
+  <key name="concentric" >
+    <topic name="Aligning the centers of QuickShapes" url="xarax/IDH_How_Aligning_QuickShape_centres.htm" />
+  </key>
+  <key name="curved corners" >
+    <topic name="Adding curved corners to rectangles" url="xarax/IDH_How_Curved_Corners_on_a_Rectangle.htm" />
+    <topic name="Changing curved corners on a rectangle" url="xarax/IDH_How_Rectangle_Corner_Curvature.htm" />
+  </key>
+  <key name="drawing" >
+    <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+  </key>
+  <key name="rotating" >
+    <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+  </key>
+  <key name="scaling" >
+    <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  </key>
+  <key name="squashing" >
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+  <key name="stretching" >
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+  <key name="warping edges" >
+    <topic name="Warping the edges of rectangles" url="xarax/IDH_How_Warping_Rectangle_Edges.htm" />
+  </key>
+</key>
+<key name="redo" >
+  <topic name="Definition: Redo" url="xarax/IDH_Definition_Redo.htm" />
+  <topic name="Undoing and redoing operations" url="xarax/IDH_How_Undoing_and_Redoing_Operations.htm" />
+  <key name=".redo (glossary entry)" >
+    <topic name="Definition: Redo" url="xarax/IDH_Definition_Redo.htm" />
+  </key>
+  <key name="redoing operations" >
+    <topic name="Undoing and redoing operations" url="xarax/IDH_How_Undoing_and_Redoing_Operations.htm" />
+  </key>
+</key>
+<key name="redraw" >
+  <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+  <topic name="Definition: Redraw" url="xarax/IDH_Definition_Redraw.htm" />
+  <topic name="Timing redraw" url="xarax/IDH_How_Timed_Redraw.htm" />
+  <key name=".redraw (glossary entry)" >
+    <topic name="Definition: Redraw" url="xarax/IDH_Definition_Redraw.htm" />
+  </key>
+  <key name="changing the quality setting" >
+    <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+  </key>
+  <key name="timing" >
+    <topic name="Timing redraw" url="xarax/IDH_How_Timed_Redraw.htm" />
+  </key>
+</key>
+<key name="registering Xara X" >
+  <topic name="Registering Xara X" url="xarax/Registering_Xara_X.htm" />
+</key>
+<key name="registration black (glossary entry)" >
+  <topic name="Definition: Registration Black" url="xarax/IDH_Definition_Registration_Black.htm" />
+</key>
+<key name="remove blend from curve" >
+  <topic name="Removing blend from a curve" url="xarax/Removing_blend_from_a_curve.htm" />
+</key>
+<key name="remove text from curve" >
+  <topic name="Removing text from a curve" url="xarax/IDH_How_Removing_Text_From_a_Curve.htm" />
+</key>
+<key name="rendering (glossary entry)" >
+  <topic name="Definition: Rendering" url="xarax/IDH_Definition_Rendering.htm" />
+</key>
+<key name="resolution" >
+  <topic name="Bitmap Export Dialog Box - Bitmap Size (and Resolution)" url="xarax/IDH_Dialog_Bitmap_Export_Size_and_Resolution.htm" />
+  <topic name="Changing the resolution of a bitmap fill" url="xarax/IDH_How_Changing_Bitmap_Fill_Resolution.htm" />
+  <topic name="Changing the resolution of a bitmap transparency" url="xarax/IDH_How_Bitmap_Transparency_Resolution.htm" />
+  <topic name="Changing the resolution of a fractal fill" url="xarax/IDH_How_Changing_Fractal_Fill_Resolution.htm" />
+  <topic name="Changing the resolution of a fractal transparency" url="xarax/IDH_How_Fractal_Transparency_Resolution.htm" />
+  <topic name="Definition: Resolution" url="xarax/Definition__Resolution.htm" />
+  <topic name="Reducing the resolution of bitmaps and bitmap fills" url="xarax/IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills.htm" />
+  <key name=".[glossary entry]" >
+    <topic name="Definition: Resolution" url="xarax/Definition__Resolution.htm" />
+  </key>
+  <key name="bitmap" >
+    <topic name="Reducing the resolution of bitmaps and bitmap fills" url="xarax/IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills.htm" />
+  </key>
+  <key name="bitmap fill" >
+    <topic name="Changing the resolution of a bitmap fill" url="xarax/IDH_How_Changing_Bitmap_Fill_Resolution.htm" />
+    <topic name="Reducing the resolution of bitmaps and bitmap fills" url="xarax/IDH_How_Reducing_the_Size_of_Bitmaps_in_Bitmap_Fills.htm" />
+  </key>
+  <key name="bitmap transparency" >
+    <topic name="Changing the resolution of a bitmap transparency" url="xarax/IDH_How_Bitmap_Transparency_Resolution.htm" />
+  </key>
+  <key name="bitmap when exporting" >
+    <topic name="Bitmap Export Dialog Box - Bitmap Size (and Resolution)" url="xarax/IDH_Dialog_Bitmap_Export_Size_and_Resolution.htm" />
+  </key>
+  <key name="fractal fill" >
+    <topic name="Changing the resolution of a fractal fill" url="xarax/IDH_How_Changing_Fractal_Fill_Resolution.htm" />
+  </key>
+  <key name="fractal transparency" >
+    <topic name="Changing the resolution of a fractal transparency" url="xarax/IDH_How_Fractal_Transparency_Resolution.htm" />
+  </key>
+</key>
+<key name="reversing" >
+  <topic name="Reverse line direction" url="xarax/Reverse_line_direction.htm" />
+  <key name="lines" >
+    <topic name="Reverse line direction" url="xarax/Reverse_line_direction.htm" />
+  </key>
+</key>
+<key name="RGB colors" >
+  <topic name="Definition: RGB" url="xarax/IDH_Definition_RGB.htm" />
+  <topic name="Editing colors in RGB" url="xarax/IDH_How_Editing_colors_in_RGB.htm" />
+  <key name=".RGB colors (glossary entry)" >
+    <topic name="Definition: RGB" url="xarax/IDH_Definition_RGB.htm" />
+  </key>
+  <key name="editing" >
+    <topic name="Editing colors in RGB" url="xarax/IDH_How_Editing_colors_in_RGB.htm" />
+  </key>
+</key>
+<key name="RGB web color model" >
+  <topic name="Editing colors in RGB" url="xarax/IDH_How_Editing_colors_in_RGB.htm" />
+</key>
+<key name="Robert's Cross bitmap effect" >
+  <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  <topic name="Definition: Robert's Cross (Bitmap Effect)" url="xarax/IDH_Definition_Roberts_Cross.htm" />
+  <key name=".Robert's Cross (glossary entry)" >
+    <topic name="Definition: Robert's Cross (Bitmap Effect)" url="xarax/IDH_Definition_Roberts_Cross.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  </key>
+</key>
+<key name="rollovers" >
+  <topic name="Creating a BackBar" url="xarax/Creating_a_backbar.htm" />
+  <topic name="Creating rollover buttons" url="xarax/Creating_rollover_buttons.htm" />
+  <topic name="Creating Rollovers" url="xarax/IDH_Overview_Rollovers.htm" />
+  <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+  <topic name="Deleting a rollover button state" url="xarax/Deleting_a_rollover_button_state.htm" />
+  <topic name="Live stretching &amp; Set new design" url="xarax/Live_stretching___Set_new_design.htm" />
+  <topic name="NavBar Set New Design Dialog Box" url="xarax/IDH_NavBar_Edit_Design_Dialog_Box.htm" />
+  <key name="creating" >
+    <topic name="Creating Rollovers" url="xarax/IDH_Overview_Rollovers.htm" />
+  </key>
+  <key name="creating a BackBar" >
+    <topic name="Creating a BackBar" url="xarax/Creating_a_backbar.htm" />
+  </key>
+  <key name="creating extra buttons" >
+    <topic name="Creating rollover buttons" url="xarax/Creating_rollover_buttons.htm" />
+  </key>
+  <key name="deleting buttons" >
+    <topic name="Deleting a rollover button state" url="xarax/Deleting_a_rollover_button_state.htm" />
+  </key>
+  <key name="edit design" >
+    <topic name="Live stretching &amp; Set new design" url="xarax/Live_stretching___Set_new_design.htm" />
+    <topic name="NavBar Set New Design Dialog Box" url="xarax/IDH_NavBar_Edit_Design_Dialog_Box.htm" />
+  </key>
+  <key name="MouseDown" >
+    <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+  </key>
+  <key name="MouseOff" >
+    <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+  </key>
+  <key name="MouseOver" >
+    <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+  </key>
+  <key name="Selected" >
+    <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+  </key>
+</key>
+<key name="rotating" >
+  <topic name="Flipping and rotating bitmaps" url="xarax/IDH_How_Flipping_and_rotating_bitmaps.htm" />
+  <topic name="Rotating column text" url="xarax/IDH_How_Rotating_column_text.htm" />
+  <topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+  <topic name="Rotating objects" url="xarax/IDH_How_Rotating.htm" />
+  <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+  <topic name="Rotating the contents of a mold" url="xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm" />
+  <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  <key name="bitmaps" >
+    <topic name="Flipping and rotating bitmaps" url="xarax/IDH_How_Flipping_and_rotating_bitmaps.htm" />
+  </key>
+  <key name="circles" >
+    <topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+  </key>
+  <key name="column text" >
+    <topic name="Rotating column text" url="xarax/IDH_How_Rotating_column_text.htm" />
+  </key>
+  <key name="contents of molds" >
+    <topic name="Rotating the contents of a mold" url="xarax/IDH_How_Rotating_the_Contents_of_a_Mould.htm" />
+  </key>
+  <key name="ellipses" >
+    <topic name="Rotating ellipses and circles" url="xarax/IDH_How_Rotating_Ellipses.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Rotating objects" url="xarax/IDH_How_Rotating.htm" />
+  </key>
+  <key name="polygons" >
+    <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  </key>
+  <key name="rectangles" >
+    <topic name="Rotating rectangles" url="xarax/IDH_How_Rotating_Rectangles.htm" />
+  </key>
+</key>
+<key name="round caps" >
+  <topic name="Changing line ends" url="xarax/IDH_How_Changing_Line_Ends.htm" />
+  <topic name="Definition: Round Cap" url="xarax/IDH_Definition_Round_Cap.htm" />
+  <key name=".round caps (glossary entry)" >
+    <topic name="Definition: Round Cap" url="xarax/IDH_Definition_Round_Cap.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Changing line ends" url="xarax/IDH_How_Changing_Line_Ends.htm" />
+  </key>
+</key>
+<key name="round joins" >
+  <topic name="Changing line joins" url="xarax/IDH_How_Changing_Line_Joins.htm" />
+  <topic name="Definition: Round Join" url="xarax/IDH_Definition_Round_Join.htm" />
+  <key name=".round join (glossary entry)" >
+    <topic name="Definition: Round Join" url="xarax/IDH_Definition_Round_Join.htm" />
+  </key>
+  <key name="changing join style" >
+    <topic name="Changing line joins" url="xarax/IDH_How_Changing_Line_Joins.htm" />
+  </key>
+</key>
+<key name="rulers" >
+  <topic name="Changing the grid spacing" url="xarax/IDH_How_Changing_the_Grid_Spacing.htm" />
+  <topic name="Definition: Ruler" url="xarax/IDH_Definition_Ruler.htm" />
+  <topic name="Displaying the rulers" url="xarax/IDH_How_Displaying_the_rulers.htm" />
+  <topic name="Moving the ruler zero point" url="xarax/IDH_How_Changing_the_ruler_zero_point.htm" />
+  <topic name="Ruler Pop-up Menu" url="xarax/IDH_Popup_Ruler.htm" />
+  <topic name="Using rulers" url="xarax/IDH_How_Using_rulers.htm" />
+  <key name=".rulers (glossary entry)" >
+    <topic name="Definition: Ruler" url="xarax/IDH_Definition_Ruler.htm" />
+  </key>
+  <key name="moving the zero point" >
+    <topic name="Moving the ruler zero point" url="xarax/IDH_How_Changing_the_ruler_zero_point.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Ruler Pop-up Menu" url="xarax/IDH_Popup_Ruler.htm" />
+  </key>
+  <key name="showing" >
+    <topic name="Displaying the rulers" url="xarax/IDH_How_Displaying_the_rulers.htm" />
+  </key>
+  <key name="units" >
+    <topic name="Changing the grid spacing" url="xarax/IDH_How_Changing_the_Grid_Spacing.htm" />
+  </key>
+  <key name="using" >
+    <topic name="Using rulers" url="xarax/IDH_How_Using_rulers.htm" />
+  </key>
+</key>
+<key name="saturation" >
+  <topic name="Changing the brightness and contrast of bitmaps" url="xarax/IDH_How_Changing_the_brightness_and_contrast_of_bitmaps.htm" />
+  <key name="changing in bitmaps" >
+    <topic name="Changing the brightness and contrast of bitmaps" url="xarax/IDH_How_Changing_the_brightness_and_contrast_of_bitmaps.htm" />
+  </key>
+</key>
+<key name="saturation transparency type" >
+  <topic name="Definition: Saturation transparency type" url="xarax/Definition__Saturation_transparency_type.htm" />
+  <key name=".saturation (glossary entry)" >
+    <topic name="Definition: Saturation transparency type" url="xarax/Definition__Saturation_transparency_type.htm" />
+  </key>
+</key>
+<key name="Save Template" >
+  <topic name="Save Template" url="xarax/IDH_Save_Template_Dialog.htm" />
+</key>
+<key name="saving documents" >
+  <topic name="Saving documents to disk" url="xarax/IDH_How_Savng_Documents.htm" />
+</key>
+<key name="scaling" >
+  <topic name="Bitmaps Overview" url="xarax/IDH_Overview_Bitmaps.htm" />
+  <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  <topic name="Changing the bevel size" url="xarax/How_Change_bevel_size.htm" />
+  <topic name="Definition: Scale" url="xarax/IDH_Definition_Scale.htm" />
+  <topic name="Linked stretching" url="xarax/Linked_stretching.htm" />
+  <topic name="Linked stretching (NavBar Tool)" url="xarax/Linked_stretching__NavBar_Tool_.htm" />
+  <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  <topic name="Scaling ellipses" url="xarax/IDH_How_Scaling_Ellipses.htm" />
+  <topic name="Scaling objects" url="xarax/IDH_How_Scaling.htm" />
+  <topic name="Scaling objects by dragging" url="xarax/IDH_How_Scaling_by_Dragging.htm" />
+  <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  <topic name="Using Contours to Resize Objects" url="xarax/Using_Contours_to_Resize_Objects.htm" />
+  <topic name="View Options" url="xarax/IDH_Command_Options_View.htm" />
+  <key name=".scaling (glossary entry)" >
+    <topic name="Definition: Scale" url="xarax/IDH_Definition_Scale.htm" />
+  </key>
+  <key name="and fills" >
+    <topic name="Scaling objects by dragging" url="xarax/IDH_How_Scaling_by_Dragging.htm" />
+  </key>
+  <key name="auto-scaling" >
+    <topic name="Linked stretching" url="xarax/Linked_stretching.htm" />
+    <topic name="Linked stretching (NavBar Tool)" url="xarax/Linked_stretching__NavBar_Tool_.htm" />
+  </key>
+  <key name="bevels" >
+    <topic name="Changing the bevel size" url="xarax/How_Change_bevel_size.htm" />
+  </key>
+  <key name="bitmaps" >
+    <topic name="Scaling objects" url="xarax/IDH_How_Scaling.htm" />
+  </key>
+  <key name="bitmaps and smoothing" >
+    <topic name="Bitmaps Overview" url="xarax/IDH_Overview_Bitmaps.htm" />
+    <topic name="View Options" url="xarax/IDH_Command_Options_View.htm" />
+  </key>
+  <key name="ellipses" >
+    <topic name="Scaling ellipses" url="xarax/IDH_How_Scaling_Ellipses.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Scaling objects" url="xarax/IDH_How_Scaling.htm" />
+    <topic name="Using Contours to Resize Objects" url="xarax/Using_Contours_to_Resize_Objects.htm" />
+  </key>
+  <key name="polygons" >
+    <topic name="Scaling and rotating polygons" url="xarax/IDH_How_Scaling_and_Rotating_QuickShapes.htm" />
+  </key>
+  <key name="rectangles" >
+    <topic name="Scaling rectangles" url="xarax/IDH_How_Scaling_Rectangles.htm" />
+  </key>
+  <key name="shadows" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="using contours" >
+    <topic name="Using Contours to Resize Objects" url="xarax/Using_Contours_to_Resize_Objects.htm" />
+  </key>
+</key>
+<key name="screen area" >
+  <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  <key name="increasing" >
+    <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  </key>
+</key>
+<key name="screen frequency (glossary entry)" >
+  <topic name="Definition: Screen Frequency" url="xarax/IDH_Definition_Screen_Frequency.htm" />
+</key>
+<key name="scrollbars" >
+  <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  <topic name="Definition: Scrollbar" url="xarax/IDH_Definition_Scrollbar.htm" />
+  <topic name="Hiding the scrollbars" url="xarax/IDH_How_Hiding_Scrollbars.htm" />
+  <topic name="Using scrollbars" url="xarax/IDH_How_Scrollbars.htm" />
+  <key name=".scrollbars (glossary entry)" >
+    <topic name="Definition: Scrollbar" url="xarax/IDH_Definition_Scrollbar.htm" />
+  </key>
+  <key name="changing size" >
+    <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  </key>
+  <key name="showing" >
+    <topic name="Hiding the scrollbars" url="xarax/IDH_How_Hiding_Scrollbars.htm" />
+  </key>
+  <key name="using" >
+    <topic name="Using scrollbars" url="xarax/IDH_How_Scrollbars.htm" />
+  </key>
+</key>
+<key name="scrolling" >
+  <topic name="Moving the page" url="xarax/IDH_How_Moving_the_Page.htm" />
+  <key name="the page" >
+    <topic name="Moving the page" url="xarax/IDH_How_Moving_the_Page.htm" />
+  </key>
+</key>
+<key name="Selected button" >
+  <topic name="Definition: Rollovers" url="xarax/Definition__Rollovers.htm" />
+</key>
+<key name="selecting" >
+  <topic name="Changing the selection with the Tab key" url="xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm" />
+  <topic name="Definition: Rotate/Skew Mode" url="xarax/IDH_Definition_RotateSkew_Mode.htm" />
+  <topic name="Definition: Scale Mode" url="xarax/IDH_Definition_Scale_Mode.htm" />
+  <topic name="Definition: Select Inside" url="xarax/IDH_Definition_Select_Inside.htm" />
+  <topic name="Definition: Select Member" url="xarax/IDH_Definition_Select_Member.htm" />
+  <topic name="Definition: Select Under" url="xarax/IDH_Definition_Select_Under.htm" />
+  <topic name="Definition: Selection" url="xarax/IDH_Definition_Current_Selection.htm" />
+  <topic name="Definition: Selection Handle" url="xarax/IDH_Definition_Selection_Handle.htm" />
+  <topic name="Definition: Selection Marker" url="xarax/IDH_Definition_Selection_Marker.htm" />
+  <topic name="Enabling selection handles" url="xarax/IDH_How_Enabling_Selection_Handles.htm" />
+  <topic name="Selecting a member of an object" url="xarax/IDH_How_Selecting_a_Member.htm" />
+  <topic name="Selecting a single object" url="xarax/IDH_How_Selecting_Single_Object.htm" />
+  <topic name="Selecting a single point handle" url="xarax/IDH_How_Selecting_a_Single_Point_Handle.htm" />
+  <topic name="Selecting all objects" url="xarax/IDH_How_Selecting_All_Objects.htm" />
+  <topic name="Selecting all point handles" url="xarax/IDH_How_Select_All_Point_Handles.htm" />
+  <topic name="Selecting characters in text objects" url="xarax/IDH_How_Selecting_Text_Characters.htm" />
+  <topic name="Selecting difficult objects" url="xarax/IDH_How_Selecting_Difficult_Objects.htm" />
+  <topic name="Selecting items in a gallery" url="xarax/IDH_How_Selecting_Gallery_Items.htm" />
+  <topic name="Selecting lines of text in text objects" url="xarax/IDH_How_Selecting_Text_Lines.htm" />
+  <topic name="Selecting navigation bar objects" url="xarax/Selecting_navigation_bar_objects.htm" />
+  <topic name="Selecting objects" url="xarax/IDH_How_Selecting.htm" />
+  <topic name="Selecting objects in objects" url="xarax/IDH_How_Selecting_Objects_in_Objects.htm" />
+  <topic name="Selecting objects under other objects" url="xarax/IDH_How_Select_Under.htm" />
+  <topic name="Selecting objects using the Contour Tool" url="xarax/Contour_Tool_select.htm" />
+  <topic name="Selecting objects using the Name Gallery" url="xarax/Selecting_objects_using_the_Name_Gallery.htm" />
+  <topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+  <topic name="Selecting part of a text object" url="xarax/IDH_How_Selecting_Text_Regions.htm" />
+  <topic name="Selecting point handles" url="xarax/IDH_How_Selecting_Point_Handles.htm" />
+  <topic name="Selecting several objects" url="xarax/IDH_How_Selecting_Several_Objects.htm" />
+  <topic name="Selecting several point handles" url="xarax/IDH_How_Selecting_Several_Point_Handles.htm" />
+  <topic name="Selecting text" url="xarax/IDH_How_Selecting_Text.htm" />
+  <topic name="Selecting text objects" url="xarax/IDH_How_Selecting_Text_Objects.htm" />
+  <topic name="Selection Pop-up Menu" url="xarax/IDH_Popup_Selection.htm" />
+  <topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+  <topic name="Switching selection handle mode" url="xarax/IDH_How_Switching_Selection_Handle_Mode.htm" />
+  <key name=".select inside (glossary entry)" >
+    <topic name="Definition: Select Inside" url="xarax/IDH_Definition_Select_Inside.htm" />
+  </key>
+  <key name=".select member (glossary entry)" >
+    <topic name="Definition: Select Member" url="xarax/IDH_Definition_Select_Member.htm" />
+  </key>
+  <key name=".select under (glossary entry)" >
+    <topic name="Definition: Select Under" url="xarax/IDH_Definition_Select_Under.htm" />
+  </key>
+  <key name=".selection (glossary entry)" >
+    <topic name="Definition: Selection" url="xarax/IDH_Definition_Current_Selection.htm" />
+  </key>
+  <key name=".selection handles (glossary entry)" >
+    <topic name="Definition: Selection Handle" url="xarax/IDH_Definition_Selection_Handle.htm" />
+  </key>
+  <key name=".selection markers (glossary entry)" >
+    <topic name="Definition: Selection Marker" url="xarax/IDH_Definition_Selection_Marker.htm" />
+  </key>
+  <key name="inside" >
+    <topic name="Selecting objects in objects" url="xarax/IDH_How_Selecting_Objects_in_Objects.htm" />
+  </key>
+  <key name="items in a gallery" >
+    <topic name="Selecting items in a gallery" url="xarax/IDH_How_Selecting_Gallery_Items.htm" />
+  </key>
+  <key name="navigation bar objects" >
+    <topic name="Selecting navigation bar objects" url="xarax/Selecting_navigation_bar_objects.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Selecting a member of an object" url="xarax/IDH_How_Selecting_a_Member.htm" />
+    <topic name="Selecting a single object" url="xarax/IDH_How_Selecting_Single_Object.htm" />
+    <topic name="Selecting all objects" url="xarax/IDH_How_Selecting_All_Objects.htm" />
+    <topic name="Selecting difficult objects" url="xarax/IDH_How_Selecting_Difficult_Objects.htm" />
+    <topic name="Selecting objects" url="xarax/IDH_How_Selecting.htm" />
+    <topic name="Selecting objects in objects" url="xarax/IDH_How_Selecting_Objects_in_Objects.htm" />
+    <topic name="Selecting objects under other objects" url="xarax/IDH_How_Select_Under.htm" />
+    <topic name="Selecting objects using the Name Gallery" url="xarax/Selecting_objects_using_the_Name_Gallery.htm" />
+    <topic name="Selecting several objects" url="xarax/IDH_How_Selecting_Several_Objects.htm" />
+  </key>
+  <key name="point handles" >
+    <topic name="Selecting a single point handle" url="xarax/IDH_How_Selecting_a_Single_Point_Handle.htm" />
+    <topic name="Selecting all point handles" url="xarax/IDH_How_Select_All_Point_Handles.htm" />
+    <topic name="Selecting point handles" url="xarax/IDH_How_Selecting_Point_Handles.htm" />
+    <topic name="Selecting several point handles" url="xarax/IDH_How_Selecting_Several_Point_Handles.htm" />
+    <topic name="Swapping the selection of point handles" url="xarax/IDH_How_Swapping_the_Selection_of_a_Point_Hande.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Selection Pop-up Menu" url="xarax/IDH_Popup_Selection.htm" />
+  </key>
+  <key name="rollover buttons" >
+    <topic name="Selecting navigation bar objects" url="xarax/Selecting_navigation_bar_objects.htm" />
+  </key>
+  <key name="selection handles" >
+    <topic name="Definition: Rotate/Skew Mode" url="xarax/IDH_Definition_RotateSkew_Mode.htm" />
+    <topic name="Definition: Scale Mode" url="xarax/IDH_Definition_Scale_Mode.htm" />
+    <topic name="Enabling selection handles" url="xarax/IDH_How_Enabling_Selection_Handles.htm" />
+    <topic name="Switching selection handle mode" url="xarax/IDH_How_Switching_Selection_Handle_Mode.htm" />
+  </key>
+  <key name="text" >
+    <topic name="Selecting characters in text objects" url="xarax/IDH_How_Selecting_Text_Characters.htm" />
+    <topic name="Selecting lines of text in text objects" url="xarax/IDH_How_Selecting_Text_Lines.htm" />
+    <topic name="Selecting part of a text object" url="xarax/IDH_How_Selecting_Text_Regions.htm" />
+    <topic name="Selecting text" url="xarax/IDH_How_Selecting_Text.htm" />
+    <topic name="Selecting text objects" url="xarax/IDH_How_Selecting_Text_Objects.htm" />
+  </key>
+  <key name="the Tab Home and End keys" >
+    <topic name="Changing the selection with the Tab key" url="xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm" />
+  </key>
+  <key name="using Name Gallery" >
+    <topic name="Selecting objects using the Name Gallery" url="xarax/Selecting_objects_using_the_Name_Gallery.htm" />
+  </key>
+  <key name="using the Contour Tool" >
+    <topic name="Selecting objects using the Contour Tool" url="xarax/Contour_Tool_select.htm" />
+  </key>
+  <key name="using the Shadow Tool" >
+    <topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+  </key>
+</key>
+<key name="selection" >
+  <topic name="Zooming to the selection" url="xarax/IDH_How_Zoom_to_Selection.htm" />
+  <key name="zooming in on" >
+    <topic name="Zooming to the selection" url="xarax/IDH_How_Zoom_to_Selection.htm" />
+  </key>
+</key>
+<key name="Selector Tool" >
+  <topic name="Definition: Selector Tool Infobar" url="xarax/IDH_Definition_Selector_Tool_Infobar.htm" />
+  <topic name="Selector Tool Overview" url="xarax/IDH_Tool_Selector.htm" />
+  <topic name="Using the Selector Tool temporarily" url="xarax/IDH_How_Temporary_Selector_Use.htm" />
+</key>
+<key name="service bureau (glossary entry)" >
+  <topic name="Definition: Service Bureau" url="xarax/IDH_Definition_Service_Bureau.htm" />
+</key>
+<key name="set line width" >
+  <topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+</key>
+<key name="set view quality" >
+  <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+</key>
+<key name="set zoom factor" >
+  <topic name="Zoom Magnification" url="xarax/IDH_Command_Zoom.htm" />
+</key>
+<key name="shade colors" >
+  <topic name="Changing shade colors" url="xarax/IDH_How_Changing_Shade_Colours.htm" />
+  <topic name="Color Editor - Shade Colors" url="xarax/IDH_Misc_Colour_Editor_Shade_Colours.htm" />
+  <topic name="Copying objects using connected colors" url="xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm" />
+  <topic name="Creating shade colors" url="xarax/IDH_How_Creating_a_Shade_Colour.htm" />
+  <topic name="Definition: Shade Color" url="xarax/IDH_Definition_Shade_Colour.htm" />
+  <key name=".shade colors (glossary entry)" >
+    <topic name="Definition: Shade Color" url="xarax/IDH_Definition_Shade_Colour.htm" />
+  </key>
+  <key name="copying objects using shade colors" >
+    <topic name="Copying objects using connected colors" url="xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating shade colors" url="xarax/IDH_How_Creating_a_Shade_Colour.htm" />
+  </key>
+  <key name="editing" >
+    <topic name="Changing shade colors" url="xarax/IDH_How_Changing_Shade_Colours.htm" />
+    <topic name="Color Editor - Shade Colors" url="xarax/IDH_Misc_Colour_Editor_Shade_Colours.htm" />
+  </key>
+</key>
+<key name="Shadow Tool" >
+  <topic name="Definition: Shadow Tool Infobar" url="xarax/Definition__Shadow_Tool_Infobar.htm" />
+  <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+</key>
+<key name="shadows" >
+  <topic name="Applying a shadow" url="xarax/How_Apply_shadow.htm" />
+  <topic name="Blur the edges of the shadow" url="xarax/Blur_shadow_edges.htm" />
+  <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  <topic name="Change shadow transparency" url="xarax/Change_shadow_transparency.htm" />
+  <topic name="Changing the shadow color" url="xarax/Changing_the_shadow_color.htm" />
+  <topic name="Changing the shadow profile" url="xarax/Changing_the_shadow_profile.htm" />
+  <topic name="Converting shadows to shapes" url="xarax/Converting_shadows_to_shapes.htm" />
+  <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  <topic name="Hiding the page shadow" url="xarax/IDH_How_Hiding_the_page_shadow.htm" />
+  <topic name="Modifying shadows" url="xarax/Modifying_shadows.htm" />
+  <topic name="Removing a shadow" url="xarax/How_Removing_a_shadow.htm" />
+  <topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+  <topic name="Shadow pop-up menu" url="xarax/Shadow_pop_up_menu.htm" />
+  <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+  <key name="angle" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying a shadow" url="xarax/How_Apply_shadow.htm" />
+  </key>
+  <key name="blurring" >
+    <topic name="Blur the edges of the shadow" url="xarax/Blur_shadow_edges.htm" />
+  </key>
+  <key name="color of" >
+    <topic name="Changing the shadow color" url="xarax/Changing_the_shadow_color.htm" />
+  </key>
+  <key name="converting to shapes" >
+    <topic name="Converting shadows to shapes" url="xarax/Converting_shadows_to_shapes.htm" />
+  </key>
+  <key name="direction" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="glow effect" >
+    <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  </key>
+  <key name="halo effect" >
+    <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  </key>
+  <key name="modifying" >
+    <topic name="Modifying shadows" url="xarax/Modifying_shadows.htm" />
+  </key>
+  <key name="page" >
+    <topic name="Hiding the page shadow" url="xarax/IDH_How_Hiding_the_page_shadow.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Shadow pop-up menu" url="xarax/Shadow_pop_up_menu.htm" />
+  </key>
+  <key name="profile" >
+    <topic name="Changing the shadow profile" url="xarax/Changing_the_shadow_profile.htm" />
+  </key>
+  <key name="removing" >
+    <topic name="Removing a shadow" url="xarax/How_Removing_a_shadow.htm" />
+  </key>
+  <key name="selecting" >
+    <topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+  </key>
+  <key name="Shadow Tool" >
+    <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+  </key>
+  <key name="size of" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="transparency" >
+    <topic name="Change shadow transparency" url="xarax/Change_shadow_transparency.htm" />
+  </key>
+</key>
+<key name="Shape Editor Tool" >
+  <topic name="Definition: Shape Editor Tool Infobar" url="xarax/IDH_Definition_Shape_Editor_Tool_Infobar.htm" />
+  <topic name="Shape Editor Tool Overview" url="xarax/IDH_Tool_Shape.htm" />
+</key>
+<key name="shapes" >
+  <topic name="Adding points to lines and shapes" url="xarax/IDH_How_Adding_Points_to_a_LineShape.htm" />
+  <topic name="Adding shapes" url="xarax/IDH_How_Adding_Shapes.htm" />
+  <topic name="Breaking lines and shapes apart" url="xarax/IDH_How_Breaking_a_LineShape.htm" />
+  <topic name="Changing a line into a shape" url="xarax/IDH_How_Changing_a_Line_into_a_Shape.htm" />
+  <topic name="Changing curved lines and shapes" url="xarax/IDH_How_Changing_Curved_Lines_and_Shapes.htm" />
+  <topic name="Creating shapes with holes" url="xarax/IDH_How_Creating_Objects_with_Holes.htm" />
+  <topic name="Definition: Shape" url="xarax/IDH_Definition_Shape.htm" />
+  <topic name="Deleting points on lines and shapes" url="xarax/IDH_How_Deleting_Points_on_LinesShapes.htm" />
+  <topic name="Drawing shapes" url="xarax/IDH_How_Drawing_a_Shape.htm" />
+  <topic name="Drawing shapes with the Freehand Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Freehand_Tool.htm" />
+  <topic name="Drawing shapes with the Pen Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Pen_Tool.htm" />
+  <topic name="Drawing shapes with the Shape Editor Tool" url="xarax/IDH_How_Drawing_a_Shape_With_the_Shape_Editor_Tool.htm" />
+  <topic name="Fitting text to a curve" url="xarax/IDH_How_Fitting_Text_to_a_Curve.htm" />
+  <topic name="Intersecting shapes" url="xarax/IDH_How_Intersecting_Shapes.htm" />
+  <topic name="Line and Shape Pop-up Menu" url="xarax/IDH_Popup_Line.htm" />
+  <topic name="Lines and Shapes Overview" url="xarax/IDH_Overview_Lines_and_Shapes.htm" />
+  <topic name="Moving points on shapes and lines" url="xarax/IDH_How_Moving_Points_on_LinesShapes.htm" />
+  <topic name="Redrawing part of a line or shape" url="xarax/IDH_How_Redrawing_LineShape.htm" />
+  <topic name="Slicing shapes" url="xarax/IDH_How_Slicing_Shapes.htm" />
+  <topic name="Smoothing lines and shapes" url="xarax/IDH_How_Smoothing_a_LineShape.htm" />
+  <topic name="Subtracting shapes" url="xarax/IDH_How_Subtracting_Shapes.htm" />
+  <key name=".shape (glossary entry)" >
+    <topic name="Definition: Shape" url="xarax/IDH_Definition_Shape.htm" />
+  </key>
+  <key name="adding" >
+    <topic name="Adding shapes" url="xarax/IDH_How_Adding_Shapes.htm" />
+  </key>
+  <key name="breaking" >
+    <topic name="Breaking lines and shapes apart" url="xarax/IDH_How_Breaking_a_LineShape.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Adding points to lines and shapes" url="xarax/IDH_How_Adding_Points_to_a_LineShape.htm" />
+    <topic name="Changing curved lines and shapes" url="xarax/IDH_How_Changing_Curved_Lines_and_Shapes.htm" />
+    <topic name="Deleting points on lines and shapes" url="xarax/IDH_How_Deleting_Points_on_LinesShapes.htm" />
+    <topic name="Moving points on shapes and lines" url="xarax/IDH_How_Moving_Points_on_LinesShapes.htm" />
+    <topic name="Redrawing part of a line or shape" url="xarax/IDH_How_Redrawing_LineShape.htm" />
+  </key>
+  <key name="drawing" >
+    <topic name="Changing a line into a shape" url="xarax/IDH_How_Changing_a_Line_into_a_Shape.htm" />
+    <topic name="Creating shapes with holes" url="xarax/IDH_How_Creating_Objects_with_Holes.htm" />
+    <topic name="Drawing shapes" url="xarax/IDH_How_Drawing_a_Shape.htm" />
+    <topic name="Drawing shapes with the Freehand Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Freehand_Tool.htm" />
+    <topic name="Drawing shapes with the Pen Tool" url="xarax/IDH_How_Drawing_a_Shape_with_the_Pen_Tool.htm" />
+    <topic name="Drawing shapes with the Shape Editor Tool" url="xarax/IDH_How_Drawing_a_Shape_With_the_Shape_Editor_Tool.htm" />
+  </key>
+  <key name="fitting text around" >
+    <topic name="Fitting text to a curve" url="xarax/IDH_How_Fitting_Text_to_a_Curve.htm" />
+  </key>
+  <key name="intersecting" >
+    <topic name="Intersecting shapes" url="xarax/IDH_How_Intersecting_Shapes.htm" />
+  </key>
+  <key name="joining" >
+    <topic name="Creating shapes with holes" url="xarax/IDH_How_Creating_Objects_with_Holes.htm" />
+  </key>
+  <key name="lines and shapes overview" >
+    <topic name="Lines and Shapes Overview" url="xarax/IDH_Overview_Lines_and_Shapes.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Line and Shape Pop-up Menu" url="xarax/IDH_Popup_Line.htm" />
+  </key>
+  <key name="slicing" >
+    <topic name="Slicing shapes" url="xarax/IDH_How_Slicing_Shapes.htm" />
+  </key>
+  <key name="smoothing" >
+    <topic name="Smoothing lines and shapes" url="xarax/IDH_How_Smoothing_a_LineShape.htm" />
+  </key>
+  <key name="subtracting" >
+    <topic name="Subtracting shapes" url="xarax/IDH_How_Subtracting_Shapes.htm" />
+  </key>
+</key>
+<key name="sharpen bitmap effect" >
+  <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  <topic name="Definition: Sharpen Bitmap Effect" url="xarax/Definition_Sharpen_Bitmap_Effect.htm" />
+  <key name=".sharpen (glossary entry)" >
+    <topic name="Definition: Sharpen Bitmap Effect" url="xarax/Definition_Sharpen_Bitmap_Effect.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  </key>
+</key>
+<key name="shearing" >
+  <topic name="Alternative names" url="xarax/Alternative_names.htm" />
+</key>
+<key name="SHIFT key" >
+  <topic name="Using the mouse" url="xarax/IDH_Misc_Mouse_Use.htm" />
+</key>
+<key name="shortcuts" >
+  <topic name="List of Keyboard Shortcuts" url="xarax/IDH_Misc_Key_Shortcuts.htm" />
+  <topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  <key name="keyboard" >
+    <topic name="List of Keyboard Shortcuts" url="xarax/IDH_Misc_Key_Shortcuts.htm" />
+  </key>
+  <key name="keyboard (text tool)" >
+    <topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  </key>
+</key>
+<key name="Show print borders" >
+  <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+</key>
+<key name="Show printer colors" >
+  <topic name="Displaying a document using the printer colors" url="xarax/IDH_How_Using_the_Printer_Colors.htm" />
+</key>
+<key name="showing" >
+  <topic name="Displaying and hiding guides" url="xarax/IDH_How_Displaying_and_hiding_guides.htm" />
+  <topic name="Displaying the grid" url="xarax/IDH_How_Displaying_The_Grid.htm" />
+  <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  <topic name="Displaying the rulers" url="xarax/IDH_How_Displaying_the_rulers.htm" />
+  <topic name="Displaying the Toolbar" url="xarax/Displaying_the_Toolbar.htm" />
+  <topic name="Enabling edit handles" url="xarax/IDH_How_Enabling_Edit_Handles.htm" />
+  <topic name="Enabling fill handles and fill arrows" url="xarax/IDH_How_Enabling_Fill_Handles.htm" />
+  <topic name="Enabling selection handles" url="xarax/IDH_How_Enabling_Selection_Handles.htm" />
+  <topic name="Hiding the scrollbars" url="xarax/IDH_How_Hiding_Scrollbars.htm" />
+  <key name="edit handles" >
+    <topic name="Enabling edit handles" url="xarax/IDH_How_Enabling_Edit_Handles.htm" />
+  </key>
+  <key name="fill handles and fill arrows" >
+    <topic name="Enabling fill handles and fill arrows" url="xarax/IDH_How_Enabling_Fill_Handles.htm" />
+  </key>
+  <key name="grid" >
+    <topic name="Displaying the grid" url="xarax/IDH_How_Displaying_The_Grid.htm" />
+  </key>
+  <key name="guides" >
+    <topic name="Displaying and hiding guides" url="xarax/IDH_How_Displaying_and_hiding_guides.htm" />
+  </key>
+  <key name="print borders" >
+    <topic name="Displaying the print borders" url="xarax/IDH_How_Displaying_the_Print_Borders.htm" />
+  </key>
+  <key name="rulers" >
+    <topic name="Displaying the rulers" url="xarax/IDH_How_Displaying_the_rulers.htm" />
+  </key>
+  <key name="scrollbars" >
+    <topic name="Hiding the scrollbars" url="xarax/IDH_How_Hiding_Scrollbars.htm" />
+  </key>
+  <key name="selection handles" >
+    <topic name="Enabling selection handles" url="xarax/IDH_How_Enabling_Selection_Handles.htm" />
+  </key>
+  <key name="Toolbar" >
+    <topic name="Displaying the Toolbar" url="xarax/Displaying_the_Toolbar.htm" />
+  </key>
+</key>
+<key name="skewing" >
+  <topic name="Definition: Skew" url="xarax/IDH_Definition_Skew.htm" />
+  <topic name="Skewing objects" url="xarax/IDH_How_Skewing.htm" />
+  <topic name="Skewing objects by dragging" url="xarax/IDH_How_Skew_by_Dragging.htm" />
+  <key name=".skewing (glossary entry)" >
+    <topic name="Definition: Skew" url="xarax/IDH_Definition_Skew.htm" />
+  </key>
+  <key name="and fills" >
+    <topic name="Skewing objects by dragging" url="xarax/IDH_How_Skew_by_Dragging.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Skewing objects" url="xarax/IDH_How_Skewing.htm" />
+  </key>
+</key>
+<key name="slicing objects" >
+  <topic name="Image Slicing (File Menu)" url="xarax/IDH_Command_Slice_Image.htm" />
+  <topic name="Image Slicing Overview" url="xarax/Image_Slicing_Overview.htm" />
+  <topic name="Image Slicing Overview (alternative)" url="xarax/Image_Slicing_Overview__alternative_.htm" />
+  <topic name="Slicing shapes" url="xarax/IDH_How_Slicing_Shapes.htm" />
+</key>
+<key name="sliders" >
+  <topic name="Definition: Slider" url="xarax/IDH_Definition_Trackbar.htm" />
+</key>
+<key name="snapping" >
+  <topic name="Changing the magnetic snap distances" url="xarax/IDH_Changing_the_Magnetic_Snap_Distances.htm" />
+  <topic name="Definition: Snapping (Magnetic)" url="xarax/IDH_Definition_Snapping.htm" />
+  <topic name="Enabling grid snapping" url="xarax/IDH_How_Enabling_Grid_Snapping.htm" />
+  <topic name="Enabling guide snapping" url="xarax/IDH_How_Enabling_guide_snapping.htm" />
+  <topic name="Enabling object snapping" url="xarax/IDH_How_Enabling_Object_Snapping.htm" />
+  <topic name="Locking handles onto the edges of objects" url="xarax/IDH_How_Locking_Handles_on_Edges.htm" />
+  <topic name="Moving handles to the center of QuickShapes" url="xarax/IDH_How_Moving_handles_to_the_center_of_quickshapes.htm" />
+  <key name=".snapping (glossary entry)" >
+    <topic name="Definition: Snapping (Magnetic)" url="xarax/IDH_Definition_Snapping.htm" />
+  </key>
+  <key name="distances" >
+    <topic name="Changing the magnetic snap distances" url="xarax/IDH_Changing_the_Magnetic_Snap_Distances.htm" />
+  </key>
+  <key name="grid" >
+    <topic name="Enabling grid snapping" url="xarax/IDH_How_Enabling_Grid_Snapping.htm" />
+  </key>
+  <key name="guide" >
+    <topic name="Enabling guide snapping" url="xarax/IDH_How_Enabling_guide_snapping.htm" />
+  </key>
+  <key name="handles onto the center of quickshapes" >
+    <topic name="Moving handles to the center of QuickShapes" url="xarax/IDH_How_Moving_handles_to_the_center_of_quickshapes.htm" />
+  </key>
+  <key name="handles onto the edges of objects" >
+    <topic name="Locking handles onto the edges of objects" url="xarax/IDH_How_Locking_Handles_on_Edges.htm" />
+  </key>
+  <key name="object" >
+    <topic name="Enabling object snapping" url="xarax/IDH_How_Enabling_Object_Snapping.htm" />
+  </key>
+</key>
+<key name="soft shadows" >
+  <topic name="Applying a shadow" url="xarax/How_Apply_shadow.htm" />
+  <topic name="Blur the edges of the shadow" url="xarax/Blur_shadow_edges.htm" />
+  <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  <topic name="Changing the shadow color" url="xarax/Changing_the_shadow_color.htm" />
+  <topic name="Changing the shadow profile" url="xarax/Changing_the_shadow_profile.htm" />
+  <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  <topic name="Modifying shadows" url="xarax/Modifying_shadows.htm" />
+  <topic name="Removing a shadow" url="xarax/How_Removing_a_shadow.htm" />
+  <topic name="Selecting objects with the Shadow Tool" url="xarax/Shadow_Tool_select.htm" />
+  <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+  <key name="angle of" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying a shadow" url="xarax/How_Apply_shadow.htm" />
+  </key>
+  <key name="blurring" >
+    <topic name="Blur the edges of the shadow" url="xarax/Blur_shadow_edges.htm" />
+  </key>
+  <key name="color of" >
+    <topic name="Changing the shadow color" url="xarax/Changing_the_shadow_color.htm" />
+  </key>
+  <key name="direction" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+  <key name="glow effect" >
+    <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  </key>
+  <key name="halo effect" >
+    <topic name="Creating a glow effect" url="xarax/Creating_a_glow_effect.htm" />
+  </key>
+  <key name="modifying" >
+    <topic name="Modifying shadows" url="xarax/Modifying_shadows.htm" />
+  </key>
+  <key name="profile" >
+    <topic name="Changing the shadow profile" url="xarax/Changing_the_shadow_profile.htm" />
+  </key>
+  <key name="removing" >
+    <topic name="Removing a shadow" url="xarax/How_Removing_a_shadow.htm" />
+  </key>
+  <key name="size of" >
+    <topic name="Change shadow size" url="xarax/Change_shadow_size.htm" />
+  </key>
+</key>
+<key name="sorting galleries" >
+  <topic name="Reordering items in a gallery" url="xarax/IDH_How_Reordering_Gallery_Items.htm" />
+</key>
+<key name="space" >
+  <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  <key name="increasing the available screen area" >
+    <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  </key>
+</key>
+<key name="special characters" >
+  <topic name="Typing international characters" url="xarax/IDH_How_Typing_International_characters.htm" />
+  <key name="typing" >
+    <topic name="Typing international characters" url="xarax/IDH_How_Typing_International_characters.htm" />
+  </key>
+</key>
+<key name="special effects" >
+  <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  <key name="applying to bitmaps" >
+    <topic name="Applying special effects to bitmaps" url="xarax/IDH_How_Applying_special_effects_to_bitmaps.htm" />
+  </key>
+</key>
+<key name="spot colors" >
+  <topic name="Color Editor - Spot Colors" url="xarax/IDH_Misc_Colour_Editor_Spot_Colors.htm" />
+  <topic name="Creating spot colors" url="xarax/IDH_How_Creating_spot_colors.htm" />
+  <topic name="Definition: Spot Color" url="xarax/IDH_Definition_Spot_Color.htm" />
+  <topic name="Printing: Spot Color versus Process Color" url="xarax/IDH_How_Printing_Spot_versus_Process.htm" />
+  <key name=".spot colors (glossary entry)" >
+    <topic name="Definition: Spot Color" url="xarax/IDH_Definition_Spot_Color.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating spot colors" url="xarax/IDH_How_Creating_spot_colors.htm" />
+  </key>
+  <key name="editing" >
+    <topic name="Color Editor - Spot Colors" url="xarax/IDH_Misc_Colour_Editor_Spot_Colors.htm" />
+  </key>
+  <key name="versus process colors" >
+    <topic name="Printing: Spot Color versus Process Color" url="xarax/IDH_How_Printing_Spot_versus_Process.htm" />
+  </key>
+</key>
+<key name="spreads" >
+  <topic name="Creating a double page spread" url="xarax/IDH_How_Creating_a_Double_Page_Spread.htm" />
+  <topic name="Definition: Spread" url="xarax/IDH_Definition_Spread.htm" />
+  <key name=".spread (glossary entry)" >
+    <topic name="Definition: Spread" url="xarax/IDH_Definition_Spread.htm" />
+  </key>
+  <key name="double page spreads" >
+    <topic name="Creating a double page spread" url="xarax/IDH_How_Creating_a_Double_Page_Spread.htm" />
+  </key>
+</key>
+<key name="square caps" >
+  <topic name="Changing line ends" url="xarax/IDH_How_Changing_Line_Ends.htm" />
+  <topic name="Definition: Square Cap" url="xarax/IDH_Definition_Square_Cap.htm" />
+  <key name=".square cap (glossary entry)" >
+    <topic name="Definition: Square Cap" url="xarax/IDH_Definition_Square_Cap.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Changing line ends" url="xarax/IDH_How_Changing_Line_Ends.htm" />
+  </key>
+</key>
+<key name="squares" >
+  <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+  <key name="drawing" >
+    <topic name="Drawing rectangles and squares" url="xarax/IDH_How_Drawing_Rectangles.htm" />
+  </key>
+</key>
+<key name="squashing" >
+  <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+  <topic name="Stretching objects" url="xarax/IDH_How_Stretching.htm" />
+  <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  <key name="ellipses" >
+    <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Stretching objects" url="xarax/IDH_How_Stretching.htm" />
+  </key>
+  <key name="rectangles" >
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+</key>
+<key name="stacking order" >
+  <topic name="Moving objects backwards and forwards" url="xarax/IDH_How_Forwards_and_Backwards.htm" />
+  <topic name="Moving objects between layers" url="xarax/IDH_How_Moving_Oobjects_Between_Layers.htm" />
+  <topic name="Reordering layers" url="xarax/IDH_How_Re_ordering_Layers.htm" />
+</key>
+<key name="stained glass transparency type" >
+  <topic name="Definition: Stained Glass transparency type" url="xarax/Definition_Stained_Glass_transparency_type.htm" />
+  <key name=".stained glass (glossary entry)" >
+    <topic name="Definition: Stained Glass transparency type" url="xarax/Definition_Stained_Glass_transparency_type.htm" />
+  </key>
+</key>
+<key name="star-shaped polygons" >
+  <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+  <key name="changing" >
+    <topic name="Moving the star points on a star-shaped polygon" url="xarax/IDH_How_Changing_Star_Shaped_Polygon_Shape.htm" />
+  </key>
+  <key name="drawing" >
+    <topic name="Drawing star-shaped polygons" url="xarax/IDH_How_Drawing_Stellated_Shapes.htm" />
+  </key>
+  <key name="warping edges" >
+    <topic name="Warping the edges of polygons" url="xarax/IDH_How_Polygon_Edge_Warping.htm" />
+  </key>
+</key>
+<key name="status line" >
+  <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  <topic name="Hiding the Status Line" url="xarax/IDH_How_Hiding_the_Status_Line.htm" />
+  <topic name="Status Line Overview" url="xarax/IDH_Overview_Status_Line.htm" />
+  <key name="changing size" >
+    <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  </key>
+  <key name="hiding" >
+    <topic name="Hiding the Status Line" url="xarax/IDH_How_Hiding_the_Status_Line.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Status Line Overview" url="xarax/IDH_Overview_Status_Line.htm" />
+  </key>
+</key>
+<key name="Storyboard files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="stretching" >
+  <topic name="Linked stretching" url="xarax/Linked_stretching.htm" />
+  <topic name="Linked stretching (NavBar Tool)" url="xarax/Linked_stretching__NavBar_Tool_.htm" />
+  <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+  <topic name="Stretching objects" url="xarax/IDH_How_Stretching.htm" />
+  <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  <key name="ellipses" >
+    <topic name="Stretching ellipses" url="xarax/IDH_How_Stretching_Ellipses.htm" />
+  </key>
+  <key name="linked stretching" >
+    <topic name="Linked stretching" url="xarax/Linked_stretching.htm" />
+    <topic name="Linked stretching (NavBar Tool)" url="xarax/Linked_stretching__NavBar_Tool_.htm" />
+  </key>
+  <key name="objects" >
+    <topic name="Stretching objects" url="xarax/IDH_How_Stretching.htm" />
+  </key>
+  <key name="rectangles" >
+    <topic name="Stretching rectangles" url="xarax/IDH_How_Stretching_Rectangles.htm" />
+  </key>
+</key>
+<key name="stroke shape" >
+  <topic name="Changing the stroke shape of a line" url="xarax/Changing_the_stroke_shape_of_a_line.htm" />
+  <topic name="Pressure sensitivity and brushes" url="xarax/Pressure_sensitivity_and_brushes.htm" />
+  <topic name="Removing a stroke shape" url="xarax/Removing_a_stroke_shape.htm" />
+  <key name="applying" >
+    <topic name="Changing the stroke shape of a line" url="xarax/Changing_the_stroke_shape_of_a_line.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing the stroke shape of a line" url="xarax/Changing_the_stroke_shape_of_a_line.htm" />
+  </key>
+  <key name="pressure sensitivity" >
+    <topic name="Pressure sensitivity and brushes" url="xarax/Pressure_sensitivity_and_brushes.htm" />
+  </key>
+  <key name="removing" >
+    <topic name="Removing a stroke shape" url="xarax/Removing_a_stroke_shape.htm" />
+  </key>
+</key>
+<key name="subscript text" >
+  <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  <key name="creating" >
+    <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  </key>
+</key>
+<key name="subtracting shapes" >
+  <topic name="Subtracting shapes" url="xarax/IDH_How_Subtracting_Shapes.htm" />
+</key>
+<key name="Sun Raster files" >
+  <topic name="Creating RAS files" url="xarax/IDH_How_Creating_RAS_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="superscript text" >
+  <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  <key name="creating" >
+    <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  </key>
+</key>
+<key name="SWF files" >
+  <topic name="Exporting Macromedia Flash files" url="xarax/Exporting_Macromedia_Flash_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Tab key" >
+  <topic name="Changing the selection with the Tab key" url="xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm" />
+  <key name="selecting objects" >
+    <topic name="Changing the selection with the Tab key" url="xarax/IDH_How_Changing_the_selection_with_the_Tab_key.htm" />
+  </key>
+</key>
+<key name="TARGA files" >
+  <topic name="Creating TARGA files" url="xarax/IDH_How_Creating_TARGA_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="target frame" >
+  <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  <key name="web address" >
+    <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  </key>
+</key>
+<key name="template document" >
+  <topic name="Creating a template document" url="xarax/IDH_How_Changing_The_Template_Document.htm" />
+  <topic name="Definition: Template Document" url="xarax/IDH_Definition_Template_Document.htm" />
+  <key name=".template document (glossary entry)" >
+    <topic name="Definition: Template Document" url="xarax/IDH_Definition_Template_Document.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating a template document" url="xarax/IDH_How_Changing_The_Template_Document.htm" />
+  </key>
+</key>
+<key name="templates" >
+  <topic name="Changing the default paper size" url="xarax/IDH_How_Changing_the_default_paper_size.htm" />
+  <topic name="Changing the default units" url="xarax/Changing_the_default_units.htm" />
+  <topic name="Creating a template document" url="xarax/IDH_How_Changing_The_Template_Document.htm" />
+  <topic name="Drawing and Animation Documents" url="xarax/Normal_and_Animation_Documents.htm" />
+</key>
+<key name="temporary directory (glossary entry)" >
+  <topic name="Definition: Temporary Directory" url="xarax/IDH_Definition_Temp_Directory.htm" />
+</key>
+<key name="text cursor (glossary entry)" >
+  <topic name="Definition: Text Cursor" url="xarax/IDH_Definition_Text_Cursor.htm" />
+</key>
+<key name="text objects" >
+  <topic name="Aligning text on a curve" url="xarax/IDH_How_Aligning_Text_on_a_Curve.htm" />
+  <topic name="Applying attributes to a selected region of text" url="xarax/IDH_How_Applying_Attributes_to_a_Selected_Region_Of_Text.htm" />
+  <topic name="Applying attributes to a whole text object" url="xarax/IDH_How_Applying_attributes_to_a_whole_text_object.htm" />
+  <topic name="Applying attributes to individual text characters" url="xarax/IDH_How_Applying_attributes_to_individual_text_characters.htm" />
+  <topic name="Applying attributes to text" url="xarax/IDH_How_Applying_Attributes_to_Text.htm" />
+  <topic name="Changing molded text" url="xarax/IDH_How_Editing_moulded_text.htm" />
+  <topic name="Changing text font" url="xarax/IDH_How_Changing_text_font.htm" />
+  <topic name="Changing the aspect ratio of text" url="xarax/IDH_How_Changing_the_Aspect_Ratio_of_Text.htm" />
+  <topic name="Changing the baseline shift of text" url="xarax/IDH_How_Changing_the_Baseline_Shift_of_Text.htm" />
+  <topic name="Changing the size of text" url="xarax/IDH_How_Changing_Text_Size.htm" />
+  <topic name="Changing the spacing between lines of text" url="xarax/IDH_How_Changing_the_Line_Spacing_of_Text.htm" />
+  <topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+  <topic name="Converting text to shapes" url="xarax/IDH_How_Text_to_Shapes.htm" />
+  <topic name="Creating column text" url="xarax/IDH_How_Creating_column_text.htm" />
+  <topic name="Creating new text" url="xarax/IDH_How_Entering_Text.htm" />
+  <topic name="Creating simple text" url="xarax/IDH_How_Creating_simple_text.htm" />
+  <topic name="Definition: Text Object" url="xarax/IDH_Definition_Text_Object.htm" />
+  <topic name="Editing text" url="xarax/IDH_How_Editing_Text.htm" />
+  <topic name="Fitting text to a curve" url="xarax/IDH_How_Fitting_Text_to_a_Curve.htm" />
+  <topic name="Hiding the line in text on a curve" url="xarax/IDH_How_Hiding_the_Line_in_Text_on_a_Curve.htm" />
+  <topic name="Justifying text" url="xarax/IDH_How_Justifying_text.htm" />
+  <topic name="Kerning text" url="xarax/IDH_How_Kerning_text.htm" />
+  <topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  <topic name="Making text bold" url="xarax/IDH_How_Making_Text_Bold.htm" />
+  <topic name="Making text italic" url="xarax/IDH_How_Making_Text_Italic.htm" />
+  <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  <topic name="Moving text around a curve" url="xarax/IDH_How_Moving_Text_Around_a_Curve.htm" />
+  <topic name="Printing text" url="xarax/IDH_How_Printing_Text.htm" />
+  <topic name="Removing text from a curve" url="xarax/IDH_How_Removing_Text_From_a_Curve.htm" />
+  <topic name="Reshaping text on a curve" url="xarax/IDH_How_Reshaping_Text_on_a_Curve.htm" />
+  <topic name="Reversing text on a curve" url="xarax/IDH_How_Reverse_Text_on_a_Curve.htm" />
+  <topic name="Rotating column text" url="xarax/IDH_How_Rotating_column_text.htm" />
+  <topic name="Selecting characters in text objects" url="xarax/IDH_How_Selecting_Text_Characters.htm" />
+  <topic name="Selecting lines of text in text objects" url="xarax/IDH_How_Selecting_Text_Lines.htm" />
+  <topic name="Selecting part of a text object" url="xarax/IDH_How_Selecting_Text_Regions.htm" />
+  <topic name="Selecting text" url="xarax/IDH_How_Selecting_Text.htm" />
+  <topic name="Selecting text objects" url="xarax/IDH_How_Selecting_Text_Objects.htm" />
+  <topic name="Text Overview" url="xarax/IDH_Overview_Text.htm" />
+  <topic name="Text Pop-up Menu" url="xarax/IDH_Popup_Text.htm" />
+  <topic name="Typing text onto a curve" url="xarax/IDH_How_Typing_Text_onto_a_Curve.htm" />
+  <key name=".text object (glossary entry)" >
+    <topic name="Definition: Text Object" url="xarax/IDH_Definition_Text_Object.htm" />
+  </key>
+  <key name="automatic kerning" >
+    <topic name="Kerning text" url="xarax/IDH_How_Kerning_text.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Applying attributes to a selected region of text" url="xarax/IDH_How_Applying_Attributes_to_a_Selected_Region_Of_Text.htm" />
+    <topic name="Applying attributes to a whole text object" url="xarax/IDH_How_Applying_attributes_to_a_whole_text_object.htm" />
+    <topic name="Applying attributes to individual text characters" url="xarax/IDH_How_Applying_attributes_to_individual_text_characters.htm" />
+    <topic name="Applying attributes to text" url="xarax/IDH_How_Applying_Attributes_to_Text.htm" />
+    <topic name="Changing molded text" url="xarax/IDH_How_Editing_moulded_text.htm" />
+    <topic name="Changing text font" url="xarax/IDH_How_Changing_text_font.htm" />
+    <topic name="Changing the aspect ratio of text" url="xarax/IDH_How_Changing_the_Aspect_Ratio_of_Text.htm" />
+    <topic name="Changing the baseline shift of text" url="xarax/IDH_How_Changing_the_Baseline_Shift_of_Text.htm" />
+    <topic name="Changing the size of text" url="xarax/IDH_How_Changing_Text_Size.htm" />
+    <topic name="Changing the spacing between lines of text" url="xarax/IDH_How_Changing_the_Line_Spacing_of_Text.htm" />
+    <topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+    <topic name="Editing text" url="xarax/IDH_How_Editing_Text.htm" />
+    <topic name="Justifying text" url="xarax/IDH_How_Justifying_text.htm" />
+    <topic name="Kerning text" url="xarax/IDH_How_Kerning_text.htm" />
+    <topic name="Making text bold" url="xarax/IDH_How_Making_Text_Bold.htm" />
+    <topic name="Making text superscript and subscript" url="xarax/IDH_How_Creating_Superscript_and_Subscript.htm" />
+  </key>
+  <key name="column text" >
+    <topic name="Creating column text" url="xarax/IDH_How_Creating_column_text.htm" />
+  </key>
+  <key name="converting to shapes" >
+    <topic name="Converting text to shapes" url="xarax/IDH_How_Text_to_Shapes.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating column text" url="xarax/IDH_How_Creating_column_text.htm" />
+    <topic name="Creating new text" url="xarax/IDH_How_Entering_Text.htm" />
+    <topic name="Creating simple text" url="xarax/IDH_How_Creating_simple_text.htm" />
+    <topic name="Typing text onto a curve" url="xarax/IDH_How_Typing_Text_onto_a_Curve.htm" />
+  </key>
+  <key name="fitted to curves" >
+    <topic name="Aligning text on a curve" url="xarax/IDH_How_Aligning_Text_on_a_Curve.htm" />
+    <topic name="Fitting text to a curve" url="xarax/IDH_How_Fitting_Text_to_a_Curve.htm" />
+    <topic name="Hiding the line in text on a curve" url="xarax/IDH_How_Hiding_the_Line_in_Text_on_a_Curve.htm" />
+    <topic name="Moving text around a curve" url="xarax/IDH_How_Moving_Text_Around_a_Curve.htm" />
+    <topic name="Removing text from a curve" url="xarax/IDH_How_Removing_Text_From_a_Curve.htm" />
+    <topic name="Reshaping text on a curve" url="xarax/IDH_How_Reshaping_Text_on_a_Curve.htm" />
+    <topic name="Reversing text on a curve" url="xarax/IDH_How_Reverse_Text_on_a_Curve.htm" />
+  </key>
+  <key name="italic" >
+    <topic name="Making text italic" url="xarax/IDH_How_Making_Text_Italic.htm" />
+  </key>
+  <key name="keyboard shortcuts" >
+    <topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Text Overview" url="xarax/IDH_Overview_Text.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="Text Pop-up Menu" url="xarax/IDH_Popup_Text.htm" />
+  </key>
+  <key name="printing text as shapes" >
+    <topic name="Printing text" url="xarax/IDH_How_Printing_Text.htm" />
+  </key>
+  <key name="rotating column text" >
+    <topic name="Rotating column text" url="xarax/IDH_How_Rotating_column_text.htm" />
+  </key>
+  <key name="selecting" >
+    <topic name="Selecting characters in text objects" url="xarax/IDH_How_Selecting_Text_Characters.htm" />
+    <topic name="Selecting lines of text in text objects" url="xarax/IDH_How_Selecting_Text_Lines.htm" />
+    <topic name="Selecting part of a text object" url="xarax/IDH_How_Selecting_Text_Regions.htm" />
+    <topic name="Selecting text" url="xarax/IDH_How_Selecting_Text.htm" />
+    <topic name="Selecting text objects" url="xarax/IDH_How_Selecting_Text_Objects.htm" />
+  </key>
+  <key name="spacing several characters" >
+    <topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+  </key>
+  <key name="spacing two characters" >
+    <topic name="Kerning text" url="xarax/IDH_How_Kerning_text.htm" />
+  </key>
+</key>
+<key name="Text Tool" >
+  <topic name="Definition: Text Tool Infobar" url="xarax/Definition_Text_Tool_Infobar.htm" />
+  <topic name="List of Text Tool key shortcuts" url="xarax/IDH_How_Text_Tool_Shortcuts.htm" />
+  <topic name="Text Tool Overview" url="xarax/IDH_Tool_Text.htm" />
+</key>
+<key name="text units" >
+  <topic name="Changing the font units" url="xarax/IDH_How_Changing_the_font_units.htm" />
+  <key name="changing" >
+    <topic name="Changing the font units" url="xarax/IDH_How_Changing_the_font_units.htm" />
+  </key>
+</key>
+<key name="TGA files" >
+  <topic name="Creating TARGA files" url="xarax/IDH_How_Creating_TARGA_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="thickness" >
+  <topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+  <key name="changing line" >
+    <topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+  </key>
+</key>
+<key name="three color fills" >
+  <topic name="Applying three color fills" url="xarax/IDH_How_Applying_Three_Color_Fills.htm" />
+  <topic name="Changing the colors in three color fills" url="xarax/IDH_How_Changing_the_colors_of_three_color_fills.htm" />
+  <topic name="Changing the fill profile" url="xarax/Changing_the_fill_profile.htm" />
+  <topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+  <topic name="Changing three color fills" url="xarax/IDH_How_Changing_three_color_fills.htm" />
+  <topic name="Creating simple pattern fills" url="xarax/IDH_How_Creating_simple_pattern_fills.htm" />
+  <topic name="Definition: Three Color Fill" url="xarax/IDH_Definition_Three_Color_Fill.htm" />
+  <topic name="Moving three color fill handles" url="xarax/IDH_How_Moving_three_color_fill_handles.htm" />
+  <key name=".three color fill (glossary entry)" >
+    <topic name="Definition: Three Color Fill" url="xarax/IDH_Definition_Three_Color_Fill.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying three color fills" url="xarax/IDH_How_Applying_Three_Color_Fills.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing the colors in three color fills" url="xarax/IDH_How_Changing_the_colors_of_three_color_fills.htm" />
+    <topic name="Changing the fill profile" url="xarax/Changing_the_fill_profile.htm" />
+    <topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+    <topic name="Changing three color fills" url="xarax/IDH_How_Changing_three_color_fills.htm" />
+    <topic name="Moving three color fill handles" url="xarax/IDH_How_Moving_three_color_fill_handles.htm" />
+  </key>
+  <key name="changing colors in" >
+    <topic name="Changing the colors in three color fills" url="xarax/IDH_How_Changing_the_colors_of_three_color_fills.htm" />
+  </key>
+  <key name="changing fill profile" >
+    <topic name="Changing the fill profile" url="xarax/Changing_the_fill_profile.htm" />
+  </key>
+  <key name="changing tiling" >
+    <topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+  </key>
+  <key name="creating simple pattern fills" >
+    <topic name="Creating simple pattern fills" url="xarax/IDH_How_Creating_simple_pattern_fills.htm" />
+  </key>
+  <key name="moving handles" >
+    <topic name="Moving three color fill handles" url="xarax/IDH_How_Moving_three_color_fill_handles.htm" />
+  </key>
+</key>
+<key name="three point transparency" >
+  <topic name="Applying three point transparency" url="xarax/IDH_How_Applying_three_point_transparency.htm" />
+  <topic name="Changing the levels in three point transparency" url="xarax/Changing_the_levels_in_three_point_transparencyA.htm" />
+  <topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+  <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+  <topic name="Changing three point transparency" url="xarax/IDH_How_Changing_three_point_transparency.htm" />
+  <topic name="Definition: Three Point Transparency" url="xarax/IDH_Definition_Three_Point_Transparency.htm" />
+  <topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+  <key name=".three point transparency (glossary entry)" >
+    <topic name="Definition: Three Point Transparency" url="xarax/IDH_Definition_Three_Point_Transparency.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying three point transparency" url="xarax/IDH_How_Applying_three_point_transparency.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing the levels in three point transparency" url="xarax/Changing_the_levels_in_three_point_transparencyA.htm" />
+    <topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+    <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+    <topic name="Changing three point transparency" url="xarax/IDH_How_Changing_three_point_transparency.htm" />
+    <topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+  </key>
+  <key name="changing levels in" >
+    <topic name="Changing the levels in three point transparency" url="xarax/Changing_the_levels_in_three_point_transparencyA.htm" />
+  </key>
+  <key name="changing profile" >
+    <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+  </key>
+  <key name="changing tiling" >
+    <topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+  </key>
+  <key name="moving handles" >
+    <topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+  </key>
+</key>
+<key name="TIFF files" >
+  <topic name="Creating TIFF files" url="xarax/IDH_How_Creating_TIFF_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="tiling" >
+  <topic name="Change circular fill tiling" url="xarax/Change_circular_fill_tiling.htm" />
+  <topic name="Changing diamond fill tiling" url="xarax/Changing_diamond_fill_tiling.htm" />
+  <topic name="Changing elliptical fill tiling" url="xarax/Changing_elliptical_fill_tiling.htm" />
+  <topic name="Changing linear fill tiling" url="xarax/Changing_linear_fill_tiling.htm" />
+  <topic name="Changing the tiling of bitmap fills" url="xarax/IDH_How_Changing_Bitmap_Fill_Tiling.htm" />
+  <topic name="Changing the tiling of bitmap transparencyA" url="xarax/Changing_the_tiling_of_bitmap_transparencyA.htm" />
+  <topic name="Changing the tiling of four color fills" url="xarax/IDH_How_Changing_the_tiling_of_four_color_fills.htm" />
+  <topic name="Changing the tiling of four point transparencyA" url="xarax/Changing_the_tiling_of_four_point_transparencyA.htm" />
+  <topic name="Changing the tiling of fractal fills" url="xarax/IDH_How_Changing_Fractal_Fill_Tiling.htm" />
+  <topic name="Changing the tiling of fractal transparencyA" url="xarax/Changing_the_tiling_of_fractal_transparencyA.htm" />
+  <topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+  <topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+  <topic name="Definition: Tiling" url="xarax/IDH_Definition_Tiling.htm" />
+  <key name=".tiling (glossary entry)" >
+    <topic name="Definition: Tiling" url="xarax/IDH_Definition_Tiling.htm" />
+  </key>
+  <key name="bitmap fills" >
+    <topic name="Changing the tiling of bitmap fills" url="xarax/IDH_How_Changing_Bitmap_Fill_Tiling.htm" />
+  </key>
+  <key name="bitmap transparency" >
+    <topic name="Changing the tiling of bitmap transparencyA" url="xarax/Changing_the_tiling_of_bitmap_transparencyA.htm" />
+  </key>
+  <key name="circular fills" >
+    <topic name="Change circular fill tiling" url="xarax/Change_circular_fill_tiling.htm" />
+  </key>
+  <key name="diamond fills" >
+    <topic name="Changing diamond fill tiling" url="xarax/Changing_diamond_fill_tiling.htm" />
+  </key>
+  <key name="elliptical fills" >
+    <topic name="Changing elliptical fill tiling" url="xarax/Changing_elliptical_fill_tiling.htm" />
+  </key>
+  <key name="four color fills" >
+    <topic name="Changing the tiling of four color fills" url="xarax/IDH_How_Changing_the_tiling_of_four_color_fills.htm" />
+  </key>
+  <key name="four point transparency" >
+    <topic name="Changing the tiling of four point transparencyA" url="xarax/Changing_the_tiling_of_four_point_transparencyA.htm" />
+  </key>
+  <key name="fractal fills" >
+    <topic name="Changing the tiling of fractal fills" url="xarax/IDH_How_Changing_Fractal_Fill_Tiling.htm" />
+  </key>
+  <key name="fractal transparency" >
+    <topic name="Changing the tiling of fractal transparencyA" url="xarax/Changing_the_tiling_of_fractal_transparencyA.htm" />
+  </key>
+  <key name="linear fills" >
+    <topic name="Changing linear fill tiling" url="xarax/Changing_linear_fill_tiling.htm" />
+  </key>
+  <key name="three color fills" >
+    <topic name="Changing the tiling of three color fills" url="xarax/IDH_How_Changing_the_tiling_of_a_three_color_fill.htm" />
+  </key>
+  <key name="three point transparency" >
+    <topic name="Changing the tiling of three point transparencyA" url="xarax/Changing_the_tiling_of_three_point_transparencyA.htm" />
+  </key>
+</key>
+<key name="timing redraw" >
+  <topic name="Timing redraw" url="xarax/IDH_How_Timed_Redraw.htm" />
+</key>
+<key name="tint colors" >
+  <topic name="Color Editor - Tint Colors" url="xarax/IDH_Misc_Colour_Editor_Tint_Colours.htm" />
+  <topic name="Copying objects using connected colors" url="xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm" />
+  <topic name="Creating Tint Colors" url="xarax/Creating_Tint_Colors.htm" />
+  <topic name="Definition: Tint Color" url="xarax/IDH_Definition_Tint_Colour.htm" />
+  <key name=".tint colors (glossary entry)" >
+    <topic name="Definition: Tint Color" url="xarax/IDH_Definition_Tint_Colour.htm" />
+  </key>
+  <key name="copying objects using tint colors" >
+    <topic name="Copying objects using connected colors" url="xarax/IDH_How_Copying_Objects_That_Use_Connected_Colours.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating Tint Colors" url="xarax/Creating_Tint_Colors.htm" />
+  </key>
+  <key name="editing" >
+    <topic name="Color Editor - Tint Colors" url="xarax/IDH_Misc_Colour_Editor_Tint_Colours.htm" />
+  </key>
+</key>
+<key name="tip of the day" >
+  <topic name="Turning Tip of the Day on and off" url="xarax/IDH_How_Tip_of_the_Day.htm" />
+</key>
+<key name="tips and hints" >
+  <topic name="Getting help" url="xarax/IDH_How_Getting_Help.htm" />
+</key>
+<key name="titles" >
+  <topic name="Adding titles, descriptions and keywords to documents" url="xarax/IDH_How_adding_keywords_etc.htm" />
+  <key name="adding to documents" >
+    <topic name="Adding titles, descriptions and keywords to documents" url="xarax/IDH_How_adding_keywords_etc.htm" />
+  </key>
+</key>
+<key name="Toolbar" >
+  <topic name="Definition: Toolbar" url="xarax/Definition__Toolbar.htm" />
+  <topic name="Displaying the Toolbar" url="xarax/Displaying_the_Toolbar.htm" />
+  <key name=".glossary entry" >
+    <topic name="Definition: Toolbar" url="xarax/Definition__Toolbar.htm" />
+  </key>
+  <key name="displaying" >
+    <topic name="Displaying the Toolbar" url="xarax/Displaying_the_Toolbar.htm" />
+  </key>
+</key>
+<key name="tools" >
+  <topic name="Bevel Tool overview" url="xarax/IDH_Tool_Bevel.htm" />
+  <topic name="Blend Tool Overview" url="xarax/IDH_Tool_Blend.htm" />
+  <topic name="Button &amp; NavBar Tool Overview" url="xarax/IDH_Tool_NavBar.htm" />
+  <topic name="Contour Tool Overview" url="xarax/IDH_Tool_Contour.htm" />
+  <topic name="Definition: Tool" url="xarax/IDH_Definition_Tool.htm" />
+  <topic name="Ellipse Tool Overview" url="xarax/IDH_Tool_Ellipse.htm" />
+  <topic name="Fill Tool Overview" url="xarax/IDH_Tool_Fill.htm" />
+  <topic name="Freehand &amp; Brush Tool Overview" url="xarax/IDH_Tool_Freehand.htm" />
+  <topic name="Mold Tool Overview" url="xarax/IDH_Tool_Mould.htm" />
+  <topic name="Pen Tool Overview" url="xarax/IDH_Tool_Pen.htm" />
+  <topic name="Push Tool Overview" url="xarax/IDH_Tool_Push.htm" />
+  <topic name="QuickShape Tool Overview" url="xarax/IDH_Tool_QuickShape.htm" />
+  <topic name="Rectangle Tool Overview" url="xarax/IDH_Tool_Rectangle.htm" />
+  <topic name="Selector Tool Overview" url="xarax/IDH_Tool_Selector.htm" />
+  <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+  <topic name="Shape Editor Tool Overview" url="xarax/IDH_Tool_Shape.htm" />
+  <topic name="Text Tool Overview" url="xarax/IDH_Tool_Text.htm" />
+  <topic name="The Tools" url="xarax/IDH_Misc_Tools.htm" />
+  <topic name="Transparency Tool Overview" url="xarax/IDH_Tool_Transparency.htm" />
+  <topic name="Zoom Tool Overview" url="xarax/IDH_Tool_Zoom.htm" />
+  <key name=".tools (glossary entry)" >
+    <topic name="Definition: Tool" url="xarax/IDH_Definition_Tool.htm" />
+  </key>
+  <key name="Bar Tool" >
+    <topic name="Button &amp; NavBar Tool Overview" url="xarax/IDH_Tool_NavBar.htm" />
+  </key>
+  <key name="Bevel Tool" >
+    <topic name="Bevel Tool overview" url="xarax/IDH_Tool_Bevel.htm" />
+  </key>
+  <key name="Blend Tool" >
+    <topic name="Blend Tool Overview" url="xarax/IDH_Tool_Blend.htm" />
+  </key>
+  <key name="Button Tool" >
+    <topic name="Button &amp; NavBar Tool Overview" url="xarax/IDH_Tool_NavBar.htm" />
+  </key>
+  <key name="Contour Tool" >
+    <topic name="Contour Tool Overview" url="xarax/IDH_Tool_Contour.htm" />
+  </key>
+  <key name="Ellipse Tool" >
+    <topic name="Ellipse Tool Overview" url="xarax/IDH_Tool_Ellipse.htm" />
+  </key>
+  <key name="Fill Tool" >
+    <topic name="Fill Tool Overview" url="xarax/IDH_Tool_Fill.htm" />
+  </key>
+  <key name="Freehand Tool" >
+    <topic name="Freehand &amp; Brush Tool Overview" url="xarax/IDH_Tool_Freehand.htm" />
+  </key>
+  <key name="Mold Tool" >
+    <topic name="Mold Tool Overview" url="xarax/IDH_Tool_Mould.htm" />
+  </key>
+  <key name="NavBar tool" >
+    <topic name="Button &amp; NavBar Tool Overview" url="xarax/IDH_Tool_NavBar.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="The Tools" url="xarax/IDH_Misc_Tools.htm" />
+  </key>
+  <key name="Pen Tool" >
+    <topic name="Pen Tool Overview" url="xarax/IDH_Tool_Pen.htm" />
+  </key>
+  <key name="Push Tool" >
+    <topic name="Push Tool Overview" url="xarax/IDH_Tool_Push.htm" />
+  </key>
+  <key name="QuickShape Tool" >
+    <topic name="QuickShape Tool Overview" url="xarax/IDH_Tool_QuickShape.htm" />
+  </key>
+  <key name="Rectangle Tool" >
+    <topic name="Rectangle Tool Overview" url="xarax/IDH_Tool_Rectangle.htm" />
+  </key>
+  <key name="Selector Tool" >
+    <topic name="Selector Tool Overview" url="xarax/IDH_Tool_Selector.htm" />
+  </key>
+  <key name="Shadow Tool" >
+    <topic name="Shadow Tool Overview" url="xarax/IDH_Tool_Shadow.htm" />
+  </key>
+  <key name="Shape Editor Tool" >
+    <topic name="Shape Editor Tool Overview" url="xarax/IDH_Tool_Shape.htm" />
+  </key>
+  <key name="Text Tool" >
+    <topic name="Text Tool Overview" url="xarax/IDH_Tool_Text.htm" />
+  </key>
+  <key name="Transparency Tool" >
+    <topic name="Transparency Tool Overview" url="xarax/IDH_Tool_Transparency.htm" />
+  </key>
+  <key name="Zoom Tool" >
+    <topic name="Zoom Tool Overview" url="xarax/IDH_Tool_Zoom.htm" />
+  </key>
+</key>
+<key name="ToolTips" >
+  <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  <key name="changing size" >
+    <topic name="Customizing the appearance of the program" url="xarax/IDH_How_Customizing_the_appearance_of_CorelXARA.htm" />
+  </key>
+</key>
+<key name="tracer" >
+  <topic name="Tracing bitmaps" url="xarax/IDH_How_Tracing_a_Bitmap.htm" />
+</key>
+<key name="trackbars" >
+  <topic name="Definition: Slider" url="xarax/IDH_Definition_Trackbar.htm" />
+</key>
+<key name="tracking" >
+  <topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+  <topic name="Definition: Tracking" url="xarax/IDH_Definition_Tracking.htm" />
+  <key name=".tracking (glossary entry)" >
+    <topic name="Definition: Tracking" url="xarax/IDH_Definition_Tracking.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing the tracking of text" url="xarax/IDH_How_Changing_the_Tracking_of_Text.htm" />
+  </key>
+</key>
+<key name="trademarks" >
+  <topic name="Welcome" url="xarax/IDH_Misc_Introduction.htm" />
+</key>
+<key name="transformation center" >
+  <topic name="Definition: Transformation Center" url="xarax/IDH_Definition_Centre_Of_Transformation.htm" />
+  <topic name="Moving the transformation center" url="xarax/IDH_How_Moving_the_Transformation_Center.htm" />
+  <key name=".transformation center (glossary entry)" >
+    <topic name="Definition: Transformation Center" url="xarax/IDH_Definition_Centre_Of_Transformation.htm" />
+  </key>
+  <key name="moving" >
+    <topic name="Moving the transformation center" url="xarax/IDH_How_Moving_the_Transformation_Center.htm" />
+  </key>
+</key>
+<key name="transparency" >
+  <topic name="Applying bitmap transparency" url="xarax/IDH_How_Applying_Bitmap_Transparency.htm" />
+  <topic name="Applying circular transparency" url="xarax/IDH_How_Applying_Circular_Transparency.htm" />
+  <topic name="Applying conical transparency" url="xarax/IDH_How_Applying_Conical_Transparency.htm" />
+  <topic name="Applying diamond transparency" url="xarax/IDH_How_Applying_diamond_transparency.htm" />
+  <topic name="Applying elliptical transparency" url="xarax/IDH_How_Applying_Elliptical_Transparency.htm" />
+  <topic name="Applying flat transparency" url="xarax/IDH_How_Applying_Flat_Transparency.htm" />
+  <topic name="Applying four point transparency" url="xarax/IDH_How_Applying_four_point_transparency.htm" />
+  <topic name="Applying fractal transparency" url="xarax/IDH_How_Applying_Fractal_Transparency.htm" />
+  <topic name="Applying linear transparency" url="xarax/IDH_How_Applying_Linear_Transparency.htm" />
+  <topic name="Applying three point transparency" url="xarax/IDH_How_Applying_three_point_transparency.htm" />
+  <topic name="Applying transparency" url="xarax/IDH_How_Applying_Transparency.htm" />
+  <topic name="Change shadow transparency" url="xarax/Change_shadow_transparency.htm" />
+  <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+  <topic name="Changing transparency" url="xarax/IDH_How_Changing_Tranparency.htm" />
+  <topic name="Changing transparency shape" url="xarax/IDH_How_Changing_Transparency_Shape.htm" />
+  <topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+  <topic name="Creating animated GIF files" url="xarax/IDH_How_Creating_animated_GIF_files.htm" />
+  <topic name="Creating custom transparencies" url="xarax/IDH_How_Creating_Custom_Transparencies.htm" />
+  <topic name="Creating GIF files" url="xarax/IDH_How_Creating_GIF_files.htm" />
+  <topic name="Definition: Alpha-channel" url="xarax/Definition_Alpha_channel.htm" />
+  <topic name="Definition: Transparency" url="xarax/IDH_Definition_Transparency.htm" />
+  <topic name="Definition: Transparency Arrow" url="xarax/IDH_Definition_Transparency_Arrow.htm" />
+  <topic name="Definition: Transparency Handle" url="xarax/IDH_Definition_Transparency_Handle.htm" />
+  <topic name="Definition: Transparency Tool Infobar" url="xarax/IDH_Definition_Transparency_Tool_Infobar.htm" />
+  <topic name="Enabling interactive fill and transparency dragging" url="xarax/IDH_How_Enabling_Interactive_Fill_Dragging.htm" />
+  <topic name="Moving bitmap transparency handles" url="xarax/Moving_bitmap_transparency_handles.htm" />
+  <topic name="Moving four point transparency handles" url="xarax/IDH_How_Moving_four_point_transparency_handles.htm" />
+  <topic name="Moving fractal transparency handles" url="xarax/IDH_How_Moving_Fractal_Transparency_Handles.htm" />
+  <topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+  <topic name="Moving transparency handles" url="xarax/IDH_How_Moving_Transparency_Handles.htm" />
+  <topic name="Removing transparency" url="xarax/Removing_transparency.htm" />
+  <topic name="Transparency Overview" url="xarax/IDH_Overview_Transparency.htm" />
+  <topic name="Transparency Tool - Bitmap and Fractal Cloud Transparency Resolution Field" url="xarax/IDH_Tool_Transparency_Resolution.htm" />
+  <topic name="Transparency Tool Overview" url="xarax/IDH_Tool_Transparency.htm" />
+  <topic name="Using transparent lines" url="xarax/IDH_How_Transparent_Lines.htm" />
+  <key name=".alpha-channel (glossary entry)" >
+    <topic name="Definition: Alpha-channel" url="xarax/Definition_Alpha_channel.htm" />
+  </key>
+  <key name=".transparency (glossary entry)" >
+    <topic name="Definition: Transparency" url="xarax/IDH_Definition_Transparency.htm" />
+  </key>
+  <key name=".transparency arrows (glossary entry)" >
+    <topic name="Definition: Transparency Arrow" url="xarax/IDH_Definition_Transparency_Arrow.htm" />
+  </key>
+  <key name=".transparency handles (glossary entry)" >
+    <topic name="Definition: Transparency Handle" url="xarax/IDH_Definition_Transparency_Handle.htm" />
+  </key>
+  <key name="animated GIFs" >
+    <topic name="Creating animated GIF files" url="xarax/IDH_How_Creating_animated_GIF_files.htm" />
+  </key>
+  <key name="applying" >
+    <topic name="Applying bitmap transparency" url="xarax/IDH_How_Applying_Bitmap_Transparency.htm" />
+    <topic name="Applying circular transparency" url="xarax/IDH_How_Applying_Circular_Transparency.htm" />
+    <topic name="Applying conical transparency" url="xarax/IDH_How_Applying_Conical_Transparency.htm" />
+    <topic name="Applying diamond transparency" url="xarax/IDH_How_Applying_diamond_transparency.htm" />
+    <topic name="Applying elliptical transparency" url="xarax/IDH_How_Applying_Elliptical_Transparency.htm" />
+    <topic name="Applying flat transparency" url="xarax/IDH_How_Applying_Flat_Transparency.htm" />
+    <topic name="Applying four point transparency" url="xarax/IDH_How_Applying_four_point_transparency.htm" />
+    <topic name="Applying fractal transparency" url="xarax/IDH_How_Applying_Fractal_Transparency.htm" />
+    <topic name="Applying linear transparency" url="xarax/IDH_How_Applying_Linear_Transparency.htm" />
+    <topic name="Applying three point transparency" url="xarax/IDH_How_Applying_three_point_transparency.htm" />
+    <topic name="Applying transparency" url="xarax/IDH_How_Applying_Transparency.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+    <topic name="Changing transparency" url="xarax/IDH_How_Changing_Tranparency.htm" />
+    <topic name="Changing transparency shape" url="xarax/IDH_How_Changing_Transparency_Shape.htm" />
+  </key>
+  <key name="changing painting mode" >
+    <topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+  </key>
+  <key name="changing profile" >
+    <topic name="Changing the transparency profile" url="xarax/Changing_the_transparency_profile.htm" />
+  </key>
+  <key name="custom" >
+    <topic name="Creating custom transparencies" url="xarax/IDH_How_Creating_Custom_Transparencies.htm" />
+  </key>
+  <key name="enabling interactive transparency dragging" >
+    <topic name="Enabling interactive fill and transparency dragging" url="xarax/IDH_How_Enabling_Interactive_Fill_Dragging.htm" />
+  </key>
+  <key name="GIF files" >
+    <topic name="Creating GIF files" url="xarax/IDH_How_Creating_GIF_files.htm" />
+  </key>
+  <key name="lines" >
+    <topic name="Using transparent lines" url="xarax/IDH_How_Transparent_Lines.htm" />
+  </key>
+  <key name="moving handles" >
+    <topic name="Moving bitmap transparency handles" url="xarax/Moving_bitmap_transparency_handles.htm" />
+    <topic name="Moving four point transparency handles" url="xarax/IDH_How_Moving_four_point_transparency_handles.htm" />
+    <topic name="Moving fractal transparency handles" url="xarax/IDH_How_Moving_Fractal_Transparency_Handles.htm" />
+    <topic name="Moving three point transparency handles" url="xarax/IDH_How_Moving_three_point_transparency_handles.htm" />
+    <topic name="Moving transparency handles" url="xarax/IDH_How_Moving_Transparency_Handles.htm" />
+  </key>
+  <key name="of shadows" >
+    <topic name="Change shadow transparency" url="xarax/Change_shadow_transparency.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Transparency Overview" url="xarax/IDH_Overview_Transparency.htm" />
+  </key>
+  <key name="removing" >
+    <topic name="Removing transparency" url="xarax/Removing_transparency.htm" />
+  </key>
+  <key name="Transparency Tool" >
+    <topic name="Definition: Transparency Tool Infobar" url="xarax/IDH_Definition_Transparency_Tool_Infobar.htm" />
+    <topic name="Transparency Tool Overview" url="xarax/IDH_Tool_Transparency.htm" />
+  </key>
+  <key name="transparency type" >
+    <topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+  </key>
+</key>
+<key name="transparency type" >
+  <topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+  <topic name="Definition: Bleach transparency type" url="xarax/Definition_Bleach_transparency_type.htm" />
+  <topic name="Definition: Brightness transparency type" url="xarax/Definition__Brightness_transparency_type.htm" />
+  <topic name="Definition: Contrast transparency type" url="xarax/Definition__Contrast_transparency_type.htm" />
+  <topic name="Definition: Darken transparency type" url="xarax/Definition__Darken_transparency_type.htm" />
+  <topic name="Definition: Hue transparency type" url="xarax/Definition__Hue_transparency_type.htm" />
+  <topic name="Definition: Lighten transparency type" url="xarax/Definition_Lighten_transparency_type.htm" />
+  <topic name="Definition: Luminosity transparency type" url="xarax/Definition__Luminosity_transparency_type.htm" />
+  <topic name="Definition: Mix transparency type" url="xarax/Definition_Mix_transparency_type.htm" />
+  <topic name="Definition: Saturation transparency type" url="xarax/Definition__Saturation_transparency_type.htm" />
+  <topic name="Definition: Stained Glass transparency type" url="xarax/Definition_Stained_Glass_transparency_type.htm" />
+  <key name=".bleach (glossary entry)" >
+    <topic name="Definition: Bleach transparency type" url="xarax/Definition_Bleach_transparency_type.htm" />
+  </key>
+  <key name=".brightness (glossary entry)" >
+    <topic name="Definition: Brightness transparency type" url="xarax/Definition__Brightness_transparency_type.htm" />
+  </key>
+  <key name=".contrast (glossary entry)" >
+    <topic name="Definition: Contrast transparency type" url="xarax/Definition__Contrast_transparency_type.htm" />
+  </key>
+  <key name=".darken (glossary entry)" >
+    <topic name="Definition: Darken transparency type" url="xarax/Definition__Darken_transparency_type.htm" />
+  </key>
+  <key name=".hue (glossary entry)" >
+    <topic name="Definition: Hue transparency type" url="xarax/Definition__Hue_transparency_type.htm" />
+  </key>
+  <key name=".lighten (glossary entry)" >
+    <topic name="Definition: Lighten transparency type" url="xarax/Definition_Lighten_transparency_type.htm" />
+  </key>
+  <key name=".luminosity (glossary entry)" >
+    <topic name="Definition: Luminosity transparency type" url="xarax/Definition__Luminosity_transparency_type.htm" />
+  </key>
+  <key name=".mix (glossary entry)" >
+    <topic name="Definition: Mix transparency type" url="xarax/Definition_Mix_transparency_type.htm" />
+  </key>
+  <key name=".saturation (glossary entry)" >
+    <topic name="Definition: Saturation transparency type" url="xarax/Definition__Saturation_transparency_type.htm" />
+  </key>
+  <key name=".stained glass (glossary entry)" >
+    <topic name="Definition: Stained Glass transparency type" url="xarax/Definition_Stained_Glass_transparency_type.htm" />
+  </key>
+  <key name="changing" >
+    <topic name="Changing Transparency Type" url="xarax/Changing_Transparency_Type.htm" />
+  </key>
+</key>
+<key name="transparent GIF files" >
+  <topic name="Importing transparent bitmap files" url="xarax/IDH_Misc_Importing_GIFs.htm" />
+  <key name="importing" >
+    <topic name="Importing transparent bitmap files" url="xarax/IDH_Misc_Importing_GIFs.htm" />
+  </key>
+</key>
+<key name="Transparent GIFs" >
+  <topic name="Internet Bitmaps Overview" url="xarax/IDH_Overview_Internet_Bitmaps.htm" />
+</key>
+<key name="trimming" >
+  <topic name="Masking a bitmap" url="xarax/IDH_How_Bitmap_Masking.htm" />
+  <key name="bitmaps" >
+    <topic name="Masking a bitmap" url="xarax/IDH_How_Bitmap_Masking.htm" />
+  </key>
+</key>
+<key name="troubleshooters" >
+  <topic name="Bitmap Tracer Troubleshooter" url="xarax/IDH_How_Tracer_Troubleshooting.htm" />
+  <key name="bitmap tracer" >
+    <topic name="Bitmap Tracer Troubleshooter" url="xarax/IDH_How_Tracer_Troubleshooting.htm" />
+  </key>
+</key>
+<key name="TrueType fonts" >
+  <topic name="Definition: TrueType" url="xarax/IDH_Definition_TrueType.htm" />
+  <topic name="Installing fonts" url="xarax/IDH_How_Installing_a_Font.htm" />
+  <key name=".TrueType (glossary entry)" >
+    <topic name="Definition: TrueType" url="xarax/IDH_Definition_TrueType.htm" />
+  </key>
+  <key name="installing" >
+    <topic name="Installing fonts" url="xarax/IDH_How_Installing_a_Font.htm" />
+  </key>
+</key>
+<key name="TrueVision TARGA files" >
+  <topic name="Creating TARGA files" url="xarax/IDH_How_Creating_TARGA_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="tweening" >
+  <topic name="Alternative names" url="xarax/Alternative_names.htm" />
+</key>
+<key name="typefaces" >
+  <topic name="Definition: Font" url="xarax/IDH_Definition_Font.htm" />
+  <key name="see fonts" >
+    <topic name="Definition: Font" url="xarax/IDH_Definition_Font.htm" />
+  </key>
+</key>
+<key name="undo" >
+  <topic name="Changing the undo size" url="xarax/IDH_How_Changing_the_undo_size.htm" />
+  <topic name="Definition: Undo" url="xarax/IDH_Definition_Undo.htm" />
+  <topic name="Undoing and redoing operations" url="xarax/IDH_How_Undoing_and_Redoing_Operations.htm" />
+  <key name=".undo (glossary entry)" >
+    <topic name="Definition: Undo" url="xarax/IDH_Definition_Undo.htm" />
+  </key>
+  <key name="changing the undo size" >
+    <topic name="Changing the undo size" url="xarax/IDH_How_Changing_the_undo_size.htm" />
+  </key>
+  <key name="undoing operations" >
+    <topic name="Undoing and redoing operations" url="xarax/IDH_How_Undoing_and_Redoing_Operations.htm" />
+  </key>
+</key>
+<key name="ungrouping objects" >
+  <topic name="Ungrouping objects" url="xarax/IDH_How_Ungrouping_Objects.htm" />
+</key>
+<key name="units" >
+  <topic name="Changing the color units" url="xarax/IDH_How_Changing_the_Color_Units.htm" />
+  <topic name="Changing the font units" url="xarax/IDH_How_Changing_the_font_units.htm" />
+  <topic name="Changing the page units" url="xarax/IDH_How_Changing_the_page_units.htm" />
+  <topic name="Creating a custom unit" url="xarax/IDH_How_Creating_a_Custom_Unit.htm" />
+  <topic name="Deleting a custom unit" url="xarax/IDH_How_Deleting_a_custom_unit.htm" />
+  <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+  <key name="color" >
+    <topic name="Changing the color units" url="xarax/IDH_How_Changing_the_Color_Units.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating a custom unit" url="xarax/IDH_How_Creating_a_Custom_Unit.htm" />
+  </key>
+  <key name="deleting" >
+    <topic name="Deleting a custom unit" url="xarax/IDH_How_Deleting_a_custom_unit.htm" />
+  </key>
+  <key name="font" >
+    <topic name="Changing the font units" url="xarax/IDH_How_Changing_the_font_units.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+  </key>
+  <key name="page" >
+    <topic name="Changing the page units" url="xarax/IDH_How_Changing_the_page_units.htm" />
+  </key>
+</key>
+<key name="UNIX color bitmap files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="UNIX grayscale bitmap files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="UNIX monochrome bitmap files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="URL" >
+  <topic name="Adding web addresses to objects" url="xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm" />
+  <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  <key name="adding to objects" >
+    <topic name="Adding web addresses to objects" url="xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  </key>
+</key>
+<key name="US units" >
+  <topic name="Changing the page units" url="xarax/IDH_How_Changing_the_page_units.htm" />
+  <key name="changing to" >
+    <topic name="Changing the page units" url="xarax/IDH_How_Changing_the_page_units.htm" />
+  </key>
+</key>
+<key name="Utilities Menu" >
+  <topic name="Utilities Menu" url="xarax/IDH_Menu_Utilities.htm" />
+</key>
+<key name="vector format files (glossary entry)" >
+  <topic name="Definition: Vector Format" url="xarax/IDH_Definition_Vector_Format.htm" />
+</key>
+<key name="view quality" >
+  <topic name="Changing the screen quality of documents" url="xarax/IDH_How_Changing_the_Quality_Setting.htm" />
+</key>
+<key name="views" >
+  <topic name="Configuring the program to ask before closing views" url="xarax/IDH_How_Configuring_the_program_to_ask_before_closing_views.htm" />
+  <topic name="Definition: View" url="xarax/IDH_Definition_View.htm" />
+  <topic name="View Pop-up Menu" url="xarax/IDH_Popup_View.htm" />
+  <topic name="Viewing several document at once" url="xarax/IDH_How_Viewing_several_document_at_once.htm" />
+  <key name=".view (glossary entry)" >
+    <topic name="Definition: View" url="xarax/IDH_Definition_View.htm" />
+  </key>
+  <key name="arranging" >
+    <topic name="Viewing several document at once" url="xarax/IDH_How_Viewing_several_document_at_once.htm" />
+  </key>
+  <key name="ask before closing" >
+    <topic name="Configuring the program to ask before closing views" url="xarax/IDH_How_Configuring_the_program_to_ask_before_closing_views.htm" />
+  </key>
+  <key name="pop-up menu" >
+    <topic name="View Pop-up Menu" url="xarax/IDH_Popup_View.htm" />
+  </key>
+</key>
+<key name="visual selectors" >
+  <topic name="Alternative names" url="xarax/Alternative_names.htm" />
+</key>
+<key name="web addresses" >
+  <topic name="Adding web addresses to objects" url="xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm" />
+  <topic name="Definition: Web Address" url="xarax/IDH_Definition_Web_Address.htm" />
+  <topic name="Removing web addresses from objects" url="xarax/IDH_How_Removing_Web_Addresses_from_Objects.htm" />
+  <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  <key name=".web address (glossary entry)" >
+    <topic name="Definition: Web Address" url="xarax/IDH_Definition_Web_Address.htm" />
+  </key>
+  <key name="adding to objects" >
+    <topic name="Adding web addresses to objects" url="xarax/IDH_How_Adding_Web_Addresses_to_Objects.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="Web Address Overview" url="xarax/IDH_Overview_Web_Address.htm" />
+  </key>
+  <key name="removing from objects" >
+    <topic name="Removing web addresses from objects" url="xarax/IDH_How_Removing_Web_Addresses_from_Objects.htm" />
+  </key>
+</key>
+<key name="web files" >
+  <topic name="Creating Xara Web files" url="xarax/IDH_How_Creating_Xara_Web_files.htm" />
+  <topic name="Image Slicing (File Menu)" url="xarax/IDH_Command_Slice_Image.htm" />
+  <topic name="Image Slicing Overview" url="xarax/Image_Slicing_Overview.htm" />
+  <topic name="Image Slicing Overview (alternative)" url="xarax/Image_Slicing_Overview__alternative_.htm" />
+  <topic name="Importing images from the Web" url="xarax/IDH_How_Importing_images_from_the_Web.htm" />
+  <key name="creating" >
+    <topic name="Creating Xara Web files" url="xarax/IDH_How_Creating_Xara_Web_files.htm" />
+  </key>
+  <key name="image slicing" >
+    <topic name="Image Slicing Overview" url="xarax/Image_Slicing_Overview.htm" />
+    <topic name="Image Slicing Overview (alternative)" url="xarax/Image_Slicing_Overview__alternative_.htm" />
+  </key>
+  <key name="importing from the web" >
+    <topic name="Importing images from the Web" url="xarax/IDH_How_Importing_images_from_the_Web.htm" />
+  </key>
+</key>
+<key name="WebSnap palette (glossary entry)" >
+  <topic name="Definition: WebSnap palette" url="xarax/Definition__WebSnap_palette.htm" />
+</key>
+<key name="Webster" >
+  <topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+  <key name="Xara Webster" >
+    <topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+  </key>
+</key>
+<key name="welcome" >
+  <topic name="Welcome" url="xarax/IDH_Misc_Introduction.htm" />
+</key>
+<key name="what's new" >
+  <topic name="What's New in This Version?" url="xarax/IDH_Misc_Whats_Under_Development.htm" />
+</key>
+<key name="wheel (mouse)" >
+  <topic name="Mouse-wheel operations" url="xarax/Mouse_wheel_operations.htm" />
+</key>
+<key name="width" >
+  <topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+  <key name="changing line width" >
+    <topic name="Changing line thicknesses" url="xarax/IDH_How_Changing_Line_Thicknesses.htm" />
+  </key>
+</key>
+<key name="Window Menu" >
+  <topic name="Window Menu" url="xarax/IDH_Menu_Window.htm" />
+</key>
+<key name="window object" >
+  <topic name="Create a ClipView" url="xarax/Create_a_ClipView.htm" />
+  <topic name="Move objects in a ClipView" url="xarax/Move_objects_in_a_ClipView.htm" />
+  <topic name="Using ClipView" url="xarax/Using_ClipView.htm" />
+  <key name="in ClipView" >
+    <topic name="Create a ClipView" url="xarax/Create_a_ClipView.htm" />
+    <topic name="Move objects in a ClipView" url="xarax/Move_objects_in_a_ClipView.htm" />
+    <topic name="Using ClipView" url="xarax/Using_ClipView.htm" />
+  </key>
+</key>
+<key name="Windows bitmap files" >
+  <topic name="Creating BMP files" url="xarax/IDH_How_Creating_BMP_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Windows icon files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Windows metafiles" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Word Perfect Group files" >
+  <topic name="Creating WPG files" url="xarax/IDH_How_Creating_WPG_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="work area" >
+  <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  <key name="increasing" >
+    <topic name="Increasing the available work area" url="xarax/IDH_How_Increasing_the_available_screen_area.htm" />
+  </key>
+</key>
+<key name="WPG files" >
+  <topic name="Creating WPG files" url="xarax/IDH_How_Creating_WPG_files.htm" />
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="X Windows bitmap files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="Xara Ltd" >
+  <topic name="About Xara Ltd" url="xarax/IDH_Misc_Xara_Ltd.htm" />
+</key>
+<key name="Xara products" >
+  <topic name="Definition: CorelXARA" url="xarax/Definition__CorelXARA.htm" />
+  <topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+  <key name="CorelXARA" >
+    <topic name="Definition: CorelXARA" url="xarax/Definition__CorelXARA.htm" />
+  </key>
+  <key name="Xara Webster" >
+    <topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+  </key>
+</key>
+<key name="Xara Webster" >
+  <topic name="Definition: Xara Webster" url="xarax/Definition__Xara_Webster.htm" />
+</key>
+<key name="XBM files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="XPM files" >
+  <topic name="List of Supported File Formats" url="xarax/IDH_Misc_Supported_Formats.htm" />
+</key>
+<key name="yd (measurements)" >
+  <topic name="Units Overview" url="xarax/IDH_Overview_Units.htm" />
+</key>
+<key name="Zoom Tool" >
+  <topic name="Definition: Zoom Tool Infobar" url="xarax/IDH_Definition_Zoom_Tool_Infobar.htm" />
+  <topic name="Using the Zoom Tool temporarily" url="xarax/IDH_How_Zoom_Temporary.htm" />
+  <topic name="Zoom Tool Overview" url="xarax/IDH_Tool_Zoom.htm" />
+</key>
+<key name="zooming" >
+  <topic name="Definition: Zoom" url="xarax/IDH_Definition_Zoom.htm" />
+  <topic name="Returning to the previous zoom" url="xarax/IDH_How_Previous_Zoom.htm" />
+  <topic name="Zooming in and out" url="xarax/IDH_How_Zooming_in_and_out.htm" />
+  <topic name="Zooming to the selection" url="xarax/IDH_How_Zoom_to_Selection.htm" />
+  <topic name="Zooming to the whole drawing" url="xarax/IDH_How_View_Whole_Drawing.htm" />
+  <topic name="Zooming to the whole page" url="xarax/IDH_How_View_Whole_Page.htm" />
+  <key name=".zooming (glossary entry)" >
+    <topic name="Definition: Zoom" url="xarax/IDH_Definition_Zoom.htm" />
+  </key>
+  <key name="in and out" >
+    <topic name="Zooming in and out" url="xarax/IDH_How_Zooming_in_and_out.htm" />
+  </key>
+  <key name="previous zoom" >
+    <topic name="Returning to the previous zoom" url="xarax/IDH_How_Previous_Zoom.htm" />
+  </key>
+  <key name="to page" >
+    <topic name="Zooming to the whole page" url="xarax/IDH_How_View_Whole_Page.htm" />
+  </key>
+  <key name="to selection" >
+    <topic name="Zooming to the selection" url="xarax/IDH_How_Zoom_to_Selection.htm" />
+  </key>
+  <key name="to whole drawing" >
+    <topic name="Zooming to the whole drawing" url="xarax/IDH_How_View_Whole_Drawing.htm" />
+  </key>
+</key>
+
+</indexdata>
