@@ -1,5 +1,0 @@
-Coord=DocCoord
-<Rect>=DocRect
-INC_RECT=INC_DOCRECT
-"coord.h"="doccoord.h"
-"rect.h"="docrect.h"

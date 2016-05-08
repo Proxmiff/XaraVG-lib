@@ -1,5 +1,0 @@
-Coord=UserCoord
-<Rect>=UserRect
-INC_RECT=INC_USERRECT
-"coord.h"="usercord.h"
-"rect.h"="userrect.h"
