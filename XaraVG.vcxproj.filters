@@ -1,0 +1,5078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kernel\aboutdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai5_eps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai8_eps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai_bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai_eps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai_epsrr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai_grad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ai_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\aligndlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\animparams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\appprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\aprps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\archive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\arrows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attraggl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attrappl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attrbev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attrmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\attrmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\aw_eps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\backgrnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\barcreationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\basedoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\beveler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bevfill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bevtrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxatom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxdlg2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxmngr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxopun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bfxtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\biasdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\biasgain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\biasgdgt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bitfilt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bitmapcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bitmapcachekey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bitmapfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bldbrdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\blndhelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\blobby.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\blobs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\blppbrsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmanip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmapprev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpalctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpalint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpexdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpexprw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmplist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpsdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpseq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bmpsrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brndsel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brpress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshbeca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshgdgt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brshname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brushdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brushop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\brushref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\bshadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cachfifo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cachrand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cachweak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cameleps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\camfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\camtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\capturemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccafile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccbhfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccbuffil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccmaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ccpanose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cdrfill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cdrfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cdroutl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cdrtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\chapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\clamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\clicarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\clipattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\clipint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmdctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxdcobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxexdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxibits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxicmds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxifltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxirefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxistut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxrendr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cmxtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cnamecol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colclist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colcontx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\coldlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colgal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\collist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colormgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colourix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\colplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\combshps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\contmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\coord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\coplfilr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\coreleps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cpyact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\crthumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\csrstack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cutop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfellp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxflists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfnbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfpoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfrec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfrech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxfrgshp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxftext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxftfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxftrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\cxftree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\davedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\daveimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\dbgthumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\dbugtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\debugdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\dialogop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\doccolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\doccomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\doccoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\docrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\docview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\draginfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\drawfltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\dumbnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\editsel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\effects_stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\epscdef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\epsclist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\epsfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\epssitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\epsstack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\exagal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\exjpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\expbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\expcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\exphint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\exprview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\extender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\extendsetsdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\f16spec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fillattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fillcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fillndge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fillramp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fillval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filtimag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filtimop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filtirr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\filtrmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fimagdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\finfodlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fitcurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fix24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fixed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fixed16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fixed24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fntcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fontcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fontlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fontman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fracfill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fraclist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\frameops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\freeeps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ftfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fthrattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fthrconv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\fttyplis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gadget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gallery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gblend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\GDrawIntf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\genv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gmould.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gradtbl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\groupops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\grptrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\guides.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\gwinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\hittest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\hlinkdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\hotkeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\htmlexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\htmlfltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\htmllist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\imagemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\imjpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\impbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\impcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\impexpop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\impstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\inetop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\infobar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\infocomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\insertnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\invalid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\isetattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\jpgdest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\jpgermgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\jpgprgrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\jpgsrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\kerneldc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\lattrops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\layerdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\layergal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\layermgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\layerprp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\la_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\lineattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\linecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\linedef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\linwthop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\listitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\loadbrsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\main1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\main2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\main3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\makebmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\maskedrr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\menuitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\menuops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\mkshapes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\mkstroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\modlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\moldedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\moldenv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\moldpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\moldshap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\mrhbits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\namedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\native.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nativeop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nativeps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nbevcont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ncntrcnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndbldpth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndbrshmk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndbrshpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndcchbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndclpcnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndmldgrp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndmldink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndmldpth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndoptmz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ndtxtpth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\newcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngcore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngdrag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngprop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngscan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngsentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ngsetop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeabmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodebev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodebldr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeblnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodebmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodebrsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodecach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeclip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodecntr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodecont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodedoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeelip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeliveeffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodemldr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodemold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodepath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodepostpro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\noderect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\noderend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodershp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeshad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodeshap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodetext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodetxtl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\nodetxts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\noise1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\noisebas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\noisef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\npaper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\objcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\objchge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\objreg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\offattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opbarcreation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opbreak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opdesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opdragbx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opdupbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opfeathr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opgrad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ophist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opimgset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opnudge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\oppull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opsmooth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opsmpshp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsgrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsinet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsmisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optspage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsplug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optspntr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsprin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsscal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optstune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsundo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\optsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opwhat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\opwiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ordlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\overitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\overlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\page.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pagesize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\palmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\paper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathndge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathpcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathproc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\paths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathstrk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathtrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pathutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pbecomea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\penedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\plugmngr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\plugop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\plugopun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pmaskrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pngfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pngprgrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ppairbsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ppbevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ppbrush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ppstroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ppvecstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pressure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prevwdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\princomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\printctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\printing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prnmkcom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prnmks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prnprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prntview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prpsgds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prpslyrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prvwflt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\prvwmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\psrndrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\pump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\quality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qualops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\radio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechbmpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechellp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechpoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechprnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechrshp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechsmth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechtext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rechunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\region.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\renddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rgnlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rifffile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rndctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rnddlgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rndrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rndstack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rrcaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rsmooth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\rulers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\samplist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\saveeps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\scanrr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\scrnview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\scunit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\selall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\selmedia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\selop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\selstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sentryop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgallery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgbitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgbrush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgcolour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgdrag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sginit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sglayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sglbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sglcart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sglfills.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sglib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgline2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgscan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgscanf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgstroke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\sgtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\shapeops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\slice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\slicehelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\snap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\snapops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\spread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\statline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\stdbars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\strkattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\strkcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\strlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\styles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfbitmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfbuttn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfexpdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swffiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swffont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfrndr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swfsprit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\swftext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\textacts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\textfltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\timespan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tipsdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tmpltarg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tmpltatr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tmpltdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tooldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\toollist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tracectl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tracedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tracergn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\tranform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\trans2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\transop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\txtattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\uielem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\undoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\unitcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\units.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\urldlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\urlimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\userattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\usercord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\userrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\valfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\vector3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\vectrndr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\viewcomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\viewmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webaddr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webattr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webflags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\webprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\wrkcoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\XaDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\XaDrwOld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xarprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xlong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xpfcaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xpfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xpfrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\xsepsops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\zdeflate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\zdftrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\ziftrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\zinflate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\zordops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\zstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\bevinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\bevtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\beztool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\blndtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\blnktool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\camtools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\cntrtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\dragtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\eliptool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\filltool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\freehand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\freeinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\gridtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\liveeffectsinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\liveeffectstool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\moldtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opbevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opbezier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opclip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opcntr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opdrbrsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opflip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opfree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opliveeffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opretro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\oprotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\oprshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opscale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opscale2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opshadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opshear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\opsquash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\pentool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\pushbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\pushtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\rectangl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\regshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\rendsel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\selector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\selinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\shadinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\ShadowTl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\shadtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\slicetool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\textinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\textops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\texttool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\tranlate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\viewmod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\zoomops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\zoomtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\xarlib\camelot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\xarlib\ensure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\xarlib\expandxar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\xarlib\xarlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\appstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\atmfonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\basebar2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\basestr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bblwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bfxalu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bfxpixop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bitmapdropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bitmapgriddropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\bmpfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camdoctp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camelot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cammemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camnet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camplatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camprofile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camresource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\camview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cartctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cartprov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cbmpdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ccdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cclistga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ccobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ccolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cctime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cdrbitm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\clikmods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\clipext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\clipmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\coldrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\colourmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\colpick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\convert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cstatbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ctrlhelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ctrllist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\customlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\diagnost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dibconv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dibutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dlgcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dlgevt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dlgmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dlgview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dockbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dragbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dragcol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dragmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dragpick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dragtrgt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\drawctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\dropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ensure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\errorbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\exceptio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\filedlgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\filehndl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fileinfolist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\filesize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fileutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixmem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixst128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixst256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixstr16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixstr32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixstr64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fixstr8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fontbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fontdrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fontpgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ftfonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fthelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\fuzzclip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\galbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\gbrush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\gdrawcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\gendwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\giffiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\gifutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\gpalopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\griddropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndbrsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndclik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grnddib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndprnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\grndwing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\handles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\helpdownload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\helpdownloadwebdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\helptabs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\helpuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\htmldwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\imgmgkft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\keypress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ktimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\lddirect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\localenv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\makemsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\maskfilt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\memblk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\menucmds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\menupref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\metafilt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\metaview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\monotime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\mtrand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\natclipm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\offscrn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilbitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilcoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oildbug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilfiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilfltrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilmenus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilmods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilpanse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilprefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilprog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oilruler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\oiltool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\osrndrgn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\outptdib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\outptgif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\outptpng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\palman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\pathname.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\pathnmex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\pen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\pngfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\pngutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ppmfiltr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\prdlgctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\printprg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\prncamvw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\progbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\psdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ralphdoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\readeps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\rendbits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\rendwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\scrcamvw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\scrlbutn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\scrlthmb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\scroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\scrvw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgdfonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgfonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgindgen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgldrag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgliboil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sglinepr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sgrmfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\speedtst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\stdwx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\stemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tablet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\textfuns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\thumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tmplmngr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ttfonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\tunemem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\unicdman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\varstr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\vstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\wincoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\winrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\wxkeymap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xmlutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\xpoilflt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\binreloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kernel\docrect.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="kernel\userrect.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kernel\aboutdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai5_eps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai8_eps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai_bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai_eps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai_epsrr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai_grad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ai_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\aligndlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\animparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\appprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\appstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\aprps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\archive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\arrows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attraggl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attrappl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attrbev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attrmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attrmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\attrval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\aw_eps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\backgrnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\barcreationdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\barmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\basedoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\becomea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\beveler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bevfill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bevtrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxatom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxdlg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxmngr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxopun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bfxtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\biasdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\biasgain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\biasgdgt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\binds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitfilt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitfopts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitmapcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitmapcachekey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitmapfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bitmpinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bldbrdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\blendatt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\blndhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\blobby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\blobs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\blppbrsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmanip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmapprev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpalctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpalint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpexdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpexprw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpsdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpseq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bmpsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brndsel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brpress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshbeca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshgdgt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brshname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brushdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brushmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brushop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\brushref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bshadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\bshadow2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cachfifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cachrand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cachweak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\camconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cameleps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\camfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\capturemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccafile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccbhfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccbuffil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccmaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ccpanose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cdrcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cdrfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\chapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\clamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\clicarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\clipattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\clipint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cliptype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmdctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxexdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxibits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxidata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxifltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxistut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxrendr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cmxtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cnamecol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colcarry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colcontx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\coldlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colgal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\collist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colormgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colourix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\colplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\comattrmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\combshps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\contmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\coord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\coplfilr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\coreleps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cpyact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\crthumb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\csrstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cutop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfarrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfcols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfdash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfellp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxflists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfnbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfpoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfrec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfrech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfrgshp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxftags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxftext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxftfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxftrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxftree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\cxfunits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\davedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\daveimp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\dbgthumb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\dbugtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\debugdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\defalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\dialogop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\doccolor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\doccomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\doccoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\docmsgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\docrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\docview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\docvmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\draginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\dragmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\drawfltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\dumbnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\editsel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\effects_stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\epscdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\epsclist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\epsfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\epssitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\epsstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\exagal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\exjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\expbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\expcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\exphint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\exprview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\extender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\extendsetsdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ezmodule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\f16spec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fileform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillattr2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillndge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillramp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fillval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filter_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filtimag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filtimop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filtirr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\filtrmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fimagdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\finfodlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fitcurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fix24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fixed16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fixed24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\flatfact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fntcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fontcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fontlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fontman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fracfill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fraclist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\frameops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\freeeps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ftfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fthrattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fthrconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\fttyplis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gadget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gallery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gblend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gclips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gconsts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gdraw2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\GDrawIntf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\genlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\genstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\genv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\glatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gmould.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gradtbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gradtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\groupops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\grptrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\guides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\GVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\gwinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\helpids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\helpuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\hlinkdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\hotkeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\htmlexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\htmlfltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\htmllist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\imagemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\imjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\impbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\impcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\impexpop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\impstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\inetop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\infobar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\infocomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\insertnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\invalid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\iprofile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\isetattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jpgdest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jpgermgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jpglib_namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jpgprgrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\jpgsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\kerneldc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\keymsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\lattrops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layerdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layergal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layermgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layermsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\layerprp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\la_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\lineattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\linecomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\linedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\linwthop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\listitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\loadbrsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\logname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\makebmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\maskedrr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\menuitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\menuops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\mkshapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\mkstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\modlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\moldedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\moldenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\moldpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\moldshap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\mrhbits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\namedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nativeop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nativeps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nbevcont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ncntrcnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndbldpth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndbrshmk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndbrshpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndcchbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndclpcnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndmldgrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndmldink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndmldpth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndoptmz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ndtxtpth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\newcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngcore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngdrag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngscan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngsentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ngsetop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeabmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodebev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodebldr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeblnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodebmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodebrsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodecach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodecntr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodecomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodecont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodedoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeelip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeliveeffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodemldr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodemold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodepath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodepostpro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\noderect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\noderend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodershp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeshad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodeshap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodetext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodetxtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\nodetxts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\noise1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\noisebas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\noisef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\npaper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\objcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\objchge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\objreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\offattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opbarcreation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opbreak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opdragbx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opdupbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opfeathr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opgrad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ophist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opimgset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opnudge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\oppull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opsmooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opsmpshp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsgrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsinet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsmisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsmsgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optspage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsplug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optspntr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsprin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsscal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optstune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsundo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsunit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\optsview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opwhat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\opwiz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ordlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\overitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\overlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pagesize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\paldefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\palmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\paper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathndge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathpcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathproc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\paths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathshap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathstrk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathtrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pathutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pbecomea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\penedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\plugmngr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\plugop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\plugopun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pmaskrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pngfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pngprgrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ppairbsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ppbevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ppbrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ppstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\ppvecstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prevwdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\princomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\printctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\printing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\printmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prnmkcom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prnmks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prnprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prntview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prpsgds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prpslyrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prvwflt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\prvwmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\psrndrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\pump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qualattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\quality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qualops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\radio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechblnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechbmpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechellp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechgrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechmld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechpath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechpoly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechprnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechrshp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechshad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechsmth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechtext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechunit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rechview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\release.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\renddlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rgnlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rifffile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rndctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rnddlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rndrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rndstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rrcaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rsmooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\rulers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\samplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\saveeps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\scanrr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\scrnview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\scunit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\selall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\selmedia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\selmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\selop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\selstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sentryop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgallery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgbrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgcolour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgdrag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sginit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sglayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sglbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sglcart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sglfills.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgline2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgscan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgscanf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgstroke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sgtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\shapeops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\slicehelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\slowjob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\snap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\snapops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\sprdmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\spread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\statline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\stdbars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\stl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\stockcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\strkattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\strkcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\strlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\styles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfbitmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfbuttn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfexpdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swffiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swffont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfplace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfrndr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swfsprit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\swftext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\taglists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\textacts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\textfltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\thumbmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\timespan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tipsdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tmpltarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tmpltatr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tmpltdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tooldlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\toollist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\toolmsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tracectl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tracedlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tracergn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\tranform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\trans2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\transop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\txtattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\uielem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\undoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\unitcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\unitres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\unittype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\urldlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\urlimp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\userattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\usercord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\userrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\valfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\vector3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\vectrndr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\viewcomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\viewmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\visiattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webattr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\webprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\wrkcoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\wrkrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\XaDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\XaDrwOld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xagdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xarprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xlong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xmatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xpeoptokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xpfcaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xpfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xpfrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\xsepsops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zdeflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zinflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zordops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\bevinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\bevtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\beztool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\blndtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\blnktool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\cntrtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dragtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\eliptool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\filltool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\freehand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\freeinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\gridtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\liveeffectsinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\liveeffectstool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\moldtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opbevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opbezier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opcntr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opdrbrsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opflip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opfree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opliveeffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opretro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\oprotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\oprshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opscale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opscale2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opshadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opshear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\opsquash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\pentool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\pushtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\rectangl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\regshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\rendsel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\rotate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\selector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\selinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\shadinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\ShadowTl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\shadtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\slicetool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\textinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\textops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\texttool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\tranlate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\viewmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\zoomops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\zoomtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\xarlib\camelot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\xarlib\ensure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\xarlib\xarlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\atmfonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\basebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\basestr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bblwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bfxalu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bfxpixop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\binreloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bitmapdropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bitmapgriddropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bmpfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\bubbleid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camdoctp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camelot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cammemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camnet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camprofile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camresource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\camview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cartctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cartprov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cbmpdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ccarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ccdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cclistga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ccobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ccolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cctime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cdrbitm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cdrdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cdrform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\clikmods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\clipext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\clipmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\coldrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\colourmat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\colpick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\compatdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cstatbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ctrlhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ctrllist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\customlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\cversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\devcolor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\diagnost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dibconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dibutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dlgcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dlgevt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dlgmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dlgtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dlgview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dockbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dragbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dragcol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dragmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dragpick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dragtrgt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\drawctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\dropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ensure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\errorbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\exceptio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\filedlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fileinfolist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fileutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixst128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixst256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixstr16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixstr32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixstr64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fixstr8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fontbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fontclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fontdrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fontimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fontpgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ftfonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fthelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\fuzzclip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\galbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gbrush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gbrushop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gdrawcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gendwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\giffiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gifutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gpalopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\griddropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndbrsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndclik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grnddib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndprnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\grndwing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\handles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\hardwaremanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\helpdownload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\helpdownloadwebdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\helptabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\htmldwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\imgmgkft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\keypress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ktimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\lddirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\localenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\maskfilt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\memblk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\memdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\menucmds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\menupref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\metafilt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\metaview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\mfccontainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\monotime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\mtrand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\natclipm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\offscrn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilcoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oildbug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilfltrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilmenus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilmods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilpanse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilprefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilprog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oilruler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\oiltool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\osrndrgn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\outptdib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\outptgif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\outptpng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\palman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\pathname.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\pathnmex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\pen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\pngfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\pngutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ppmfiltr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\prdlgctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\printprg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\prncamvw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\progbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\psdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ralphdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ralpherr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ralphint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\readeps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\rendbits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\rendtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\rendwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\riffdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\riffform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\scrcamvw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\scrlbutn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\scrlthmb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\scroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\scrvw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgdfonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgfonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgindgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgldrag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgliboil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sglinepr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sgrmfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\speedtst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\staticversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\stdwx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\stemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tablet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\textfuns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\thumb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tmplmngr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ttfonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\tunemem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\unicdman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\varstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\vkextra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\vstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\wincoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\winrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\wxkeymap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xmlutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\xpoilflt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
