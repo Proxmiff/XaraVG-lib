@@ -1146,9 +1146,6 @@
     <ClCompile Include="src\nodebrsh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\nodecach.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\nodeclip.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1350,9 +1347,6 @@
     <ClCompile Include="src\opscale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\opscale2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\opshadow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1410,9 +1404,6 @@
     <ClCompile Include="src\opwhat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\opwiz.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ordlist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1428,9 +1419,6 @@
     <ClCompile Include="src\outptpng.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\overitem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\overlist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1444,9 +1432,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\palmenu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\paper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\pathedit.cpp">
@@ -1608,9 +1593,6 @@
     <ClCompile Include="src\pump.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\pushbase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\pushtool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1618,12 +1600,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\qualops.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\radio.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ralphdoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\range.cpp">
@@ -1683,9 +1659,6 @@
     <ClCompile Include="src\region.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\registry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\regshape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1696,9 +1669,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\renddlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\rendsel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\rendwnd.cpp">
@@ -1824,9 +1794,6 @@
     <ClCompile Include="src\sglbase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\sglcart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\sgldrag.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1911,9 +1878,6 @@
     <ClCompile Include="src\stdbars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\stdwx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\stemplate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1962,9 +1926,6 @@
     <ClCompile Include="src\tablet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\textacts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1989,19 +1950,7 @@
     <ClCompile Include="src\timespan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\tipsdlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\tmplmngr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\tmpltarg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\tmpltatr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\tmpltdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\tool.cpp">
@@ -2103,22 +2052,10 @@
     <ClCompile Include="src\vstate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\webaddr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\webattr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\webfiltr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\webflags.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\webop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\webparam.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\webprefs.cpp">
@@ -2131,9 +2068,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\wrkcoord.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\wxkeymap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\XaDraw.cpp">

@@ -21,6 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F22C7B46-8959-49CA-8332-A711D9E43B09}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -66,6 +67,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VC_SourcePath)\include;</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -474,7 +478,6 @@
     <ClCompile Include="src\nodeblnd.cpp" />
     <ClCompile Include="src\nodebmp.cpp" />
     <ClCompile Include="src\nodebrsh.cpp" />
-    <ClCompile Include="src\nodecach.cpp" />
     <ClCompile Include="src\nodeclip.cpp" />
     <ClCompile Include="src\nodecntr.cpp" />
     <ClCompile Include="src\nodecomp.cpp" />
@@ -542,7 +545,6 @@
     <ClCompile Include="src\oprshape.cpp" />
     <ClCompile Include="src\ops.cpp" />
     <ClCompile Include="src\opscale.cpp" />
-    <ClCompile Include="src\opscale2.cpp" />
     <ClCompile Include="src\opshadow.cpp" />
     <ClCompile Include="src\opshear.cpp" />
     <ClCompile Include="src\opsmooth.cpp" />
@@ -562,19 +564,16 @@
     <ClCompile Include="src\optsunit.cpp" />
     <ClCompile Include="src\optsview.cpp" />
     <ClCompile Include="src\opwhat.cpp" />
-    <ClCompile Include="src\opwiz.cpp" />
     <ClCompile Include="src\ordlist.cpp" />
     <ClCompile Include="src\osrndrgn.cpp" />
     <ClCompile Include="src\outptdib.cpp" />
     <ClCompile Include="src\outptgif.cpp" />
     <ClCompile Include="src\outptpng.cpp" />
-    <ClCompile Include="src\overitem.cpp" />
     <ClCompile Include="src\overlist.cpp" />
     <ClCompile Include="src\page.cpp" />
     <ClCompile Include="src\pagesize.cpp" />
     <ClCompile Include="src\palman.cpp" />
     <ClCompile Include="src\palmenu.cpp" />
-    <ClCompile Include="src\paper.cpp" />
     <ClCompile Include="src\pathedit.cpp" />
     <ClCompile Include="src\pathname.cpp" />
     <ClCompile Include="src\pathndge.cpp" />
@@ -628,12 +627,9 @@
     <ClCompile Include="src\psdc.cpp" />
     <ClCompile Include="src\psrndrgn.cpp" />
     <ClCompile Include="src\pump.cpp" />
-    <ClCompile Include="src\pushbase.cpp" />
     <ClCompile Include="src\pushtool.cpp" />
     <ClCompile Include="src\quality.cpp" />
     <ClCompile Include="src\qualops.cpp" />
-    <ClCompile Include="src\radio.cpp" />
-    <ClCompile Include="src\ralphdoc.cpp" />
     <ClCompile Include="src\range.cpp" />
     <ClCompile Include="src\readeps.cpp" />
     <ClCompile Include="src\rechattr.cpp" />
@@ -653,12 +649,10 @@
     <ClCompile Include="src\rechunit.cpp" />
     <ClCompile Include="src\rectangl.cpp" />
     <ClCompile Include="src\region.cpp" />
-    <ClCompile Include="src\registry.cpp" />
     <ClCompile Include="src\regshape.cpp" />
     <ClCompile Include="src\release.cpp" />
     <ClCompile Include="src\rendbits.cpp" />
     <ClCompile Include="src\renddlg.cpp" />
-    <ClCompile Include="src\rendsel.cpp" />
     <ClCompile Include="src\rendwnd.cpp" />
     <ClCompile Include="src\resources.cpp" />
     <ClCompile Include="src\rgnlist.cpp" />
@@ -700,7 +694,6 @@
     <ClCompile Include="src\sginit.cpp" />
     <ClCompile Include="src\sglayer.cpp" />
     <ClCompile Include="src\sglbase.cpp" />
-    <ClCompile Include="src\sglcart.cpp" />
     <ClCompile Include="src\sgldrag.cpp" />
     <ClCompile Include="src\sglfills.cpp" />
     <ClCompile Include="src\sglib.cpp" />
@@ -729,7 +722,6 @@
     <ClCompile Include="src\stack.cpp" />
     <ClCompile Include="src\statline.cpp" />
     <ClCompile Include="src\stdbars.cpp" />
-    <ClCompile Include="src\stdwx.cpp" />
     <ClCompile Include="src\stemplate.cpp" />
     <ClCompile Include="src\strkattr.cpp" />
     <ClCompile Include="src\strkcomp.cpp" />
@@ -746,7 +738,6 @@
     <ClCompile Include="src\swfsprit.cpp" />
     <ClCompile Include="src\swftext.cpp" />
     <ClCompile Include="src\tablet.cpp" />
-    <ClCompile Include="src\test.cpp" />
     <ClCompile Include="src\textacts.cpp" />
     <ClCompile Include="src\textfltr.cpp" />
     <ClCompile Include="src\textfuns.cpp" />
@@ -755,11 +746,7 @@
     <ClCompile Include="src\texttool.cpp" />
     <ClCompile Include="src\thumb.cpp" />
     <ClCompile Include="src\timespan.cpp" />
-    <ClCompile Include="src\tipsdlg.cpp" />
     <ClCompile Include="src\tmplmngr.cpp" />
-    <ClCompile Include="src\tmpltarg.cpp" />
-    <ClCompile Include="src\tmpltatr.cpp" />
-    <ClCompile Include="src\tmpltdlg.cpp" />
     <ClCompile Include="src\tool.cpp" />
     <ClCompile Include="src\tooldlg.cpp" />
     <ClCompile Include="src\toollist.cpp" />
@@ -793,17 +780,12 @@
     <ClCompile Include="src\viewmenu.cpp" />
     <ClCompile Include="src\viewmod.cpp" />
     <ClCompile Include="src\vstate.cpp" />
-    <ClCompile Include="src\webaddr.cpp" />
-    <ClCompile Include="src\webattr.cpp" />
     <ClCompile Include="src\webfiltr.cpp" />
-    <ClCompile Include="src\webflags.cpp" />
     <ClCompile Include="src\webop.cpp" />
-    <ClCompile Include="src\webparam.cpp" />
     <ClCompile Include="src\webprefs.cpp" />
     <ClCompile Include="src\wincoord.cpp" />
     <ClCompile Include="src\winrect.cpp" />
     <ClCompile Include="src\wrkcoord.cpp" />
-    <ClCompile Include="src\wxkeymap.cpp" />
     <ClCompile Include="src\XaDraw.cpp" />
     <ClCompile Include="src\XaDrwOld.cpp" />
     <ClCompile Include="src\xarlib.cpp" />
