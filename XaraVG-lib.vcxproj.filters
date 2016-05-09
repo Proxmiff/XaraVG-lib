@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\aboutdlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ai5_eps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -84,9 +81,6 @@
     <ClCompile Include="src\attrmgr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\aw_eps.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\backgrnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -103,9 +97,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\basestr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\bblwnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\beveler.cpp">
@@ -159,13 +150,7 @@
     <ClCompile Include="src\bfxtest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\biasdlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\biasgain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\biasgdgt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\bitfilt.cpp">
@@ -231,25 +216,16 @@
     <ClCompile Include="src\bmpexprw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\bmpfiltr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\bmplist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\bmpprefs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\bmpsdlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\bmpseq.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\bmpsrc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\brndsel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\brpress.cpp">
@@ -265,9 +241,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\brshdata.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\brshgdgt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\brshname.cpp">
@@ -306,9 +279,6 @@
     <ClCompile Include="src\cameleps.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\camelot.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\camfiltr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -336,19 +306,10 @@
     <ClCompile Include="src\camtools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\camtypes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\camview.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\capturemanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\cartctl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cartprov.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\cbmpdata.cpp">
@@ -370,9 +331,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ccfile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cclistga.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ccmaths.cpp">
@@ -408,9 +366,6 @@
     <ClCompile Include="src\chapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\clamp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\clicarea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -438,30 +393,6 @@
     <ClCompile Include="src\cmxexdc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\cmxfiltr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxibits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxicmds.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxifltr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxirefs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxistut.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxrendr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cmxtree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\cnamecol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -487,9 +418,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\collist.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\colmenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\colormgr.cpp">
@@ -525,9 +453,6 @@
     <ClCompile Include="src\coplfilr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\coreleps.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\cpyact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -535,12 +460,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\csrstack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cstatbar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ctrlhelp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ctrllist.cpp">
@@ -597,15 +516,6 @@
     <ClCompile Include="src\cxftree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\davedlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\daveimp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\dbgthumb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\dbugtree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -645,9 +555,6 @@
     <ClCompile Include="src\doccoord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\dockbar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\docrect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -676,12 +583,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\dragtrgt.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\drawctl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\drawfltr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\dropdown.cpp">
@@ -723,9 +624,6 @@
     <ClCompile Include="src\errors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\exagal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\exceptio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -750,34 +648,13 @@
     <ClCompile Include="src\extender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\extendsetsdlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\f16spec.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\filedlgs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\filehndl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\fileinfolist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\filelist.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\filesize.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\fileutil.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\fillattr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\fillcomp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\fillndge.cpp">
@@ -906,13 +783,7 @@
     <ClCompile Include="src\fthrconv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\fttyplis.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\fuzzclip.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\gadget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\galbar.cpp">
@@ -930,15 +801,6 @@
     <ClCompile Include="src\gcache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\gdrawcon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GDrawIntf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\gendwnd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\genv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -946,9 +808,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\gifutil.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\gla.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\gmould.cpp">
@@ -996,9 +855,6 @@
     <ClCompile Include="src\groupops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\grptrans.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\guides.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1008,18 +864,6 @@
     <ClCompile Include="src\handles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\helpdownload.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\helpdownloadwebdialog.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\helptabs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\helpuser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\hittest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1027,18 +871,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\hotkeys.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\htmldwnd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\htmlexp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\htmlfltr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\htmllist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\imagemap.cpp">
@@ -1065,13 +897,7 @@
     <ClCompile Include="src\inetop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\infobar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\infocomp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\insertnd.cpp">
@@ -1143,9 +969,6 @@
     <ClCompile Include="src\list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\listitem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\liveeffectsinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1153,9 +976,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\loadbrsh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\localenv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
@@ -1186,9 +1006,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\memblk.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\menucmds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\menuitem.cpp">
@@ -1239,12 +1056,6 @@
     <ClCompile Include="src\mrhbits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\mtrand.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\namedlg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\natclipm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1272,9 +1083,6 @@
     <ClCompile Include="src\ndbrshpt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ndcchbmp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ndclpcnt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1290,16 +1098,7 @@
     <ClCompile Include="src\ndoptmz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ndtxtpth.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\newcol.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\ngcore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ngdialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ngdrag.cpp">
@@ -2395,9 +2194,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\zstream.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\binreloc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

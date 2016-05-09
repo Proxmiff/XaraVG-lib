@@ -1,139 +1,28 @@
-// $Id$
-/* @@tag:xara-cn@@ DO NOT MODIFY THIS LINE
-================================XARAHEADERSTART===========================
- 
-               Xara LX, a vector drawing and manipulation program.
-                    Copyright (C) 1993-2006 Xara Group Ltd.
-       Copyright on certain contributions may be held in joint with their
-              respective authors. See AUTHORS file for details.
 
-LICENSE TO USE AND MODIFY SOFTWARE
-----------------------------------
-
-This file is part of Xara LX.
-
-Xara LX is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License version 2 as published
-by the Free Software Foundation.
-
-Xara LX and its component source files are distributed in the hope
-that it will be useful, but WITHOUT ANY WARRANTY; without even the
-implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with Xara LX (see the file GPL in the root directory of the
-distribution); if not, write to the Free Software Foundation, Inc., 51
-Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-
-ADDITIONAL RIGHTS
------------------
-
-Conditional upon your continuing compliance with the GNU General Public
-License described above, Xara Group Ltd grants to you certain additional
-rights. 
-
-The additional rights are to use, modify, and distribute the software
-together with the wxWidgets library, the wxXtra library, and the "CDraw"
-library and any other such library that any version of Xara LX relased
-by Xara Group Ltd requires in order to compile and execute, including
-the static linking of that library to XaraLX. In the case of the
-"CDraw" library, you may satisfy obligation under the GNU General Public
-License to provide source code by providing a binary copy of the library
-concerned and a copy of the license accompanying it.
-
-Nothing in this section restricts any of the rights you have under
-the GNU General Public License.
-
-
-SCOPE OF LICENSE
-----------------
-
-This license applies to this program (XaraLX) and its constituent source
-files only, and does not necessarily apply to other Xara products which may
-in part share the same code base, and are subject to their own licensing
-terms.
-
-This license does not apply to files in the wxXtra directory, which
-are built into a separate library, and are subject to the wxWindows
-license contained within that directory in the file "WXXTRA-LICENSE".
-
-This license does not apply to the binary libraries (if any) within
-the "libs" directory, which are subject to a separate license contained
-within that directory in the file "LIBS-LICENSE".
-
-
-ARRANGEMENTS FOR CONTRIBUTION OF MODIFICATIONS
-----------------------------------------------
-
-Subject to the terms of the GNU Public License (see above), you are
-free to do whatever you like with your modifications. However, you may
-(at your option) wish contribute them to Xara's source tree. You can
-find details of how to do this at:
-  http://www.xaraxtreme.org/developers/
-
-Prior to contributing your modifications, you will need to complete our
-contributor agreement. This can be found at:
-  http://www.xaraxtreme.org/developers/contribute/
-
-Please note that Xara will not accept modifications which modify any of
-the text between the start and end of this header (marked
-XARAHEADERSTART and XARAHEADEREND).
-
-
-MARKS
------
-
-Xara, Xara LX, Xara X, Xara X/Xtreme, Xara Xtreme, the Xtreme and Xara
-designs are registered or unregistered trademarks, design-marks, and/or
-service marks of Xara Group Ltd. All rights in these marks are reserved.
-
-
-      Xara Group Ltd, Gaddesden Place, Hemel Hempstead, HP2 6EX, UK.
-                        http://www.xara.com/
-
-=================================XARAHEADEREND============================
- */
 //
 // This filter forms the base filter for the v2 Native and Web file filters.
 
-/*
-*/
 
 #include "camtypes.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "cversion.h"
 #include "product.h"
 
-//#include "camfiltr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "oilfltrs.h"	// Web oil filter i.e. Windows UI specific details e.g. extension
-//#include "filtrres.h"	// IDs
-
-//#include "tim.h"		// _R(IDT_EXPORT_INTERNAL_ERR), _R(IDT_IMPORT_USERABORT)
-//#include "nev.h"		// _R(IDN_USER_CANCELLED)
-//#include "simon.h"	// _R(IDS_LAYER_DESCRS)
-//#include "will2.h"	// _R(IDS_K_EPSFILTER_IMPORTED)
-//#include "richard2.h"	// _R(IDS_SGLAYER_LAYER_NUM)
-
-//#include "ccpanose.h"
 #include "fontman.h"
 #include "progress.h"
-//#include "sglayer.h"
+
 #include "page.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "sprdmsg.h"
 #include "layer.h"
-//#include "node.h" - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "nodepath.h"
-//#include "bars.h"		// UpdateStateOfAllBars - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "chapter.h"
 #include "nodershp.h"
-//#include "biasgain.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "qualops.h"	// for QualitySliderDescriptor::Update();
 
 #include "bitfilt.h"	// GetSizeOfDrawing()
-//#include "bmpsrc.h"		// BitmapSource
+
 #include "colcomp.h"	// colour component, record handling classes for colours
 #include "bmpcomp.h"	// bitmap component, record handling classes for bitmaps
 #include "unitcomp.h"	// units component, record handling classes for units
@@ -143,9 +32,9 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "fontcomp.h"	// font component, record handling classes for font records
 
 #include "cxfile.h"		// The core v2 format class
-//#include "cxfrec.h"		// The v2 format record class - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "cxftags.h"	// The tag definitions
-//#include "cxfdefs.h"	// The constants - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "cxflists.h"	// Lists for import & export
 #include "taglists.h"	// Lists for holding tag information
 
@@ -168,36 +57,24 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "rechinfo.h"	// DocInfoRecordHandler
 #include "rechunit.h"	// UnitsRecordHandler
 #include "rechview.h"
-//#include "isetattr.h"	// ImagesettingAttrRecordHandler
+
 #include "rechprnt.h"	// PrintingRecordHandler
 #include "strkattr.h"	// StrokeAttrRecordHandler
 #include "userattr.h"
 #include "tmpltatr.h"	// TemplateAttrRecordHandler & WizOpStyleRefRecordHandler
-//#include "styles.h"		// WizOpStyleRecordHandler
+
 #include "rechshad.h"	// ShadowRecordHandler
 #include "nodebev.h"	// BevelRecordHandler
 
 #include "xarprefs.h"	// The base Xara file preferences dialogue.
-//#include "webprefs.h"	// Web options dialog handler
+
 #include "webparam.h"	// WebPrefsDlgParam class
 #include "prvwflt.h"	// for PreviewBitmap::PreviewBitmapSize
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-
-//#include "grptrans.h"	// GroupTransparencyRecordHandler
-//#include "ndcchbmp.h"	// CacheBitmapRecordHandler
-//#include "nodecach.h"	// CachedNodesGroupRecordHandler
-
-//#include "ralphcri.h"
-
-//#include "winrect.h"	//for class WinRect - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "osrndrgn.h"	//for BitmapDocRectToWin
-//#include "resimmap.h"	//for HTML tag exporting resources 
-//#include "clipint.h"	//for putting text on the clipboard
 
 // WEBSTER - markn 29/1/97
-//#include "becomea.h" - in camtypes.h [AUTOMATICALLY REMOVED]
+
 #include "attrmap.h"
-//#include "prevwres.h"	// _R(IDS_COMBINING_LAYERS)
+
 #include "exphint.h"
 #include "ncntrcnt.h"	// ContourRecordHandler
 #include "ngsentry.h"	// NodeSetSentinel
@@ -205,7 +82,7 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "slicehelper.h"// for slice helper static functions - layer merging
 #include "ngcore.h"		// For name gallery code.
 #include "ngitem.h"		// For named item code.
-//#include "opbevel.h"
+
 #include "brshattr.h"
 #include "ndclpcnt.h"	// ClipViewRecordHandler
 
@@ -224,10 +101,6 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 
 using namespace oilHardwareManager;
 
-//----------------------------------------------------------------------------
-
-
-//----------------------------------------------------------------------------
 
 // An implement to match the Declare in the .h file.
 CC_IMPLEMENT_DYNAMIC(BaseCamelotFilter, VectorFilter);
@@ -244,9 +117,7 @@ CC_IMPLEMENT_MEMDUMP(CXaraFilePathRecordRefList,List)
 CC_IMPLEMENT_MEMDUMP(CXaraFileNodeGroupRefList,List)
 CC_IMPLEMENT_MEMDUMP(CXaraFileNodeGroupRefListItem,ListItem)
 
-//---------------------------------------------------------------------------
-//---------------------------------------------------------------------------
-//---------------------------------------------------------------------------
+
 /***********************************************************************************************
 
 >	class NodeToOutlinesBecomeA: public BecomeA

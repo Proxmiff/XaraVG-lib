@@ -1,152 +1,30 @@
-// $Id$
-/* @@tag:xara-cn@@ DO NOT MODIFY THIS LINE
-================================XARAHEADERSTART===========================
- 
-               Xara LX, a vector drawing and manipulation program.
-                    Copyright (C) 1993-2006 Xara Group Ltd.
-       Copyright on certain contributions may be held in joint with their
-              respective authors. See AUTHORS file for details.
 
-LICENSE TO USE AND MODIFY SOFTWARE
-----------------------------------
-
-This file is part of Xara LX.
-
-Xara LX is free software; you can redistribute it and/or modify it
-under the terms of the GNU General Public License version 2 as published
-by the Free Software Foundation.
-
-Xara LX and its component source files are distributed in the hope
-that it will be useful, but WITHOUT ANY WARRANTY; without even the
-implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with Xara LX (see the file GPL in the root directory of the
-distribution); if not, write to the Free Software Foundation, Inc., 51
-Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-
-
-ADDITIONAL RIGHTS
------------------
-
-Conditional upon your continuing compliance with the GNU General Public
-License described above, Xara Group Ltd grants to you certain additional
-rights. 
-
-The additional rights are to use, modify, and distribute the software
-together with the wxWidgets library, the wxXtra library, and the "CDraw"
-library and any other such library that any version of Xara LX relased
-by Xara Group Ltd requires in order to compile and execute, including
-the static linking of that library to XaraLX. In the case of the
-"CDraw" library, you may satisfy obligation under the GNU General Public
-License to provide source code by providing a binary copy of the library
-concerned and a copy of the license accompanying it.
-
-Nothing in this section restricts any of the rights you have under
-the GNU General Public License.
-
-
-SCOPE OF LICENSE
-----------------
-
-This license applies to this program (XaraLX) and its constituent source
-files only, and does not necessarily apply to other Xara products which may
-in part share the same code base, and are subject to their own licensing
-terms.
-
-This license does not apply to files in the wxXtra directory, which
-are built into a separate library, and are subject to the wxWindows
-license contained within that directory in the file "WXXTRA-LICENSE".
-
-This license does not apply to the binary libraries (if any) within
-the "libs" directory, which are subject to a separate license contained
-within that directory in the file "LIBS-LICENSE".
-
-
-ARRANGEMENTS FOR CONTRIBUTION OF MODIFICATIONS
-----------------------------------------------
-
-Subject to the terms of the GNU Public License (see above), you are
-free to do whatever you like with your modifications. However, you may
-(at your option) wish contribute them to Xara's source tree. You can
-find details of how to do this at:
-  http://www.xaraxtreme.org/developers/
-
-Prior to contributing your modifications, you will need to complete our
-contributor agreement. This can be found at:
-  http://www.xaraxtreme.org/developers/contribute/
-
-Please note that Xara will not accept modifications which modify any of
-the text between the start and end of this header (marked
-XARAHEADERSTART and XARAHEADEREND).
-
-
-MARKS
------
-
-Xara, Xara LX, Xara X, Xara X/Xtreme, Xara Xtreme, the Xtreme and Xara
-designs are registered or unregistered trademarks, design-marks, and/or
-service marks of Xara Group Ltd. All rights in these marks are reserved.
-
-
-      Xara Group Ltd, Gaddesden Place, Hemel Hempstead, HP2 6EX, UK.
-                        http://www.xara.com/
-
-=================================XARAHEADEREND============================
- */
 
 
 #include "camtypes.h"
 
-//#include "filters.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "epsfiltr.h"
-//#include "coreleps.h"
 #include "aw_eps.h"
 #include "cameleps.h"
 #include "ai_eps.h"
 #include "ai5_eps.h"
 #include "ai8_eps.h"
-//#include "drawfltr.h"
-//#include "textfltr.h"
-//#include "oilfltrs.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "errors.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "tim.h"
-//#include "fixmem.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "document.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "rndrgn.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "progress.h"
-//#include "spread.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "chapter.h"
-//#include "group.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "bmpfiltr.h"
-//#include "fillattr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "attrmgr.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "native.h"			// The new designed native filter, used for v2
 #include "nativeps.h"		// The old style EPS native filter, used in v1.1
 #include "layer.h"
-//#include "nev.h"
-//#include "coplfilr.h"
-//#include "cdrfiltr.h"
-//#include "docview.h" - in camtypes.h [AUTOMATICALLY REMOVED]
-//#include "ben.h"
+
 #include "freeeps.h"
-//#include "rik.h"
-//#include "app.h" - in camtypes.h [AUTOMATICALLY REMOVED]
 #include "fontman.h"
-//#include "peter.h"
 #include "sgliboil.h"		// FileExists
 #include "cmxfiltr.h"
-//#include "will2.h"
-//#include "filtrres.h"
-//#include "cmxifltr.h"
 #include "exjpeg.h"			// JPEGExportFilter
 #include "filtimag.h"		// Imagemap filter
 #include "pngfiltr.h"		// for PNG filter class
 #include "imjpeg.h"			// for JPEGImportFilter
 #include "swffiltr.h"		// For the SWF export filter.
-//#include "extfilts.h"		// For the TIFF filter.
 #include "kerneldc.h"
 #include "xsepsops.h"
 
@@ -154,10 +32,7 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "htmlfltr.h"		// HTML filter
 #include "lineattr.h"
 
-//#include "andy.h"			//For _R(IDM_OVERWRITE)
-//#include "resource.h"		//For _R(IDS_CANCEL)
 #include "helpuser.h"		//For SetNextMsgHelpContext()
-//#include "resimmap.h"		//For _R(IDM_EXPORT_OVERWRITE)
 #include "imgmgkft.h"
 
 #include "webfiltr.h"		// The new web filter which is the minimilistic form of the new native filter
@@ -165,12 +40,6 @@ service marks of Xara Group Ltd. All rights in these marks are reserved.
 #include "hardwaremanager.h"
 using namespace oilHardwareManager;
 
-// Ralph's CDR / CMX import state is currently in limbo land... To put
-// the filters back in, undefine NOCDRCMX and also add back the relevant
-// bits in winoil and kernel.mak
-#ifdef RALPH
-//#define NOCDRCMX 1
-#endif
 
 CC_IMPLEMENT_DYNAMIC(Filter, CCObject)
 

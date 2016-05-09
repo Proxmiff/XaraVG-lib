@@ -1,23 +1,14 @@
-// $Header: /Camelot/winoil/gifutil.cpp 19    25/03/99 16:16 Markn $
 
 // Contains useful routines for compressing a bitmap out to a GIF format file and
 // routines to load that file back in.
 
-/*
-*/
 
 #include "camtypes.h"
 #include "ensure.h"
 #include "fixmem.h"
 #include "errors.h"
 #include "progress.h"		// For hourglass stuff
-//#include "resource.h"		// IDS_OUTOFMEMORY
-//#include "accures.h"		// IDW_CANCELLEDBMPIMPORT
 #include "gifutil.h"
-//#include "outptgif.h"
-//#include "andy.h"
-//#include "dibconv.h"
-//#include "string.h"			// memcpy
 #include "camfiltr.h"		// BaseCamelotFilter
 
 #define	new	CAM_DEBUG_NEW
