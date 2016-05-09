@@ -1,3 +1,5 @@
 # XaraVG-lib
 
-XaraVG-lib is a Cross-Platform vector graphics (drawing and illustration) library ported from XaraLX source
+XaraVG-lib is a Cross-Platform Vector Graphics library ported from XaraLX source.
+
+/!\ Currently on Alpha Design /!\
